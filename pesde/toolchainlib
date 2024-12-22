@@ -78,3 +78,19 @@ dirs = [{ name = "jiwonz/dirs", version = "^0.1.1", index = "https://github.com/
 option = [{ name = "lukadev_0/option", version = "^1.2.0", index = "https://github.com/daimond113/pesde-index" }, "peer"]
 pathfs = [{ name = "jiwonz/pathfs", version = "^0.1.0", index = "https://github.com/daimond113/pesde-index" }, "standard"]
 result = [{ name = "lukadev_0/result", version = "^1.2.0", index = "https://github.com/daimond113/pesde-index" }, "peer"]
+
+["0.1.5 lune"]
+published_at = "2024-12-22T14:56:37.712739550Z"
+description = "A Luau library for implementing toolchain management"
+license = "MIT"
+repository = "https://github.com/pesde-pkg/tooling/tree/main/toolchainlib"
+
+["0.1.5 lune".target]
+environment = "lune"
+lib = "src/init.luau"
+
+["0.1.5 lune".dependencies]
+dirs = [{ name = "jiwonz/dirs", version = "^0.1.1", index = "https://github.com/daimond113/pesde-index" }, "standard"]
+option = [{ name = "lukadev_0/option", version = "^1.2.0", index = "https://github.com/daimond113/pesde-index" }, "peer"]
+pathfs = [{ name = "jiwonz/pathfs", version = "^0.1.0", index = "https://github.com/daimond113/pesde-index" }, "standard"]
+result = [{ name = "lukadev_0/result", version = "^1.2.0", index = "https://github.com/daimond113/pesde-index" }, "peer"]
