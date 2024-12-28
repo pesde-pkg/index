@@ -19,3 +19,14 @@ hash = "0f055321ee79f7b8c4289727f3c302d91784887b9437c2c2441a4f1794fe5c41"
 label = "Typechecking"
 name = "typechecking"
 hash = "f0a4449c772d6ebe5c6aaac7c5ad8de1eddbcb9134a4e68e9f50b0f0a1c4bd88"
+
+["2.0.0-beta.2 luau"]
+published_at = "2024-12-28T03:44:45.815857930Z"
+description = "Rust-like futures for Luau"
+license = "MIT"
+authors = ["YetAnotherClown"]
+repository = "https://github.com/YetAnotherClown/luau-futures"
+
+["2.0.0-beta.2 luau".target]
+environment = "luau"
+lib = "src/init.luau"
