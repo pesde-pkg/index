@@ -1,0 +1,16 @@
+["0.1.0 lune"]
+published_at = "2024-12-28T18:50:28.345912186Z"
+description = "Check and lint your luau project with recommended toolings such as selene, luau-lsp, and stylua"
+license = "MIT"
+authors = ["jiwonz"]
+repository = "https://github.com/jiwonz/luau_check.git"
+
+["0.1.0 lune".target]
+environment = "lune"
+bin = "bin.luau"
+
+["0.1.0 lune".dependencies]
+luau_lsp = [{ name = "pesde/luau_lsp", version = "^1.37.0", index = "https://github.com/pesde-pkg/index" }, "dev"]
+pathfs = [{ name = "jiwonz/pathfs", version = "^0.1.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+selene = [{ name = "pesde/selene", version = "^0.27.1", index = "https://github.com/pesde-pkg/index" }, "dev"]
+stylua = [{ name = "pesde/stylua", version = "^2.0.2", index = "https://github.com/pesde-pkg/index" }, "dev"]
