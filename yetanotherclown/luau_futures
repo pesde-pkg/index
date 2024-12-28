@@ -30,3 +30,14 @@ repository = "https://github.com/YetAnotherClown/luau-futures"
 ["2.0.0-beta.2 luau".target]
 environment = "luau"
 lib = "src/init.luau"
+
+["2.0.0-beta.3 luau"]
+published_at = "2024-12-28T04:11:44.785873601Z"
+description = "Rust-like futures for Luau"
+license = "MIT"
+authors = ["YetAnotherClown"]
+repository = "https://github.com/YetAnotherClown/luau-futures"
+
+["2.0.0-beta.3 luau".target]
+environment = "luau"
+lib = "src/init.luau"
