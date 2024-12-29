@@ -1,0 +1,13 @@
+["0.1.0 lune"]
+published_at = "2024-12-29T23:07:07.368635006Z"
+description = "Read/write operations for the clipboard in Luau"
+license = "MIT"
+authors = ["synpixel"]
+repository = "https://github.com/synpixel/clipboard.luau"
+
+["0.1.0 lune".target]
+environment = "lune"
+lib = "lib.luau"
+
+["0.1.0 lune".dependencies]
+result = [{ name = "lukadev_0/result", version = "^1.2.0", index = "https://github.com/daimond113/pesde-index" }, "standard"]
