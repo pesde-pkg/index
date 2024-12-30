@@ -1,0 +1,10 @@
+["0.1.0 lune"]
+published_at = "2024-12-30T00:57:38.503800662Z"
+description = "repeatedly output the string 'n' until killed"
+license = "MIT"
+authors = ["metamethods"]
+repository = "https://github.com/metamethods/luau-no"
+
+["0.1.0 lune".target]
+environment = "lune"
+bin = "bin.luau"
