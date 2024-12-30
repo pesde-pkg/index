@@ -13,3 +13,19 @@ build_files = ["src"]
 ["1.0.0 roblox".dependencies]
 rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["1.0.1 roblox"]
+published_at = "2024-12-30T19:42:53.620928595Z"
+description = "A lightweight module for playing and replicating one-shot sounds."
+license = "MIT"
+authors = ["DanCodesRBX"]
+repository = "https://github.com/DanCodesRBX/sound-manager"
+
+["1.0.1 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["1.0.1 roblox".dependencies]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
