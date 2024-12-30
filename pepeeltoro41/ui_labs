@@ -9,3 +9,15 @@ repository = "https://github.com/PepeElToro41/ui-labs"
 environment = "roblox"
 lib = "src/init.luau"
 build_files = ["src"]
+
+["0.0.2 roblox"]
+published_at = "2024-12-30T09:53:28.742447940Z"
+description = "Utilities for UI Labs, a storybook-like plugin for roblox"
+license = "MIT"
+authors = ["PepeElToro41"]
+repository = "https://github.com/PepeElToro41/ui-labs"
+
+["0.0.2 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
