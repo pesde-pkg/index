@@ -112,3 +112,18 @@ lib = "t.luau"
 
 ["0.4.10 lune".dependencies]
 GreenTea = [{ name = "corecii/greentea", version = "=0.4.10", index = "https://github.com/daimond113/pesde-index" }, "standard"]
+
+["0.4.11 roblox"]
+published_at = "2024-12-31T13:09:45.922717312Z"
+description = "A t-compatible API for GreenTea"
+license = "MIT"
+authors = ["Corecii (Shae A.)  <github.com/corecii>"]
+repository = "https://github.com/Corecii/GreenTea"
+
+["0.4.11 roblox".target]
+environment = "roblox"
+lib = "t.luau"
+build_files = ["t.luau"]
+
+["0.4.11 roblox".dependencies]
+GreenTea = [{ name = "corecii/greentea", version = "=0.4.11", index = "https://github.com/daimond113/pesde-index" }, "standard"]
