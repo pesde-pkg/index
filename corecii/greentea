@@ -43,3 +43,15 @@ repository = "https://github.com/Corecii/GreenTea"
 ["0.4.10 lune".target]
 environment = "lune"
 lib = "src/init.luau"
+
+["0.4.11 roblox"]
+published_at = "2024-12-31T13:09:12.787053192Z"
+description = "A runtime typechecker with Luau types, pretty errors, and inspection"
+license = "MIT"
+authors = ["Corecii (Shae A.) <github.com/corecii>"]
+repository = "https://github.com/Corecii/GreenTea"
+
+["0.4.11 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
