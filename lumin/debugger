@@ -44,3 +44,21 @@ rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/d
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
 selene = [{ name = "pesde/selene", version = "^0.27.1", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
 stylua = [{ name = "pesde/stylua", version = "^2.0.2", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
+
+["1.0.0 roblox"]
+published_at = "2025-01-01T03:23:09.511863430Z"
+description = "A customizable and extendable debugger for open source software"
+license = "MIT"
+authors = ["jmesrje"]
+repository = "https://github.com/lumin-org/debugger"
+
+["1.0.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["1.0.0 roblox".dependencies]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
+selene = [{ name = "pesde/selene", version = "^0.27.1", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
+stylua = [{ name = "pesde/stylua", version = "^2.0.2", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
