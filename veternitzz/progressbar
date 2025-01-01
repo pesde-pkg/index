@@ -57,3 +57,18 @@ lib = "lib.luau"
 ["1.0.0 lune".dependencies]
 option = [{ name = "lukadev_0/option", version = "^1.2.0", index = "https://github.com/daimond113/pesde-index" }, "standard"]
 result = [{ name = "lukadev_0/result", version = "^1.2.0", index = "https://github.com/daimond113/pesde-index" }, "standard"]
+
+["1.0.1 lune"]
+published_at = "2025-01-01T16:49:26.322725351Z"
+description = "The progress bar from pesde/toolchainlib ported to a pesde package."
+license = "MIT"
+authors = ["Anthony LaPeter <anthonylapeter@gmail.com>", "Erica Marigold <hi@devcomp.xyz>"]
+repository = "https://github.com/veternitzz/progressbar"
+
+["1.0.1 lune".target]
+environment = "lune"
+lib = "lib.luau"
+
+["1.0.1 lune".dependencies]
+option = [{ name = "lukadev_0/option", version = "^1.2.0", index = "https://github.com/daimond113/pesde-index" }, "standard"]
+result = [{ name = "lukadev_0/result", version = "^1.2.0", index = "https://github.com/daimond113/pesde-index" }, "standard"]
