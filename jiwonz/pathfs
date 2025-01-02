@@ -40,3 +40,19 @@ lib = "init.luau"
 frktest = [{ name = "itsfrank/frktest", version = "^0.0.2", index = "https://github.com/daimond113/pesde-index" }, "dev"]
 greentea = [{ name = "corecii/greentea", version = "^0.4.11", index = "https://github.com/daimond113/pesde-index" }, "standard"]
 luau_path = [{ name = "jiwonz/luau_path", version = "^0.1.1", index = "https://github.com/daimond113/pesde-index", target = "luau" }, "standard"]
+
+["0.2.2 lune"]
+published_at = "2025-01-02T11:38:47.909779134Z"
+description = "luau-path + @lune/fs"
+license = "MIT"
+authors = ["jeparlefrancais <jeparlefrancais21@gmail.com>", "jiwonz"]
+repository = "https://github.com/jiwonz/lune-path-fs/"
+
+["0.2.2 lune".target]
+environment = "lune"
+lib = "init.luau"
+
+["0.2.2 lune".dependencies]
+frktest = [{ name = "itsfrank/frktest", version = "^0.0.2", index = "https://github.com/daimond113/pesde-index" }, "dev"]
+greentea = [{ name = "corecii/greentea", version = "^0.4.11", index = "https://github.com/daimond113/pesde-index" }, "standard"]
+luau_path = [{ name = "jiwonz/luau_path", version = "^0.1.1", index = "https://github.com/daimond113/pesde-index", target = "luau" }, "standard"]
