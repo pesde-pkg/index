@@ -7,3 +7,13 @@ authors = ["Anthony LaPeter <anthonylapeter@gmail.com>"]
 ["0.1.0 luau".target]
 environment = "luau"
 lib = "src/init.luau"
+
+["0.1.1 luau"]
+published_at = "2025-01-03T03:50:05.072565252Z"
+description = "A package only for testing the veternitzz/install package."
+license = "MIT"
+authors = ["Anthony LaPeter <anthonylapeter@gmail.com>"]
+
+["0.1.1 luau".target]
+environment = "luau"
+lib = "src/init.luau"
