@@ -6,3 +6,11 @@ license = "MIT"
 environment = "roblox"
 lib = "src/init.luau"
 build_files = ["src"]
+
+["0.1.1 roblox"]
+published_at = "2025-01-07T21:27:01.664983063Z"
+
+["0.1.1 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
