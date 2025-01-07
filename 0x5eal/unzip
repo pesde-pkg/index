@@ -12,3 +12,18 @@ lib = "lib/init.luau"
 ["0.0.1-rc.1 luau".dependencies]
 frktest = [{ name = "itsfrank/frktest", version = "^0.0.2", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 stylua = [{ name = "pesde/stylua", version = "^2.0.2", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["0.0.1-rc.2 luau"]
+published_at = "2025-01-07T19:12:26.631666890Z"
+description = "Unzip implementation in pure Luau"
+license = "MIT"
+authors = ["Erica Marigold <hi@devcomp.xyz>"]
+repository = "https://github.com/0x5eal/luau-unzip"
+
+["0.0.1-rc.2 luau".target]
+environment = "luau"
+lib = "lib/init.luau"
+
+["0.0.1-rc.2 luau".dependencies]
+frktest = [{ name = "itsfrank/frktest", version = "^0.0.2", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+stylua = [{ name = "pesde/stylua", version = "^2.0.2", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
