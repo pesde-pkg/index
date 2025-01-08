@@ -52,3 +52,14 @@ repository = "https://github.com/kimpure/asciitable-luau"
 ["0.1.4 luau".target]
 environment = "luau"
 lib = "src/init.luau"
+
+["0.1.5 luau"]
+published_at = "2025-01-08T09:41:24.987777741Z"
+description = "using luau console table && tree"
+license = "MIT"
+authors = ["kimpure (sunwoo)"]
+repository = "https://github.com/kimpure/asciitable-luau"
+
+["0.1.5 luau".target]
+environment = "luau"
+lib = "src/init.luau"
