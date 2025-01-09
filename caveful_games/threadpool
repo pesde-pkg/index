@@ -85,3 +85,22 @@ build_files = ["lib.luau"]
 ["0.2.0 roblox".dependencies]
 rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["0.2.1 roblox"]
+published_at = "2025-01-09T14:10:00.427490918Z"
+description = "Execute the functions in a separate thread, threads are pooled and reused. Credit to lukadev-0/util.luau"
+license = "MIT"
+authors = ["LukaDev <luka@lukadev.me> (https://lukadev.me/)", "jiwonz <me@jiwonz.kr>"]
+repository = "https://github.com/CavefulGames/threadpool"
+
+["0.2.1 roblox".target]
+environment = "roblox"
+lib = "lib.luau"
+build_files = ["lib.luau"]
+
+["0.2.1 roblox".dependencies]
+luau_lsp = [{ name = "pesde/luau_lsp", version = "^1.37.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+selene = [{ name = "pesde/selene", version = "^0.27.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+stylua = [{ name = "pesde/stylua", version = "^2.0.2", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
