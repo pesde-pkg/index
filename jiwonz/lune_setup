@@ -37,3 +37,23 @@ pathfs = [{ name = "jiwonz/pathfs", version = "^0.2.2", index = "https://github.
 selene = [{ name = "pesde/selene", version = "^0.27.1", index = "https://github.com/pesde-pkg/index" }, "dev"]
 stylua = [{ name = "pesde/stylua", version = "^2.0.2", index = "https://github.com/pesde-pkg/index" }, "dev"]
 unzip = [{ name = "0x5eal/unzip", version = "^0.0.1-rc.1", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+
+["0.2.1 lune"]
+published_at = "2025-01-09T12:41:20.562587097Z"
+description = "lune setup command written in luau but for newer luau-lsp"
+license = "MIT"
+authors = ["jiwonz"]
+repository = "https://github.com/jiwonz/lune_setup"
+
+["0.2.1 lune".target]
+environment = "lune"
+bin = "bin.luau"
+
+["0.2.1 lune".dependencies]
+dirs = [{ name = "jiwonz/dirs", version = "^0.2.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+luau_check = [{ name = "jiwonz/luau_check", version = "^0.1.3", index = "https://github.com/pesde-pkg/index" }, "dev"]
+luau_lsp = [{ name = "pesde/luau_lsp", version = "^1.38.0", index = "https://github.com/pesde-pkg/index" }, "dev"]
+pathfs = [{ name = "jiwonz/pathfs", version = "^0.2.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
+selene = [{ name = "pesde/selene", version = "^0.27.1", index = "https://github.com/pesde-pkg/index" }, "dev"]
+stylua = [{ name = "pesde/stylua", version = "^2.0.2", index = "https://github.com/pesde-pkg/index" }, "dev"]
+unzip = [{ name = "0x5eal/unzip", version = "^0.0.1", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
