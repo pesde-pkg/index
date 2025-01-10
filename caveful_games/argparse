@@ -31,3 +31,20 @@ luau_check = [{ name = "jiwonz/luau_check", version = "^0.2.0", index = "https:/
 luau_lsp = [{ name = "pesde/luau_lsp", version = "^1.38.0", index = "https://github.com/pesde-pkg/index" }, "dev"]
 selene = [{ name = "pesde/selene", version = "^0.27.1", index = "https://github.com/pesde-pkg/index" }, "dev"]
 stylua = [{ name = "pesde/stylua", version = "^2.0.2", index = "https://github.com/pesde-pkg/index" }, "dev"]
+
+["0.1.2 lune"]
+published_at = "2025-01-10T18:48:42.394169233Z"
+description = "mpeterv/argparse for Lune"
+license = "MIT"
+authors = ["Peter Melnichenko", "jiwonz <me@jiwonz.kr>", "kimpure"]
+repository = "https://github.com/CavefulGames/argparse-lune"
+
+["0.1.2 lune".target]
+environment = "lune"
+lib = "src/lib.luau"
+
+["0.1.2 lune".dependencies]
+luau_check = [{ name = "jiwonz/luau_check", version = "^0.2.0", index = "https://github.com/pesde-pkg/index" }, "dev"]
+luau_lsp = [{ name = "pesde/luau_lsp", version = "^1.38.0", index = "https://github.com/pesde-pkg/index" }, "dev"]
+selene = [{ name = "pesde/selene", version = "^0.27.1", index = "https://github.com/pesde-pkg/index" }, "dev"]
+stylua = [{ name = "pesde/stylua", version = "^2.0.2", index = "https://github.com/pesde-pkg/index" }, "dev"]
