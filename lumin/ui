@@ -92,3 +92,22 @@ rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/d
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
 spr = [{ name = "2jammers/spr", version = "^2.1.0", index = "https://github.com/daimond113/pesde-index" }, "standard"]
 stylua = [{ name = "pesde/stylua", version = "^2.0.1", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
+
+["0.3.0-rc6 roblox"]
+published_at = "2025-01-10T02:00:15.432335623Z"
+description = "A light, fast, and efficient UI framework that has a small learning curve"
+license = "MIT"
+authors = ["jmesrje"]
+repository = "https://github.com/lumin-org/ui"
+
+["0.3.0-rc6 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.3.0-rc6 roblox".dependencies]
+debugger = [{ name = "lumin/debugger", version = "^1.0.0", index = "https://github.com/daimond113/pesde-index" }, "standard"]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
+spr = [{ name = "2jammers/spr", version = "^2.1.0", index = "https://github.com/daimond113/pesde-index" }, "standard"]
+stylua = [{ name = "pesde/stylua", version = "^2.0.1", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
