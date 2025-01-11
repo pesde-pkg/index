@@ -77,3 +77,17 @@ lib = "src/init.luau"
 
 ["0.1.6 luau".dependencies]
 greentea = [{ name = "corecii/greentea", version = "^0.4.11", index = "https://github.com/pesde-pkg/index", target = "lune" }, "standard"]
+
+["0.2.0 luau"]
+published_at = "2025-01-11T07:41:22.686559123Z"
+description = "using luau console table && tree"
+license = "MIT"
+authors = ["kimpure (sunwoo)"]
+repository = "https://github.com/kimpure/asciitable-luau"
+
+["0.2.0 luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
+["0.2.0 luau".dependencies]
+greentea = [{ name = "corecii/greentea", version = "^0.4.11", index = "https://github.com/pesde-pkg/index", target = "lune" }, "standard"]
