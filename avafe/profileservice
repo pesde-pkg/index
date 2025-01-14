@@ -1,0 +1,8 @@
+["1.0.0 roblox"]
+published_at = "2025-01-14T18:41:24.993551942Z"
+authors = ["Loleris", "grilme99"]
+
+["1.0.0 roblox".target]
+environment = "roblox"
+lib = "ProfileService.lua"
+build_files = ["ProfileService.lua"]
