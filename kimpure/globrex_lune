@@ -25,3 +25,17 @@ lib = "src/init.luau"
 
 ["0.2.0 lune".dependencies]
 luau_regexp = [{ name = "jiwonz/luau_regexp", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+
+["0.2.1 lune"]
+published_at = "2025-01-14T14:12:49.448048614Z"
+description = "glob to regular expression compiler."
+license = "MIT"
+authors = ["kimpure (sunwoo)"]
+repository = "https://github.com/kimpure/globrex-lune"
+
+["0.2.1 lune".target]
+environment = "lune"
+lib = "src/init.luau"
+
+["0.2.1 lune".dependencies]
+luau_regexp = [{ name = "jiwonz/luau_regexp", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
