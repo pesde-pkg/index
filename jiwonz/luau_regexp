@@ -8,3 +8,19 @@ repository = "https://github.com/Roblox/luau-regexp"
 ["0.1.0 luau".target]
 environment = "luau"
 lib = "src/Regexp.global.luau"
+
+["0.1.1 luau"]
+published_at = "2025-01-15T11:01:31.724283080Z"
+description = "A regular expression library for Luau."
+license = "MIT"
+authors = ["Roblox", "Blockzez", "jiwonz <me@jiwonz.kr>"]
+repository = "https://github.com/Roblox/luau-regexp"
+
+["0.1.1 luau".target]
+environment = "luau"
+lib = "src/Regexp.global.luau"
+
+["0.1.1 luau".dependencies]
+luau_lsp = [{ name = "pesde/luau_lsp", version = "^1.38.1", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
+selene = [{ name = "pesde/selene", version = "^0.27.1", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
+stylua = [{ name = "pesde/stylua", version = "^2.0.2", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
