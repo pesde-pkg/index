@@ -1,0 +1,10 @@
+["0.1.0 luau"]
+published_at = "2025-01-18T03:17:56.919622423Z"
+description = "Roblox/chalk-lua for Luau"
+license = "MIT"
+authors = ["Roblox", "kimpure"]
+repository = "https://github.com/kimpure/chalk-luau"
+
+["0.1.0 luau".target]
+environment = "luau"
+lib = "src/init.luau"
