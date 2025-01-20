@@ -1,0 +1,15 @@
+["0.1.0 roblox_server"]
+published_at = "2025-01-20T06:56:40.609140529Z"
+description = "simple data store"
+license = "MIT"
+authors = ["kimpure"]
+repository = "https://github.com/kimpure/simpleDataStore"
+
+["0.1.0 roblox_server".target]
+environment = "roblox_server"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.1.0 roblox_server".dependencies]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
