@@ -39,3 +39,17 @@ bin = "bin.luau"
 
 ["0.1.2 lune".dependencies]
 pathfs = [{ name = "jiwonz/pathfs", version = "^0.2.1", index = "https://github.com/pesde-pkg/index" }, "standard"]
+
+["0.1.3 lune"]
+published_at = "2025-01-21T14:20:29.649524850Z"
+description = "can fast setup project (for luau, lune)"
+license = "MIT"
+authors = ["kimpure"]
+repository = "https://github.com/kimpure/luau-project-fast-setup"
+
+["0.1.3 lune".target]
+environment = "lune"
+bin = "bin.luau"
+
+["0.1.3 lune".dependencies]
+pathfs = [{ name = "jiwonz/pathfs", version = "^0.2.1", index = "https://github.com/pesde-pkg/index" }, "standard"]
