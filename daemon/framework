@@ -1,0 +1,17 @@
+["10.0.0-rc2 roblox"]
+published_at = "2025-01-21T23:50:58.440683693Z"
+description = "A featherlight and quick framework for Roblox experiences"
+license = "MIT"
+authors = ["Daemon6109"]
+repository = "https://github.com/Daemon6109/framework"
+
+["10.0.0-rc2 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["10.0.0-rc2 roblox".dependencies]
+debugger = [{ name = "lumin/debugger", version = "^1.0.0", index = "https://github.com/daimond113/pesde-index" }, "standard"]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
+stylua = [{ name = "pesde/stylua", version = "^2.0.1", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
