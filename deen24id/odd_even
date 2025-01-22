@@ -11,3 +11,17 @@ lib = "src/lib/init.luau"
 
 ["0.1.0 lune".dependencies]
 frktest = [{ name = "itsfrank/frktest", version = "^0.0.2", index = "https://github.com/pesde-pkg/index" }, "dev"]
+
+["0.1.1 lune"]
+published_at = "2025-01-22T02:38:35.739240154Z"
+description = "A module to test whether a number is odd or even."
+license = "MIT"
+authors = ["Imaduddin Haetami"]
+repository = "https://github.com/deen24id/odd-even"
+
+["0.1.1 lune".target]
+environment = "lune"
+lib = "src/lib/init.luau"
+
+["0.1.1 lune".dependencies]
+frktest = [{ name = "itsfrank/frktest", version = "^0.0.2", index = "https://github.com/pesde-pkg/index" }, "dev"]
