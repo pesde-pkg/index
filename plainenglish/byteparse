@@ -1,0 +1,10 @@
+["0.1.0 luau"]
+published_at = "2025-01-27T18:18:48.233607609Z"
+description = "Pure-luau library for serialising and deserialising binary formats."
+license = "MIT"
+authors = ["plainenglish <plainenglish@spearhead.industries>"]
+repository = "https://github.com/plainenglishh/byteparse"
+
+["0.1.0 luau".target]
+environment = "luau"
+lib = "lib/init.luau"
