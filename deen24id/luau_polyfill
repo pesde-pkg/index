@@ -25,3 +25,17 @@ lib = "src/lib/luau-polyfill/init.luau"
 
 ["0.1.1 lune".dependencies]
 frktest = [{ name = "itsfrank/frktest", version = "^0.0.2", index = "https://github.com/pesde-pkg/index" }, "dev"]
+
+["0.1.2 lune"]
+published_at = "2025-01-31T18:57:47.389294715Z"
+description = "Porting of roblox/luau-polyfill for lune."
+license = "MIT"
+authors = ["Imaduddin Haetami"]
+repository = "https://github.com/deen24id/luau-polyfill"
+
+["0.1.2 lune".target]
+environment = "lune"
+lib = "src/lib/luau-polyfill/init.luau"
+
+["0.1.2 lune".dependencies]
+frktest = [{ name = "itsfrank/frktest", version = "^0.0.2", index = "https://github.com/pesde-pkg/index" }, "dev"]
