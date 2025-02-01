@@ -1,0 +1,18 @@
+["0.1.0 lune"]
+published_at = "2025-02-01T18:12:02.217598359Z"
+description = "darklua + lune scriptable CLI interface"
+license = "MIT"
+authors = ["jiwonz <me@jiwonz.kr>"]
+repository = "https://github.com/jiwonz/darklua-lune"
+
+["0.1.0 lune".target]
+environment = "lune"
+lib = "src/lib.luau"
+
+["0.1.0 lune".dependencies]
+darklua = [{ name = "pesde/darklua", version = "^0.16.0", index = "https://github.com/pesde-pkg/index" }, "peer"]
+dirs = [{ name = "jiwonz/dirs", version = "^0.3.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+greentea = [{ name = "corecii/greentea", version = "^0.4.11", index = "https://github.com/pesde-pkg/index" }, "standard"]
+luau_lsp = [{ name = "pesde/luau_lsp", version = "^1.38.0", index = "https://github.com/pesde-pkg/index" }, "dev"]
+selene = [{ name = "pesde/selene", version = "^0.28.0", index = "https://github.com/pesde-pkg/index" }, "dev"]
+stylua = [{ name = "pesde/stylua", version = "^2.0.2", index = "https://github.com/pesde-pkg/index" }, "dev"]
