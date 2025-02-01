@@ -41,3 +41,14 @@ repository = "https://github.com/plainenglishh/byteparse"
 ["1.2.0 luau".target]
 environment = "luau"
 lib = "lib/init.luau"
+
+["1.2.1 luau"]
+published_at = "2025-02-01T20:06:45.713255604Z"
+description = "Pure-luau library for serialising and deserialising binary formats."
+license = "MIT"
+authors = ["plainenglish <plainenglish@spearhead.industries>"]
+repository = "https://github.com/plainenglishh/byteparse"
+
+["1.2.1 luau".target]
+environment = "luau"
+lib = "lib/init.luau"
