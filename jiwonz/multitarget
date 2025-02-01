@@ -1,0 +1,22 @@
+["0.1.0 lune"]
+published_at = "2025-02-01T18:26:17.166049970Z"
+description = "Build your pure pesde project easier targeting both `luau` and `roblox` targets at the same time"
+license = "MIT"
+authors = ["jiwonz <me@jiwonz.kr>"]
+repository = "https://github.com/jiwonz/pesde-multitarget"
+
+["0.1.0 lune".target]
+environment = "lune"
+lib = "src/lib.luau"
+bin = "src/bin.luau"
+
+["0.1.0 lune".dependencies]
+argparse = [{ name = "caveful_games/argparse", version = "^0.1.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
+darklua = [{ name = "pesde/darklua", version = "^0.16.0", index = "https://github.com/pesde-pkg/index" }, "peer"]
+darklua_lune = [{ name = "jiwonz/darklua_lune", version = "^0.1.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+glob = [{ name = "jiwonz/glob", version = "^0.1.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+greentea = [{ name = "corecii/greentea", version = "^0.4.11", index = "https://github.com/pesde-pkg/index" }, "standard"]
+luau_lsp = [{ name = "pesde/luau_lsp", version = "^1.38.0", index = "https://github.com/pesde-pkg/index" }, "dev"]
+pathfs = [{ name = "jiwonz/pathfs", version = "^0.4.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+selene = [{ name = "pesde/selene", version = "^0.28.0", index = "https://github.com/pesde-pkg/index" }, "dev"]
+stylua = [{ name = "pesde/stylua", version = "^2.0.2", index = "https://github.com/pesde-pkg/index" }, "dev"]
