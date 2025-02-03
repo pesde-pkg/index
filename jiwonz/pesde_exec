@@ -32,3 +32,21 @@ luau_lsp = [{ name = "pesde/luau_lsp", version = "^1.38.1", index = "https://git
 pathfs = [{ name = "jiwonz/pathfs", version = "^0.4.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
 selene = [{ name = "pesde/selene", version = "^0.28.0", index = "https://github.com/pesde-pkg/index" }, "dev"]
 stylua = [{ name = "pesde/stylua", version = "^2.0.2", index = "https://github.com/pesde-pkg/index" }, "dev"]
+
+["0.2.0 lune"]
+published_at = "2025-02-03T18:19:10.659053246Z"
+description = "pesde x + process.exec"
+license = "MIT"
+authors = ["jiwonz <me@jiwonz.kr>"]
+repository = "https://github.com/jiwonz/pesde-exec"
+
+["0.2.0 lune".target]
+environment = "lune"
+lib = "init.luau"
+
+["0.2.0 lune".dependencies]
+greentea = [{ name = "corecii/greentea", version = "^0.4.11", index = "https://github.com/pesde-pkg/index" }, "standard"]
+luau_lsp = [{ name = "pesde/luau_lsp", version = "^1.38.1", index = "https://github.com/pesde-pkg/index" }, "dev"]
+pathfs = [{ name = "jiwonz/pathfs", version = "^0.4.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+selene = [{ name = "pesde/selene", version = "^0.28.0", index = "https://github.com/pesde-pkg/index" }, "dev"]
+stylua = [{ name = "pesde/stylua", version = "^2.0.2", index = "https://github.com/pesde-pkg/index" }, "dev"]
