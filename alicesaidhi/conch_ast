@@ -1,3 +1,14 @@
+["0.1.0 roblox"]
+published_at = "2025-02-04T22:14:53.486003535Z"
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "src/lib.luau"
+build_files = ["src", "src/"]
+
+["0.1.0 roblox".dependencies]
+types = [{ name = "alicesaidhi/conch_types", version = "^0.1.0", index = "https://github.com/daimond113/pesde-index", target = "roblox" }, "standard"]
+
 ["0.1.0 luau"]
 published_at = "2025-02-04T22:10:37.780550533Z"
 
