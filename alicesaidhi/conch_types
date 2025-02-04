@@ -1,0 +1,6 @@
+["0.1.0 luau"]
+published_at = "2025-02-04T22:09:30.636868056Z"
+
+["0.1.0 luau".target]
+environment = "luau"
+lib = "lib.luau"
