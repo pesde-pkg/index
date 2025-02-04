@@ -1,0 +1,10 @@
+["0.1.0 luau"]
+published_at = "2025-02-04T22:10:48.434384353Z"
+
+["0.1.0 luau".target]
+environment = "luau"
+lib = "src/lib.luau"
+
+["0.1.0 luau".dependencies]
+conch_ast = [{ name = "alicesaidhi/conch_ast", version = "^0.1.0", index = "https://github.com/daimond113/pesde-index", target = "luau" }, "standard"]
+conch_types = [{ name = "alicesaidhi/conch_types", version = "^0.1.0", index = "https://github.com/daimond113/pesde-index", target = "luau" }, "standard"]
