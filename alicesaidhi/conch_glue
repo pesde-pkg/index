@@ -1,0 +1,14 @@
+["0.1.0 roblox"]
+published_at = "2025-02-04T22:15:06.635599786Z"
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "src/lib.luau"
+build_files = ["src", "src/"]
+
+["0.1.0 roblox".dependencies]
+ast = [{ name = "alicesaidhi/conch_ast", version = "^0.1.0", index = "https://github.com/daimond113/pesde-index", target = "roblox" }, "standard"]
+compiler = [{ name = "alicesaidhi/conch_compiler", version = "^0.1.0", index = "https://github.com/daimond113/pesde-index", target = "roblox" }, "standard"]
+intel = [{ name = "alicesaidhi/conch_analysis", version = "^0.1.0", index = "https://github.com/daimond113/pesde-index", target = "roblox" }, "standard"]
+types = [{ name = "alicesaidhi/conch_types", version = "^0.1.0", index = "https://github.com/daimond113/pesde-index", target = "roblox" }, "standard"]
+vm = [{ name = "alicesaidhi/conch_vm", version = "^0.1.0", index = "https://github.com/daimond113/pesde-index", target = "roblox" }, "standard"]
