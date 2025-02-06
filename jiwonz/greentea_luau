@@ -1,0 +1,13 @@
+["0.1.0 luau"]
+published_at = "2025-02-06T13:54:24.405698364Z"
+description = "A runtime typechecker with Luau types, pretty errors, and inspection"
+license = "MIT"
+authors = ["Corecii (Shae A.) <github.com/corecii>", "jiwonz <me@jiwonz.kr>"]
+repository = "https://github.com/jiwonz/greentea-luau"
+
+["0.1.0 luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
+["0.1.0 luau".dependencies]
+luau_check = [{ name = "jiwonz/luau_check", version = "^0.3.5", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
