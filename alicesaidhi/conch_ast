@@ -18,3 +18,13 @@ lib = "src/lib.luau"
 
 ["0.1.0 luau".dependencies]
 types = [{ name = "alicesaidhi/conch_types", version = "^0.1.0", index = "https://github.com/daimond113/pesde-index", target = "luau" }, "standard"]
+
+["0.2.0-rc.1 luau"]
+published_at = "2025-02-07T00:55:32.698736699Z"
+
+["0.2.0-rc.1 luau".target]
+environment = "luau"
+lib = "src/lib.luau"
+
+["0.2.0-rc.1 luau".dependencies]
+types = [{ name = "alicesaidhi/conch_types", version = "^0.2.0-rc.1", index = "https://github.com/daimond113/pesde-index", target = "luau" }, "standard"]
