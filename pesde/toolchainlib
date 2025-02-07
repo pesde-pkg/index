@@ -80,7 +80,7 @@ pathfs = [{ name = "jiwonz/pathfs", version = "^0.1.0", index = "https://github.
 result = [{ name = "lukadev_0/result", version = "^1.2.0", index = "https://github.com/daimond113/pesde-index" }, "peer"]
 
 ["0.1.5 lune"]
-published_at = "2024-12-22T14:56:37.712739550Z"
+published_at = "2024-12-22T14:56:37.71273955Z"
 description = "A Luau library for implementing toolchain management"
 license = "MIT"
 repository = "https://github.com/pesde-pkg/tooling/tree/main/toolchainlib"
@@ -96,7 +96,7 @@ pathfs = [{ name = "jiwonz/pathfs", version = "^0.1.0", index = "https://github.
 result = [{ name = "lukadev_0/result", version = "^1.2.0", index = "https://github.com/daimond113/pesde-index" }, "peer"]
 
 ["0.1.6 lune"]
-published_at = "2024-12-25T06:01:21.718724660Z"
+published_at = "2024-12-25T06:01:21.71872466Z"
 description = "A Luau library for implementing toolchain management"
 license = "MIT"
 repository = "https://github.com/pesde-pkg/tooling/tree/main/toolchainlib"
@@ -132,6 +132,7 @@ published_at = "2025-01-16T07:49:08.538872131Z"
 description = "A Luau library for implementing toolchain management"
 license = "MIT"
 repository = "https://github.com/pesde-pkg/tooling/tree/main/toolchainlib"
+yanked = true
 
 ["0.1.8 lune".target]
 environment = "lune"
