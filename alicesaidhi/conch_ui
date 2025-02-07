@@ -10,3 +10,16 @@ build_files = ["src", "src/"]
 ast = [{ name = "alicesaidhi/conch_ast", version = "^0.1.0", index = "https://github.com/daimond113/pesde-index", target = "roblox" }, "standard"]
 conch_glue = [{ name = "alicesaidhi/conch_glue", version = "^0.1.0", index = "https://github.com/daimond113/pesde-index", target = "roblox" }, "standard"]
 vide = [{ wally = "wally#centau/vide", version = "^0.3.1", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
+
+["0.2.0-rc.1 roblox"]
+published_at = "2025-02-07T00:58:39.976028449Z"
+
+["0.2.0-rc.1 roblox".target]
+environment = "roblox"
+lib = "src/lib.luau"
+build_files = ["src", "src/"]
+
+["0.2.0-rc.1 roblox".dependencies]
+ast = [{ name = "alicesaidhi/conch_ast", version = "^0.2.0-rc.1", index = "https://github.com/daimond113/pesde-index", target = "roblox" }, "standard"]
+conch_glue = [{ name = "alicesaidhi/conch_glue", version = "^0.2.0-rc.1", index = "https://github.com/daimond113/pesde-index", target = "roblox" }, "standard"]
+vide = [{ wally = "wally#centau/vide", version = "^0.3.1", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
