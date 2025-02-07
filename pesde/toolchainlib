@@ -132,6 +132,7 @@ published_at = "2025-01-16T07:49:08.538872131Z"
 description = "A Luau library for implementing toolchain management"
 license = "MIT"
 repository = "https://github.com/pesde-pkg/tooling/tree/main/toolchainlib"
+yanked = true
 
 ["0.1.8 lune".target]
 environment = "lune"
