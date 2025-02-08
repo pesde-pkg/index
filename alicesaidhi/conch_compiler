@@ -39,3 +39,14 @@ lib = "src/lib.luau"
 
 ["0.2.0-rc.1 luau".dependencies]
 types = [{ name = "alicesaidhi/conch_types", version = "^0.2.0-rc.1", index = "https://github.com/daimond113/pesde-index", target = "luau" }, "standard"]
+
+["0.2.0-rc.3 roblox"]
+published_at = "2025-02-08T00:55:53.16174238Z"
+
+["0.2.0-rc.3 roblox".target]
+environment = "roblox"
+lib = "src/lib.luau"
+build_files = ["src", "src/"]
+
+["0.2.0-rc.3 roblox".dependencies]
+types = [{ name = "alicesaidhi/conch_types", version = "^0.2.0-rc.3", index = "https://github.com/daimond113/pesde-index", target = "roblox" }, "standard"]
