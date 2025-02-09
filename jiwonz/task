@@ -1,0 +1,11 @@
+["0.1.0 roblox"]
+published_at = "2025-02-09T17:33:05.469209648Z"
+description = "Get the task library for Roblox or Lune or Luau"
+license = "MIT"
+authors = ["jiwonz <me@jiwonz.kr>", "jackdotink"]
+repository = "https://github.com/jiwonz/luau-task"
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "src/lib/init.luau"
+build_files = ["src"]
