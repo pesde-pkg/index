@@ -122,7 +122,7 @@ selene = [{ name = "pesde/selene", version = "^0.27.1", index = "https://github.
 stylua = [{ name = "pesde/stylua", version = "^2.0.2", index = "https://github.com/pesde-pkg/index" }, "peer"]
 
 ["0.2.1 lune"]
-published_at = "2025-01-10T18:28:16.471415450Z"
+published_at = "2025-01-10T18:28:16.47141545Z"
 description = "Check and lint your luau project with recommended toolings such as selene, luau-lsp, and stylua"
 license = "MIT"
 authors = ["jiwonz <me@jiwonz.kr>"]
@@ -196,7 +196,7 @@ selene = [{ name = "pesde/selene", version = "^0.28.0", index = "https://github.
 stylua = [{ name = "pesde/stylua", version = "^2.0.2", index = "https://github.com/pesde-pkg/index" }, "peer"]
 
 ["0.3.2 lune"]
-published_at = "2025-02-05T04:35:01.467268030Z"
+published_at = "2025-02-05T04:35:01.46726803Z"
 description = "Check and lint your luau project with recommended toolings such as selene, luau-lsp, and stylua"
 license = "MIT"
 authors = ["jiwonz <me@jiwonz.kr>"]
@@ -268,5 +268,24 @@ dirs = [{ name = "jiwonz/dirs", version = "^0.3.0", index = "https://github.com/
 luau_lsp = [{ name = "pesde/luau_lsp", version = "^1.37.0", index = "https://github.com/pesde-pkg/index" }, "peer"]
 pathfs = [{ name = "jiwonz/pathfs", version = "^0.5.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
 pesde_exec = [{ name = "jiwonz/pesde_exec", version = "^0.3.3", index = "https://github.com/pesde-pkg/index" }, "standard"]
+selene = [{ name = "pesde/selene", version = "^0.28.0", index = "https://github.com/pesde-pkg/index" }, "peer"]
+stylua = [{ name = "pesde/stylua", version = "^2.0.2", index = "https://github.com/pesde-pkg/index" }, "peer"]
+
+["0.3.6 lune"]
+published_at = "2025-02-09T12:42:00.838221999Z"
+description = "Check and lint your luau project with recommended toolings such as selene, luau-lsp, and stylua"
+license = "MIT"
+authors = ["jiwonz <me@jiwonz.kr>"]
+repository = "https://github.com/jiwonz/luau_check.git"
+
+["0.3.6 lune".target]
+environment = "lune"
+bin = "bin.luau"
+
+["0.3.6 lune".dependencies]
+dirs = [{ name = "jiwonz/dirs", version = "^0.3.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+luau_lsp = [{ name = "pesde/luau_lsp", version = "^1.37.0", index = "https://github.com/pesde-pkg/index" }, "peer"]
+pathfs = [{ name = "jiwonz/pathfs", version = "^0.5.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
+pesde_exec = [{ name = "jiwonz/pesde_exec", version = "^0.4.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
 selene = [{ name = "pesde/selene", version = "^0.28.0", index = "https://github.com/pesde-pkg/index" }, "peer"]
 stylua = [{ name = "pesde/stylua", version = "^2.0.2", index = "https://github.com/pesde-pkg/index" }, "peer"]
