@@ -150,7 +150,7 @@ selene = [{ name = "pesde/selene", version = "^0.28.0", index = "https://github.
 stylua = [{ name = "pesde/stylua", version = "^2.0.2", index = "https://github.com/daimond113/pesde-index" }, "dev"]
 
 ["0.5.1 lune"]
-published_at = "2025-02-05T04:41:56.336326050Z"
+published_at = "2025-02-05T04:41:56.33632605Z"
 description = "luau-path + @lune/fs"
 license = "MIT"
 authors = ["jeparlefrancais <jeparlefrancais21@gmail.com>", "jiwonz <me@jiwonz.kr>"]
@@ -180,6 +180,25 @@ environment = "lune"
 lib = "src/lib/init.luau"
 
 ["0.5.2 lune".dependencies]
+frktest = [{ name = "itsfrank/frktest", version = "^0.0.2", index = "https://github.com/daimond113/pesde-index" }, "dev"]
+greentea = [{ name = "corecii/greentea", version = "^0.4.11", index = "https://github.com/daimond113/pesde-index" }, "standard"]
+luau_lsp = [{ name = "pesde/luau_lsp", version = "^1.38.1", index = "https://github.com/daimond113/pesde-index" }, "dev"]
+luau_path = [{ name = "jiwonz/luau_path", version = "^0.1.1", index = "https://github.com/daimond113/pesde-index", target = "luau" }, "standard"]
+selene = [{ name = "pesde/selene", version = "^0.28.0", index = "https://github.com/daimond113/pesde-index" }, "dev"]
+stylua = [{ name = "pesde/stylua", version = "^2.0.2", index = "https://github.com/daimond113/pesde-index" }, "dev"]
+
+["0.6.0-rc.1 lune"]
+published_at = "2025-02-12T12:34:21.854481956Z"
+description = "luau-path + @lune/fs and some utilities"
+license = "MIT"
+authors = ["jeparlefrancais <jeparlefrancais21@gmail.com>", "jiwonz <me@jiwonz.kr>"]
+repository = "https://github.com/jiwonz/lune-path-fs/"
+
+["0.6.0-rc.1 lune".target]
+environment = "lune"
+lib = "src/lib/init.luau"
+
+["0.6.0-rc.1 lune".dependencies]
 frktest = [{ name = "itsfrank/frktest", version = "^0.0.2", index = "https://github.com/daimond113/pesde-index" }, "dev"]
 greentea = [{ name = "corecii/greentea", version = "^0.4.11", index = "https://github.com/daimond113/pesde-index" }, "standard"]
 luau_lsp = [{ name = "pesde/luau_lsp", version = "^1.38.1", index = "https://github.com/daimond113/pesde-index" }, "dev"]
