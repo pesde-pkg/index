@@ -14,7 +14,7 @@ option = [{ name = "lukadev_0/option", version = "^1.2.0", index = "https://gith
 result = [{ name = "lukadev_0/result", version = "^1.2.0", index = "https://github.com/daimond113/pesde-index" }, "standard"]
 
 ["1.36.0 lune"]
-published_at = "2024-12-01T11:35:13.896303110Z"
+published_at = "2024-12-01T11:35:13.89630311Z"
 description = "Language Server Implementation for Luau"
 authors = ["CompeyDev <hi@devcomp.xyz>", "Johnny Morganz <johnnymorganz@outlook.com>"]
 repository = "https://github.com/pesde-pkg/tooling/tree/main/bins/luau-lsp"
@@ -72,3 +72,22 @@ bin = "init.luau"
 core = [{ name = "pesde/toolchainlib", version = "^0.1.7", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "standard"]
 option = [{ name = "lukadev_0/option", version = "^1.2.0", index = "https://github.com/daimond113/pesde-index" }, "standard"]
 result = [{ name = "lukadev_0/result", version = "^1.2.0", index = "https://github.com/daimond113/pesde-index" }, "standard"]
+
+["1.39.0 lune"]
+published_at = "2025-02-12T16:44:54.690007969Z"
+description = "Language Server Implementation for Luau"
+authors = ["CompeyDev <hi@devcomp.xyz>", "Johnny Morganz <johnnymorganz@outlook.com>"]
+repository = "https://github.com/pesde-pkg/tooling/tree/main/bins/luau-lsp"
+
+["1.39.0 lune".target]
+environment = "lune"
+bin = "init.luau"
+
+["1.39.0 lune".engines]
+pesde = "^0.6.0-rc.6"
+lune = ">=0.8.7"
+
+["1.39.0 lune".dependencies]
+core = [{ name = "pesde/toolchainlib", version = "^0.1.12", index = "https://github.com/pesde-pkg/index", target = "lune" }, "standard"]
+option = [{ name = "lukadev_0/option", version = "^1.2.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+result = [{ name = "lukadev_0/result", version = "^1.2.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
