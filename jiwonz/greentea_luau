@@ -1,3 +1,15 @@
+["0.1.0 roblox"]
+published_at = "2025-02-12T11:55:02.079695692Z"
+description = "A runtime typechecker with Luau types, pretty errors, and inspection"
+license = "MIT"
+authors = ["Corecii (Shae A.) <github.com/corecii>", "jiwonz <me@jiwonz.kr>"]
+repository = "https://github.com/jiwonz/greentea-luau"
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
 ["0.1.0 luau"]
 published_at = "2025-02-06T13:54:24.405698364Z"
 description = "A runtime typechecker with Luau types, pretty errors, and inspection"
