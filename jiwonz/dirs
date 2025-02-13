@@ -71,7 +71,7 @@ greentea = [{ name = "corecii/greentea", version = "^0.4.10", index = "https://g
 pathfs = [{ name = "jiwonz/pathfs", version = "^0.2.1", index = "https://github.com/daimond113/pesde-index" }, "standard"]
 
 ["0.2.2 lune"]
-published_at = "2025-01-13T15:57:25.504850250Z"
+published_at = "2025-01-13T15:57:25.50485025Z"
 description = "A library for lune that provides config/cache/data paths. Heavily inspired by dirs-rs"
 license = "MIT"
 authors = ["jiwonz"]
@@ -102,3 +102,19 @@ luau_lsp = [{ name = "pesde/luau_lsp", version = "^1.38.1", index = "https://git
 pathfs = [{ name = "jiwonz/pathfs", version = "^0.3.0", index = "https://github.com/daimond113/pesde-index" }, "standard"]
 selene = [{ name = "pesde/selene", version = "^0.28.0", index = "https://github.com/daimond113/pesde-index" }, "dev"]
 stylua = [{ name = "pesde/stylua", version = "^2.0.2", index = "https://github.com/daimond113/pesde-index" }, "dev"]
+
+["0.4.0 lune"]
+published_at = "2025-02-13T11:11:02.286043772Z"
+description = "A library for lune that provides config/cache/data paths. Heavily inspired by dirs-rs"
+license = "MIT"
+authors = ["jiwonz <me@jiwonz.kr>"]
+repository = "https://github.com/jiwonz/dirs-lune/"
+
+["0.4.0 lune".target]
+environment = "lune"
+lib = "src/init.luau"
+
+["0.4.0 lune".dependencies]
+greentea = [{ name = "corecii/greentea", version = "^0.4.10", index = "https://github.com/daimond113/pesde-index" }, "standard"]
+luau_check = [{ name = "jiwonz/luau_check", version = "^0.3.8", index = "https://github.com/daimond113/pesde-index" }, "dev"]
+pathfs = [{ name = "jiwonz/pathfs", version = "^0.6.0-rc.1", index = "https://github.com/daimond113/pesde-index" }, "standard"]
