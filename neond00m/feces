@@ -14,3 +14,20 @@ build_files = ["src"]
 jecs = [{ wally = "wally#ukendio/jecs", version = "^0.5.3", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
 rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["0.1.1 roblox"]
+published_at = "2025-02-14T21:35:17.615513561Z"
+description = "Fast Entity Component Export System: Generalized Replication for jecs"
+license = "MIT"
+authors = ["NeonD00m", "As8d"]
+repository = "https://github.com/neond00m/feces"
+
+["0.1.1 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.1.1 roblox".dependencies]
+jecs = [{ wally = "wally#ukendio/jecs", version = "^0.5.3", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
