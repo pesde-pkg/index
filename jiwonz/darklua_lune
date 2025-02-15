@@ -71,3 +71,21 @@ darklua = [{ name = "pesde/darklua", version = "^0.16.0", index = "https://githu
 dirs = [{ name = "jiwonz/dirs", version = "^0.3.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
 greentea = [{ name = "corecii/greentea", version = "^0.4.11", index = "https://github.com/pesde-pkg/index" }, "standard"]
 pesde_exec = [{ name = "jiwonz/pesde_exec", version = "^0.4.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
+
+["0.1.4 lune"]
+published_at = "2025-02-15T17:09:10.781965296Z"
+description = "darklua + lune scriptable CLI interface"
+license = "MIT"
+authors = ["jiwonz <me@jiwonz.kr>"]
+repository = "https://github.com/jiwonz/darklua-lune"
+
+["0.1.4 lune".target]
+environment = "lune"
+lib = "src/lib.luau"
+
+["0.1.4 lune".dependencies]
+darklua = [{ name = "pesde/darklua", version = "^0.16.0", index = "https://github.com/pesde-pkg/index" }, "peer"]
+dirs = [{ name = "jiwonz/dirs", version = "^0.4.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+greentea = [{ name = "corecii/greentea", version = "^0.4.11", index = "https://github.com/pesde-pkg/index" }, "standard"]
+luau_check = [{ name = "jiwonz/luau_check", version = "^0.3.8", index = "https://github.com/pesde-pkg/index" }, "dev"]
+pesde_exec = [{ name = "jiwonz/pesde_exec", version = "^0.4.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
