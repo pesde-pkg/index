@@ -1,5 +1,5 @@
 ["0.3.0-rc1 roblox"]
-published_at = "2024-12-15T05:30:33.692694160Z"
+published_at = "2024-12-15T05:30:33.69269416Z"
 description = "A small, fast, and efficient UI framework that has a small learning curve"
 license = "MIT"
 authors = ["2jammers"]
@@ -75,7 +75,7 @@ spr = [{ name = "2jammers/spr", version = "^2.1.0", index = "https://github.com/
 stylua = [{ name = "pesde/stylua", version = "^2.0.1", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
 
 ["0.3.0-rc5 roblox"]
-published_at = "2025-01-10T00:51:56.067908370Z"
+published_at = "2025-01-10T00:51:56.06790837Z"
 description = "A light, fast, and efficient UI framework that has a small learning curve"
 license = "MIT"
 authors = ["jmesrje"]
@@ -145,6 +145,25 @@ build_files = ["src"]
 
 ["0.4.0 roblox".dependencies]
 debugger = [{ name = "lumin/debugger", version = "^1.0.0", index = "https://github.com/daimond113/pesde-index" }, "standard"]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
+spr = [{ name = "2jammers/spr", version = "^2.1.0", index = "https://github.com/daimond113/pesde-index" }, "standard"]
+stylua = [{ name = "pesde/stylua", version = "^2.0.1", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
+
+["0.4.1 roblox"]
+published_at = "2025-02-15T18:54:48.371543311Z"
+description = "An unrivaled UI framework for Roblox"
+license = "MIT"
+authors = ["jmesrje"]
+repository = "https://github.com/lumin-org/ui"
+
+["0.4.1 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.4.1 roblox".dependencies]
+debugger = [{ name = "lumin/debugger", version = "^1.0.2", index = "https://github.com/daimond113/pesde-index" }, "standard"]
 rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
 spr = [{ name = "2jammers/spr", version = "^2.1.0", index = "https://github.com/daimond113/pesde-index" }, "standard"]
