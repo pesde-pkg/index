@@ -47,7 +47,7 @@ name = "intro"
 hash = "e7e056f2c5900934dfe7b232739ef64e78fe99e30416c4f0ef64d1127fd64492"
 
 ["0.1.3 lune"]
-published_at = "2024-11-10T01:51:41.008000990Z"
+published_at = "2024-11-10T01:51:41.00800099Z"
 description = "A port of rust-headless-chrome to Luau, built for Lune"
 license = "MIT"
 authors = ["synpixel"]
@@ -205,3 +205,18 @@ lib = "src/init.luau"
 label = "Introduction"
 name = "intro"
 hash = "f23c652e5c41bbd70c7010b1b72a662c5c7d6f1fd5a5e14c7224412a063817a3"
+
+["0.2.6 lune"]
+published_at = "2025-02-15T19:38:14.619538551Z"
+description = "A port of rust-headless-chrome to Luau, built for Lune"
+license = "MIT"
+authors = ["synpixel"]
+repository = "https://github.com/synpixel/chrome.luau"
+
+["0.2.6 lune".target]
+environment = "lune"
+lib = "src/init.luau"
+
+["0.2.6 lune".dependencies]
+base64 = [{ name = "synpixel/base64", version = "^3.0.1", index = "https://github.com/daimond113/pesde-index", target = "luau" }, "standard"]
+stylua = [{ name = "pesde/stylua", version = "^2.0.2", index = "https://github.com/daimond113/pesde-index" }, "dev"]
