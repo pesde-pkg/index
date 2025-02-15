@@ -40,3 +40,17 @@ lib = "src/lib.luau"
 
 ["0.1.0 luau".dependencies]
 task = [{ name = "jiwonz/task", version = "^0.1.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+
+["0.1.1 luau"]
+published_at = "2025-02-15T15:29:44.27566254Z"
+description = "Execute the functions in a separate thread, threads are pooled and reused. Credit to lukadev-0/util.luau"
+license = "MIT"
+authors = ["LukaDev <luka@lukadev.me> (https://lukadev.me/)", "jiwonz <me@jiwonz.kr>"]
+repository = "https://github.com/jiwonz/luau-go"
+
+["0.1.1 luau".target]
+environment = "luau"
+lib = "src/lib.luau"
+
+["0.1.1 luau".dependencies]
+task = [{ name = "jiwonz/task", version = "^0.1.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
