@@ -1,0 +1,17 @@
+["0.1.0-alpha.0 roblox"]
+published_at = "2025-02-15T03:48:48.092165903Z"
+description = "A fast, optionally structured networking library"
+license = "MIT"
+authors = ["marked"]
+repository = "https://github.com/mark-marks/unet"
+
+["0.1.0-alpha.0 roblox".target]
+environment = "roblox"
+lib = "dist/init.luau"
+build_files = ["dist"]
+
+["0.1.0-alpha.0 roblox".dependencies]
+luausignal = [{ wally = "wally#ffrostfall/luausignal", version = "^0.4.0", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+squash = [{ wally = "wally#data-oriented-house/squash", version = "^2.5.0", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
