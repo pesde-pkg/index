@@ -173,6 +173,7 @@ description = "luau-path + @lune/fs"
 license = "MIT"
 authors = ["jeparlefrancais <jeparlefrancais21@gmail.com>", "jiwonz <me@jiwonz.kr>"]
 repository = "https://github.com/jiwonz/lune-path-fs/"
+yanked = true
 
 ["0.5.1 lune".target]
 environment = "lune"
