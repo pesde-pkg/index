@@ -1,0 +1,11 @@
+["0.4.0 roblox"]
+published_at = "2025-02-18T18:05:30.786521199Z"
+description = "Unofficial fork of vide for the new type solver. Comes with instance types!"
+license = "MIT"
+authors = ["centau"]
+repository = "https://github.com/centau/vide"
+
+["0.4.0 roblox".target]
+environment = "roblox"
+lib = "/src/init.luau"
+build_files = ["src"]
