@@ -1,5 +1,5 @@
 ["0.1.0 roblox"]
-published_at = "2025-01-25T01:52:33.548807130Z"
+published_at = "2025-01-25T01:52:33.54880713Z"
 description = "Lockless DataStore library"
 license = "MIT"
 authors = ["alicesaidhi"]
@@ -15,7 +15,7 @@ rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/p
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 
 ["0.2.0 roblox_server"]
-published_at = "2025-01-26T22:02:26.920915920Z"
+published_at = "2025-01-26T22:02:26.92091592Z"
 description = "Lockless DataStore library"
 license = "MIT"
 authors = ["alicesaidhi"]
@@ -75,5 +75,21 @@ lib = "src/init.luau"
 build_files = ["src"]
 
 ["0.2.2 roblox_server".dependencies]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["0.2.3 roblox"]
+published_at = "2025-02-18T18:13:46.633328886Z"
+description = "Lockless DataStore library"
+license = "MIT"
+authors = ["alicesaidhi"]
+repository = "https://github.com/alicesaidhi/skilift"
+
+["0.2.3 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.2.3 roblox".dependencies]
 rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
