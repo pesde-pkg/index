@@ -220,3 +220,18 @@ lib = "src/init.luau"
 ["0.2.6 lune".dependencies]
 base64 = [{ name = "synpixel/base64", version = "^3.0.1", index = "https://github.com/daimond113/pesde-index", target = "luau" }, "standard"]
 stylua = [{ name = "pesde/stylua", version = "^2.0.2", index = "https://github.com/daimond113/pesde-index" }, "dev"]
+
+["1.0.0 lune"]
+published_at = "2025-02-18T15:58:57.854377242Z"
+description = "A port of rust-headless-chrome to Luau, built for Lune"
+license = "MIT"
+authors = ["synpixel"]
+repository = "https://github.com/synpixel/chrome.luau"
+
+["1.0.0 lune".target]
+environment = "lune"
+lib = "src/init.luau"
+
+["1.0.0 lune".dependencies]
+base64 = [{ name = "synpixel/base64", version = "^3.0.1", index = "https://github.com/daimond113/pesde-index", target = "luau" }, "standard"]
+stylua = [{ name = "pesde/stylua", version = "^2.0.2", index = "https://github.com/daimond113/pesde-index" }, "dev"]
