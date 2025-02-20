@@ -48,3 +48,20 @@ build_files = ["src"]
 jecs = [{ wally = "wally#ukendio/jecs", version = "^0.5.3", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
 rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["0.2.1 roblox"]
+published_at = "2025-02-20T20:43:58.948552419Z"
+description = "Simple replication for jecs"
+license = "MIT"
+authors = ["synpixel"]
+repository = "https://github.com/synpixel/mirror"
+
+["0.2.1 roblox".target]
+environment = "roblox"
+lib = "lib.luau"
+build_files = ["lib.luau"]
+
+["0.2.1 roblox".dependencies]
+jecs = [{ wally = "wally#ukendio/jecs", version = "^0.5.3", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
