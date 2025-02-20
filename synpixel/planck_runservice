@@ -1,0 +1,16 @@
+["0.2.0-rc.2 roblox"]
+published_at = "2025-02-20T20:50:56.010700621Z"
+description = "YetAnotherClown's PlanckRunService, but snake_case"
+license = "MIT"
+authors = ["YetAnotherClown"]
+repository = "https://github.com/synpixel/planck"
+
+["0.2.0-rc.2 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.2.0-rc.2 roblox".dependencies]
+planck = [{ name = "synpixel/planck_snake_case", version = "^0.2.0-rc.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
