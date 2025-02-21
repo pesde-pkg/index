@@ -11,3 +11,18 @@ lib = "src/lib/init.luau"
 
 ["0.1.0 luau".dependencies]
 luau_check = [{ name = "jiwonz/luau_check", version = "^0.3.5", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["0.2.0-rc.1 luau"]
+published_at = "2025-02-21T10:47:10.911953343Z"
+description = "A collection of helpful table utility functions extending TableUtil from RbxUtil for luau"
+license = "MIT"
+authors = ["jiwonz <me@jiwonz.kr>", "Stephen Leitnick"]
+repository = "https://github.com/CavefulGames/table-helper-luau"
+
+["0.2.0-rc.1 luau".target]
+environment = "luau"
+lib = "src/lib/init.luau"
+
+["0.2.0-rc.1 luau".engines]
+pesde = "^0.6.0-rc.8"
+lune = "^0.8.9"
