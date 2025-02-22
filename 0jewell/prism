@@ -13,3 +13,19 @@ build_files = ["src"]
 ["1.0.0 roblox".dependencies]
 Iris = [{ wally = "wally#sirmallard/iris", version = "^2.4.1", index = "https://github.com/UpliftGames/wally-index" }, "dev"]
 TestEZ = [{ wally = "wally#roblox/testez", version = "^0.4.1", index = "https://github.com/UpliftGames/wally-index" }, "dev"]
+
+["1.0.1 roblox"]
+published_at = "2025-02-22T13:26:28.502508095Z"
+description = "A ECS library based on reactive systems"
+license = "MIT"
+authors = ["0jewell"]
+repository = "https://github.com/0jewell/Prism"
+
+["1.0.1 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["1.0.1 roblox".dependencies]
+Iris = [{ wally = "wally#sirmallard/iris", version = "^2.4.1", index = "https://github.com/UpliftGames/wally-index" }, "dev"]
+TestEZ = [{ wally = "wally#roblox/testez", version = "^0.4.1", index = "https://github.com/UpliftGames/wally-index" }, "dev"]
