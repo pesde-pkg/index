@@ -89,3 +89,18 @@ repository = "https://github.com/jiwonz/luau-task"
 environment = "roblox"
 lib = "src/lib/init.luau"
 build_files = ["src"]
+
+["0.2.0-rc.1 luau"]
+published_at = "2025-02-22T11:57:50.129301849Z"
+description = "Get the task library for Roblox or Lune or Luau"
+license = "MIT"
+authors = ["jiwonz <me@jiwonz.kr>", "jackdotink"]
+repository = "https://github.com/jiwonz/luau-task"
+
+["0.2.0-rc.1 luau".target]
+environment = "luau"
+lib = "src/lib/init.luau"
+
+["0.2.0-rc.1 luau".engines]
+pesde = "^0.6.0-rc.8"
+lune = "^0.8.9"
