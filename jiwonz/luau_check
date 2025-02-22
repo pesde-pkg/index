@@ -373,3 +373,26 @@ pathfs = [{ name = "jiwonz/pathfs", version = "^0.6.0-rc.2", index = "https://gi
 pesde_exec = [{ name = "jiwonz/pesde_exec", version = "^0.4.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
 selene = [{ name = "pesde/selene", version = "^0.28.0", index = "https://github.com/pesde-pkg/index" }, "peer"]
 stylua = [{ name = "pesde/stylua", version = "^2.0.2", index = "https://github.com/pesde-pkg/index" }, "peer"]
+
+["0.3.11 lune"]
+published_at = "2025-02-22T15:37:43.083211464Z"
+description = "Check and lint your luau project with recommended toolings such as selene, luau-lsp, and stylua"
+license = "MIT"
+authors = ["jiwonz <me@jiwonz.kr>"]
+repository = "https://github.com/jiwonz/luau_check.git"
+
+["0.3.11 lune".target]
+environment = "lune"
+bin = "bin.luau"
+
+["0.3.11 lune".engines]
+pesde = "^0.6.0-rc.8"
+lune = "^0.8.9"
+
+["0.3.11 lune".dependencies]
+dirs = [{ name = "jiwonz/dirs", version = "^0.4.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+luau_lsp = [{ name = "pesde/luau_lsp", version = "^1.39.2", index = "https://github.com/pesde-pkg/index" }, "peer"]
+pathfs = [{ name = "jiwonz/pathfs", version = "^0.6.0-rc.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
+pesde_exec = [{ name = "jiwonz/pesde_exec", version = "^0.4.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
+selene = [{ name = "pesde/selene", version = "^0.28.0", index = "https://github.com/pesde-pkg/index" }, "peer"]
+stylua = [{ name = "pesde/stylua", version = "^2.0.2", index = "https://github.com/pesde-pkg/index" }, "peer"]
