@@ -1,3 +1,20 @@
+["0.1.0 roblox"]
+published_at = "2025-02-22T16:51:00.744898259Z"
+description = "Fast and simple signal class for Luau, Lune, and Roblox"
+license = "MIT"
+authors = ["jiwonz <me@jiwonz.kr>", "Aspecky", "Sona"]
+repository = "https://github.com/jiwonz/luau-signal"
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "src/lib.luau"
+build_files = ["src"]
+
+["0.1.0 roblox".dependencies]
+go = [{ name = "jiwonz/go", version = "^0.2.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+table_helper = [{ name = "caveful_games/table_helper", version = "^0.2.0-rc.1", index = "https://github.com/pesde-pkg/index" }, "standard"]
+task = [{ name = "jiwonz/task", version = "^0.2.0-rc.1", index = "https://github.com/pesde-pkg/index" }, "standard"]
+
 ["0.1.0 lune"]
 published_at = "2025-02-22T16:50:51.158520607Z"
 description = "Fast and simple signal class for Luau, Lune, and Roblox"
