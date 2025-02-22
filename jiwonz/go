@@ -84,6 +84,21 @@ lib = "src/lib.luau"
 ["0.1.1 luau".dependencies]
 task = [{ name = "jiwonz/task", version = "^0.1.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
 
+["0.2.0 roblox"]
+published_at = "2025-02-22T12:03:53.861844051Z"
+description = "Execute the functions in a separate thread, threads are pooled and reused. Credit to lukadev-0/util.luau"
+license = "MIT"
+authors = ["LukaDev <luka@lukadev.me> (https://lukadev.me/)", "jiwonz <me@jiwonz.kr>"]
+repository = "https://github.com/jiwonz/luau-go"
+
+["0.2.0 roblox".target]
+environment = "roblox"
+lib = "src/lib.luau"
+build_files = ["src"]
+
+["0.2.0 roblox".dependencies]
+task = [{ name = "jiwonz/task", version = "^0.2.0-rc.1", index = "https://github.com/pesde-pkg/index" }, "standard"]
+
 ["0.2.0 lune"]
 published_at = "2025-02-22T12:03:50.881245519Z"
 description = "Execute the functions in a separate thread, threads are pooled and reused. Credit to lukadev-0/util.luau"
