@@ -107,3 +107,29 @@ asciitable = [{ name = "kimpure/asciitable", version = "^0.2.1", index = "https:
 frktest = [{ name = "itsfrank/frktest", version = "^0.0.2", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 luau-lsp = [{ name = "pesde/luau_lsp", version = "=1.39.2", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 stylua = [{ name = "pesde/stylua", version = "=2.0.2", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["0.1.3 luau"]
+published_at = "2025-02-23T12:03:08.801928556Z"
+description = "Unzip implementation in pure Luau"
+license = "MIT"
+authors = ["Erica Marigold <hi@devcomp.xyz>"]
+repository = "https://github.com/0x5eal/luau-unzip"
+
+["0.1.3 luau".target]
+environment = "luau"
+lib = "lib/init.luau"
+
+["0.1.3 luau".engines]
+pesde = "=0.6.0"
+lune = "=0.8.9"
+
+[["0.1.3 luau".docs]]
+label = "Intro"
+name = "intro"
+hash = "fe402529eed8495ee392144a84d992c2dfae9f08f3a56cde9deb4af3de1bd9cd"
+
+["0.1.3 luau".dependencies]
+asciitable = [{ name = "kimpure/asciitable", version = "^0.2.1", index = "https://github.com/pesde-pkg/index" }, "dev"]
+frktest = [{ name = "itsfrank/frktest", version = "^0.0.2", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+luau-lsp = [{ name = "pesde/luau_lsp", version = "=1.39.2", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+stylua = [{ name = "pesde/stylua", version = "=2.0.2", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
