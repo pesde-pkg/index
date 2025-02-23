@@ -1,0 +1,11 @@
+["0.2.0-rc.1 roblox"]
+published_at = "2025-02-23T12:38:21.406175556Z"
+description = "A string similarity metric diffing algorithm invented by splinestein for primitive chat bot use. Modified and uploaded for pesde"
+license = "MIT"
+authors = ["Spline", "jiwonz <me@jiwonz.kr>"]
+repository = "https://github.com/CavefulGames/stringdiff"
+
+["0.2.0-rc.1 roblox".target]
+environment = "roblox"
+lib = "src/lib.luau"
+build_files = ["src"]
