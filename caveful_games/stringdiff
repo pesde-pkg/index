@@ -9,3 +9,18 @@ repository = "https://github.com/CavefulGames/stringdiff"
 environment = "roblox"
 lib = "src/lib.luau"
 build_files = ["src"]
+
+["0.2.0-rc.1 luau"]
+published_at = "2025-02-23T12:38:32.377517052Z"
+description = "A string similarity metric diffing algorithm invented by splinestein for primitive chat bot use. Modified and uploaded for pesde"
+license = "MIT"
+authors = ["Spline", "jiwonz <me@jiwonz.kr>"]
+repository = "https://github.com/CavefulGames/stringdiff"
+
+["0.2.0-rc.1 luau".target]
+environment = "luau"
+lib = "src/lib.luau"
+
+["0.2.0-rc.1 luau".engines]
+pesde = "^0.6.0"
+lune = "^0.8.9"
