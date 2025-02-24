@@ -78,6 +78,21 @@ lib = "src/init.luau"
 ["0.1.6 luau".dependencies]
 greentea = [{ name = "corecii/greentea", version = "^0.4.11", index = "https://github.com/pesde-pkg/index", target = "lune" }, "standard"]
 
+["0.2.0 roblox"]
+published_at = "2025-02-24T03:48:10.452071668Z"
+description = "using luau console table && tree"
+license = "MIT"
+authors = ["kimpure (sunwoo)"]
+repository = "https://github.com/kimpure/asciitable-luau"
+
+["0.2.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.2.0 roblox".dependencies]
+greentea_luau = [{ name = "jiwonz/greentea_luau", version = "^0.1.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+
 ["0.2.0 lune"]
 published_at = "2025-02-24T03:48:03.569636697Z"
 description = "using luau console table && tree"
