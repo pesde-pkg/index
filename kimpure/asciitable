@@ -65,7 +65,7 @@ environment = "luau"
 lib = "src/init.luau"
 
 ["0.1.6 luau"]
-published_at = "2025-01-09T10:41:41.066166050Z"
+published_at = "2025-01-09T10:41:41.06616605Z"
 description = "using luau console table && tree"
 license = "MIT"
 authors = ["kimpure (sunwoo)"]
@@ -77,6 +77,20 @@ lib = "src/init.luau"
 
 ["0.1.6 luau".dependencies]
 greentea = [{ name = "corecii/greentea", version = "^0.4.11", index = "https://github.com/pesde-pkg/index", target = "lune" }, "standard"]
+
+["0.2.0 lune"]
+published_at = "2025-02-24T03:48:03.569636697Z"
+description = "using luau console table && tree"
+license = "MIT"
+authors = ["kimpure (sunwoo)"]
+repository = "https://github.com/kimpure/asciitable-luau"
+
+["0.2.0 lune".target]
+environment = "lune"
+lib = "src/init.luau"
+
+["0.2.0 lune".dependencies]
+greentea_luau = [{ name = "jiwonz/greentea_luau", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
 
 ["0.2.0 luau"]
 published_at = "2025-01-11T07:41:22.686559123Z"
