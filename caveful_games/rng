@@ -1,0 +1,10 @@
+["0.1.0 luau"]
+published_at = "2025-02-24T09:56:42.448892801Z"
+description = "Useful random-related utilities for Luau"
+license = "MIT"
+authors = ["jiwonz <me@jiwonz.kr>"]
+repository = "https://github.com/CavefulGames/luau-rng"
+
+["0.1.0 luau".target]
+environment = "luau"
+lib = "src/lib.luau"
