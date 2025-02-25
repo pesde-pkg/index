@@ -20,6 +20,7 @@ description = "Library based on Celesta"
 license = "MIT"
 authors = ["0jewell"]
 repository = "https://github.com/0jewell/Prism"
+yanked = true
 
 ["1.0.0 roblox".target]
 environment = "roblox"
