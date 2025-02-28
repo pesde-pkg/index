@@ -1,0 +1,15 @@
+["1.0.0 roblox"]
+published_at = "2025-02-28T16:54:57.386268455Z"
+description = "another signal implementation"
+license = "MIT"
+authors = ["glaphyre"]
+repository = "https://github.com/glaphyre/shingo"
+
+["1.0.0 roblox".target]
+environment = "roblox"
+lib = "src/shingo.luau"
+build_files = ["src"]
+
+["1.0.0 roblox".dependencies]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
