@@ -1,0 +1,14 @@
+["1.0.0 luau"]
+published_at = "2025-02-28T18:12:12.061705326Z"
+description = "osyris' runtime type checker"
+license = "MIT"
+authors = ["glaphyre", "osyrisrblx"]
+repository = "https://github.com/glaphyre/t"
+
+["1.0.0 luau".target]
+environment = "luau"
+lib = "src/t.luau"
+
+["1.0.0 luau".dependencies]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
