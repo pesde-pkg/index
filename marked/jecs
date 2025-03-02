@@ -15,6 +15,7 @@ description = "A minimal copy of jecs published on the official pesde registry"
 license = "MIT"
 authors = ["jecs authors"]
 repository = "https://git.devmarked.win/marked/jecs-pesde"
+yanked = true
 
 ["0.5.5 luau".target]
 environment = "luau"
