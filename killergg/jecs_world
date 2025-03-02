@@ -14,3 +14,20 @@ build_files = ["src"]
 jecs = [{ wally = "wally#ukendio/jecs", version = "^0.5.5", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
 rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["0.1.1 roblox"]
+published_at = "2025-03-02T01:10:51.325682648Z"
+description = "A jecs world made easily available for dependencies"
+license = "MIT"
+authors = ["NeonD00m", "as8d"]
+repository = "https://github.com/NeonD00m/jecs_std"
+
+["0.1.1 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.1.1 roblox".dependencies]
+jecs = [{ wally = "wally#ukendio/jecs", version = "^0.5.5", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
