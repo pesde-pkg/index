@@ -18,3 +18,25 @@ reverseRef = [{ name = "killergg/jecs_reverse_ref", version = "^0.1.1", index = 
 rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 throttle = [{ name = "killergg/jecs_throttle", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
+
+["0.1.2 roblox"]
+published_at = "2025-03-02T01:45:42.057245831Z"
+description = "A standard library for jecs"
+license = "MIT"
+authors = ["NeonD00m", "as8d", "Ukendio"]
+repository = "https://github.com/NeonD00m/jecs_std"
+
+["0.1.2 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.1.2 roblox".dependencies]
+collect = [{ name = "killergg/jecs_collect", version = "^0.1.1", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
+interval = [{ name = "killergg/jecs_interval", version = "^0.1.1", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
+jecs = [{ wally = "wally#ukendio/jecs", version = "^0.5.5", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
+ref = [{ name = "killergg/jecs_ref", version = "^0.1.1", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
+reverseRef = [{ name = "killergg/jecs_reverse_ref", version = "^0.1.2", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+throttle = [{ name = "killergg/jecs_throttle", version = "^0.1.1", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
