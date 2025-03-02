@@ -1,0 +1,9 @@
+["0.5.5-nightly.20250302T042604Z luau"]
+published_at = "2025-03-02T04:26:53.590256877Z"
+license = "MIT"
+authors = ["jecs authors"]
+repository = "https://git.devmarked.win/jecs-nightly"
+
+["0.5.5-nightly.20250302T042604Z luau".target]
+environment = "luau"
+lib = "jecs.luau"
