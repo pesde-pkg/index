@@ -31,3 +31,20 @@ build_files = ["src"]
 refs = [{ name = "killergg/jecs_refs", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
 rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["0.1.2 roblox"]
+published_at = "2025-03-02T01:45:36.228659928Z"
+description = "Reverse lookup for refs"
+license = "MIT"
+authors = ["as8d"]
+repository = "https://github.com/NeonD00m/jecs_std"
+
+["0.1.2 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.1.2 roblox".dependencies]
+refs = [{ name = "killergg/jecs_refs", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
