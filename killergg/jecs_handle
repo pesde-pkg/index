@@ -15,3 +15,21 @@ jecs = [{ wally = "wally#ukendio/jecs", version = "^0.5.5", index = "https://git
 rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 world = [{ name = "killergg/jecs_world", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
+
+["0.1.2 roblox"]
+published_at = "2025-03-02T01:45:25.566882829Z"
+description = "Builder pattern for spawning entities in jecs"
+license = "MIT"
+authors = ["Ukendio"]
+repository = "https://github.com/NeonD00m/jecs_std"
+
+["0.1.2 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.1.2 roblox".dependencies]
+jecs = [{ wally = "wally#ukendio/jecs", version = "^0.5.5", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+world = [{ name = "killergg/jecs_world", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
