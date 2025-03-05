@@ -94,3 +94,14 @@ build_files = ["src"]
 
 ["0.2.0 roblox".dependencies]
 types = [{ name = "alicesaidhi/conch_types", version = "^0.2.0", index = "https://github.com/daimond113/pesde-index", target = "roblox" }, "standard"]
+
+["0.2.1 roblox"]
+published_at = "2025-03-05T18:55:21.357316315Z"
+
+["0.2.1 roblox".target]
+environment = "roblox"
+lib = "src/lib.luau"
+build_files = ["src"]
+
+["0.2.1 roblox".dependencies]
+types = [{ name = "alicesaidhi/conch_types", version = "^0.2.0", index = "https://github.com/daimond113/pesde-index", target = "roblox" }, "standard"]
