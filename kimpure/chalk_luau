@@ -99,6 +99,17 @@ repository = "https://github.com/kimpure/chalk-luau"
 environment = "luau"
 lib = "src/init.luau"
 
+["0.1.5 lune"]
+published_at = "2025-03-07T09:15:29.353833399Z"
+description = "Roblox/chalk-lua for Luau"
+license = "MIT"
+authors = ["Roblox", "kimpure"]
+repository = "https://github.com/kimpure/chalk-luau"
+
+["0.1.5 lune".target]
+environment = "lune"
+lib = "src/init.luau"
+
 ["0.1.5 luau"]
 published_at = "2025-03-07T09:15:26.591672784Z"
 description = "Roblox/chalk-lua for Luau"
