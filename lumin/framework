@@ -1,5 +1,5 @@
 ["9.1.1 roblox"]
-published_at = "2024-12-16T03:29:09.258532210Z"
+published_at = "2024-12-16T03:29:09.25853221Z"
 description = "A featherlight and quick framework for Roblox experiences"
 license = "MIT"
 authors = ["2jammers"]
@@ -123,3 +123,20 @@ debugger = [{ name = "lumin/debugger", version = "^1.0.0", index = "https://gith
 rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
 stylua = [{ name = "pesde/stylua", version = "^2.0.1", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
+
+["11.0.0 roblox"]
+published_at = "2025-03-07T00:07:03.242859916Z"
+description = "A feather light game framework for Luau"
+license = "MIT"
+authors = ["jmesrje"]
+repository = "https://github.com/lumin-org/framework"
+
+["11.0.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["11.0.0 roblox".dependencies]
+debugger = [{ name = "lumin/debugger", version = "^1.0.3", index = "https://github.com/pesde-pkg/index" }, "standard"]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
