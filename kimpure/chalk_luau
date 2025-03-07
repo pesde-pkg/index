@@ -28,6 +28,7 @@ description = "Roblox/chalk-lua for Luau"
 license = "MIT"
 authors = ["Roblox", "kimpure"]
 repository = "https://github.com/kimpure/chalk-luau"
+yanked = true
 
 ["0.1.2 luau".target]
 environment = "luau"
