@@ -114,6 +114,7 @@ description = "Roblox/chalk-lua for Luau"
 license = "MIT"
 authors = ["Roblox", "kimpure"]
 repository = "https://github.com/kimpure/chalk-luau"
+yanked = true
 
 ["0.1.5 roblox".target]
 environment = "roblox"
@@ -126,6 +127,7 @@ description = "Roblox/chalk-lua for Luau"
 license = "MIT"
 authors = ["Roblox", "kimpure"]
 repository = "https://github.com/kimpure/chalk-luau"
+yanked = true
 
 ["0.1.5 lune".target]
 environment = "lune"
@@ -137,6 +139,7 @@ description = "Roblox/chalk-lua for Luau"
 license = "MIT"
 authors = ["Roblox", "kimpure"]
 repository = "https://github.com/kimpure/chalk-luau"
+yanked = true
 
 ["0.1.5 luau".target]
 environment = "luau"
