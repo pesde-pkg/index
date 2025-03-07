@@ -76,3 +76,14 @@ repository = "https://github.com/kimpure/chalk-luau"
 environment = "roblox"
 lib = "src/init.luau"
 build_files = ["src"]
+
+["0.1.4 lune"]
+published_at = "2025-03-07T09:13:40.810821567Z"
+description = "Roblox/chalk-lua for Luau"
+license = "MIT"
+authors = ["Roblox", "kimpure"]
+repository = "https://github.com/kimpure/chalk-luau"
+
+["0.1.4 lune".target]
+environment = "lune"
+lib = "src/init.luau"
