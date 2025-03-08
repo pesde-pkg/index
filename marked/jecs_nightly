@@ -37,3 +37,13 @@ repository = "https://git.devmarked.win/marked/jecs-nightly"
 ["0.5.5-nightly.20250302T183456Z luau".target]
 environment = "luau"
 lib = "jecs.luau"
+
+["0.5.5-nightly.20250308T001059Z luau"]
+published_at = "2025-03-08T00:11:08.247631956Z"
+license = "MIT"
+authors = ["jecs authors"]
+repository = "https://git.devmarked.win/marked/jecs-nightly"
+
+["0.5.5-nightly.20250308T001059Z luau".target]
+environment = "luau"
+lib = "jecs.luau"
