@@ -1,0 +1,10 @@
+["0.1.0 luau"]
+published_at = "2025-03-10T10:42:46.727690196Z"
+description = "A Token Bucket implementation for Luau"
+license = "MIT"
+authors = ["YetAnotherClown"]
+repository = "https://www.github.com/YetAnotherClown/token-bucket-luau"
+
+["0.1.0 luau".target]
+environment = "luau"
+lib = "src/init.luau"
