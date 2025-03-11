@@ -263,3 +263,22 @@ rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/p
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 spr = [{ name = "2jammers/spr", version = "^2.1.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
 stylua = [{ name = "pesde/stylua", version = "^2.0.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["0.5.0-rc3 roblox"]
+published_at = "2025-03-11T03:18:57.641364962Z"
+description = "A simple and declarative UI framework, inspired by Vide & Fusion"
+license = "MIT"
+authors = ["jmesrje"]
+repository = "https://github.com/lumin-org/ui"
+
+["0.5.0-rc3 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.5.0-rc3 roblox".dependencies]
+debugger = [{ name = "lumin/debugger", version = "^1.0.3", index = "https://github.com/pesde-pkg/index" }, "standard"]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+spr = [{ name = "2jammers/spr", version = "^2.1.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+stylua = [{ name = "pesde/stylua", version = "^2.0.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
