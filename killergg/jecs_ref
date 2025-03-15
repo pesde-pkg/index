@@ -56,3 +56,22 @@ refs = [{ name = "killergg/jecs_refs", version = "^0.1.0", index = "https://gith
 rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 world = [{ name = "killergg/jecs_world", version = "^0.1.3", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
+
+["0.2.2 roblox"]
+published_at = "2025-03-15T15:55:17.30701633Z"
+description = "A jecs utility for easy entity-mapping"
+license = "MIT"
+authors = ["Ukendio"]
+repository = "https://github.com/NeonD00m/jecs_std"
+
+["0.2.2 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.2.2 roblox".dependencies]
+jecs = [{ wally = "wally#ukendio/jecs", version = "^0.5.5", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
+refs = [{ name = "killergg/jecs_refs", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+world = [{ name = "killergg/jecs_world", version = "^0.1.3", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
