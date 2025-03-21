@@ -105,3 +105,23 @@ debugger = [{ name = "lumin/debugger", version = "^1.0.0", index = "https://gith
 rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
 stylua = [{ name = "pesde/stylua", version = "^2.0.1", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
+
+["11.0.0 roblox"]
+published_at = "2025-03-21T01:27:48.085488197Z"
+description = "A featherlight framework for Luau games"
+license = "MIT"
+authors = ["Daemon6109"]
+repository = "https://github.com/Daemon6109/framework"
+
+["11.0.0 roblox".target]
+environment = "roblox"
+lib = "dist/src/Framework/init.luau"
+build_files = ["dist", "dist/src/Framework"]
+
+["11.0.0 roblox".dependencies]
+Debugger = [{ name = "lumin/debugger", version = "^1.0.3", index = "https://github.com/daimond113/pesde-index" }, "standard"]
+Jest = [{ wally = "wally#jsdotlua/jest", version = "^3.10.0", index = "https://github.com/UpliftGames/wally-index" }, "dev"]
+JestGlobals = [{ wally = "wally#jsdotlua/jest-globals", version = "^3.10.0", index = "https://github.com/UpliftGames/wally-index" }, "dev"]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
+stylua = [{ name = "pesde/stylua", version = "^2.0.1", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
