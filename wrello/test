@@ -1,0 +1,9 @@
+["0.1.0 luau"]
+published_at = "2025-03-22T08:01:13.010544244Z"
+description = "test"
+license = "MIT"
+authors = ["wrello"]
+
+["0.1.0 luau".target]
+environment = "luau"
+lib = "init.luau"
