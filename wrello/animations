@@ -17,3 +17,14 @@ authors = ["wrello"]
 ["0.0.1742633749 luau".target]
 environment = "luau"
 lib = "init.lua"
+
+["2.2.0 luau"]
+published_at = "2025-03-22T09:12:27.95207835Z"
+description = "An easy to use module for playing & pre-loading animations in roblox."
+license = "MIT"
+authors = ["wrello"]
+repository = "https://github.com/wrello/Animations"
+
+["2.2.0 luau".target]
+environment = "luau"
+lib = "init.lua"
