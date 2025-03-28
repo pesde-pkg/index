@@ -1,0 +1,11 @@
+["0.1.0 roblox"]
+published_at = "2025-03-28T19:50:03.706964423Z"
+description = "PNG parsing library"
+license = "MIT"
+authors = ["knnyism"]
+repository = "https://github.com/knnyism/png"
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
