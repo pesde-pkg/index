@@ -117,3 +117,18 @@ compiler = [{ name = "alicesaidhi/conch_compiler", version = "^0.2.1", index = "
 intel = [{ name = "alicesaidhi/conch_analysis", version = "^0.2.0", index = "https://github.com/daimond113/pesde-index", target = "roblox" }, "standard"]
 types = [{ name = "alicesaidhi/conch_types", version = "^0.2.0", index = "https://github.com/daimond113/pesde-index", target = "roblox" }, "standard"]
 vm = [{ name = "alicesaidhi/conch_vm", version = "^0.2.0", index = "https://github.com/daimond113/pesde-index", target = "roblox" }, "standard"]
+
+["0.2.4 roblox"]
+published_at = "2025-03-29T09:44:00.758211642Z"
+
+["0.2.4 roblox".target]
+environment = "roblox"
+lib = "src/lib.luau"
+build_files = ["src"]
+
+["0.2.4 roblox".dependencies]
+ast = [{ name = "alicesaidhi/conch_ast", version = "^0.2.1", index = "https://github.com/daimond113/pesde-index", target = "roblox" }, "standard"]
+compiler = [{ name = "alicesaidhi/conch_compiler", version = "^0.2.2", index = "https://github.com/daimond113/pesde-index", target = "roblox" }, "standard"]
+intel = [{ name = "alicesaidhi/conch_analysis", version = "^0.2.1", index = "https://github.com/daimond113/pesde-index", target = "roblox" }, "standard"]
+types = [{ name = "alicesaidhi/conch_types", version = "^0.2.1", index = "https://github.com/daimond113/pesde-index", target = "roblox" }, "standard"]
+vm = [{ name = "alicesaidhi/conch_vm", version = "^0.2.1", index = "https://github.com/daimond113/pesde-index", target = "roblox" }, "standard"]
