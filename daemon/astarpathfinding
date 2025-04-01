@@ -194,3 +194,21 @@ Jest = [{ wally = "wally#jsdotlua/jest", version = "^3.10.0", index = "https://g
 JestGlobals = [{ wally = "wally#jsdotlua/jest-globals", version = "^3.10.0", index = "https://github.com/UpliftGames/wally-index" }, "dev"]
 rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["1.1.1 roblox"]
+published_at = "2025-04-01T04:52:00.42024117Z"
+description = "A* search algorithm in luau"
+license = "MIT"
+authors = ["Daemon6109"]
+repository = "https://github.com/Daemon6109/AStarPathfinding"
+
+["1.1.1 roblox".target]
+environment = "roblox"
+lib = "dist/src/AStarPathfinding/init.luau"
+build_files = ["dist"]
+
+["1.1.1 roblox".dependencies]
+Jest = [{ wally = "wally#jsdotlua/jest", version = "^3.10.0", index = "https://github.com/UpliftGames/wally-index" }, "dev"]
+JestGlobals = [{ wally = "wally#jsdotlua/jest-globals", version = "^3.10.0", index = "https://github.com/UpliftGames/wally-index" }, "dev"]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
