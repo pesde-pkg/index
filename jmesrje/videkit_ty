@@ -4,6 +4,7 @@ description = "Contains a bunch of plugin components written for Vide"
 license = "MIT"
 authors = ["alicesaidhi", "jmesrje"]
 repository = "https://github.com/jmesrje/videkit_ty"
+yanked = true
 
 ["0.1.1 roblox".target]
 environment = "roblox"
