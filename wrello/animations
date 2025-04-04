@@ -1,3 +1,15 @@
+["0.0.2198021 roblox"]
+published_at = "2025-04-04T07:41:35.389478893Z"
+description = "An easy to use module for playing & pre-loading animations in Roblox."
+license = "MIT"
+authors = ["wrello"]
+repository = "https://github.com/wrello/Animations"
+
+["0.0.2198021 roblox".target]
+environment = "roblox"
+lib = "init.lua"
+build_files = ["Deps", "Package", "init.lua"]
+
 ["0.0.1742633360 luau"]
 published_at = "2025-03-22T08:49:56.43146562Z"
 description = "An easy to use module for playing & pre-loading animations in roblox."
