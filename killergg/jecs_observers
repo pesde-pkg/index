@@ -1,0 +1,16 @@
+["0.1.0 roblox"]
+published_at = "2025-04-12T04:16:41.143677408Z"
+description = "An official jecs addon for observing a world"
+license = "MIT"
+authors = ["Ukendio"]
+repository = "https://github.com/NeonD00m/jecs_std"
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.1.0 roblox".dependencies]
+jecs = [{ name = "marked/jecs", version = "^0.5.5", index = "https://github.com/pesde-pkg/index" }, "standard"]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
