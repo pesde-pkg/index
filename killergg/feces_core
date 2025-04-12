@@ -1,0 +1,16 @@
+["1.0.0-rc.1 roblox"]
+published_at = "2025-04-12T04:49:06.018739188Z"
+description = "Fast Entity Component Export System: Generalized Replication for jecs."
+license = "MIT"
+authors = ["NeonD00m", "as8d"]
+repository = "https://github.com/neond00m/feces"
+
+["1.0.0-rc.1 roblox".target]
+environment = "roblox"
+lib = "feces.luau"
+build_files = ["feces.luau"]
+
+["1.0.0-rc.1 roblox".dependencies]
+jecs = [{ name = "marked/jecs", version = "^0.5.5", index = "https://github.com/pesde-pkg/index" }, "standard"]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
