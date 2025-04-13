@@ -8,3 +8,14 @@ repository = "https://github.com/4x8Matrix/ollama-luau"
 ["0.1.0 lune".target]
 environment = "lune"
 lib = "src/init.luau"
+
+["0.1.1 lune"]
+published_at = "2025-04-13T18:20:53.880362885Z"
+description = "Luau ollama API"
+license = "MIT"
+authors = ["AsyncMatrix (hi@asyncmatrix.dev)"]
+repository = "https://github.com/4x8Matrix/ollama-luau"
+
+["0.1.1 lune".target]
+environment = "lune"
+lib = "src/init.luau"
