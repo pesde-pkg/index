@@ -1,0 +1,10 @@
+["0.1.0 lune"]
+published_at = "2025-04-13T18:06:53.705817624Z"
+description = "Luau ollama API"
+license = "MIT"
+authors = ["AsyncMatrix (hi@asyncmatrix.dev)"]
+repository = "https://github.com/4x8Matrix/ollama-luau"
+
+["0.1.0 lune".target]
+environment = "lune"
+lib = "src/init.luau"
