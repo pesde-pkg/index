@@ -32,6 +32,7 @@ description = "A Luau library to handle file paths based on the Rust path librar
 license = "MIT"
 authors = ["jeparlefrancais <jeparlefrancais21@gmail.com>"]
 repository = "https://github.com/seaofvoices/luau-path"
+yanked = true
 
 ["0.1.2 luau".target]
 environment = "luau"
