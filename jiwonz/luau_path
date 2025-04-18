@@ -25,3 +25,17 @@ lib = "src/init.luau"
 
 ["0.1.1 luau".dependencies]
 luau_disk = [{ name = "jiwonz/luau_disk", version = "^0.1.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
+
+["0.1.2 luau"]
+published_at = "2025-04-18T02:04:21.008316842Z"
+description = "A Luau library to handle file paths based on the Rust path library by jeparlefrancais, Uploaded for pesde"
+license = "MIT"
+authors = ["jeparlefrancais <jeparlefrancais21@gmail.com>"]
+repository = "https://github.com/seaofvoices/luau-path"
+
+["0.1.2 luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
+["0.1.2 luau".dependencies]
+luau_disk = [{ name = "jiwonz/luau_disk", version = "^0.1.4", index = "https://github.com/pesde-pkg/index" }, "standard"]
