@@ -1,0 +1,11 @@
+["0.1.0 lune"]
+published_at = "2025-04-19T20:23:48.328896697Z"
+license = "MIT"
+authors = ["adeep23"]
+
+["0.1.0 lune".target]
+environment = "lune"
+lib = "a.luau"
+
+["0.1.0 lune".dependencies]
+unzip = [{ name = "0x5eal/unzip", version = "^0.1.3", index = "https://github.com/daimond113/pesde-index", target = "luau" }, "standard"]
