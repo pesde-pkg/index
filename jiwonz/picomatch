@@ -28,3 +28,18 @@ lib = "src/picomatch.luau"
 ["0.1.0 lune".dependencies]
 luau_polyfill = [{ name = "jiwonz/luau_polyfill", version = "^0.1.1", index = "https://github.com/pesde-pkg/index" }, "standard"]
 luau_regexp = [{ name = "jiwonz/luau_regexp", version = "^0.1.3", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+
+["0.1.0 luau"]
+published_at = "2025-04-19T16:11:49.999911014Z"
+description = "Blazing fast and accurate glob matcher written in Luau"
+license = "MIT"
+authors = ["Chris Trześniewski <k.trzesniewski@gmail.com>", "jiwonz <me@jiwonz.kr>"]
+repository = "https://github.com/jiwonz/picomatch-luau"
+
+["0.1.0 luau".target]
+environment = "luau"
+lib = "src/picomatch.luau"
+
+["0.1.0 luau".dependencies]
+luau_polyfill = [{ name = "jiwonz/luau_polyfill", version = "^0.1.1", index = "https://github.com/pesde-pkg/index" }, "standard"]
+luau_regexp = [{ name = "jiwonz/luau_regexp", version = "^0.1.3", index = "https://github.com/pesde-pkg/index" }, "standard"]
