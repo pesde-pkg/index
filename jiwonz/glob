@@ -15,3 +15,22 @@ luau_lsp = [{ name = "pesde/luau_lsp", version = "^1.37.0", index = "https://git
 pathfs = [{ name = "jiwonz/pathfs", version = "^0.3.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
 selene = [{ name = "pesde/selene", version = "^0.27.1", index = "https://github.com/pesde-pkg/index" }, "dev"]
 stylua = [{ name = "pesde/stylua", version = "^2.0.2", index = "https://github.com/pesde-pkg/index" }, "dev"]
+
+["0.1.1 lune"]
+published_at = "2025-04-19T17:30:41.055564363Z"
+description = "glob/wildcard filtering utility for lune"
+license = "MIT"
+authors = ["jiwonz <me@jiwonz.kr>"]
+repository = "https://github.com/jiwonz/glob-lune"
+
+["0.1.1 lune".target]
+environment = "lune"
+lib = "src/lib.luau"
+
+["0.1.1 lune".dependencies]
+globrex_lune = [{ name = "kimpure/globrex_lune", version = "^0.2.4", index = "https://github.com/pesde-pkg/index" }, "standard"]
+luau_check = [{ name = "jiwonz/luau_check", version = "^0.3.13", index = "https://github.com/pesde-pkg/index" }, "dev"]
+luau_lsp = [{ name = "pesde/luau_lsp", version = "^1.37.0", index = "https://github.com/pesde-pkg/index" }, "dev"]
+pathfs = [{ name = "jiwonz/pathfs", version = "^0.6.0-rc.3", index = "https://github.com/pesde-pkg/index" }, "standard"]
+selene = [{ name = "pesde/selene", version = "^0.28.0", index = "https://github.com/pesde-pkg/index" }, "dev"]
+stylua = [{ name = "pesde/stylua", version = "^2.0.2", index = "https://github.com/pesde-pkg/index" }, "dev"]
