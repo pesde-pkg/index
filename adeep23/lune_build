@@ -35,3 +35,16 @@ lib = "lib.luau"
 
 ["0.1.2 lune".dependencies]
 unzip = [{ name = "0x5eal/unzip", version = "^0.1.3", index = "https://github.com/daimond113/pesde-index", target = "luau" }, "standard"]
+
+["0.1.3 lune"]
+published_at = "2025-04-19T22:20:50.112820043Z"
+description = "lune build, but in lune"
+license = "MIT"
+authors = ["adeep23"]
+
+["0.1.3 lune".target]
+environment = "lune"
+lib = "lib.luau"
+
+["0.1.3 lune".dependencies]
+unzip = [{ name = "0x5eal/unzip", version = "^0.1.3", index = "https://github.com/daimond113/pesde-index", target = "luau" }, "standard"]
