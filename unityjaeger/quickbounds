@@ -1,0 +1,9 @@
+["0.1.0-test roblox"]
+published_at = "2025-04-20T16:34:00.011904259Z"
+license = "MIT"
+authors = ["unityjaeger"]
+
+["0.1.0-test roblox".target]
+environment = "roblox"
+lib = "src/main.luau"
+build_files = ["src"]
