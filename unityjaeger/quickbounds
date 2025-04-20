@@ -7,3 +7,14 @@ authors = ["unityjaeger"]
 environment = "roblox"
 lib = "src/main.luau"
 build_files = ["src"]
+
+["0.1.0 roblox"]
+published_at = "2025-04-20T19:51:48.627695438Z"
+license = "MIT"
+authors = ["unityjaeger"]
+repository = "https://github.com/unityjaeger/QuickBounds"
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "src/main.luau"
+build_files = ["src"]
