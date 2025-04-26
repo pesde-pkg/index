@@ -29,3 +29,14 @@ repository = "https://github.com/unityjaeger/QuickBounds"
 environment = "roblox"
 lib = "src/main.luau"
 build_files = ["src"]
+
+["0.2.1 roblox"]
+published_at = "2025-04-26T11:29:14.199106722Z"
+license = "MIT"
+authors = ["unityjaeger"]
+repository = "https://github.com/unityjaeger/QuickBounds"
+
+["0.2.1 roblox".target]
+environment = "roblox"
+lib = "src/main.luau"
+build_files = ["src"]
