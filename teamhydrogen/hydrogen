@@ -1,0 +1,21 @@
+["0.1.0 roblox"]
+published_at = "2025-04-27T00:43:49.00035264Z"
+description = "Game framework for Roblox with all the essentials needed!"
+license = "MIT"
+authors = ["Sophie B"]
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.1.0 roblox".engines]
+pesde = "^0.6.0"
+lune = "^0.8.9"
+
+["0.1.0 roblox".dependencies]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
+selene = [{ name = "pesde/selene", version = "^0.28.0", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
+stylua = [{ name = "pesde/stylua", version = "^2.0.2", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
+zap = [{ name = "pesde/zap", version = "^0.6.19", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
