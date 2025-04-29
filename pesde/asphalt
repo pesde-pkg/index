@@ -194,3 +194,22 @@ lune = ">=0.8.7"
 core = [{ name = "pesde/toolchainlib", version = "^0.1.12", index = "https://github.com/pesde-pkg/index", target = "lune" }, "standard"]
 option = [{ name = "lukadev_0/option", version = "^1.2.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
 result = [{ name = "lukadev_0/result", version = "^1.2.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+
+["1.0.0-pre.6 lune"]
+published_at = "2025-04-29T05:11:51.078758031Z"
+description = "Upload and reference Roblox assets in code"
+authors = ["CompeyDev <hi@devcomp.xyz>", "Jack T <jack@jackt.space>"]
+repository = "https://github.com/pesde-pkg/tooling/tree/main/bins/asphalt"
+
+["1.0.0-pre.6 lune".target]
+environment = "lune"
+bin = "init.luau"
+
+["1.0.0-pre.6 lune".engines]
+pesde = "^0.6.0"
+lune = "^0.8.7"
+
+["1.0.0-pre.6 lune".dependencies]
+core = [{ name = "pesde/toolchainlib", version = "^0.1.13", index = "https://github.com/pesde-pkg/index", target = "lune" }, "standard"]
+option = [{ name = "lukadev_0/option", version = "^1.2.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+result = [{ name = "lukadev_0/result", version = "^1.2.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
