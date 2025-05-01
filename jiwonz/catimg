@@ -1,0 +1,23 @@
+["0.1.0 lune"]
+published_at = "2025-05-01T09:44:13.211835936Z"
+description = "Cat and Preview your images directly in terminal using sixel"
+license = "MIT"
+authors = ["jiwonz <me@jiwonz.kr>"]
+repository = "https://github.com/jiwonz/catimg"
+
+["0.1.0 lune".target]
+environment = "lune"
+bin = "bin.luau"
+
+["0.1.0 lune".engines]
+pesde = "^0.6.0"
+lune = "^0.8.9"
+
+["0.1.0 lune".dependencies]
+luau_check = [{ name = "jiwonz/luau_check", version = "^0.3.13", index = "https://github.com/pesde-pkg/index" }, "dev"]
+luau_lsp = [{ name = "pesde/luau_lsp", version = "^1.44.1", index = "https://github.com/pesde-pkg/index" }, "dev"]
+option = [{ name = "lukadev_0/option", version = "^1.2.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+result = [{ name = "lukadev_0/result", version = "^1.2.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+selene = [{ name = "pesde/selene", version = "^0.28.0", index = "https://github.com/pesde-pkg/index" }, "dev"]
+stylua = [{ name = "pesde/stylua", version = "^2.1.0", index = "https://github.com/pesde-pkg/index" }, "dev"]
+toolchainlib = [{ name = "pesde/toolchainlib", version = "^0.1.12", index = "https://github.com/pesde-pkg/index" }, "standard"]
