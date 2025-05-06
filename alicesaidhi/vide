@@ -9,6 +9,17 @@ environment = "roblox"
 lib = "src/init.luau"
 build_files = ["src"]
 
+["0.3.1-lite.672 roblox"]
+published_at = "2025-05-06T19:23:02.601431808Z"
+description = "vide with types"
+license = "MIT"
+authors = ["centau"]
+
+["0.3.1-lite.672 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
 ["0.4.0 roblox"]
 published_at = "2025-02-18T18:05:30.786521199Z"
 description = "Unofficial fork of vide for the new type solver. Comes with instance types!"
