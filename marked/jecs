@@ -33,6 +33,18 @@ yanked = true
 environment = "luau"
 lib = "init.luau"
 
+["0.6.0-rc.1 roblox"]
+published_at = "2025-05-08T00:11:39.487432128Z"
+description = "A minimal copy of jecs published on the official pesde registry"
+license = "MIT"
+authors = ["jecs authors"]
+repository = "https://git.devmarked.win/marked/jecs-pesde"
+
+["0.6.0-rc.1 roblox".target]
+environment = "roblox"
+lib = "jecs.luau"
+build_files = ["jecs.luau"]
+
 ["0.6.0-rc.1 luau"]
 published_at = "2025-05-08T00:11:36.801387518Z"
 description = "A minimal copy of jecs published on the official pesde registry"
