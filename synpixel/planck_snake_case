@@ -67,3 +67,23 @@ lune = "^0.8.9"
 darklua = [{ name = "pesde/darklua", version = "^0.16.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["0.2.0-rc.5 roblox"]
+published_at = "2025-05-08T03:43:20.514784307Z"
+description = "YetAnotherClown's Planck, but snake_case"
+license = "MIT"
+authors = ["YetAnotherClown"]
+repository = "https://github.com/synpixel/planck"
+
+["0.2.0-rc.5 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.2.0-rc.5 roblox".engines]
+lune = "^0.8.9"
+
+["0.2.0-rc.5 roblox".dependencies]
+darklua = [{ name = "pesde/darklua", version = "^0.16.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
