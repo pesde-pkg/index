@@ -32,3 +32,14 @@ yanked = true
 ["0.5.5 luau".target]
 environment = "luau"
 lib = "init.luau"
+
+["0.6.0-rc.1 luau"]
+published_at = "2025-05-08T00:11:36.801387518Z"
+description = "A minimal copy of jecs published on the official pesde registry"
+license = "MIT"
+authors = ["jecs authors"]
+repository = "https://git.devmarked.win/marked/jecs-pesde"
+
+["0.6.0-rc.1 luau".target]
+environment = "luau"
+lib = "jecs.luau"
