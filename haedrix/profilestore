@@ -1,0 +1,11 @@
+["1.0.3 roblox_server"]
+published_at = "2025-05-14T03:31:45.483594312Z"
+description = "Periodic DataStore saving solution with session locking"
+license = "Apache-2.0"
+authors = ["haedrix", "lm-loleris"]
+repository = "https://github.com/haedrix/profilestore"
+
+["1.0.3 roblox_server".target]
+environment = "roblox_server"
+lib = "src/init.luau"
+build_files = ["src"]
