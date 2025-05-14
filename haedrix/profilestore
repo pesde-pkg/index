@@ -4,6 +4,7 @@ description = "Periodic DataStore saving solution with session locking"
 license = "Apache-2.0"
 authors = ["haedrix", "lm-loleris"]
 repository = "https://github.com/haedrix/profilestore"
+yanked = true
 
 ["1.0.3 roblox".target]
 environment = "roblox"
@@ -16,6 +17,7 @@ description = "Periodic DataStore saving solution with session locking"
 license = "Apache-2.0"
 authors = ["haedrix", "lm-loleris"]
 repository = "https://github.com/haedrix/profilestore"
+yanked = true
 
 ["1.0.3 roblox_server".target]
 environment = "roblox_server"
