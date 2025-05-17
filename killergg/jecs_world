@@ -65,3 +65,20 @@ build_files = ["src"]
 jecs = [{ name = "marked/jecs", version = "^0.5.5", index = "https://github.com/pesde-pkg/index" }, "standard"]
 rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["0.1.5 roblox"]
+published_at = "2025-05-17T16:48:38.498899841Z"
+description = "A jecs world"
+license = "MIT"
+authors = ["NeonD00m", "as8d"]
+repository = "https://github.com/NeonD00m/jecs_std"
+
+["0.1.5 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.1.5 roblox".dependencies]
+jecs = [{ name = "marked/jecs", version = "^0.6.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
