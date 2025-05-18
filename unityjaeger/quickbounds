@@ -40,3 +40,14 @@ repository = "https://github.com/unityjaeger/QuickBounds"
 environment = "roblox"
 lib = "src/main.luau"
 build_files = ["src"]
+
+["0.2.2 roblox"]
+published_at = "2025-05-18T14:51:47.167999026Z"
+license = "MIT"
+authors = ["unityjaeger"]
+repository = "https://github.com/unityjaeger/QuickBounds"
+
+["0.2.2 roblox".target]
+environment = "roblox"
+lib = "src/main.luau"
+build_files = ["src"]
