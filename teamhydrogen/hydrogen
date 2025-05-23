@@ -3,6 +3,7 @@ published_at = "2025-05-04T21:28:18.344476385Z"
 description = "Game framework for Roblox with all the essentials needed!"
 license = "MIT"
 authors = ["Sophie B"]
+yanked = true
 
 ["0.0.1 roblox".target]
 environment = "roblox"
