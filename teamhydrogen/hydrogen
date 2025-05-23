@@ -372,6 +372,7 @@ description = "Game framework for Roblox with all the essentials needed!"
 license = "MIT"
 authors = ["Sophie B"]
 repository = "https://github.com/teamhydrogen/hydrogen"
+yanked = true
 
 ["0.1.0-alphadev-5 roblox".target]
 environment = "roblox"
