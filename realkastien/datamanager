@@ -1,0 +1,16 @@
+["0.1.0 roblox"]
+published_at = "2025-05-23T16:50:36.212716329Z"
+description = "Strict typed Player  Data Manager"
+license = "MIT"
+authors = ["realkastien"]
+repository = "https://github.com/realkastien/datamanager"
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.1.0 roblox".dependencies]
+Reliability = [{ name = "realkastien/reliability", version = "^0.0.6", index = "https://github.com/pesde-pkg/index" }, "standard"]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
