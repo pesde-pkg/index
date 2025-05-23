@@ -1,0 +1,9 @@
+["0.3.0 lune"]
+published_at = "2025-05-23T23:46:58.139125363Z"
+description = "Exports the types from a set of Luau files into a single file."
+license = "MIT"
+authors = ["thalorum"]
+
+["0.3.0 lune".target]
+environment = "lune"
+bin = "src/init.luau"
