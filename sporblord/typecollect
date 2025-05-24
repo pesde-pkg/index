@@ -27,3 +27,13 @@ authors = ["sporblord"]
 ["0.3.2 lune".target]
 environment = "lune"
 bin = "src/init.luau"
+
+["0.4.0 lune"]
+published_at = "2025-05-24T01:47:11.501876085Z"
+description = "Exports the types from a set of Luau files into a single file."
+license = "MIT"
+authors = ["sporblord"]
+
+["0.4.0 lune".target]
+environment = "lune"
+bin = "src/init.luau"
