@@ -79,3 +79,14 @@ repository = "https://github.com/centau/vide"
 environment = "roblox"
 lib = "/src/init.luau"
 build_files = ["src"]
+
+["0.4.1-testing.4 roblox"]
+published_at = "2025-05-27T21:22:49.626040618Z"
+description = "vide with types"
+license = "MIT"
+authors = ["centau"]
+
+["0.4.1-testing.4 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
