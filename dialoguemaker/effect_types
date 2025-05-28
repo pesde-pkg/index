@@ -39,3 +39,26 @@ lune = "^0.8.9"
 react = [{ wally = "wally#jsdotlua/react", version = "^17.2.1", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
 rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["0.1.0-patch-3 roblox"]
+published_at = "2025-05-28T01:59:54.865632308Z"
+description = "Typings for the Effect class for the Dialogue Maker."
+license = "GPL-3.0"
+authors = ["Christian Toney <christian.toney@beastslash.com>"]
+repository = "https://github.com/DialogueMaker/effect_types"
+
+["0.1.0-patch-3 roblox".target]
+environment = "roblox"
+lib = "dist/init.lua"
+build_files = ["dist"]
+
+["0.1.0-patch-3 roblox".engines]
+pesde = "^0.7.0-rc.3"
+lune = "^0.8.9"
+
+["0.1.0-patch-3 roblox".dependencies]
+darklua = [{ name = "pesde/darklua", version = "^0.16.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+luau_lsp = [{ name = "pesde/luau_lsp", version = "^1.47.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+react = [{ wally = "wally#jsdotlua/react", version = "^17.2.1", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
