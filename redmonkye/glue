@@ -1,0 +1,13 @@
+["0.1.0-rc.1 luau"]
+published_at = "2025-05-28T15:38:00.879760422Z"
+description = "Another game framework."
+license = "MIT"
+authors = ["afrxo"]
+repository = "https://github.com/redmonkye/glue"
+
+["0.1.0-rc.1 luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
+["0.1.0-rc.1 luau".engines]
+pesde = "^0.6.0"
