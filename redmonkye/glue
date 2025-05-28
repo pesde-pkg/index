@@ -25,3 +25,14 @@ lib = "src/init.luau"
 
 [["0.1.0-rc.2 luau".docs]]
 label = "Public"
+
+["0.1.0-rc.3 luau"]
+published_at = "2025-05-28T16:00:11.775177621Z"
+description = "A composition framework."
+license = "MIT"
+authors = ["afrxo"]
+repository = "https://github.com/redmonkye/glue"
+
+["0.1.0-rc.3 luau".target]
+environment = "luau"
+lib = "src/init.luau"
