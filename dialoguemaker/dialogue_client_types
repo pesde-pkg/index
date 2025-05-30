@@ -1,3 +1,6 @@
+[meta]
+deprecated = "Use dialoguemaker/client_types instead."
+
 ["0.1.0-patch-1 roblox"]
 published_at = "2025-05-28T03:52:08.059391385Z"
 description = "Typings for the DialogueClient class for the Dialogue Maker."
