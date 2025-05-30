@@ -1,3 +1,6 @@
+[meta]
+deprecated = "Use dialoguemaker/conversation_types instead."
+
 ["0.1.0-patch-1 roblox"]
 published_at = "2025-05-28T03:39:43.777945273Z"
 description = ""
