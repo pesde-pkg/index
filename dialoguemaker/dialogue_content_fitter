@@ -45,3 +45,27 @@ luau_lsp = [{ name = "pesde/luau_lsp", version = "^1.47.0", index = "https://git
 react = [{ wally = "wally#jsdotlua/react", version = "^17.2.1", index = "https://github.com/UpliftGames/wally-index" }, "peer"]
 rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["0.1.0-patch-3 roblox"]
+published_at = "2025-06-01T13:49:21.353951887Z"
+description = ""
+license = "GPL-3.0"
+authors = ["Christian Toney <christian.toney@beastslash.com>"]
+repository = "https://github.com/DialogueMaker/dialogue_content_fitter"
+
+["0.1.0-patch-3 roblox".target]
+environment = "roblox"
+lib = "src/init.lua"
+build_files = ["src"]
+
+["0.1.0-patch-3 roblox".engines]
+pesde = "^0.7.0-rc.3"
+lune = "^0.8.9"
+
+["0.1.0-patch-3 roblox".dependencies]
+dialogue_content_fitter_types = [{ name = "dialoguemaker/dialogue_content_fitter_types", version = "^0.1.0-patch-2", index = "https://github.com/pesde-pkg/index" }, "standard"]
+effect_types = [{ name = "dialoguemaker/effect_types", version = "^0.1.0-patch-9", index = "https://github.com/pesde-pkg/index" }, "standard"]
+luau_lsp = [{ name = "pesde/luau_lsp", version = "^1.47.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+react = [{ wally = "wally#jsdotlua/react", version = "^17.2.1", index = "https://github.com/UpliftGames/wally-index" }, "peer"]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
