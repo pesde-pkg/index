@@ -308,3 +308,27 @@ luau_lsp = [{ name = "pesde/luau_lsp", version = "^1.48.0", index = "https://git
 luau_path = [{ name = "jiwonz/luau_path", version = "^0.1.4", index = "https://github.com/daimond113/pesde-index", target = "luau" }, "standard"]
 selene = [{ name = "pesde/selene", version = "^0.28.0", index = "https://github.com/daimond113/pesde-index" }, "dev"]
 stylua = [{ name = "pesde/stylua", version = "^2.1.0", index = "https://github.com/daimond113/pesde-index" }, "dev"]
+
+["0.6.0-rc.6 lune"]
+published_at = "2025-06-02T18:02:56.340450704Z"
+description = "luau-path + @lune/fs and some utilities"
+license = "MIT"
+authors = ["jeparlefrancais <jeparlefrancais21@gmail.com>", "jiwonz <me@jiwonz.kr>"]
+repository = "https://github.com/jiwonz/lune-pathfs"
+
+["0.6.0-rc.6 lune".target]
+environment = "lune"
+lib = "src/lib/init.luau"
+
+["0.6.0-rc.6 lune".engines]
+pesde = "^0.7.0-rc.1"
+lune = "^0.8.9"
+
+["0.6.0-rc.6 lune".dependencies]
+frktest = [{ name = "itsfrank/frktest", version = "^0.0.2", index = "https://github.com/daimond113/pesde-index" }, "dev"]
+greentea = [{ name = "corecii/greentea", version = "^0.4.11", index = "https://github.com/daimond113/pesde-index" }, "standard"]
+luau_check = [{ name = "jiwonz/luau_check", version = "^0.3.13", index = "https://github.com/daimond113/pesde-index" }, "dev"]
+luau_lsp = [{ name = "pesde/luau_lsp", version = "^1.48.0", index = "https://github.com/daimond113/pesde-index" }, "dev"]
+luau_path = [{ name = "jiwonz/luau_path", version = "^0.1.4", index = "https://github.com/daimond113/pesde-index", target = "luau" }, "standard"]
+selene = [{ name = "pesde/selene", version = "^0.28.0", index = "https://github.com/daimond113/pesde-index" }, "dev"]
+stylua = [{ name = "pesde/stylua", version = "^2.1.0", index = "https://github.com/daimond113/pesde-index" }, "dev"]
