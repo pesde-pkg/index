@@ -1,3 +1,6 @@
+[meta]
+deprecated = "Use dialoguemaker/types instead"
+
 ["0.1.0-patch-1 roblox"]
 published_at = "2025-05-27T21:27:52.787849144Z"
 description = "Typings for the Effect class for the Dialogue Maker."
