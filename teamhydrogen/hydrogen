@@ -654,3 +654,26 @@ selene = [{ name = "pesde/selene", version = "^0.28.0", index = "https://github.
 Sift = [{ wally = "wally#csqrl/sift", version = "^0.0.9", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
 stylua = [{ name = "pesde/stylua", version = "^2.0.2", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
 zap = [{ name = "pesde/zap", version = "^0.6.19", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
+
+["0.2.0 roblox"]
+published_at = "2025-06-05T19:27:04.235434155Z"
+description = "Game framework for Roblox with all the essentials needed!"
+license = "MIT"
+authors = ["Sophie B"]
+repository = "https://github.com/teamhydrogen/hydrogen"
+
+["0.2.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.2.0 roblox".engines]
+pesde = "^0.6.0"
+lune = "^0.8.9"
+
+["0.2.0 roblox".dependencies]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
+selene = [{ name = "pesde/selene", version = "^0.28.0", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
+stylua = [{ name = "pesde/stylua", version = "^2.0.2", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
+zap = [{ name = "pesde/zap", version = "^0.6.19", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
