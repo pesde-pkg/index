@@ -1,0 +1,11 @@
+["0.1.0 roblox"]
+published_at = "2025-06-09T11:31:07.062841067Z"
+description = "Luau implementations of popular hashing/encryption algorithms"
+license = "MIT"
+authors = ["daily3014", "xoifail"]
+repository = "https://github.com/daily3014/rbx-cryptography"
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
