@@ -249,3 +249,32 @@ use_keybind_continue = [{ name = "dialoguemaker/use_keybind_continue", version =
 use_pages = [{ name = "dialoguemaker/use_pages", version = "^0.1.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
 use_responses = [{ name = "dialoguemaker/use_responses", version = "^0.1.1", index = "https://github.com/pesde-pkg/index" }, "standard"]
 use_typewriter = [{ name = "dialoguemaker/use_typewriter", version = "^0.1.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+
+["0.1.3 roblox"]
+published_at = "2025-06-09T00:30:52.736261308Z"
+description = ""
+license = "GPL-3.0"
+authors = ["Christian Toney <christian.toney@beastslash.com>"]
+repository = "https://github.com/DialogueMaker/standard_theme"
+
+["0.1.3 roblox".target]
+environment = "roblox"
+lib = "src/init.lua"
+build_files = ["src"]
+
+["0.1.3 roblox".engines]
+pesde = "^0.7.0-rc.3"
+lune = "^0.8.9"
+
+["0.1.3 roblox".dependencies]
+dialogue_content_fitter = [{ name = "dialoguemaker/dialogue_content_fitter", version = "^0.1.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+DialogueMakerTypes = [{ name = "dialoguemaker/types", version = "^0.1.23", index = "https://github.com/pesde-pkg/index" }, "standard"]
+luau_lsp = [{ name = "pesde/luau_lsp", version = "^1.48.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+react = [{ wally = "wally#jsdotlua/react", version = "^17.2.1", index = "https://github.com/UpliftGames/wally-index" }, "peer"]
+rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+use_dynamic_size = [{ name = "dialoguemaker/use_dynamic_size", version = "^0.1.0-patch-2", index = "https://github.com/pesde-pkg/index" }, "standard"]
+use_pages = [{ name = "dialoguemaker/use_pages", version = "^0.1.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+use_responses = [{ name = "dialoguemaker/use_responses", version = "^0.1.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
+use_typewriter = [{ name = "dialoguemaker/use_typewriter", version = "^0.1.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+useKeybindContinue = [{ name = "dialoguemaker/use_keybind_continue", version = "^0.1.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
