@@ -1,3 +1,6 @@
+[meta]
+deprecated = "To give more control over dialogue parsing, DialogueMaker/dialogue_content_fitter is deprecated. We recommend manually configuring themes and dialogue content for an intended fit rather than relying on this class to automatically fit it, as this class may produce unexpected results."
+
 ["0.1.0-patch-1 roblox"]
 published_at = "2025-05-28T22:50:26.159812542Z"
 description = ""
