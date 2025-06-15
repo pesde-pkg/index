@@ -41,3 +41,19 @@ build_files = ["src"]
 ["0.2.1 roblox".dependencies]
 rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["1.0.0 roblox"]
+published_at = "2025-06-15T13:34:56.44129818Z"
+description = "Luau implementations of popular hashing/encryption algorithms"
+license = "MIT"
+authors = ["daily3014", "xoifail"]
+repository = "https://github.com/daily3014/rbx-cryptography"
+
+["1.0.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["1.0.0 roblox".dependencies]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
