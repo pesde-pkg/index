@@ -1,0 +1,19 @@
+["3.0.0 roblox"]
+published_at = "2025-06-17T23:32:21.638090908Z"
+description = """
+Game Framework for roblox.
+
+https://zaphy.luau.page
+"""
+license = "MIT"
+authors = ["ivadsiuls"]
+repository = "https://github.com/froststarinteractive/zaphy"
+
+["3.0.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["3.0.0 roblox".dependencies]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
