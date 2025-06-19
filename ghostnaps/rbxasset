@@ -1,0 +1,18 @@
+["0.1.0 lune"]
+published_at = "2025-06-19T18:46:05.885499934Z"
+description = "Deploy from GitHub to the Roblox Creator Store"
+license = "MIT"
+authors = ["Marin Minnerly"]
+repository = "https://github.com/ghostnaps/rbxasset"
+
+["0.1.0 lune".target]
+environment = "lune"
+lib = "src/init.luau"
+
+["0.1.0 lune".engines]
+pesde = "^0.7.0-rc.4"
+lune = "^0.9.3"
+
+["0.1.0 lune".dependencies]
+frktest = [{ name = "itsfrank/frktest", version = "^0.0.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
+t = [{ name = "corecii/greentea_t_standalone", version = "^0.4.11", index = "https://github.com/pesde-pkg/index" }, "standard"]
