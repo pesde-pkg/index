@@ -11,3 +11,17 @@ lib = "lib/init.luau"
 
 ["0.2.0 luau".dependencies]
 jecs = [{ name = "marked/jecs_nightly", version = "=0.5.5-nightly.20250312T202956Z", index = "https://github.com/pesde-pkg/index" }, "standard"]
+
+["0.2.1 luau"]
+published_at = "2025-06-20T13:18:08.517187893Z"
+description = "A set of utilities for Jecs"
+license = "MIT"
+authors = ["marked"]
+repository = "https://git.devmarked.win/marked/hammer"
+
+["0.2.1 luau".target]
+environment = "luau"
+lib = "lib/init.luau"
+
+["0.2.1 luau".dependencies]
+jecs = [{ name = "marked/jecs", version = "^0.6.1", index = "https://github.com/pesde-pkg/index" }, "standard"]
