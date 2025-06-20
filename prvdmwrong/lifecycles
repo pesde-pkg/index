@@ -68,6 +68,7 @@ description = "An assortment of useful provider lifecycles for Prvd 'M Wrong."
 license = "MIT OR Apache-2.0"
 authors = ["znotfireman <znotfireman+hello@gmail.com>"]
 repository = "https://github.com/prvdmwrong/prvdmwrong"
+yanked = true
 
 ["0.2.0-rewrite.1 roblox".target]
 environment = "roblox"
