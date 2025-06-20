@@ -14,6 +14,21 @@ build_files = ["src"]
 logger = [{ name = "prvdmwrong/logger", version = "^0.2.0-rc.1", index = "https://github.com/pesde-pkg/index" }, "standard"]
 runtime = [{ name = "prvdmwrong/runtime", version = "^0.2.0-rc.1", index = "https://github.com/pesde-pkg/index" }, "standard"]
 
+["0.2.0-rc.2 lune"]
+published_at = "2025-06-20T16:27:21.263058218Z"
+description = "Provider method lifecycles implementation for Prvd 'M Wrong"
+license = "MPL-2.0"
+authors = ["Fire <znotfireman@gmail.com>"]
+repository = "https://github.com/prvdmwrong/prvdmwrong"
+
+["0.2.0-rc.2 lune".target]
+environment = "lune"
+lib = "src/init.luau"
+
+["0.2.0-rc.2 lune".dependencies]
+logger = [{ name = "prvdmwrong/logger", version = "^0.2.0-rc.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
+runtime = [{ name = "prvdmwrong/runtime", version = "^0.2.0-rc.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
+
 ["0.2.0-rewrite.1 roblox"]
 published_at = "2024-10-19T12:44:16.77638011Z"
 description = "An assortment of useful provider lifecycles for Prvd 'M Wrong."
