@@ -9,3 +9,14 @@ repository = "https://github.com/prvdmwrong/prvdmwrong"
 environment = "roblox"
 lib = "src/init.luau"
 build_files = ["src"]
+
+["0.2.0-rc.2 luau"]
+published_at = "2025-06-20T16:26:56.351332584Z"
+description = "Runtime agnostic libraries for Prvd 'M Wrong"
+license = "MPL-2.0"
+authors = ["Fire <znotfireman@gmail.com>"]
+repository = "https://github.com/prvdmwrong/prvdmwrong"
+
+["0.2.0-rc.2 luau".target]
+environment = "luau"
+lib = "src/init.luau"
