@@ -1,3 +1,6 @@
+[meta]
+deprecated = "StandardTheme now parses one page per dialogue to avoid unexpected behavior. As such, this hook is now unsupported."
+
 ["0.1.0-patch-1 roblox"]
 published_at = "2025-05-28T22:52:31.640030432Z"
 description = ""
