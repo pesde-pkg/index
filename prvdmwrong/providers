@@ -16,6 +16,23 @@ lifecycles = [{ name = "prvdmwrong/lifecycles", version = "^0.2.0-rc.1", index =
 logger = [{ name = "prvdmwrong/logger", version = "^0.2.0-rc.1", index = "https://github.com/pesde-pkg/index" }, "standard"]
 runtime = [{ name = "prvdmwrong/runtime", version = "^0.2.0-rc.1", index = "https://github.com/pesde-pkg/index" }, "standard"]
 
+["0.2.0-rc.2 lune"]
+published_at = "2025-06-20T16:27:17.428111339Z"
+description = "Provider creation for Prvd 'M Wrong"
+license = "MPL-2.0"
+authors = ["Fire <znotfireman@gmail.com>"]
+repository = "https://github.com/prvdmwrong/prvdmwrong"
+
+["0.2.0-rc.2 lune".target]
+environment = "lune"
+lib = "src/init.luau"
+
+["0.2.0-rc.2 lune".dependencies]
+dependencies = [{ name = "prvdmwrong/dependencies", version = "^0.2.0-rc.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
+lifecycles = [{ name = "prvdmwrong/lifecycles", version = "^0.2.0-rc.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
+logger = [{ name = "prvdmwrong/logger", version = "^0.2.0-rc.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
+runtime = [{ name = "prvdmwrong/runtime", version = "^0.2.0-rc.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
+
 ["0.2.0-rc.2 luau"]
 published_at = "2025-06-20T16:26:59.913852302Z"
 description = "Provider creation for Prvd 'M Wrong"
