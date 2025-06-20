@@ -12,3 +12,20 @@ build_files = ["src"]
 
 ["0.2.0-rc.1 roblox".dependencies]
 prvdmwrong = [{ name = "prvdmwrong/prvdmwrong", version = "^0.2.0-rc.1", index = "https://github.com/pesde-pkg/index" }, "standard"]
+
+["0.2.0-rc.2 roblox"]
+published_at = "2025-06-20T16:39:46.710533919Z"
+description = "Lifecycles implementations for Roblox"
+license = "MPL-2.0"
+authors = ["Fire <znotfireman@gmail.com>"]
+repository = "https://github.com/prvdmwrong/prvdmwrong"
+
+["0.2.0-rc.2 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.2.0-rc.2 roblox".dependencies]
+prvdmwrong = [{ name = "prvdmwrong/prvdmwrong", version = "^0.2.0-rc.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
