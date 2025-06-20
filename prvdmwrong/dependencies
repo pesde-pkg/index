@@ -46,3 +46,18 @@ lib = "src/init.luau"
 ["0.2.0-rc.2 lune".dependencies]
 lifecycles = [{ name = "prvdmwrong/lifecycles", version = "^0.2.0-rc.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
 logger = [{ name = "prvdmwrong/logger", version = "^0.2.0-rc.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
+
+["0.2.0-rc.2 luau"]
+published_at = "2025-06-20T16:41:48.232318216Z"
+description = "Dependency resolution logic for Prvd 'M Wrong"
+license = "MPL-2.0"
+authors = ["Fire <znotfireman@gmail.com>"]
+repository = "https://github.com/prvdmwrong/prvdmwrong"
+
+["0.2.0-rc.2 luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
+["0.2.0-rc.2 luau".dependencies]
+lifecycles = [{ name = "prvdmwrong/lifecycles", version = "^0.2.0-rc.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
+logger = [{ name = "prvdmwrong/logger", version = "^0.2.0-rc.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
