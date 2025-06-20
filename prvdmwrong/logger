@@ -26,3 +26,17 @@ lib = "src/init.luau"
 
 ["0.2.0-rc.2 lune".dependencies]
 runtime = [{ name = "prvdmwrong/runtime", version = "^0.2.0-rc.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
+
+["0.2.0-rc.2 luau"]
+published_at = "2025-06-20T16:27:14.770606807Z"
+description = "Logging for Prvd 'M Wrong"
+license = "MPL-2.0"
+authors = ["Fire <znotfireman@gmail.com>"]
+repository = "https://github.com/prvdmwrong/prvdmwrong"
+
+["0.2.0-rc.2 luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
+["0.2.0-rc.2 luau".dependencies]
+runtime = [{ name = "prvdmwrong/runtime", version = "^0.2.0-rc.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
