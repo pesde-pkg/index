@@ -31,3 +31,18 @@ lifecycles = [{ name = "prvdmwrong/lifecycles", version = "^0.2.0-rc.2", index =
 logger = [{ name = "prvdmwrong/logger", version = "^0.2.0-rc.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
 rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["0.2.0-rc.2 lune"]
+published_at = "2025-06-20T16:41:05.989681119Z"
+description = "Dependency resolution logic for Prvd 'M Wrong"
+license = "MPL-2.0"
+authors = ["Fire <znotfireman@gmail.com>"]
+repository = "https://github.com/prvdmwrong/prvdmwrong"
+
+["0.2.0-rc.2 lune".target]
+environment = "lune"
+lib = "src/init.luau"
+
+["0.2.0-rc.2 lune".dependencies]
+lifecycles = [{ name = "prvdmwrong/lifecycles", version = "^0.2.0-rc.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
+logger = [{ name = "prvdmwrong/logger", version = "^0.2.0-rc.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
