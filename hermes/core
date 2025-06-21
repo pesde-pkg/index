@@ -33,3 +33,21 @@ build_files = ["src", "src/utils", "src/utils/signal"]
 ["0.1.1 roblox".dependencies]
 rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["0.1.2 roblox"]
+published_at = "2025-06-21T17:35:08.597964022Z"
+description = """
+Game Framework for Roblox.
+"""
+license = "MIT"
+authors = ["ivadsiuls"]
+repository = "https://github.com/froststarinteractive/hermes"
+
+["0.1.2 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src", "src/utils", "src/utils/signal"]
+
+["0.1.2 roblox".dependencies]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
