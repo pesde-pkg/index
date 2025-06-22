@@ -1,0 +1,54 @@
+["1.0.0 roblox"]
+published_at = "2025-06-22T13:27:30.017978267Z"
+description = "a framework for everything roblox"
+license = "MIT"
+authors = ["ratplier"]
+repository = "https://github.com/ratplier/artwork"
+
+["1.0.0 roblox".target]
+environment = "roblox"
+lib = "lib/init.luau"
+build_files = ["lib"]
+
+[["1.0.0 roblox".docs]]
+label = "Index"
+name = "index"
+hash = "5f44ed922d743ffbd7c851492756fed772a72c7012eb0452849bba8c0839dc33"
+
+[["1.0.0 roblox".docs]]
+label = "Refrence"
+
+[["1.0.0 roblox".docs.items]]
+label = "Core"
+name = "refrence/core"
+hash = "d8968a91b161ae4423f3e465a374862a86139daf2e6cdccd58951071e65b58c7"
+
+[["1.0.0 roblox".docs.items]]
+label = "Modding"
+name = "refrence/modding"
+hash = "c51e9f9b8ef4782fe6ca146a772a50d16cd157b99490036f1004eae9282da403"
+
+[["1.0.0 roblox".docs.items]]
+label = "Reflect"
+name = "refrence/reflect"
+hash = "848251468e5cbb0a5f22aa15baae99bcf0c653d1903aa0e2ee2fd1ff5965ae1c"
+
+[["1.0.0 roblox".docs]]
+label = "Tutorials"
+
+[["1.0.0 roblox".docs.items]]
+label = "Fundamentals"
+
+[["1.0.0 roblox".docs.items.items]]
+label = "Providers"
+name = "tutorials/fundamentals/provider"
+hash = "e2d5f9a441393223b3af7da652ec80864f39ffb3c1ef55770aff9d2ab30d530c"
+
+[["1.0.0 roblox".docs.items]]
+label = "Installation"
+name = "tutorials/installation"
+hash = "2af24c03555ad09c77df557a8aefd5a62b3bae500ce4d29188a39b4b84035daa"
+
+["1.0.0 roblox".dependencies]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
