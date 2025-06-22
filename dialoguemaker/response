@@ -222,3 +222,29 @@ react = [{ wally = "wally#jsdotlua/react", version = "^17.2.1", index = "https:/
 react-roblox = [{ wally = "wally#jsdotlua/react-roblox", version = "^17.2.1", index = "https://github.com/UpliftGames/wally-index" }, "dev"]
 rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["0.1.9 roblox"]
+published_at = "2025-06-22T22:05:25.052547405Z"
+description = 'A shortcut class to create "Response"-type Dialogue objects.'
+license = "MPL-2.0"
+authors = ["Christian Toney <christian.toney@beastslash.com>"]
+repository = "https://github.com/DialogueMaker/response"
+
+["0.1.9 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.1.9 roblox".engines]
+pesde = "^0.7.0-rc.4"
+lune = "^0.8.9"
+
+["0.1.9 roblox".dependencies]
+Dialogue = [{ name = "dialoguemaker/dialogue", version = "^0.1.12", index = "https://github.com/pesde-pkg/index" }, "standard"]
+DialogueMakerTypes = [{ name = "dialoguemaker/types", version = "^0.1.31", index = "https://github.com/pesde-pkg/index" }, "standard"]
+ijw = [{ name = "beastslash/ijw", version = "^1.0.0", index = "https://github.com/pesde-pkg/index" }, "dev"]
+luau_lsp = [{ name = "pesde/luau_lsp", version = "^1.47.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+react = [{ wally = "wally#jsdotlua/react", version = "^17.2.1", index = "https://github.com/UpliftGames/wally-index" }, "peer"]
+react-roblox = [{ wally = "wally#jsdotlua/react-roblox", version = "^17.2.1", index = "https://github.com/UpliftGames/wally-index" }, "dev"]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
