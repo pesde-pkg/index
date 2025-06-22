@@ -89,3 +89,19 @@ lune = "^0.8.9"
 ["0.1.1 luau".dependencies]
 chalk_luau = [{ name = "kimpure/chalk_luau", version = "^0.1.7", index = "https://github.com/pesde-pkg/index" }, "standard"]
 task = [{ name = "jiwonz/task", version = "^0.2.0-rc.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
+
+["0.1.2 roblox"]
+published_at = "2025-06-22T08:43:35.355466717Z"
+description = "A set of utilities to mimic common JS polyfills needed for translating projects from JS to Luau. Uploaded for pesde"
+license = "MIT"
+authors = ["jiwonz <me@jiwonz.kr>", "Imaduddin Haetami", "Chris Trześniewski <k.trzesniewski@gmail.com>", "Kyle Mitofsky <kylemit@gmail.com>", "Matt Hargett <plaztiksyke@gmail.com>", "Olivier Trepanier <otrepanier@roblox.com>", "Paul Doyle <pdoyle@roblox.com>", "Raymond Ng <rng@roblox.com>", "Zack Ovits <zack@boatbomber.com>"]
+repository = "https://github.com/jiwonz/luau-polyfill"
+
+["0.1.2 roblox".target]
+environment = "roblox"
+lib = "src/luau-polyfill/init.luau"
+build_files = ["src"]
+
+["0.1.2 roblox".dependencies]
+chalk_luau = [{ name = "kimpure/chalk_luau", version = "^0.1.7", index = "https://github.com/pesde-pkg/index" }, "standard"]
+task = [{ name = "jiwonz/task", version = "^0.2.0-rc.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
