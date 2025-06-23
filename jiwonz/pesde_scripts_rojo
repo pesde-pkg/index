@@ -1,0 +1,16 @@
+["0.1.0-rc.1 lune"]
+published_at = "2025-06-23T02:52:59.775723947Z"
+description = "[Fork] Scripts for Rojo-based Roblox projects. This is a fork for Lune 0.9 and rokit-managed rojo users"
+license = "MIT"
+authors = ["daimond113 <contact@daimond113.com> (https://www.daimond113.com/)", "Erica Marigold <hi@devcomp.xyz>"]
+repository = "https://github.com/pesde-pkg/scripts"
+
+["0.1.0-rc.1 lune".target]
+environment = "lune"
+
+["0.1.0-rc.1 lune".target.scripts]
+roblox_sync_config_generator = "roblox_sync_config_generator.luau"
+sourcemap_generator = "sourcemap_generator.luau"
+
+["0.1.0-rc.1 lune".dependencies]
+core = [{ name = "jiwonz/pesde_scripts_core", version = "^0.0.3-rc.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "standard"]
