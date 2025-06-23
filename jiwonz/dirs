@@ -125,6 +125,7 @@ description = "A library for lune that provides config/cache/data paths. Heavily
 license = "MIT"
 authors = ["jiwonz <me@jiwonz.kr>"]
 repository = "https://github.com/jiwonz/dirs-lune/"
+yanked = true
 
 ["0.5.0 lune".target]
 environment = "lune"
