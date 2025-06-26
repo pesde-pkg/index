@@ -39,3 +39,23 @@ luau_check = [{ name = "jiwonz/luau_check", version = "^0.3.11", index = "https:
 option = [{ name = "lukadev_0/option", version = "^1.2.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
 result = [{ name = "lukadev_0/result", version = "^1.2.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
 toolchainlib = [{ name = "pesde/toolchainlib", version = "^0.1.12", index = "https://github.com/pesde-pkg/index" }, "standard"]
+
+["0.2.1 lune"]
+published_at = "2025-06-26T20:48:35.547564986Z"
+description = "A Luau-to-Lua transpiler"
+license = "MIT"
+authors = ["jiwonz <me@jiwonz.kr>"]
+repository = "https://github.com/CavefulGames/dalbit"
+
+["0.2.1 lune".target]
+environment = "lune"
+bin = "bin.luau"
+
+["0.2.1 lune".engines]
+pesde = "^0.7.0-rc.1"
+lune = "^0.8.9"
+
+["0.2.1 lune".dependencies]
+option = [{ name = "lukadev_0/option", version = "^1.2.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+result = [{ name = "lukadev_0/result", version = "^1.2.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+toolchainlib = [{ name = "pesde/toolchainlib", version = "^0.1.12", index = "https://github.com/pesde-pkg/index" }, "standard"]
