@@ -62,6 +62,24 @@ lib = "src/init.luau"
 logger = [{ name = "prvdmwrong/logger", version = "^0.2.0-rc.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
 runtime = [{ name = "prvdmwrong/runtime", version = "^0.2.0-rc.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
 
+["0.2.0-rc.3 roblox"]
+published_at = "2025-07-01T04:45:10.376084243Z"
+description = "Provider method lifecycles implementation for Prvd 'M Wrong"
+license = "MPL-2.0"
+authors = ["Fire <znotfireman@gmail.com>"]
+repository = "https://github.com/prvdmwrong/prvdmwrong"
+
+["0.2.0-rc.3 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["logger.luau", "runtime.luau", "src"]
+
+["0.2.0-rc.3 roblox".dependencies]
+logger = [{ name = "prvdmwrong/logger", version = "^0.2.0-rc.3", index = "https://github.com/pesde-pkg/index" }, "standard"]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+runtime = [{ name = "prvdmwrong/runtime", version = "^0.2.0-rc.3", index = "https://github.com/pesde-pkg/index" }, "standard"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
 ["0.2.0-rewrite.1 roblox"]
 published_at = "2024-10-19T12:44:16.77638011Z"
 description = "An assortment of useful provider lifecycles for Prvd 'M Wrong."
