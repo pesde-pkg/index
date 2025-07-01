@@ -65,3 +65,22 @@ lib = "src/init.luau"
 lifecycles = [{ name = "prvdmwrong/lifecycles", version = "^0.2.0-rc.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
 providers = [{ name = "prvdmwrong/providers", version = "^0.2.0-rc.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
 roots = [{ name = "prvdmwrong/roots", version = "^0.2.0-rc.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
+
+["0.2.0-rc.3 roblox"]
+published_at = "2025-07-01T04:46:43.156148255Z"
+description = "Entry point to Prvd 'M Wrong"
+license = "MPL-2.0"
+authors = ["Fire <znotfireman@gmail.com>"]
+repository = "https://github.com/prvdmwrong/prvdmwrong"
+
+["0.2.0-rc.3 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["lifecycles.luau", "providers.luau", "roots.luau", "src"]
+
+["0.2.0-rc.3 roblox".dependencies]
+lifecycles = [{ name = "prvdmwrong/lifecycles", version = "^0.2.0-rc.3", index = "https://github.com/pesde-pkg/index" }, "standard"]
+providers = [{ name = "prvdmwrong/providers", version = "^0.2.0-rc.3", index = "https://github.com/pesde-pkg/index" }, "standard"]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+roots = [{ name = "prvdmwrong/roots", version = "^0.2.0-rc.3", index = "https://github.com/pesde-pkg/index" }, "standard"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
