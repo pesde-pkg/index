@@ -391,3 +391,18 @@ lib = "src/init.luau"
 ["1.5.4 luau".dependencies]
 rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["1.6.0 luau"]
+published_at = "2025-07-04T22:17:58.139862321Z"
+description = "Luau implementations of popular hashing/encryption algorithms"
+license = "MIT"
+authors = ["daily3014", "xoifail"]
+repository = "https://github.com/daily3014/rbx-cryptography"
+
+["1.6.0 luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
+["1.6.0 luau".dependencies]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
