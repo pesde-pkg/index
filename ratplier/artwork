@@ -52,3 +52,73 @@ hash = "2af24c03555ad09c77df557a8aefd5a62b3bae500ce4d29188a39b4b84035daa"
 ["1.0.0 roblox".dependencies]
 rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["2.0.0 roblox"]
+published_at = "2025-07-05T01:06:37.236379264Z"
+description = "a framework for everything roblox"
+license = "MIT"
+authors = ["ratplier"]
+repository = "https://github.com/ratplier/artwork"
+
+["2.0.0 roblox".target]
+environment = "roblox"
+lib = "lib/init.luau"
+build_files = ["lib"]
+
+[["2.0.0 roblox".docs]]
+label = "Index"
+name = "index"
+hash = "37e1770c295fef5894aa101781912b8dce3d9dee3d39b434e003c02b81a37a87"
+
+[["2.0.0 roblox".docs]]
+label = "Refrence"
+
+[["2.0.0 roblox".docs.items]]
+label = "Core"
+name = "refrence/core"
+hash = "4c1fc97ed7f3f634b31c82f5783893d7aa14e1e1432f249b1b0d0d43654105d8"
+
+[["2.0.0 roblox".docs.items]]
+label = "Modding"
+name = "refrence/modding"
+hash = "09dbca1cf91c1facc553c1135e0af8331b95d57d69c8761bf83ff0b906e63602"
+
+[["2.0.0 roblox".docs.items]]
+label = "Reflect"
+name = "refrence/reflect"
+hash = "a35cb49af5920ef863c2a2de9ea7835e4dc2a7bb19f71e222320fc7afb378fb3"
+
+[["2.0.0 roblox".docs]]
+label = "Tutorials"
+
+[["2.0.0 roblox".docs.items]]
+label = "Fundamentals"
+
+[["2.0.0 roblox".docs.items.items]]
+label = "Dependencies"
+name = "tutorials/fundamentals/dependencies"
+hash = "5699e65881ea2ed3aafea677be6922e815ef26f8132035b9400900758b024090"
+
+[["2.0.0 roblox".docs.items.items]]
+label = "Lifecycle Events"
+name = "tutorials/fundamentals/lifecycles"
+hash = "24f77ce9ddb09455002d657d7cc0b91c41afacf890f127a75bd839b7d0426b34"
+
+[["2.0.0 roblox".docs.items.items]]
+label = "Preloading & Ignition"
+name = "tutorials/fundamentals/startup"
+hash = "6c8eec95c4a7fd93279093a8ea281226542ed41f1d1f694f8f5dec72695e070c"
+
+[["2.0.0 roblox".docs.items.items]]
+label = "Providers"
+name = "tutorials/fundamentals/provider"
+hash = "dfdba8f9c5b8fd9aa22f0972b1967676e35c0da74c5d90cf21fcae0ad17ff83d"
+
+[["2.0.0 roblox".docs.items]]
+label = "Installation"
+name = "tutorials/installation"
+hash = "9ba69e877d685071c95bbac6666d67f41e2c9c02e22620aa6325afd62588cd2f"
+
+["2.0.0 roblox".dependencies]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
