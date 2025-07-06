@@ -1,0 +1,14 @@
+["0.4.0-test.0 roblox"]
+published_at = "2025-07-06T23:11:51.687789117Z"
+license = "MIT"
+
+["0.4.0-test.0 roblox".target]
+environment = "roblox"
+lib = "src/lib.luau"
+build_files = ["src"]
+
+["0.4.0-test.0 roblox".dependencies]
+jabby_core = [{ name = "alicesaidhi/jabby_core", version = "^0.1.0-test.0", index = "https://github.com/daimond113/pesde-index", target = "roblox" }, "standard"]
+jabby_ecs_registry_jecs = [{ name = "alicesaidhi/jabby_ecs_registry_jecs", version = "^0.1.0-test.0", index = "https://github.com/daimond113/pesde-index", target = "roblox" }, "standard"]
+jabby_home = [{ name = "alicesaidhi/jabby_home", version = "^0.1.0-test.0", index = "https://github.com/daimond113/pesde-index", target = "roblox" }, "standard"]
+jabby_net = [{ name = "alicesaidhi/jabby_net", version = "^0.1.0-test.0", index = "https://github.com/daimond113/pesde-index", target = "roblox" }, "standard"]
