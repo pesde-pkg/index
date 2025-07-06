@@ -1,0 +1,12 @@
+["0.1.0-test.0 roblox"]
+published_at = "2025-07-06T23:11:41.975958386Z"
+license = "MIT"
+
+["0.1.0-test.0 roblox".target]
+environment = "roblox"
+lib = "src/lib.luau"
+build_files = ["src"]
+
+["0.1.0-test.0 roblox".dependencies]
+ui_labs = [{ wally = "wally#pepeeltoro41/ui-labs", version = "^2.3.8", index = "https://github.com/upliftgames/wally-index" }, "dev"]
+vide = [{ name = "alicesaidhi/vide", version = "^0.4.1-test.4", index = "https://github.com/daimond113/pesde-index" }, "standard"]
