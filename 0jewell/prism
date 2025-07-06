@@ -14,6 +14,25 @@ build_files = ["src"]
 Iris = [{ wally = "wally#sirmallard/iris", version = "^2.4.1", index = "https://github.com/UpliftGames/wally-index" }, "dev"]
 TestEZ = [{ wally = "wally#roblox/testez", version = "^0.4.1", index = "https://github.com/UpliftGames/wally-index" }, "dev"]
 
+["0.2.0 roblox"]
+published_at = "2025-07-06T01:31:21.432891633Z"
+description = "A ECS library based on reactive systems"
+license = "MIT"
+authors = ["0jewell"]
+repository = "https://github.com/0jewell/Prism"
+
+["0.2.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.2.0 roblox".engines]
+lune = "^0.8.9"
+
+["0.2.0 roblox".dependencies]
+rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
 ["1.0.0 roblox"]
 published_at = "2025-02-22T13:23:56.451726037Z"
 description = "Library based on Celesta"
