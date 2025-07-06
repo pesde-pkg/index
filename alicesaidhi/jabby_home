@@ -1,0 +1,17 @@
+["0.1.0-test.0 roblox"]
+published_at = "2025-07-06T23:12:02.347151792Z"
+license = "MIT"
+
+["0.1.0-test.0 roblox".target]
+environment = "roblox"
+lib = "src/lib.luau"
+build_files = ["src"]
+
+["0.1.0-test.0 roblox".dependencies]
+gt = [{ name = "corecii/greentea", version = "^0.4.11", index = "https://github.com/daimond113/pesde-index" }, "standard"]
+jabby_core = [{ name = "alicesaidhi/jabby_core", version = "^0.1.0-test.0", index = "https://github.com/daimond113/pesde-index", target = "roblox" }, "standard"]
+jabby_net = [{ name = "alicesaidhi/jabby_net", version = "^0.1.0-test.0", index = "https://github.com/daimond113/pesde-index", target = "roblox" }, "standard"]
+jabby_types = [{ name = "alicesaidhi/jabby_types", version = "^0.1.0-test.0", index = "https://github.com/daimond113/pesde-index", target = "roblox" }, "standard"]
+jabby_ui = [{ name = "alicesaidhi/jabby_ui", version = "^0.1.0-test.0", index = "https://github.com/daimond113/pesde-index", target = "roblox" }, "standard"]
+jabby_util = [{ name = "alicesaidhi/jabby_util", version = "^0.1.0-test.0", index = "https://github.com/daimond113/pesde-index", target = "roblox" }, "standard"]
+vide = [{ name = "alicesaidhi/vide", version = "^0.4.1-test.4", index = "https://github.com/daimond113/pesde-index" }, "standard"]
