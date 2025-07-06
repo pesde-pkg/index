@@ -1,0 +1,13 @@
+["0.1.0-test.0 roblox"]
+published_at = "2025-07-06T23:11:57.85895985Z"
+license = "MIT"
+
+["0.1.0-test.0 roblox".target]
+environment = "roblox"
+lib = "src/lib.luau"
+build_files = ["src"]
+
+["0.1.0-test.0 roblox".dependencies]
+gt = [{ name = "corecii/greentea", version = "^0.4.11", index = "https://github.com/daimond113/pesde-index" }, "dev"]
+jest = [{ wally = "wally#jsdotlua/jest", version = "^3.10.0", index = "https://github.com/UpliftGames/wally-index" }, "dev"]
+jest_globals = [{ wally = "wally#jsdotlua/jest-globals", version = "^3.10.0", index = "https://github.com/UpliftGames/wally-index" }, "dev"]
