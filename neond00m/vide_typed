@@ -10,6 +10,18 @@ environment = "roblox"
 lib = "src/init.luau"
 build_files = ["src"]
 
+["0.3.1-test.2 roblox"]
+published_at = "2025-07-11T18:40:15.490569656Z"
+description = "vide with types and camel case"
+license = "MIT"
+authors = ["centau"]
+repository = "https://github.com/neond00m/vide"
+
+["0.3.1-test.2 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
 ["0.3.1 roblox"]
 published_at = "2025-02-14T03:04:49.524829594Z"
 description = "vide with types and camel case"
