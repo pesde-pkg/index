@@ -573,6 +573,17 @@ repository = "https://git.devmarked.win/marked/jecs-nightly"
 environment = "luau"
 lib = "jecs.luau"
 
+["0.8.3-nightly.20250715T001056Z roblox"]
+published_at = "2025-07-15T00:11:08.405419422Z"
+license = "MIT"
+authors = ["jecs authors"]
+repository = "https://git.devmarked.win/marked/jecs-nightly"
+
+["0.8.3-nightly.20250715T001056Z roblox".target]
+environment = "roblox"
+lib = "jecs.luau"
+build_files = ["jecs.luau"]
+
 ["0.8.3-nightly.20250715T001056Z luau"]
 published_at = "2025-07-15T00:11:05.695787333Z"
 license = "MIT"
