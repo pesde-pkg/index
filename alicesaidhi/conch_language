@@ -1,0 +1,7 @@
+["0.3.0-rc.1 roblox"]
+published_at = "2025-07-15T23:00:43.87131542Z"
+
+["0.3.0-rc.1 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
