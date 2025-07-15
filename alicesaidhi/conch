@@ -177,3 +177,14 @@ compiler = [{ name = "alicesaidhi/conch_compiler", version = "^0.2.2", index = "
 intel = [{ name = "alicesaidhi/conch_analysis", version = "^0.2.2-rc.2", index = "https://github.com/daimond113/pesde-index", target = "roblox" }, "standard"]
 types = [{ name = "alicesaidhi/conch_types", version = "^0.2.1", index = "https://github.com/daimond113/pesde-index", target = "roblox" }, "standard"]
 vm = [{ name = "alicesaidhi/conch_vm", version = "^0.2.1", index = "https://github.com/daimond113/pesde-index", target = "roblox" }, "standard"]
+
+["0.3.0-rc.1 roblox"]
+published_at = "2025-07-15T23:00:37.062293986Z"
+
+["0.3.0-rc.1 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.3.0-rc.1 roblox".dependencies]
+language = [{ name = "alicesaidhi/conch_language", version = "^0.3.0-rc.1", index = "https://github.com/daimond113/pesde-index", target = "roblox" }, "standard"]
