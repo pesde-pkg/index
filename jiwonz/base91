@@ -9,3 +9,18 @@ repository = "https://github.com/jiwonz/base91-luau"
 environment = "roblox"
 lib = "src/init.lua"
 build_files = ["src"]
+
+["0.1.0-rc.1 luau"]
+published_at = "2025-07-19T06:02:57.664637666Z"
+description = "dekkonot's base91-luau for pesde"
+license = "MIT"
+authors = ["dekkonot (https://github.com/Dekkonot)"]
+repository = "https://github.com/jiwonz/base91-luau"
+
+["0.1.0-rc.1 luau".target]
+environment = "luau"
+lib = "src/init.lua"
+
+["0.1.0-rc.1 luau".engines]
+pesde = "^0.7.0-rc.1"
+lune = "^0.8.9"
