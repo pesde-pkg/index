@@ -1,0 +1,11 @@
+["0.1.0-rc.1 roblox"]
+published_at = "2025-07-19T06:02:52.035495558Z"
+description = "dekkonot's base91-luau for pesde"
+license = "MIT"
+authors = ["dekkonot (https://github.com/Dekkonot)"]
+repository = "https://github.com/jiwonz/base91-luau"
+
+["0.1.0-rc.1 roblox".target]
+environment = "roblox"
+lib = "src/init.lua"
+build_files = ["src"]
