@@ -1,3 +1,48 @@
+["3.0.0-rc.1 roblox"]
+published_at = "2025-07-19T13:18:20.293337364Z"
+description = "[Fork] A comprehensive and flat library for compressing and decompressing all data types, optimized for minimizing size. Uploaded for pure Luau and Roblox from pesde"
+license = "MIT"
+authors = ["Sona", "jiwonz<me@jiwonz.kr>"]
+repository = "https://github.com/jiwonz/squash-luau"
+
+["3.0.0-rc.1 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+[["3.0.0-rc.1 roblox".docs]]
+label = "What is Squash?"
+position = 1
+name = "intro"
+hash = "16ae3718fe6c7ef240299015d648712063071fb837e46040d226c87f598dfd05"
+
+[["3.0.0-rc.1 roblox".docs]]
+label = "How To Serialize?"
+position = 2
+name = "how"
+hash = "689a9581042b37b99a193276be848b4d8f494ae64528e29f91195c3ae739703c"
+
+[["3.0.0-rc.1 roblox".docs]]
+label = "Advanced Techniques"
+position = 3
+name = "custom"
+hash = "f2047b0e7ef1666e21a8299e0287a0c2338de3fa818288fd3a523644b997209a"
+
+[["3.0.0-rc.1 roblox".docs]]
+label = "Remote Events"
+
+[["3.0.0-rc.1 roblox".docs.items]]
+label = "Packet Format And Insights"
+position = 3
+name = "RemoteEvents/binary"
+hash = "726482adc798051acbf817289a0236ec453298c0f9f2cb9d18c1fc296ea7eaa3"
+
+[["3.0.0-rc.1 roblox".docs.items]]
+label = "Benchmarks and Measurements"
+position = 4
+name = "RemoteEvents/benchmarks"
+hash = "108be3ee9ef9e7b09e0fbc718568cdb41443166365dd112cb211a0789bfe2c64"
+
 ["3.0.0-rc.1 luau"]
 published_at = "2025-07-19T13:18:16.101001944Z"
 description = "[Fork] A comprehensive and flat library for compressing and decompressing all data types, optimized for minimizing size. Uploaded for pure Luau and Roblox from pesde"
