@@ -1,0 +1,7 @@
+["0.1.0 luau"]
+published_at = "2025-07-23T00:35:12.150465065Z"
+description = "https://github.com/kimpure/luau-result"
+
+["0.1.0 luau".target]
+environment = "luau"
+lib = "init.luau"
