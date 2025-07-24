@@ -1,3 +1,15 @@
+["3.0.0-rc.1 roblox"]
+published_at = "2025-07-24T05:30:04.992344126Z"
+description = "[Fork] slick is a simple to use polygon collision library inspired by bump.lua"
+license = "MPL-2.0"
+authors = ["erinmaus (https://github.com/erinmaus)", "jiwonz <me@jiwonz.kr>"]
+repository = "https://github.com/CavefulGames/slick-luau"
+
+["3.0.0-rc.1 roblox".target]
+environment = "roblox"
+lib = "lib.luau"
+build_files = ["lib.luau", "slick"]
+
 ["3.0.0-rc.1 luau"]
 published_at = "2025-07-24T05:30:01.195552803Z"
 description = "[Fork] slick is a simple to use polygon collision library inspired by bump.lua"
