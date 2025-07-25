@@ -51,3 +51,15 @@ lib = "lib.luau"
 ["3.0.0-rc.2 luau".engines]
 pesde = "^0.7.0-rc.1"
 lune = "^0.8.9"
+
+["3.0.0-rc.3 roblox"]
+published_at = "2025-07-25T02:10:01.198193849Z"
+description = "[Fork] slick is a simple to use polygon collision library inspired by bump.lua"
+license = "MPL-2.0"
+authors = ["erinmaus (https://github.com/erinmaus)", "jiwonz <me@jiwonz.kr>"]
+repository = "https://github.com/CavefulGames/slick-luau"
+
+["3.0.0-rc.3 roblox".target]
+environment = "roblox"
+lib = "luau/lib.luau"
+build_files = ["luau", "slick"]
