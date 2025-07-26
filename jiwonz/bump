@@ -1,3 +1,15 @@
+["3.0.0 roblox"]
+published_at = "2025-07-26T22:50:20.677227684Z"
+description = "A collision detection library for Luau"
+license = "MIT"
+authors = ["kikito (https://github.com/kikito)", "jiwonz <me@jiwonz.kr>"]
+repository = "https://github.com/jiwonz/bump.luau"
+
+["3.0.0 roblox".target]
+environment = "roblox"
+lib = "bump.luau"
+build_files = ["bump.luau"]
+
 ["3.0.0 luau"]
 published_at = "2025-07-26T22:50:15.523594742Z"
 description = "A collision detection library for Luau"
