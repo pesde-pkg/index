@@ -195,3 +195,20 @@ lune = "^0.8.9"
 
 ["0.2.2 lune".dependencies]
 greentea_luau = [{ name = "jiwonz/greentea_luau", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+
+["0.2.2 luau"]
+published_at = "2025-07-27T12:14:13.63187968Z"
+description = "using luau console table && tree"
+license = "MIT"
+authors = ["kimpure (sunwoo)"]
+repository = "https://github.com/kimpure/asciitable-luau"
+
+["0.2.2 luau".target]
+environment = "luau"
+lib = "src/lib.luau"
+
+["0.2.2 luau".engines]
+lune = "^0.8.9"
+
+["0.2.2 luau".dependencies]
+greentea_luau = [{ name = "jiwonz/greentea_luau", version = "^0.1.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
