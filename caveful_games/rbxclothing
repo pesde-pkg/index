@@ -1,0 +1,18 @@
+["0.1.0 roblox"]
+published_at = "2025-07-27T15:01:42.33553776Z"
+description = "rbxclothing is a library that allows you to put on pants and shirts using EditableImage without using Humanoid"
+license = "MIT"
+authors = ["kimpure"]
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.1.0 roblox".engines]
+pesde = "^0.7.0-rc.1"
+lune = "^0.9.4"
+
+["0.1.0 roblox".dependencies]
+greentea = [{ name = "corecii/greentea", version = "^0.4.11", index = "https://github.com/pesde-pkg/index" }, "standard"]
+scripts = [{ name = "jiwonz/pesde_scripts_rojo", version = "^0.1.0-rc.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
