@@ -216,3 +216,14 @@ repository = "https://git.devmarked.win/marked/jecs-pesde"
 ["0.9.0-rc.5 luau".target]
 environment = "luau"
 lib = "jecs.luau"
+
+["0.9.0-rc.6 luau"]
+published_at = "2025-07-28T00:11:21.371388722Z"
+description = "A minimal copy of jecs published on the official pesde registry"
+license = "MIT"
+authors = ["jecs authors"]
+repository = "https://git.devmarked.win/marked/jecs-pesde"
+
+["0.9.0-rc.6 luau".target]
+environment = "luau"
+lib = "jecs.luau"
