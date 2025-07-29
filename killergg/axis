@@ -157,3 +157,19 @@ build_files = ["src"]
 ["0.2.3-rc.1 roblox".dependencies]
 rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["0.2.3-rc.2 roblox"]
+published_at = "2025-07-29T17:38:21.282046692Z"
+description = "An agnostic, simple and versatile input library for ECS"
+license = "MIT"
+authors = ["NeonD00m", "As8D"]
+repository = "https://github.com/neond00m/Axis"
+
+["0.2.3-rc.2 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.2.3-rc.2 roblox".dependencies]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
