@@ -40,3 +40,18 @@ build_files = ["src"]
 
 ["0.0.1-rc.2-dev.2 roblox".dependencies]
 jecs = [{ name = "marked/jecs", version = "^0.9.0-rc.5", index = "https://github.com/pesde-pkg/index" }, "standard"]
+
+["0.0.1-rc.2-dev.3 roblox"]
+published_at = "2025-07-29T18:19:56.017850053Z"
+description = "Networking library for Jecs"
+license = "MIT"
+authors = ["PepeElToro41", "NeonD00m"]
+repository = "https://github.com/PepeElToro41/replecs"
+
+["0.0.1-rc.2-dev.3 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.0.1-rc.2-dev.3 roblox".dependencies]
+jecs = [{ name = "marked/jecs", version = "^0.9.0-rc.5", index = "https://github.com/pesde-pkg/index" }, "standard"]
