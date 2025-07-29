@@ -1,0 +1,13 @@
+["0.0.1-rc.2-dev luau"]
+published_at = "2025-07-29T05:20:42.550352197Z"
+description = "Networking library for Jecs"
+license = "MIT"
+authors = ["PepeElToro41", "NeonD00m"]
+repository = "https://github.com/PepeElToro41/replecs"
+
+["0.0.1-rc.2-dev luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
+["0.0.1-rc.2-dev luau".dependencies]
+jecs = [{ name = "marked/jecs", version = "^0.9.0-rc.5", index = "https://github.com/pesde-pkg/index" }, "standard"]
