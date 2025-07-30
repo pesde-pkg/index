@@ -1,3 +1,6 @@
+[meta]
+deprecated = "Deprecated in favor of luau-signal(use jiwonz/signal instead)."
+
 ["0.1.6 roblox"]
 published_at = "2024-10-19T04:56:57.329959023Z"
 description = "A fork of LemonSignal with additional features added"
