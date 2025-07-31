@@ -1,0 +1,11 @@
+["0.2.0 roblox"]
+published_at = "2025-07-31T00:42:36.110625926Z"
+description = "Light-weight module loader framework"
+license = "MIT"
+authors = ["teakzc"]
+repository = "https://github.com/teakzc/hydrogen"
+
+["0.2.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
