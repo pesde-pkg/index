@@ -69,3 +69,15 @@ repository = "https://github.com/teakzc/hydrogen"
 environment = "roblox"
 lib = "src/init.luau"
 build_files = ["src"]
+
+["0.4.1 roblox"]
+published_at = "2025-07-31T08:34:45.900850572Z"
+description = "Light-weight module initializer."
+license = "MIT"
+authors = ["teakzc"]
+repository = "https://github.com/teakzc/hydrogen"
+
+["0.4.1 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
