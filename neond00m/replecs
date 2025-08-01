@@ -70,3 +70,18 @@ build_files = ["src"]
 
 ["0.0.1-rc.2-dev.4 roblox".dependencies]
 jecs = [{ name = "marked/jecs", version = "^0.9.0-rc.5", index = "https://github.com/pesde-pkg/index" }, "standard"]
+
+["0.0.1-rc.2-dev.5 roblox"]
+published_at = "2025-08-01T15:05:06.926885463Z"
+description = "Replecs with hooks plus some configurations"
+license = "MIT"
+authors = ["PepeElToro41", "NeonD00m", "As8d"]
+repository = "https://github.com/PepeElToro41/replecs"
+
+["0.0.1-rc.2-dev.5 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.0.1-rc.2-dev.5 roblox".dependencies]
+jecs = [{ name = "marked/jecs", version = "^0.9.0-rc.7", index = "https://github.com/pesde-pkg/index" }, "standard"]
