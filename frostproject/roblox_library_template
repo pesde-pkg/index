@@ -1,0 +1,10 @@
+["0.0.1 luau"]
+published_at = "2025-08-02T18:56:25.560468371Z"
+description = "A template for Roblox developers to integrate advanced CLI tools like Rojo or Argon into GitHub workflows, streamlining build, test, and deploy processes for libraries and packages."
+license = "MIT"
+authors = ["iceeburr <iceeburr@gmail.com> (https://iceeburr.dev)"]
+repository = "https://github.com/frostproject/roblox-library-template"
+
+["0.0.1 luau".target]
+environment = "luau"
+lib = "src/main.luau"
