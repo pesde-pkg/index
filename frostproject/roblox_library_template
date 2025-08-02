@@ -4,7 +4,6 @@ description = "A template for Roblox developers to integrate advanced CLI tools 
 license = "MIT"
 authors = ["iceeburr <iceeburr@gmail.com> (https://iceeburr.dev)"]
 repository = "https://github.com/frostproject/roblox-library-template"
-yanked = true
 
 ["0.0.1 luau".target]
 environment = "luau"
