@@ -1,0 +1,17 @@
+["0.1.0 lune"]
+published_at = "2025-08-02T23:05:57.421361125Z"
+description = "A simple and reasonable module for working with the API dump from inside Roblox using Lune"
+license = "MIT"
+authors = ["Micah Reid <dekkonot@rocketmail.com>", "jiwonz <me@jiwonz.kr>"]
+repository = "https://github.com/CavefulGames/rbx-api-dump-lune"
+
+["0.1.0 lune".target]
+environment = "lune"
+lib = "src/lib.luau"
+
+["0.1.0 lune".engines]
+pesde = "^0.7.0-rc.1"
+lune = "^0.9.4"
+
+["0.1.0 lune".dependencies]
+signal = [{ name = "jiwonz/signal", version = "^0.1.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
