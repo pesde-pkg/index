@@ -100,3 +100,18 @@ build_files = ["src"]
 
 ["0.0.1-rc.2-dev.6 roblox".dependencies]
 jecs = [{ wally = "wally#ukendio/jecs", version = "^0.9.0-rc.8", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
+
+["0.0.1-rc.2-dev.7 roblox"]
+published_at = "2025-08-02T14:57:08.199724512Z"
+description = "Replecs with hooks plus some configurations"
+license = "MIT"
+authors = ["PepeElToro41", "NeonD00m", "As8d"]
+repository = "https://github.com/PepeElToro41/replecs"
+
+["0.0.1-rc.2-dev.7 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.0.1-rc.2-dev.7 roblox".dependencies]
+jecs = [{ wally = "wally#ukendio/jecs", version = "^0.9.0-rc.8", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
