@@ -1,0 +1,11 @@
+["1.0.0 roblox"]
+published_at = "2025-08-03T18:41:59.143243139Z"
+description = "Pseudo code threadpool implementation for Luau to manage concurrent task execution."
+license = "MIT"
+authors = ["iceeburr <iceeburr@gmail.com> (https://iceeburr.dev)"]
+repository = "https://github.com/frostproject/threadpool"
+
+["1.0.0 roblox".target]
+environment = "roblox"
+lib = "src/main.luau"
+build_files = ["src"]
