@@ -78,3 +78,15 @@ repository = "https://github.com/frostproject/roblox-library-template"
 ["0.0.4 luau".target]
 environment = "luau"
 lib = "src/main.luau"
+
+["0.0.5 roblox"]
+published_at = "2025-08-03T16:19:29.165260074Z"
+description = "A template for Roblox developers to integrate advanced CLI tools like Argon or Rojo into GitHub workflows, streamlining build, test, and deploy processes for libraries and packages."
+license = "MIT"
+authors = ["iceeburr <iceeburr@gmail.com> (https://iceeburr.dev)"]
+repository = "https://github.com/frostproject/roblox-library-template"
+
+["0.0.5 roblox".target]
+environment = "roblox"
+lib = "src/main.luau"
+build_files = ["src"]
