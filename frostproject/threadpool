@@ -9,3 +9,14 @@ repository = "https://github.com/frostproject/threadpool"
 environment = "roblox"
 lib = "src/main.luau"
 build_files = ["src"]
+
+["1.0.0 luau"]
+published_at = "2025-08-03T18:42:01.970559341Z"
+description = "Pseudo code threadpool implementation for Luau to manage concurrent task execution."
+license = "MIT"
+authors = ["iceeburr <iceeburr@gmail.com> (https://iceeburr.dev)"]
+repository = "https://github.com/frostproject/threadpool"
+
+["1.0.0 luau".target]
+environment = "luau"
+lib = "src/main.luau"
