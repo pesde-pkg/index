@@ -51,3 +51,23 @@ lib = "src/main.luau"
 ["1.0.1 luau".dependencies]
 argon = [{ name = "pesde/argon", version = "^2.0.25", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts_argon = [{ name = "frostproject/scripts_argon", version = "^0.0.3", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["1.0.2 roblox"]
+published_at = "2025-08-04T18:39:04.993982765Z"
+description = "Pseudo code threadpool implementation for Luau to manage concurrent task execution."
+license = "MIT"
+authors = ["iceeburr <iceeburr@gmail.com> (https://iceeburr.dev)"]
+repository = "https://github.com/frostproject/threadpool"
+
+["1.0.2 roblox".target]
+environment = "roblox"
+lib = "src/main.luau"
+build_files = ["src"]
+
+["1.0.2 roblox".engines]
+pesde = "^0.7.0-rc.7"
+lune = "^0.8.9"
+
+["1.0.2 roblox".dependencies]
+argon = [{ name = "pesde/argon", version = "^2.0.25", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts_argon = [{ name = "frostproject/scripts_argon", version = "^0.0.6", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
