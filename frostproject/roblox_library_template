@@ -117,3 +117,18 @@ build_files = ["src"]
 ["0.0.6 roblox".dependencies]
 argon = [{ name = "pesde/argon", version = "^2.0.25", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts_argon = [{ name = "frostproject/scripts_argon", version = "^0.0.3", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["0.0.6 luau"]
+published_at = "2025-08-04T01:03:57.82549492Z"
+description = "A template for Roblox developers to integrate advanced CLI tools like Argon or Rojo into GitHub workflows, streamlining build, test, and deploy processes for libraries and packages."
+license = "MIT"
+authors = ["iceeburr <iceeburr@gmail.com> (https://iceeburr.dev)"]
+repository = "https://github.com/frostproject/roblox-library-template"
+
+["0.0.6 luau".target]
+environment = "luau"
+lib = "src/main.luau"
+
+["0.0.6 luau".dependencies]
+argon = [{ name = "pesde/argon", version = "^2.0.25", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts_argon = [{ name = "frostproject/scripts_argon", version = "^0.0.3", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
