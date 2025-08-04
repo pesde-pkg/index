@@ -33,3 +33,21 @@ sourcemap_generator = "src/sourcemap_generator.luau"
 ["0.0.2 lune".dependencies]
 argon = [{ name = "pesde/argon", version = "^2.0.25", index = "https://github.com/pesde-pkg/index" }, "peer"]
 scripts_core = [{ name = "pesde/scripts_core", version = "^0.0.3", index = "https://github.com/pesde-pkg/index", target = "lune" }, "standard"]
+
+["0.0.3 lune"]
+published_at = "2025-08-04T00:48:02.818744561Z"
+description = "Scripts for Argon-based Roblox projects."
+license = "MIT"
+authors = ["iceeburr <iceeburr@gmail.com> (https://iceeburr.dev)", "daimond113 <contact@daimond113.com> (https://www.daimond113.com/)", "Erica Marigold <hi@devcomp.xyz>"]
+repository = "https://github.com/frostproject/scripts-argon"
+
+["0.0.3 lune".target]
+environment = "lune"
+
+["0.0.3 lune".target.scripts]
+roblox_sync_config_generator = "src/roblox_sync_config_generator.luau"
+sourcemap_generator = "src/sourcemap_generator.luau"
+
+["0.0.3 lune".dependencies]
+argon = [{ name = "pesde/argon", version = "^2.0.25", index = "https://github.com/pesde-pkg/index" }, "peer"]
+scripts_core = [{ name = "pesde/scripts_core", version = "^0.0.3", index = "https://github.com/pesde-pkg/index", target = "lune" }, "standard"]
