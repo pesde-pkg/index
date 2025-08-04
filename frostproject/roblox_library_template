@@ -132,3 +132,24 @@ lib = "src/main.luau"
 ["0.0.6 luau".dependencies]
 argon = [{ name = "pesde/argon", version = "^2.0.25", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts_argon = [{ name = "frostproject/scripts_argon", version = "^0.0.3", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["0.0.7 roblox"]
+published_at = "2025-08-04T18:58:17.142506696Z"
+description = "A template for Roblox developers to integrate advanced CLI tools like Argon or Rojo into GitHub workflows, streamlining build, test, and deploy processes for libraries and packages."
+license = "MIT"
+authors = ["iceeburr <iceeburr@gmail.com> (https://iceeburr.dev)"]
+repository = "https://github.com/frostproject/roblox-library-template"
+
+["0.0.7 roblox".target]
+environment = "roblox"
+lib = "src/main.luau"
+build_files = ["src"]
+
+["0.0.7 roblox".engines]
+pesde = "^0.7.0-rc.7"
+lune = "^0.8.9"
+
+["0.0.7 roblox".dependencies]
+argon = [{ name = "pesde/argon", version = "^2.0.25", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts_argon = [{ name = "frostproject/scripts_argon", version = "^0.0.6", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+threadpool = [{ name = "frostproject/threadpool", version = "^1.0.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
