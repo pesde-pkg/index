@@ -1,0 +1,19 @@
+["0.1.0 lune"]
+published_at = "2025-08-07T18:33:18.907136313Z"
+description = "A bundler for Roblox models and Luau files"
+license = "MIT"
+authors = ["AstonishedLiker"]
+repository = "https://github.com/1suite/Solder"
+
+["0.1.0 lune".target]
+environment = "lune"
+lib = "src/init.luau"
+bin = "bin/init.luau"
+
+["0.1.0 lune".engines]
+pesde = "^0.7.0"
+lune = "=0.10.1"
+
+["0.1.0 lune".dependencies]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
