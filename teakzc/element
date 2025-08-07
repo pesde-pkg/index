@@ -12,3 +12,18 @@ build_files = ["src"]
 
 ["0.3.0 roblox".dependencies]
 objectcache = [{ wally = "wally#pyseph/objectcache", version = "^1.4.6", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
+
+["0.3.1 roblox"]
+published_at = "2025-08-07T14:06:04.518607564Z"
+description = "a objectcache wrapper for convenience"
+license = "MIT"
+authors = ["teakzc"]
+repository = "https://github.com/teakzc/element"
+
+["0.3.1 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.3.1 roblox".dependencies]
+objectcache = [{ wally = "wally#pyseph/objectcache", version = "^1.4.6", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
