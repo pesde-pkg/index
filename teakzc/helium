@@ -73,3 +73,22 @@ immut = [{ wally = "wally#solarhorizon/immut", version = "^0.4.4", index = "http
 lyra = [{ wally = "wally#paradoxum-games/lyra", version = "^0.6.0", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
 rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["0.1.22 roblox"]
+published_at = "2025-08-08T02:11:44.632670949Z"
+description = "Accelerate your game production using helium as the template"
+authors = ["teakzc"]
+
+["0.1.22 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.1.22 roblox".dependencies]
+charm = [{ wally = "wally#littensy/charm", version = "^0.10.0", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
+charm-sync = [{ wally = "wally#littensy/charm-sync", version = "^0.3.0", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
+fusion = [{ wally = "wally#elttob/fusion", version = "^0.3.0", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
+immut = [{ wally = "wally#solarhorizon/immut", version = "^0.4.4", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
+lyra = [{ wally = "wally#paradoxum-games/lyra", version = "^0.6.0", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
