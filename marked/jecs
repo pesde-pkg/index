@@ -286,6 +286,18 @@ repository = "https://git.devmarked.win/marked/jecs-pesde"
 environment = "luau"
 lib = "jecs.luau"
 
+["0.9.0-rc.9 roblox"]
+published_at = "2025-08-08T00:11:02.294994026Z"
+description = "A minimal copy of jecs published on the official pesde registry"
+license = "MIT"
+authors = ["jecs authors"]
+repository = "https://git.devmarked.win/marked/jecs-pesde"
+
+["0.9.0-rc.9 roblox".target]
+environment = "roblox"
+lib = "jecs.luau"
+build_files = ["jecs.luau"]
+
 ["0.9.0-rc.9 luau"]
 published_at = "2025-08-08T00:10:59.432592396Z"
 description = "A minimal copy of jecs published on the official pesde registry"
