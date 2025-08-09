@@ -233,3 +233,19 @@ bin = "bin/CLI.luau"
 ["0.3.6 lune".engines]
 pesde = "^0.7.0"
 lune = "=0.10.1"
+
+["0.3.7 lune"]
+published_at = "2025-08-09T22:04:29.662664526Z"
+description = "A bundler for Roblox models"
+license = "MIT"
+authors = ["AstonishedLiker"]
+repository = "https://github.com/1suite/Solder"
+
+["0.3.7 lune".target]
+environment = "lune"
+lib = "src/Bundler.luau"
+bin = "bin/CLI.luau"
+
+["0.3.7 lune".engines]
+pesde = "^0.7.0"
+lune = "=0.10.1"
