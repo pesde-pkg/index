@@ -347,6 +347,25 @@ core = [{ name = "pesde/toolchainlib", version = "^0.1.15", index = "https://git
 option = [{ name = "lukadev_0/option", version = "^1.2.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
 result = [{ name = "lukadev_0/result", version = "^1.2.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
 
+["1.0.0-pre.14 lune"]
+published_at = "2025-08-14T16:31:24.524443431Z"
+description = "An assets-as-files tool for Roblox"
+authors = ["CompeyDev <hi@devcomp.xyz>", "Jack T <jack@jackt.space>"]
+repository = "https://github.com/pesde-pkg/tooling/tree/main/bins/asphalt"
+
+["1.0.0-pre.14 lune".target]
+environment = "lune"
+bin = "init.luau"
+
+["1.0.0-pre.14 lune".engines]
+pesde = "^0.6.0"
+lune = "^0.8.7"
+
+["1.0.0-pre.14 lune".dependencies]
+core = [{ name = "pesde/toolchainlib", version = "^0.1.15", index = "https://github.com/pesde-pkg/index", target = "lune" }, "standard"]
+option = [{ name = "lukadev_0/option", version = "^1.2.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+result = [{ name = "lukadev_0/result", version = "^1.2.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+
 ["1.0.0-pre.15 lune"]
 published_at = "2025-08-14T16:25:03.100257556Z"
 description = "An assets-as-files tool for Roblox"
