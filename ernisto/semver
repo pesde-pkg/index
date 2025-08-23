@@ -1,0 +1,11 @@
+["0.1.0 lune"]
+published_at = "2025-08-23T00:27:44.231452946Z"
+license = "MIT"
+
+["0.1.0 lune".target]
+environment = "lune"
+lib = "lib.luau"
+
+["0.1.0 lune".engines]
+pesde = "^0.7.0"
+lune = "^0.10.1"
