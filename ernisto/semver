@@ -21,3 +21,15 @@ lib = "lib.luau"
 ["0.1.1 lune".engines]
 pesde = "^0.7.0"
 lune = "^0.10.1"
+
+["0.1.2 luau"]
+published_at = "2025-08-23T01:33:55.330127386Z"
+license = "MIT"
+
+["0.1.2 luau".target]
+environment = "luau"
+lib = "lib.luau"
+
+["0.1.2 luau".engines]
+pesde = "^0.7.0"
+lune = "^0.10.1"
