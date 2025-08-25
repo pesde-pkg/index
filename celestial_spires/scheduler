@@ -13,3 +13,19 @@ build_files = ["src"]
 ["0.1.0 roblox".dependencies]
 rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["0.1.1 roblox"]
+published_at = "2025-08-25T10:40:53.75804885Z"
+description = 'A one-script, dependencyless module to schedule "systems".'
+license = "GPL-3.0"
+authors = ["Primiti_ve"]
+repository = "https://github.com/Celestial-Spires/scheduler"
+
+["0.1.1 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.1.1 roblox".dependencies]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
