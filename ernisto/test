@@ -1,0 +1,12 @@
+["0.0.0 luau"]
+published_at = "2025-08-28T20:46:51.732599148Z"
+description = "minimal test runner"
+license = "MIT"
+authors = ["ernisto <joaovitordesouza707@gmail.com>"]
+
+["0.0.0 luau".target]
+environment = "luau"
+lib = "lib/init.luau"
+
+["0.0.0 luau".engines]
+pesde = "^0.7.1"
