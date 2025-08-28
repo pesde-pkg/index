@@ -42,6 +42,24 @@ lib = "lib/init.luau"
 ["0.0.1-alpha luau".engines]
 pesde = "^0.7.1"
 
+["0.0.2-alpha lune"]
+published_at = "2025-08-28T21:46:13.40588888Z"
+description = "minimal test runner"
+license = "MIT"
+authors = ["ernisto <joaovitordesouza707@gmail.com>"]
+
+["0.0.2-alpha lune".target]
+environment = "lune"
+lib = "lib.luau"
+bin = "cli.luau"
+
+["0.0.2-alpha lune".engines]
+pesde = "^0.7.1"
+lune = ">0.8.0"
+
+["0.0.2-alpha lune".dependencies]
+test = [{ name = "ernisto/test", version = "^0.0.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+
 ["0.0.2-alpha luau"]
 published_at = "2025-08-28T21:46:08.392767569Z"
 description = "minimal test runner"
