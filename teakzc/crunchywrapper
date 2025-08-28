@@ -31,3 +31,20 @@ build_files = ["src"]
 crunchyroll = [{ wally = "wally#teakzc/crunchyroll", version = "^0.1.1", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
 rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["0.1.3 roblox"]
+published_at = "2025-08-28T13:41:11.313517401Z"
+description = "crunchyroll (ffrostfall/crunchyroll, but i forked it and it will be used here) wrapper with animation fades and motor6d support"
+license = "MIT"
+authors = ["teakzc"]
+repository = "https://github.com/teakzc/crunchywrapper"
+
+["0.1.3 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.1.3 roblox".dependencies]
+crunchyroll = [{ wally = "wally#teakzc/crunchyroll", version = "^0.1.1", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
