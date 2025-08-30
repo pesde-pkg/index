@@ -25,3 +25,29 @@ luau_check = [{ name = "jiwonz/luau_check", version = "^0.3.8", index = "https:/
 pathfs = [{ name = "jiwonz/pathfs", version = "^0.6.0-rc.1", index = "https://github.com/pesde-pkg/index" }, "standard"]
 result = [{ name = "lukadev_0/result", version = "^1.2.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
 table_helper = [{ name = "caveful_games/table_helper", version = "^0.2.0-rc.1", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+
+["0.4.2-rc.1 lune"]
+published_at = "2025-08-30T14:27:18.999308374Z"
+description = "[Fork] Customizable and flexible build script for multiple pesde targets"
+license = "MIT"
+authors = ["jiwonz <me@jiwonz.kr>", "EwDev (https://ewdev.net/)"]
+repository = "https://github.com/ewd3v/pesde-multitarget"
+
+["0.4.2-rc.1 lune".target]
+environment = "lune"
+lib = "src/lib.luau"
+bin = "src/bin.luau"
+
+["0.4.2-rc.1 lune".engines]
+pesde = "^0.7.0-rc.1"
+lune = "^0.9.4"
+
+["0.4.2-rc.1 lune".dependencies]
+argparse = [{ name = "caveful_games/argparse", version = "^0.1.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
+chalk_luau = [{ name = "kimpure/chalk_luau", version = "^0.1.7", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+darklua_lune = [{ name = "jiwonz/darklua_lune", version = "^0.2.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+glob = [{ name = "jiwonz/glob", version = "^0.1.1", index = "https://github.com/pesde-pkg/index" }, "standard"]
+greentea = [{ name = "corecii/greentea", version = "^0.4.11", index = "https://github.com/pesde-pkg/index" }, "standard"]
+pathfs = [{ name = "jiwonz/pathfs", version = "^0.6.0-rc.8", index = "https://github.com/pesde-pkg/index" }, "standard"]
+result = [{ name = "lukadev_0/result", version = "^1.2.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+table_helper = [{ name = "caveful_games/table_helper", version = "^0.2.0-rc.1", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
