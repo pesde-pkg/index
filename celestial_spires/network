@@ -12,3 +12,18 @@ build_files = ["src"]
 ["0.1.0 roblox".dependencies]
 rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["0.1.1 roblox"]
+published_at = "2025-08-30T10:57:32.183806159Z"
+description = "A small dependencyless module that makes networking easy using schemas."
+license = "GPL-3.0"
+authors = ["Primiti_ve"]
+
+["0.1.1 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.1.1 roblox".dependencies]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
