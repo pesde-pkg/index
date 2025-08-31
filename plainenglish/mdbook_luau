@@ -1,0 +1,10 @@
+["0.1.0 lune"]
+published_at = "2025-08-31T23:09:47.915596941Z"
+description = "Framework for writing mdBook preprocessors and renderers with Lune."
+license = "MIT"
+authors = ["plainenglish"]
+repository = "https://github.com/plainenglishh/mdbook.luau"
+
+["0.1.0 lune".target]
+environment = "lune"
+lib = "src/init.luau"
