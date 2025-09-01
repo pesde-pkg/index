@@ -38,6 +38,7 @@ description = "crunchyroll (ffrostfall/crunchyroll, but i forked it and it will 
 license = "MIT"
 authors = ["teakzc"]
 repository = "https://github.com/teakzc/crunchywrapper"
+yanked = true
 
 ["0.1.3 roblox".target]
 environment = "roblox"
