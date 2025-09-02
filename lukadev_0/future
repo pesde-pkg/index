@@ -96,3 +96,19 @@ lib = "future/lib.luau"
 option = [{ name = "lukadev_0/option", version = "^1.2.1", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "standard"]
 std = [{ name = "lukadev_0/std", version = "^1.0.2", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "standard"]
 threadpool = [{ name = "lukadev_0/threadpool", version = "^1.0.2", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "standard"]
+
+["1.0.2 luau"]
+published_at = "2025-09-02T17:52:19.629583444Z"
+description = "Future<T> type in Luau"
+license = "MIT"
+authors = ["LukaDev <luka@lukadev.me> (https://lukadev.me/)"]
+repository = "https://github.com/lukadev-0/util.luau"
+
+["1.0.2 luau".target]
+environment = "luau"
+lib = "future/lib.luau"
+
+["1.0.2 luau".dependencies]
+option = [{ name = "lukadev_0/option", version = "^1.2.1", index = "https://github.com/daimond113/pesde-index", target = "luau" }, "standard"]
+std = [{ name = "lukadev_0/std", version = "^1.0.2", index = "https://github.com/daimond113/pesde-index", target = "luau" }, "standard"]
+threadpool = [{ name = "lukadev_0/threadpool", version = "^1.0.2", index = "https://github.com/daimond113/pesde-index", target = "luau" }, "standard"]
