@@ -100,6 +100,18 @@ repository = "https://github.com/lukadev-0/util.luau"
 environment = "luau"
 lib = "lib/init.luau"
 
+["1.2.1 roblox"]
+published_at = "2025-09-02T17:45:48.274002162Z"
+description = "Option<T> type in Luau"
+license = "MIT"
+authors = ["LukaDev <luka@lukadev.me> (https://lukadev.me/)"]
+repository = "https://github.com/lukadev-0/util.luau"
+
+["1.2.1 roblox".target]
+environment = "roblox"
+lib = "option/lib.luau"
+build_files = ["option"]
+
 ["1.2.1 lune"]
 published_at = "2025-09-02T17:45:46.587175613Z"
 description = "Option<T> type in Luau"
