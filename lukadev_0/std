@@ -44,6 +44,18 @@ repository = "https://github.com/lukadev-0/util.luau"
 environment = "lune"
 lib = "lib/init.luau"
 
+["1.0.2 roblox"]
+published_at = "2025-09-02T17:50:24.759048381Z"
+description = "Runtime agnostic access to standard libraries"
+license = "MIT"
+authors = ["LukaDev <luka@lukadev.me> (https://lukadev.me/)"]
+repository = "https://github.com/lukadev-0/util.luau"
+
+["1.0.2 roblox".target]
+environment = "roblox"
+lib = "std/lib.luau"
+build_files = ["std"]
+
 ["1.0.2 lune"]
 published_at = "2025-09-02T17:45:44.710870287Z"
 description = "Runtime agnostic access to standard libraries"
