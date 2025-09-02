@@ -49,7 +49,7 @@ std = [{ name = "lukadev_0/std", version = "^1.0.1", index = "https://github.com
 threadpool = [{ name = "lukadev_0/threadpool", version = "^1.0.1", index = "https://github.com/daimond113/pesde-index", target = "roblox" }, "standard"]
 
 ["1.0.1 lune"]
-published_at = "2024-11-02T13:46:22.459237560Z"
+published_at = "2024-11-02T13:46:22.45923756Z"
 description = "Schedule functions to be called at a future time."
 license = "MIT"
 authors = ["LukaDev <luka@lukadev.me> (https://lukadev.me/)"]
@@ -63,3 +63,19 @@ lib = "lib/init.luau"
 future = [{ name = "lukadev_0/future", version = "^1.0.1", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "standard"]
 std = [{ name = "lukadev_0/std", version = "^1.0.1", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "standard"]
 threadpool = [{ name = "lukadev_0/threadpool", version = "^1.0.1", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "standard"]
+
+["1.0.2 lune"]
+published_at = "2025-09-02T17:45:18.61239218Z"
+description = "Schedule functions to be called at a future time."
+license = "MIT"
+authors = ["LukaDev <luka@lukadev.me> (https://lukadev.me/)"]
+repository = "https://github.com/lukadev-0/util.luau"
+
+["1.0.2 lune".target]
+environment = "lune"
+lib = "timer/lib.luau"
+
+["1.0.2 lune".dependencies]
+future = [{ name = "lukadev_0/future", version = "^1.0.2", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "standard"]
+std = [{ name = "lukadev_0/std", version = "^1.0.2", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "standard"]
+threadpool = [{ name = "lukadev_0/threadpool", version = "^1.0.2", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "standard"]
