@@ -112,6 +112,17 @@ environment = "roblox"
 lib = "result/lib.luau"
 build_files = ["result"]
 
+["1.2.1 lune"]
+published_at = "2025-09-02T17:47:30.954469145Z"
+description = "Result<T, E> type in Luau"
+license = "MIT"
+authors = ["LukaDev <luka@lukadev.me> (https://lukadev.me/)"]
+repository = "https://github.com/lukadev-0/util.luau"
+
+["1.2.1 lune".target]
+environment = "lune"
+lib = "result/lib.luau"
+
 ["1.2.1 luau"]
 published_at = "2025-09-02T17:47:29.073473161Z"
 description = "Result<T, E> type in Luau"
