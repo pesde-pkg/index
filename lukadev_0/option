@@ -122,3 +122,14 @@ repository = "https://github.com/lukadev-0/util.luau"
 ["1.2.1 lune".target]
 environment = "lune"
 lib = "option/lib.luau"
+
+["1.2.1 luau"]
+published_at = "2025-09-02T17:49:37.962181526Z"
+description = "Option<T> type in Luau"
+license = "MIT"
+authors = ["LukaDev <luka@lukadev.me> (https://lukadev.me/)"]
+repository = "https://github.com/lukadev-0/util.luau"
+
+["1.2.1 luau".target]
+environment = "luau"
+lib = "option/lib.luau"
