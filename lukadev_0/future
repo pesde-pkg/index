@@ -80,3 +80,19 @@ build_files = ["future", "option", "std", "threadpool"]
 option = [{ name = "lukadev_0/option", version = "^1.2.1", index = "https://github.com/daimond113/pesde-index", target = "roblox" }, "standard"]
 std = [{ name = "lukadev_0/std", version = "^1.0.2", index = "https://github.com/daimond113/pesde-index", target = "roblox" }, "standard"]
 threadpool = [{ name = "lukadev_0/threadpool", version = "^1.0.2", index = "https://github.com/daimond113/pesde-index", target = "roblox" }, "standard"]
+
+["1.0.2 lune"]
+published_at = "2025-09-02T17:45:35.480555758Z"
+description = "Future<T> type in Luau"
+license = "MIT"
+authors = ["LukaDev <luka@lukadev.me> (https://lukadev.me/)"]
+repository = "https://github.com/lukadev-0/util.luau"
+
+["1.0.2 lune".target]
+environment = "lune"
+lib = "future/lib.luau"
+
+["1.0.2 lune".dependencies]
+option = [{ name = "lukadev_0/option", version = "^1.2.1", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "standard"]
+std = [{ name = "lukadev_0/std", version = "^1.0.2", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "standard"]
+threadpool = [{ name = "lukadev_0/threadpool", version = "^1.0.2", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "standard"]
