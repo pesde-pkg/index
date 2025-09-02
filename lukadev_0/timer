@@ -96,3 +96,19 @@ lib = "timer/lib.luau"
 future = [{ name = "lukadev_0/future", version = "^1.0.2", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "standard"]
 std = [{ name = "lukadev_0/std", version = "^1.0.2", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "standard"]
 threadpool = [{ name = "lukadev_0/threadpool", version = "^1.0.2", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "standard"]
+
+["1.0.2 luau"]
+published_at = "2025-09-02T17:51:21.456388617Z"
+description = "Schedule functions to be called at a future time."
+license = "MIT"
+authors = ["LukaDev <luka@lukadev.me> (https://lukadev.me/)"]
+repository = "https://github.com/lukadev-0/util.luau"
+
+["1.0.2 luau".target]
+environment = "luau"
+lib = "timer/lib.luau"
+
+["1.0.2 luau".dependencies]
+future = [{ name = "lukadev_0/future", version = "^1.0.2", index = "https://github.com/daimond113/pesde-index", target = "luau" }, "standard"]
+std = [{ name = "lukadev_0/std", version = "^1.0.2", index = "https://github.com/daimond113/pesde-index", target = "luau" }, "standard"]
+threadpool = [{ name = "lukadev_0/threadpool", version = "^1.0.2", index = "https://github.com/daimond113/pesde-index", target = "luau" }, "standard"]
