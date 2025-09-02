@@ -56,7 +56,7 @@ environment = "lune"
 lib = "lib/init.luau"
 
 ["1.1.1 luau"]
-published_at = "2024-11-02T13:45:56.151385320Z"
+published_at = "2024-11-02T13:45:56.15138532Z"
 description = "Option<T> type in Luau"
 license = "MIT"
 authors = ["LukaDev <luka@lukadev.me> (https://lukadev.me/)"]
@@ -99,3 +99,14 @@ repository = "https://github.com/lukadev-0/util.luau"
 ["1.2.0 luau".target]
 environment = "luau"
 lib = "lib/init.luau"
+
+["1.2.1 lune"]
+published_at = "2025-09-02T17:45:46.587175613Z"
+description = "Option<T> type in Luau"
+license = "MIT"
+authors = ["LukaDev <luka@lukadev.me> (https://lukadev.me/)"]
+repository = "https://github.com/lukadev-0/util.luau"
+
+["1.2.1 lune".target]
+environment = "lune"
+lib = "option/lib.luau"
