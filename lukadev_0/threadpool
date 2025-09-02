@@ -56,6 +56,21 @@ lib = "lib/init.luau"
 ["1.0.1 lune".dependencies]
 std = [{ name = "lukadev_0/std", version = "^1.0.1", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "standard"]
 
+["1.0.2 roblox"]
+published_at = "2025-09-02T17:45:40.110812882Z"
+description = "Spawn threads using a thread pool"
+license = "MIT"
+authors = ["LukaDev <luka@lukadev.me> (https://lukadev.me/)"]
+repository = "https://github.com/lukadev-0/util.luau"
+
+["1.0.2 roblox".target]
+environment = "roblox"
+lib = "threadpool/lib.luau"
+build_files = ["std", "threadpool"]
+
+["1.0.2 roblox".dependencies]
+std = [{ name = "lukadev_0/std", version = "^1.0.2", index = "https://github.com/daimond113/pesde-index", target = "roblox" }, "standard"]
+
 ["1.0.2 lune"]
 published_at = "2025-09-02T17:45:30.879358092Z"
 description = "Spawn threads using a thread pool"
