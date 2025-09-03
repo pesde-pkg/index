@@ -9,3 +9,18 @@ repository = "https://github.com/ewd3v/luau_noyield"
 environment = "roblox"
 lib = "src/init.luau"
 build_files = ["src"]
+
+["0.1.0 luau"]
+published_at = "2025-09-03T10:58:34.787938932Z"
+description = "Prevent functions from yielding"
+license = "MIT"
+authors = ["EwDev (https://ewdev.net/)"]
+repository = "https://github.com/ewd3v/luau_noyield"
+
+["0.1.0 luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
+["0.1.0 luau".engines]
+pesde = "^0.7.0"
+lune = "^0.9.4"
