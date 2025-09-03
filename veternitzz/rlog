@@ -47,3 +47,28 @@ hash = "1184df5546d974067416e19500449b8993782813049e0c069e5c1fe4c236717a"
 label = "Getting Started"
 name = "index"
 hash = "f0432a08dc3f3bd4cc53d694398b88f709eb091dc8259856c972f352c5c5ef05"
+
+["0.1.0-test3 lune"]
+published_at = "2025-09-03T03:01:18.029439488Z"
+description = "A simple log class for the Lune runtime."
+license = "MIT"
+authors = ["Anthony LaPeter <anthonylapeter@gmail.com>"]
+repository = "https://github.com/veternitzz/rlog"
+
+["0.1.0-test3 lune".target]
+environment = "lune"
+lib = "src/lib.luau"
+
+["0.1.0-test3 lune".engines]
+pesde = "^0.7.1"
+lune = "^0.10.2"
+
+[["0.1.0-test3 lune".docs]]
+label = "API Reference"
+name = "api"
+hash = "05d8a3506efdc541763df00f37831eb73e56856f25497a664bae3f8a6ab06bfc"
+
+[["0.1.0-test3 lune".docs]]
+label = "Getting Started"
+name = "index"
+hash = "f0432a08dc3f3bd4cc53d694398b88f709eb091dc8259856c972f352c5c5ef05"
