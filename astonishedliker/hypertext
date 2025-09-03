@@ -1,0 +1,20 @@
+["0.1.0 lune"]
+published_at = "2025-09-03T22:35:29.27839022Z"
+description = "A comprehensive set of utilities to safely manipulate Roblox RichText"
+license = "MIT"
+authors = ["AstonishedLiker"]
+repository = "https://github.com/AstonishedLiker/HyperText"
+
+["0.1.0 lune".target]
+environment = "lune"
+lib = "src/init.luau"
+
+["0.1.0 lune".engines]
+pesde = "^0.7.0"
+lune = "=0.8.9"
+
+["0.1.0 lune".dependencies]
+darklua = [{ name = "pesde/darklua", version = "^0.17.1", index = "https://github.com/pesde-pkg/index" }, "standard"]
+rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+t = [{ name = "glaphyre/t", version = "^1.0.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
