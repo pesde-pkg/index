@@ -1,0 +1,25 @@
+["0.2.0 luau"]
+published_at = "2025-09-03T01:09:54.478986953Z"
+description = "Unzip implementation in pure Luau"
+license = "MIT"
+authors = ["Erica Marigold <hi@devcomp.xyz>"]
+repository = "https://github.com/0x5eal/luau-unzip"
+
+["0.2.0 luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
+["0.2.0 luau".engines]
+pesde = "^0.7.1"
+lune = ">=0.10.2, <0.11.0"
+
+[["0.2.0 luau".docs]]
+label = "Intro"
+name = "intro"
+hash = "7ae06993c69c8d0e72ad57a73e62e8b36f6462fb17889791a761d5e142481053"
+
+["0.2.0 luau".dependencies]
+asciitable = [{ name = "kimpure/asciitable", version = "^0.2.1", index = "https://github.com/pesde-pkg/index" }, "dev"]
+frktest = [{ name = "itsfrank/frktest", version = "^0.0.2", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+luau-lsp = [{ name = "pesde/luau_lsp", version = "^1.53.2", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+stylua = [{ name = "pesde/stylua", version = "^2.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
