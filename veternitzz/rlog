@@ -1,0 +1,24 @@
+["0.1.0-test lune"]
+published_at = "2025-09-03T02:54:53.101397532Z"
+description = "A simple log class for the Lune runtime."
+license = "MIT"
+authors = ["Anthony LaPeter <anthonylapeter@gmail.com>"]
+repository = "https://github.com/veternitzz/rlog"
+
+["0.1.0-test lune".target]
+environment = "lune"
+lib = "src/lib.luau"
+
+["0.1.0-test lune".engines]
+pesde = "^0.7.1"
+lune = "^0.10.2"
+
+[["0.1.0-test lune".docs]]
+label = "API Reference"
+name = "api"
+hash = "ee7a87f310870546156812285099ea685b5c16f27183ec899daaffd88c8d901d"
+
+[["0.1.0-test lune".docs]]
+label = "veternitzz/rlog"
+name = "index"
+hash = "001d979eddadba0f8e1ff5033debb4ef7acf8e6c1a17b22141764d5588e020fb"
