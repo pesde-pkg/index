@@ -18,3 +18,23 @@ lune = "^0.10.0"
 frktest = [{ name = "itsfrank/frktest", version = "^0.0.2", index = "https://github.com/pesde-pkg/index" }, "dev"]
 greentea = [{ name = "abidbmt/greentea", version = "^0.5.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
 luau_path = [{ name = "abidbmt/luau_path", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+
+["0.6.1 lune"]
+published_at = "2025-09-04T20:35:27.718920598Z"
+description = "luau-path + @lune/fs and some utilities"
+license = "MIT"
+authors = ["jeparlefrancais <jeparlefrancais21@gmail.com>", "jiwonz <me@jiwonz.kr>"]
+repository = "https://github.com/abidbmt/lune-pathfs"
+
+["0.6.1 lune".target]
+environment = "lune"
+lib = "src/lib.luau"
+
+["0.6.1 lune".engines]
+pesde = "^0.7.0"
+lune = "^0.10.0"
+
+["0.6.1 lune".dependencies]
+frktest = [{ name = "itsfrank/frktest", version = "^0.0.2", index = "https://github.com/pesde-pkg/index" }, "dev"]
+greentea = [{ name = "abidbmt/greentea", version = "^0.5.1", index = "https://github.com/pesde-pkg/index" }, "standard"]
+luau_path = [{ name = "jiwonz/luau_path", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
