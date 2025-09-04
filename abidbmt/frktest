@@ -4,6 +4,7 @@ description = "A basic test framework for Lune"
 license = "MIT"
 authors = ["abidbmt", "Francis O'Brien <github.com/itsfrank>"]
 repository = "https://github.com/abidbmt/frktest"
+yanked = true
 
 ["0.1.0 lune".target]
 environment = "lune"
