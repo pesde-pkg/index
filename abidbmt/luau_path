@@ -1,0 +1,16 @@
+["0.2.0 luau"]
+published_at = "2025-09-04T14:34:47.468675567Z"
+description = "A Luau library to handle file paths based on the Rust path library by jeparlefrancais, Uploaded for pesde"
+license = "MIT"
+authors = ["jeparlefrancais <jeparlefrancais21@gmail.com>"]
+repository = "https://github.com/abidbmt/luau-path"
+
+["0.2.0 luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
+["0.2.0 luau".engines]
+pesde = "^0.7.0"
+
+["0.2.0 luau".dependencies]
+luau_disk = [{ name = "abidbmt/luau_disk", version = "^0.2.1", index = "https://github.com/pesde-pkg/index" }, "standard"]
