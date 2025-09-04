@@ -30,6 +30,7 @@ description = "Unzip implementation in pure Luau"
 license = "MIT"
 authors = ["Erica Marigold <hi@devcomp.xyz>"]
 repository = "https://github.com/abidbmt/luau-unzip"
+yanked = true
 
 ["0.2.1 luau".target]
 environment = "luau"
