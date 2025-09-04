@@ -1,0 +1,10 @@
+["0.1.0 roblox"]
+published_at = "2025-09-04T20:14:43.313501999Z"
+license = "MIT"
+authors = ["unityjaeger"]
+repository = "https://github.com/unityjaeger/HashGrid"
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "main.luau"
+build_files = ["main.luau"]
