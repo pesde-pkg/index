@@ -13,3 +13,18 @@ lib = "src/init.luau"
 ["0.1.0 lune".engines]
 pesde = "^0.7.0"
 lune = "^0.10.0"
+
+["0.1.1 lune"]
+published_at = "2025-09-04T23:43:26.892721369Z"
+description = "A basic test framework for Lune"
+license = "MIT"
+authors = ["Francis O'Brien <github.com/itsfrank>"]
+repository = "https://github.com/abidbmt/frktest"
+
+["0.1.1 lune".target]
+environment = "lune"
+lib = "src/init.luau"
+
+["0.1.1 lune".engines]
+pesde = "^0.7.0"
+lune = "^0.10.0"
