@@ -71,3 +71,17 @@ hash = "14ce644105719cf02493d822930c0c8df8a7eeb3759c5913293a20e57e1dc0ad"
 label = "Map"
 name = "Map"
 hash = "588e0dd4dea468ffed19fe230150cc26ee3cb8a169af3570e1d2949a4d9725aa"
+
+["0.2.0 luau"]
+published_at = "2025-09-04T18:59:22.119532995Z"
+description = "[Fork] Immutable data structures for Lua by jeparlefrancais, Uploaded for pesde"
+license = "MIT"
+authors = ["jeparlefrancais <jeparlefrancais21@gmail.com>"]
+repository = "https://github.com/jiwonz/luau-disk"
+
+["0.2.0 luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
+["0.2.0 luau".engines]
+pesde = "^0.7.0"
