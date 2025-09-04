@@ -52,3 +52,17 @@ build_files = ["src"]
 
 ["0.5.1 roblox".engines]
 pesde = "^0.7.0"
+
+["0.5.1 lune"]
+published_at = "2025-09-04T19:40:29.365824416Z"
+description = "A runtime typechecker with Luau types, pretty errors, and inspection"
+license = "MIT"
+authors = ["abidbmt", "Corecii (Shae A.) <github.com/corecii>"]
+repository = "https://github.com/abidbmt/GreenTea"
+
+["0.5.1 lune".target]
+environment = "lune"
+lib = "src/init.luau"
+
+["0.5.1 lune".engines]
+pesde = "^0.7.0"
