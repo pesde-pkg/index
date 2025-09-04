@@ -4,6 +4,7 @@ description = "A runtime typechecker with Luau types, pretty errors, and inspect
 license = "MIT"
 authors = ["Corecii (Shae A.) <github.com/corecii>"]
 repository = "https://github.com/abidbmt/GreenTea"
+yanked = true
 
 ["0.5.0 roblox".target]
 environment = "roblox"
@@ -24,6 +25,7 @@ description = "A runtime typechecker with Luau types, pretty errors, and inspect
 license = "MIT"
 authors = ["Corecii (Shae A.) <github.com/corecii>"]
 repository = "https://github.com/abidbmt/GreenTea"
+yanked = true
 
 ["0.5.0 luau".target]
 environment = "luau"
