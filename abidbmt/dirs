@@ -1,0 +1,18 @@
+["0.5.1 lune"]
+published_at = "2025-09-04T20:59:11.397502628Z"
+description = "A library for lune that provides config/cache/data paths. Heavily inspired by dirs-rs"
+license = "MIT"
+authors = ["jiwonz <me@jiwonz.kr>"]
+repository = "https://github.com/abidbmt/dirs-lune/"
+
+["0.5.1 lune".target]
+environment = "lune"
+lib = "src/init.luau"
+
+["0.5.1 lune".engines]
+pesde = "^0.7.0"
+lune = "^0.10.0"
+
+["0.5.1 lune".dependencies]
+greentea = [{ name = "abidbmt/greentea", version = "^0.5.1", index = "https://github.com/pesde-pkg/index" }, "standard"]
+pathfs = [{ name = "abidbmt/pathfs", version = "^0.6.1", index = "https://github.com/pesde-pkg/index" }, "standard"]
