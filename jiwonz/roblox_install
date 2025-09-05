@@ -1,5 +1,8 @@
+[meta]
+deprecated = "Deprecated in favor of `require(@lune/roblox).studioXPath`. See https://lune-org.github.io/docs/api-reference/roblox/#studioapplicationpath for more details."
+
 ["0.1.0 lune"]
-published_at = "2024-10-31T14:49:46.547513390Z"
+published_at = "2024-10-31T14:49:46.54751339Z"
 description = "Get the install directory of Roblox in Lune"
 license = "MPL-2.0"
 authors = ["jiwonz"]
