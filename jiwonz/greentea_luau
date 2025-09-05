@@ -24,6 +24,18 @@ lib = "src/init.luau"
 ["0.1.0 luau".dependencies]
 luau_check = [{ name = "jiwonz/luau_check", version = "^0.3.5", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
 
+["0.2.0 roblox"]
+published_at = "2025-09-05T01:54:24.322538483Z"
+description = "A runtime typechecker with Luau types, pretty errors, and inspection"
+license = "MIT"
+authors = ["Corecii (Shae A.) <github.com/corecii>", "jiwonz <me@jiwonz.kr>"]
+repository = "https://github.com/jiwonz/greentea-luau"
+
+["0.2.0 roblox".target]
+environment = "roblox"
+lib = "src/lib.luau"
+build_files = ["src"]
+
 ["0.2.0 luau"]
 published_at = "2025-09-05T01:54:20.583915101Z"
 description = "A runtime typechecker with Luau types, pretty errors, and inspection"
