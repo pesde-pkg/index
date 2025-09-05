@@ -1,0 +1,15 @@
+["0.0.1 roblox"]
+published_at = "2025-09-05T06:23:30.706879152Z"
+description = "vfx management library"
+license = "MIT"
+authors = ["teakzc"]
+repository = "https://github.com/teakzc/sparkle"
+
+["0.0.1 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.0.1 roblox".dependencies]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
