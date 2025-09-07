@@ -19,3 +19,14 @@ repository = "https://github.com/itsfrank/frktest"
 ["0.0.2 lune".target]
 environment = "lune"
 lib = "src/_pesde_init.luau"
+
+["0.0.3 luau"]
+published_at = "2025-09-07T23:33:43.679098909Z"
+description = "A basic test framework for standalone Luau"
+license = "MIT"
+authors = ["Francis O'Brien (github.com/itsfrank)"]
+repository = "https://github.com/itsfrank/frktest"
+
+["0.0.3 luau".target]
+environment = "luau"
+lib = "src/entrypoint.luau"
