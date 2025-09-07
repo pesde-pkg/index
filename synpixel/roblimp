@@ -25,3 +25,20 @@ lib = "build/init.luau"
 
 ["0.1.1 lune".dependencies]
 result = [{ name = "lukadev_0/result", version = "^1.2.0", index = "https://github.com/daimond113/pesde-index" }, "standard"]
+
+["0.2.0 lune"]
+published_at = "2025-09-07T20:50:22.575031898Z"
+description = "Auto-generated wrapper around Roblox's legacy and cloud APIs"
+license = "MIT"
+authors = ["synpixel"]
+repository = "https://github.com/synpixel/roblimp"
+
+["0.2.0 lune".target]
+environment = "lune"
+lib = "dist/init.luau"
+
+["0.2.0 lune".engines]
+lune = "^0.10.2"
+
+["0.2.0 lune".dependencies]
+result = [{ name = "lukadev_0/result", version = "^1.2.1", index = "https://github.com/daimond113/pesde-index" }, "standard"]
