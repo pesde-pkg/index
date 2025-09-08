@@ -30,3 +30,14 @@ repository = "https://github.com/itsfrank/frktest"
 ["0.0.3 luau".target]
 environment = "luau"
 lib = "src/entrypoint.luau"
+
+["0.0.4 luau"]
+published_at = "2025-09-08T05:01:51.05114987Z"
+description = "A basic test framework for standalone Luau"
+license = "MIT"
+authors = ["Francis O'Brien (github.com/itsfrank)"]
+repository = "https://github.com/itsfrank/frktest"
+
+["0.0.4 luau".target]
+environment = "luau"
+lib = "src/entrypoint.luau"
