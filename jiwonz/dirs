@@ -157,3 +157,22 @@ lune = "^0.9.0"
 ["0.5.1 lune".dependencies]
 greentea = [{ name = "corecii/greentea", version = "^0.4.10", index = "https://github.com/daimond113/pesde-index" }, "standard"]
 pathfs = [{ name = "jiwonz/pathfs", version = "^0.6.0-rc.6", index = "https://github.com/daimond113/pesde-index" }, "standard"]
+
+["0.6.0 lune"]
+published_at = "2025-09-09T07:51:39.671717681Z"
+description = "A library for lune that provides config/cache/data paths. Heavily inspired by dirs-rs"
+license = "MIT"
+authors = ["jiwonz <me@jiwonz.kr>"]
+repository = "https://github.com/jiwonz/dirs-lune/"
+
+["0.6.0 lune".target]
+environment = "lune"
+lib = "src/lib.luau"
+
+["0.6.0 lune".engines]
+pesde = "^0.7.1"
+lune = "^0.10.2"
+
+["0.6.0 lune".dependencies]
+greentea = [{ name = "jiwonz/greentea_luau", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+pathfs = [{ name = "jiwonz/pathfs", version = "^0.6.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
