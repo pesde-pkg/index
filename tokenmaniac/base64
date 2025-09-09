@@ -30,3 +30,14 @@ repository = "https://github.com/TokenManiac/Base64"
 ["0.1.1 lune".target]
 environment = "lune"
 lib = "src.luau"
+
+["0.1.1 luau"]
+published_at = "2025-09-09T17:59:13.942072722Z"
+description = "The fastest base64 in pure luau yet! This project was entirely made with GPT-5-Thinking medium (with some help of course or else it would've never been this fast)."
+license = "UNLICENSE"
+authors = ["TokenManiac", "GPT-5-Thinking"]
+repository = "https://github.com/TokenManiac/Base64"
+
+["0.1.1 luau".target]
+environment = "luau"
+lib = "src.luau"
