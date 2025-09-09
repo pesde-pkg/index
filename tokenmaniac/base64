@@ -52,6 +52,7 @@ description = "The fastest base64 in pure luau yet! (read README.md)"
 license = "UNLICENSE"
 authors = ["GPT-5-Thinking"]
 repository = "https://github.com/TokenManiac/Base64"
+yanked = true
 
 ["0.2.0 lune".target]
 environment = "lune"
@@ -63,6 +64,7 @@ description = "The fastest base64 in pure luau yet! (read README.md)"
 license = "UNLICENSE"
 authors = ["GPT-5-Thinking"]
 repository = "https://github.com/TokenManiac/Base64"
+yanked = true
 
 ["0.2.0 luau".target]
 environment = "luau"
