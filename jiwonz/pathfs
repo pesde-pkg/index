@@ -376,3 +376,33 @@ lune = "^0.9.4"
 frktest = [{ name = "itsfrank/frktest", version = "^0.0.2", index = "https://github.com/daimond113/pesde-index" }, "dev"]
 greentea = [{ name = "corecii/greentea", version = "^0.4.11", index = "https://github.com/daimond113/pesde-index" }, "standard"]
 luau_path = [{ name = "jiwonz/luau_path", version = "^0.1.4", index = "https://github.com/daimond113/pesde-index", target = "luau" }, "standard"]
+
+["0.6.0 lune"]
+published_at = "2025-09-09T06:27:28.586580594Z"
+description = "luau-path + @lune/fs with some utilities"
+license = "MIT"
+authors = ["jiwonz <me@jiwonz.kr>", "jeparlefrancais <jeparlefrancais21@gmail.com>"]
+repository = "https://github.com/jiwonz/lune-pathfs"
+
+["0.6.0 lune".target]
+environment = "lune"
+lib = "src/lib.luau"
+
+["0.6.0 lune".engines]
+pesde = "^0.7.1"
+lune = "^0.10.2"
+
+[["0.6.0 lune".docs]]
+label = "Basic Usage"
+name = "usage"
+hash = "b5c4fbe71662ab4e717f53dd09904da300cb88320c615ddacb681ed4a346c464"
+
+[["0.6.0 lune".docs]]
+label = "Installation"
+name = "intro"
+hash = "fe8518cdb8522f68f85ce1bf174c79b55e24db3939fab9ac5ecdb52c3e439e9a"
+
+["0.6.0 lune".dependencies]
+frktest = [{ name = "itsfrank/frktest", version = "^0.0.4", index = "https://github.com/pesde-pkg/index", target = "luau" }, "dev"]
+greentea = [{ name = "jiwonz/greentea_luau", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+luau_path = [{ name = "jiwonz/luau_path", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
