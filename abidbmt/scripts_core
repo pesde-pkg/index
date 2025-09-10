@@ -1,0 +1,22 @@
+["0.1.0 lune"]
+published_at = "2025-09-10T07:28:29.753813778Z"
+description = "Scripts and other utilities for use with pesde"
+license = "MIT"
+authors = ["daimond113 <contact@daimond113.com> (https://www.daimond113.com/)", "Erica Marigold <hi@devcomp.xyz>"]
+repository = "https://github.com/pesde-pkg/scripts"
+
+["0.1.0 lune".target]
+environment = "lune"
+lib = "src/lib.luau"
+
+["0.1.0 lune".engines]
+pesde = "^0.7.0"
+lune = "^0.10.0"
+
+["0.1.0 lune".dependencies]
+argon = [{ repo = "https://github.com/abidbmt/pesde-tooling", rev = "d672eef", path = "bins/argon" }, "dev"]
+frktest = [{ name = "itsfrank/frktest", version = "^0.0.3", index = "https://github.com/pesde-pkg/index", target = "luau" }, "dev"]
+luau_lsp = [{ repo = "https://github.com/abidbmt/pesde-tooling", rev = "d672eef", path = "bins/luau_lsp" }, "dev"]
+pathfs = [{ name = "jiwonz/pathfs", version = "^0.6.0", index = "https://github.com/pesde-pkg/index" }, "dev"]
+rojo = [{ repo = "https://github.com/abidbmt/pesde-tooling", rev = "d672eef", path = "bins/rojo" }, "dev"]
+stylua = [{ repo = "https://github.com/abidbmt/pesde-tooling", rev = "d672eef", path = "bins/stylua" }, "dev"]
