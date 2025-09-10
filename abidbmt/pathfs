@@ -25,6 +25,7 @@ description = "luau-path + @lune/fs and some utilities"
 license = "MIT"
 authors = ["jeparlefrancais <jeparlefrancais21@gmail.com>", "jiwonz <me@jiwonz.kr>"]
 repository = "https://github.com/abidbmt/lune-pathfs"
+yanked = true
 
 ["0.6.1 lune".target]
 environment = "lune"
