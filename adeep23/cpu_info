@@ -15,3 +15,12 @@ license = "MIT"
 ["0.1.1 lune".target]
 environment = "lune"
 lib = "src/lib.luau"
+
+["0.2.0 lune"]
+published_at = "2025-09-14T01:59:22.935415341Z"
+description = "Grabs info about the CPU."
+license = "MIT"
+
+["0.2.0 lune".target]
+environment = "lune"
+lib = "src/lib.luau"
