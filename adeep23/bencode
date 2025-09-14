@@ -1,0 +1,9 @@
+["0.1.0 luau"]
+published_at = "2025-09-14T02:00:58.373596474Z"
+description = "https://devforum.roblox.com/t/bencoder-a-luau-module-for-encoding-decoding-bencoded-data/2777403 but on pesde."
+license = "MIT"
+authors = ["c4strxz"]
+
+["0.1.0 luau".target]
+environment = "luau"
+lib = "bencode.luau"
