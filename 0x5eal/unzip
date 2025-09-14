@@ -141,6 +141,7 @@ description = "Unzip implementation in pure Luau"
 license = "MIT"
 authors = ["Erica Marigold <hi@devcomp.xyz>"]
 repository = "https://github.com/0x5eal/luau-unzip"
+yanked = true
 
 ["0.1.4 luau".target]
 environment = "luau"
