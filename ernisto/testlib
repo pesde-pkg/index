@@ -62,3 +62,16 @@ lib = "lib.luau"
 
 ["0.1.0-beta.3 luau".engines]
 pesde = "^0.7.1"
+
+["0.1.0-beta.4 luau"]
+published_at = "2025-09-14T22:58:50.624724959Z"
+description = "minimal test collector"
+license = "MIT"
+authors = ["ernisto <joaovitordesouza707@gmail.com>"]
+
+["0.1.0-beta.4 luau".target]
+environment = "luau"
+lib = "lib.luau"
+
+["0.1.0-beta.4 luau".engines]
+pesde = "^0.7.1"
