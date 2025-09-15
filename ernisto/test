@@ -363,3 +363,21 @@ lune = "^0.10.2"
 
 ["0.1.0-beta.4 lune".dependencies]
 test = [{ name = "ernisto/testlib", version = "^0.1.0-beta.2", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+
+["0.1.0-beta.5 lune"]
+published_at = "2025-09-15T15:13:15.850261245Z"
+description = "minimal test runner"
+license = "MIT"
+authors = ["ernisto <joaovitordesouza707@gmail.com>"]
+
+["0.1.0-beta.5 lune".target]
+environment = "lune"
+lib = "lib.luau"
+bin = "cli.luau"
+
+["0.1.0-beta.5 lune".engines]
+pesde = "^0.7.1"
+lune = "^0.10.2"
+
+["0.1.0-beta.5 lune".dependencies]
+test = [{ name = "ernisto/testlib", version = "^0.1.0-beta.2", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
