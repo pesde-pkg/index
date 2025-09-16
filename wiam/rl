@@ -1,3 +1,15 @@
+["0.1.0 roblox"]
+published_at = "2025-09-16T17:16:02.736130461Z"
+description = "Simple reactive library for Luau."
+license = "GPL-3.0-or-later"
+authors = ["wiam"]
+repository = "https://codeberg.org/wiam/rl"
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
 ["0.1.0 lune"]
 published_at = "2025-09-16T17:15:55.624590945Z"
 description = "Simple reactive library for Luau."
