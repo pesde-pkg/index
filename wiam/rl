@@ -20,3 +20,14 @@ repository = "https://codeberg.org/wiam/rl"
 ["0.1.0 lune".target]
 environment = "lune"
 lib = "src/init.luau"
+
+["0.1.0 luau"]
+published_at = "2025-09-16T17:16:07.684387022Z"
+description = "Simple reactive library for Luau."
+license = "GPL-3.0-or-later"
+authors = ["wiam"]
+repository = "https://codeberg.org/wiam/rl"
+
+["0.1.0 luau".target]
+environment = "luau"
+lib = "src/init.luau"
