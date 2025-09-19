@@ -1,0 +1,15 @@
+["1.0.0 roblox"]
+published_at = "2025-09-19T11:37:27.409128534Z"
+description = "Utility function to return the `__type` metafield of a value."
+license = "MIT"
+authors = ["Aimar Seminario Unzu <aimar.seminario@gmail.com>"]
+repository = "https://github.com/aseminaunzrbxpkg/xtypeof"
+
+["1.0.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["1.0.0 roblox".dependencies]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
