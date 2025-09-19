@@ -108,3 +108,27 @@ lune = "^0.9.4"
 ["0.2.0 lune".dependencies]
 dirs = [{ name = "jiwonz/dirs", version = "^0.5.1", index = "https://github.com/pesde-pkg/index" }, "standard"]
 greentea = [{ name = "corecii/greentea", version = "^0.4.11", index = "https://github.com/pesde-pkg/index" }, "standard"]
+
+["0.3.0 lune"]
+published_at = "2025-09-19T18:13:48.55792209Z"
+description = "darklua + lune scriptable CLI interface"
+license = "MIT"
+authors = ["jiwonz <me@jiwonz.kr>"]
+repository = "https://github.com/jiwonz/darklua-lune"
+
+["0.3.0 lune".target]
+environment = "lune"
+lib = "src/lib.luau"
+
+["0.3.0 lune".engines]
+pesde = "^0.7.1"
+lune = "^0.10.2"
+
+[["0.3.0 lune".docs]]
+label = "Example Usage"
+name = "intro"
+hash = "07e377af1f1582d32a496147c525012a2fa01da6045c4a9ba17886f63449e7c9"
+
+["0.3.0 lune".dependencies]
+dirs = [{ name = "jiwonz/dirs", version = "^0.6.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+greentea = [{ name = "jiwonz/greentea_luau", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
