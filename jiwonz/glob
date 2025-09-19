@@ -53,3 +53,22 @@ lune = "^0.9.4"
 ["0.1.2 lune".dependencies]
 globrex_lune = [{ name = "kimpure/globrex_lune", version = "^0.2.4", index = "https://github.com/pesde-pkg/index" }, "standard"]
 pathfs = [{ name = "jiwonz/pathfs", version = "^0.6.0-rc.3", index = "https://github.com/pesde-pkg/index" }, "standard"]
+
+["0.2.0 lune"]
+published_at = "2025-09-19T07:45:59.850644267Z"
+description = "glob/wildcard filtering utility for lune"
+license = "MIT"
+authors = ["jiwonz <me@jiwonz.kr>"]
+repository = "https://github.com/jiwonz/glob-lune"
+
+["0.2.0 lune".target]
+environment = "lune"
+lib = "src/lib.luau"
+
+["0.2.0 lune".engines]
+pesde = "^0.7.1"
+lune = "^0.10.2"
+
+["0.2.0 lune".dependencies]
+globrex_lune = [{ name = "kimpure/globrex_lune", version = "^0.2.9", index = "https://github.com/pesde-pkg/index" }, "standard"]
+pathfs = [{ name = "jiwonz/pathfs", version = "^0.6.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
