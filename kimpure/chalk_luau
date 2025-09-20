@@ -213,6 +213,21 @@ repository = "https://github.com/kimpure/chalk-luau"
 environment = "luau"
 lib = "src/init.luau"
 
+["0.1.8 lune"]
+published_at = "2025-09-20T10:20:55.516166026Z"
+description = "Roblox/chalk-lua for Luau"
+license = "MIT"
+authors = ["Roblox", "kimpure"]
+repository = "https://github.com/kimpure/chalk-luau"
+
+["0.1.8 lune".target]
+environment = "lune"
+lib = "src/lib.luau"
+
+["0.1.8 lune".dependencies]
+darklua = [{ name = "pesde/darklua", version = "^0.16.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+multitarget = [{ name = "jiwonz/multitarget", version = "^0.4.0-rc.30", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
 ["0.1.8 luau"]
 published_at = "2025-09-20T10:19:16.798676404Z"
 description = "Roblox/chalk-lua for Luau"
