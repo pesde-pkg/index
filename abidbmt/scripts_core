@@ -4,6 +4,7 @@ description = "Scripts and other utilities for use with pesde"
 license = "MIT"
 authors = ["daimond113 <contact@daimond113.com> (https://www.daimond113.com/)", "Erica Marigold <hi@devcomp.xyz>"]
 repository = "https://github.com/pesde-pkg/scripts"
+yanked = true
 
 ["0.1.0 lune".target]
 environment = "lune"
