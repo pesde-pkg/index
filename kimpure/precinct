@@ -21,3 +21,15 @@ lib = "src/lib.luau"
 
 ["0.1.1 luau".dependencies]
 asciitable = [{ name = "kimpure/asciitable", version = "^0.2.3", index = "https://github.com/pesde-pkg/index" }, "dev"]
+
+["0.1.2 luau"]
+published_at = "2025-09-21T15:08:47.320143924Z"
+license = "MIT"
+authors = ["kimpure"]
+
+["0.1.2 luau".target]
+environment = "luau"
+lib = "src/lib.luau"
+
+["0.1.2 luau".dependencies]
+asciitable = [{ name = "kimpure/asciitable", version = "^0.2.3", index = "https://github.com/pesde-pkg/index" }, "dev"]
