@@ -103,3 +103,22 @@ lune = "^0.8.7"
 core = [{ name = "pesde/toolchainlib", version = "^0.1.15", index = "https://github.com/pesde-pkg/index", target = "lune" }, "standard"]
 option = [{ name = "lukadev_0/option", version = "^1.2.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
 result = [{ name = "lukadev_0/result", version = "^1.2.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+
+["2.0.26+toolchainlib.1 lune"]
+published_at = "2025-09-22T11:18:27.2460535Z"
+description = "Argon - Full featured tool for Roblox development"
+authors = ["AridAjd <aridthedev@gmail.com>", "DervexDev <contact@dervex.dev> (https://dervex.dev/)"]
+repository = "https://github.com/pesde-pkg/tooling/tree/main/bins/argon"
+
+["2.0.26+toolchainlib.1 lune".target]
+environment = "lune"
+bin = "init.luau"
+
+["2.0.26+toolchainlib.1 lune".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
+["2.0.26+toolchainlib.1 lune".dependencies]
+option = [{ name = "lukadev_0/option", version = "^1.2.1", index = "https://github.com/pesde-pkg/index" }, "standard"]
+result = [{ name = "lukadev_0/result", version = "^1.2.1", index = "https://github.com/pesde-pkg/index" }, "standard"]
+toolchainlib = [{ name = "pesde/toolchainlib", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "standard"]
