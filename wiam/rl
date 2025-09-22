@@ -544,6 +544,28 @@ label = "rl concepts"
 name = "concepts"
 hash = "590996f8afe981c59964d52d2cece78d66c932931f24a895ea648bebcae0a040"
 
+["0.1.9 roblox"]
+published_at = "2025-09-22T18:38:41.146975199Z"
+description = "Simple reactive library for Luau."
+license = "GPL-3.0-or-later"
+authors = ["wiam"]
+repository = "https://codeberg.org/wiam/rl"
+
+["0.1.9 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+[["0.1.9 roblox".docs]]
+label = "rl API Reference"
+name = "api_ref"
+hash = "d8f3e8b23d91778d686dbceb0ec839cd80edfd98f545bdad2d9ec2ddac259e69"
+
+[["0.1.9 roblox".docs]]
+label = "rl concepts"
+name = "concepts"
+hash = "590996f8afe981c59964d52d2cece78d66c932931f24a895ea648bebcae0a040"
+
 ["0.1.9 lune"]
 published_at = "2025-09-22T18:38:36.707442744Z"
 description = "Simple reactive library for Luau."
