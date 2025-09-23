@@ -1,0 +1,12 @@
+["0.1.0-beta.1 luau"]
+published_at = "2025-09-23T18:07:30.619546849Z"
+description = "default re-test theme"
+license = "MIT"
+authors = ["ernisto <joaovitordesouza707@gmail.com>"]
+
+["0.1.0-beta.1 luau".target]
+environment = "luau"
+lib = "lib.luau"
+
+["0.1.0-beta.1 luau".engines]
+pesde = "^0.7.1"
