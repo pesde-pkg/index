@@ -630,6 +630,27 @@ label = "rl concepts"
 name = "concepts"
 hash = "590996f8afe981c59964d52d2cece78d66c932931f24a895ea648bebcae0a040"
 
+["0.1.10 lune"]
+published_at = "2025-09-23T17:19:36.636220663Z"
+description = "Simple reactive library for Luau."
+license = "GPL-3.0-or-later"
+authors = ["wiam"]
+repository = "https://codeberg.org/wiam/rl"
+
+["0.1.10 lune".target]
+environment = "lune"
+lib = "src/init.luau"
+
+[["0.1.10 lune".docs]]
+label = "rl API Reference"
+name = "api_ref"
+hash = "2d85ee6e66fc9993919e48e6c38ee809444d78441a5bf33bd0e1c67dd61cf3d8"
+
+[["0.1.10 lune".docs]]
+label = "rl concepts"
+name = "concepts"
+hash = "590996f8afe981c59964d52d2cece78d66c932931f24a895ea648bebcae0a040"
+
 ["0.1.10 luau"]
 published_at = "2025-09-23T17:19:34.67096358Z"
 description = "Simple reactive library for Luau."
