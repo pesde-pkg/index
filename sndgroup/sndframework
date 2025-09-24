@@ -1,0 +1,8 @@
+["0.1.0 lune"]
+published_at = "2025-09-24T22:45:59.921034219Z"
+authors = ["S&D Group"]
+repository = "https://github.com/S-D-Group/SDFramework"
+
+["0.1.0 lune".target]
+environment = "lune"
+lib = "init.luau"
