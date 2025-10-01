@@ -1,0 +1,10 @@
+["0.1.0 lune"]
+published_at = "2025-10-01T16:34:09.918257614Z"
+description = "threaded terminal spinners for lune"
+license = "MIT"
+authors = ["lettuce-magician"]
+repository = "https://github.com/lettuce-magician/spin"
+
+["0.1.0 lune".target]
+environment = "lune"
+lib = "src/init.luau"
