@@ -1,0 +1,17 @@
+["0.1.0 roblox"]
+published_at = "2025-10-03T17:51:55.772861186Z"
+description = "Localisation for Vide, simplified."
+license = "MIT"
+authors = ["daimond113 <contact@daimond113.com> (https://www.daimond113.com)"]
+repository = "https://github.com/daimond113/lexi"
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.1.0 roblox".engines]
+lune = "^0.8.9"
+
+["0.1.0 roblox".dependencies]
+vide = [{ wally = "wally#centau/vide", version = "^0.3.1", index = "https://github.com/UpliftGames/wally-index" }, "peer"]
