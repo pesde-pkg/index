@@ -1,0 +1,13 @@
+["0.1.0 lune"]
+published_at = "2025-10-03T17:50:53.783208208Z"
+description = "Localisation for Vide, simplified."
+license = "MIT"
+authors = ["daimond113 <contact@daimond113.com> (https://www.daimond113.com)"]
+repository = "https://github.com/daimond113/lexi"
+
+["0.1.0 lune".target]
+environment = "lune"
+bin = "src/init.luau"
+
+["0.1.0 lune".engines]
+lune = "^0.10.2"
