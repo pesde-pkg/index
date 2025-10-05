@@ -446,6 +446,26 @@ darklua = [{ name = "pesde/darklua", version = "^0.17.1", index = "https://githu
 greentea_luau = [{ name = "jiwonz/greentea_luau", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
 multitarget = [{ name = "jiwonz/multitarget", version = "^0.4.0-rc.30", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 
+["0.3.2 roblox"]
+published_at = "2025-10-05T08:33:04.648316911Z"
+description = "using luau console table & tree"
+license = "MIT"
+authors = ["kimpure (sunwoo)"]
+repository = "https://github.com/kimpure/asciitable-luau"
+
+["0.3.2 roblox".target]
+environment = "roblox"
+lib = "src/lib.luau"
+build_files = ["src"]
+
+["0.3.2 roblox".engines]
+pesde = "^0.7.1"
+
+["0.3.2 roblox".dependencies]
+darklua = [{ name = "pesde/darklua", version = "^0.17.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+greentea_luau = [{ name = "jiwonz/greentea_luau", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
+multitarget = [{ name = "jiwonz/multitarget", version = "^0.4.0-rc.30", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
 ["0.3.2 luau"]
 published_at = "2025-10-05T08:32:52.574336878Z"
 description = "using luau console table & tree"
