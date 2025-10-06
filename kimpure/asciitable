@@ -523,3 +523,22 @@ pesde = "^0.7.1"
 darklua = [{ name = "pesde/darklua", version = "^0.17.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 greentea_luau = [{ name = "jiwonz/greentea_luau", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
 multitarget = [{ name = "jiwonz/multitarget", version = "^0.4.0-rc.30", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["0.3.4 luau"]
+published_at = "2025-10-06T00:56:58.514144299Z"
+description = "try outputting in ascii"
+license = "MIT"
+authors = ["kimpure (sunwoo)"]
+repository = "https://github.com/kimpure/asciitable-luau"
+
+["0.3.4 luau".target]
+environment = "luau"
+lib = "src/lib.luau"
+
+["0.3.4 luau".engines]
+pesde = "^0.7.1"
+
+["0.3.4 luau".dependencies]
+darklua = [{ name = "pesde/darklua", version = "^0.17.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+greentea_luau = [{ name = "jiwonz/greentea_luau", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+multitarget = [{ name = "jiwonz/multitarget", version = "^0.4.0-rc.30", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
