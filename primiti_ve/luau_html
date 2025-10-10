@@ -1,0 +1,9 @@
+["0.1.0 lune"]
+published_at = "2025-10-10T22:04:22.077437377Z"
+description = "A package that lets you program websites in Luau using the Lune runtime"
+license = "MIT"
+authors = ["Primiti_ve"]
+
+["0.1.0 lune".target]
+environment = "lune"
+lib = "src/init.luau"
