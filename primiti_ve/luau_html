@@ -7,3 +7,13 @@ authors = ["Primiti_ve"]
 ["0.1.0 lune".target]
 environment = "lune"
 lib = "src/init.luau"
+
+["0.1.1 lune"]
+published_at = "2025-10-11T10:40:01.511798547Z"
+description = "a package that lets you program websites in Luau using the Lune runtime."
+license = "MIT"
+authors = ["Primiti_ve"]
+
+["0.1.1 lune".target]
+environment = "lune"
+lib = "src/init.luau"
