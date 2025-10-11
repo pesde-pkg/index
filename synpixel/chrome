@@ -299,3 +299,20 @@ hash = "fc796a56acb914f3c4022b8c8525f46141aa8bba18c9d96c8990b90a8769ec5c"
 
 ["1.0.3 lune".dependencies]
 base64 = [{ name = "synpixel/base64", version = "^3.0.1", index = "https://github.com/daimond113/pesde-index", target = "luau" }, "standard"]
+
+["2.0.0 lune"]
+published_at = "2025-10-11T22:35:53.231496497Z"
+description = "An implementation of the Chrome DevTools Protocol for Lune"
+license = "MIT"
+authors = ["synpixel"]
+repository = "https://github.com/synpixel/chrome.luau"
+
+["2.0.0 lune".target]
+environment = "lune"
+lib = "src/init.luau"
+
+["2.0.0 lune".engines]
+lune = "^0.10.3"
+
+["2.0.0 lune".dependencies]
+base64 = [{ name = "synpixel/base64", version = "^3.0.1", index = "https://github.com/daimond113/pesde-index", target = "luau" }, "standard"]
