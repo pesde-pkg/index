@@ -319,3 +319,22 @@ lune = "^0.10.2"
 option = [{ name = "lukadev_0/option", version = "^1.2.1", index = "https://github.com/pesde-pkg/index" }, "standard"]
 result = [{ name = "lukadev_0/result", version = "^1.2.1", index = "https://github.com/pesde-pkg/index" }, "standard"]
 toolchainlib = [{ name = "pesde/toolchainlib", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "standard"]
+
+["0.18.3 lune"]
+published_at = "2025-10-11T22:20:38.926928449Z"
+description = "An IDL compiler written in Luau for ROBLOX buffer networking"
+authors = ["CompeyDev <hi@devcomp.xyz>", "Axen <axen@frombloxware.com>"]
+repository = "https://github.com/pesde-pkg/tooling/tree/main/bins/blink"
+
+["0.18.3 lune".target]
+environment = "lune"
+bin = "init.luau"
+
+["0.18.3 lune".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
+["0.18.3 lune".dependencies]
+option = [{ name = "lukadev_0/option", version = "^1.2.1", index = "https://github.com/pesde-pkg/index" }, "standard"]
+result = [{ name = "lukadev_0/result", version = "^1.2.1", index = "https://github.com/pesde-pkg/index" }, "standard"]
+toolchainlib = [{ name = "pesde/toolchainlib", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "standard"]
