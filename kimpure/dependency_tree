@@ -11,3 +11,17 @@ lib = "src/lib.luau"
 asciitable = [{ name = "kimpure/asciitable", version = "^0.2.3", index = "https://github.com/pesde-pkg/index" }, "dev"]
 pathfs = [{ name = "jiwonz/pathfs", version = "^0.6.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
 precinct = [{ name = "kimpure/precinct", version = "^0.1.4", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+
+["0.1.1 lune"]
+published_at = "2025-10-12T10:03:00.381039574Z"
+license = "MIT"
+authors = ["kimpure"]
+
+["0.1.1 lune".target]
+environment = "lune"
+lib = "src/lib.luau"
+
+["0.1.1 lune".dependencies]
+asciitable = [{ name = "kimpure/asciitable", version = "^0.3.0", index = "https://github.com/pesde-pkg/index" }, "dev"]
+pathfs = [{ name = "jiwonz/pathfs", version = "^0.6.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+precinct = [{ name = "kimpure/precinct", version = "^0.1.4", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
