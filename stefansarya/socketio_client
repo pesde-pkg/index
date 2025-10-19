@@ -33,6 +33,17 @@ environment = "roblox"
 lib = "dist/socketio.lua"
 build_files = ["dist"]
 
+["0.1.1 lune"]
+published_at = "2025-10-19T15:25:21.653706295Z"
+description = "Simple library for connecting to Socket.io server for Roblox and Lune environment."
+license = "MIT"
+authors = ["stefansarya"]
+repository = "https://github.com/StefansArya/luau-socket.io-client"
+
+["0.1.1 lune".target]
+environment = "lune"
+lib = "dist/socketio.lua"
+
 ["0.1.1 luau"]
 published_at = "2025-10-19T15:24:23.350302334Z"
 description = "Simple library for connecting to Socket.io server for Roblox and Lune environment."
