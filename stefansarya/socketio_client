@@ -20,3 +20,15 @@ repository = "https://github.com/StefansArya/luau-socket.io-client"
 ["0.1.0 lune".target]
 environment = "lune"
 lib = "dist/socketio.lua"
+
+["0.1.1 roblox"]
+published_at = "2025-10-19T15:23:52.908280283Z"
+description = "Simple library for connecting to Socket.io server for Roblox and Lune environment."
+license = "MIT"
+authors = ["stefansarya"]
+repository = "https://github.com/StefansArya/luau-socket.io-client"
+
+["0.1.1 roblox".target]
+environment = "roblox"
+lib = "dist/socketio.lua"
+build_files = ["dist"]
