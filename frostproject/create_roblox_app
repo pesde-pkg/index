@@ -24,6 +24,7 @@ description = "Set up a modern roblox app by running one command."
 license = "MIT"
 authors = ["iceeburr <iceeburr@gmail.com> (https://iceeburr.dev)"]
 repository = "https://github.com/frostproject/create-roblox-app"
+yanked = true
 
 ["0.0.1 lune".target]
 environment = "lune"
