@@ -55,3 +55,22 @@ lune = "^0.10.4"
 ["0.0.2 lune".dependencies]
 luau-lsp = [{ name = "pesde/luau_lsp", version = "^1.54.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 stylua = [{ name = "pesde/stylua", version = "^2.3.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["0.0.3 lune"]
+published_at = "2025-10-20T05:58:32.183299156Z"
+description = "Set up a modern roblox app by running one command."
+license = "MIT"
+authors = ["iceeburr <iceeburr@gmail.com> (https://iceeburr.dev)"]
+repository = "https://github.com/frostproject/create-roblox-app"
+
+["0.0.3 lune".target]
+environment = "lune"
+bin = "src/main.luau"
+
+["0.0.3 lune".engines]
+pesde = "^0.7.1"
+lune = "^0.10.4"
+
+["0.0.3 lune".dependencies]
+luau-lsp = [{ name = "pesde/luau_lsp", version = "^1.54.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+stylua = [{ name = "pesde/stylua", version = "^2.3.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
