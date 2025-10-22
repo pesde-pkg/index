@@ -1,0 +1,21 @@
+["0.2.1 roblox"]
+published_at = "2025-10-22T16:58:22.738519517Z"
+description = "Fast and easy-to-use logging library for Roblox"
+license = "MIT"
+authors = ["realthx1"]
+repository = "https://github.com/realthx1/luaulog"
+
+["0.2.1 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.2.1 roblox".engines]
+pesde = "^0.7.1"
+lune = "^0.10.4"
+
+["0.2.1 roblox".dependencies]
+luau_lsp = [{ name = "pesde/luau_lsp", version = "^1.55.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+rojo = [{ name = "pesde/rojo", version = "^7.6.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+selene = [{ name = "pesde/selene", version = "^0.29.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+stylua = [{ name = "pesde/stylua", version = "^2.3.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
