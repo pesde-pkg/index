@@ -1,3 +1,6 @@
+[meta]
+deprecated = "Use 1axen/blink, the official package"
+
 ["0.14.15 lune"]
 published_at = "2024-11-30T05:35:55.786761076Z"
 description = "An IDL compiler written in Luau for ROBLOX buffer networking"
