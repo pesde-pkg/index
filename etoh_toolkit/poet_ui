@@ -1,0 +1,18 @@
+["0.1.0 roblox"]
+published_at = "2025-10-26T14:04:11.366705278Z"
+description = "ui package for poet"
+license = "MIT"
+authors = ["Primiti-ve"]
+repository = "https://github.com/etoh-toolkit/poet"
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.1.0 roblox".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
+["0.1.0 roblox".dependencies]
+Fluid = [{ wally = "wally#ffrostfall/fluid", version = "^0.6.4", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
