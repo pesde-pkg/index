@@ -1,0 +1,18 @@
+["0.1.1 roblox"]
+published_at = "2025-10-26T14:24:47.420259328Z"
+description = "logger package for poet"
+license = "MIT"
+authors = ["Primiti-ve"]
+repository = "https://github.com/etoh-toolkit/poet"
+
+["0.1.1 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.1.1 roblox".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
+["0.1.1 roblox".dependencies]
+asciitable = [{ name = "kimpure/asciitable", version = "^0.3.5", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
