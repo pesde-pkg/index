@@ -17,3 +17,23 @@ lune = "^0.10.2"
 ["0.1.0 roblox".dependencies]
 poet_logger = [{ name = "etoh_toolkit/poet_logger", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
 poet_ui = [{ name = "etoh_toolkit/poet_ui", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
+
+["0.1.1 roblox"]
+published_at = "2025-10-26T14:24:49.919483273Z"
+description = "the entry point for poet"
+license = "MIT"
+authors = ["Primiti-ve"]
+repository = "https://github.com/etoh-toolkit/poet"
+
+["0.1.1 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.1.1 roblox".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
+["0.1.1 roblox".dependencies]
+poet_logger = [{ name = "etoh_toolkit/poet_logger", version = "^0.1.1", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
+poet_ui = [{ name = "etoh_toolkit/poet_ui", version = "^0.1.1", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
