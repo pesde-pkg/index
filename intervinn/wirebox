@@ -1,0 +1,17 @@
+["0.1.0 luau"]
+published_at = "2025-10-26T14:31:41.185447617Z"
+description = "Constructor-based Dependency Injection"
+license = "MIT"
+authors = ["intervinn"]
+repository = "https://github.com/intervinn/wirebox"
+
+["0.1.0 luau".target]
+environment = "luau"
+lib = "lib/init.luau"
+
+["0.1.0 luau".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
+["0.1.0 luau".dependencies]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
