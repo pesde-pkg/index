@@ -1,0 +1,19 @@
+["1.0.0 roblox"]
+published_at = "2025-10-27T18:18:26.975275561Z"
+description = "A fully type-safe permissions module for Roblox Luau."
+license = "MIT"
+authors = ["PossiblePanda"]
+repository = "https://github.com/PossiblePanda/QueryAuth"
+
+["1.0.0 roblox".target]
+environment = "roblox"
+lib = "lib/init.luau"
+build_files = ["lib"]
+
+["1.0.0 roblox".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
+["1.0.0 roblox".dependencies]
+rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
