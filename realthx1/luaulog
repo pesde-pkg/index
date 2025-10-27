@@ -19,3 +19,25 @@ luau_lsp = [{ name = "pesde/luau_lsp", version = "^1.55.0", index = "https://git
 rojo = [{ name = "pesde/rojo", version = "^7.6.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 selene = [{ name = "pesde/selene", version = "^0.29.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 stylua = [{ name = "pesde/stylua", version = "^2.3.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["0.3.0 roblox"]
+published_at = "2025-10-27T20:24:35.363201039Z"
+description = "Fast and easy-to-use logging library for Roblox"
+license = "MIT"
+authors = ["realthx1"]
+repository = "https://github.com/realthx1/luaulog"
+
+["0.3.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.3.0 roblox".engines]
+pesde = "^0.7.1"
+lune = "^0.10.4"
+
+["0.3.0 roblox".dependencies]
+argon = [{ name = "pesde/argon", version = "^2.0.26", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+luau_lsp = [{ name = "pesde/luau_lsp", version = "^1.55.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+selene = [{ name = "pesde/selene", version = "^0.29.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+stylua = [{ name = "pesde/stylua", version = "^2.3.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
