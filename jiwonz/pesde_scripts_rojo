@@ -14,3 +14,24 @@ sourcemap_generator = "sourcemap_generator.luau"
 
 ["0.1.0-rc.1 lune".dependencies]
 core = [{ name = "jiwonz/pesde_scripts_core", version = "^0.0.3-rc.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "standard"]
+
+["0.2.0-rc.1 lune"]
+published_at = "2025-10-30T00:58:43.213258745Z"
+description = "Scripts for Rojo-based Roblox projects."
+license = "MIT"
+authors = ["daimond113 <contact@daimond113.com> (https://www.daimond113.com/)", "Erica Marigold <hi@devcomp.xyz>"]
+repository = "https://github.com/jiwonz/pesde-scripts"
+
+["0.2.0-rc.1 lune".target]
+environment = "lune"
+
+["0.2.0-rc.1 lune".target.scripts]
+roblox_sync_config_generator = "roblox_sync_config_generator.luau"
+sourcemap_generator = "sourcemap_generator.luau"
+
+["0.2.0-rc.1 lune".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
+["0.2.0-rc.1 lune".dependencies]
+scripts_core = [{ name = "jiwonz/pesde_scripts_core", version = "^0.2.0-rc.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "standard"]
