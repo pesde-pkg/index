@@ -51,3 +51,21 @@ lune = "^0.10.4"
 
 ["0.2.0 luau".dependencies]
 hello = [{ name = "pesde/hello", version = "^1.0.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
+
+["0.2.1 luau"]
+published_at = "2025-10-30T23:34:18.170148417Z"
+description = "A template for pesde packages"
+license = "MIT"
+authors = ["EwDev (https://ewdev.net/)"]
+repository = "https://github.com/ewd3v/pesde_package_template"
+
+["0.2.1 luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
+["0.2.1 luau".engines]
+pesde = "^0.7.1"
+lune = "^0.10.4"
+
+["0.2.1 luau".dependencies]
+hello = [{ name = "pesde/hello", version = "^1.0.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
