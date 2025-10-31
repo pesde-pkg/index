@@ -1,0 +1,11 @@
+["0.1.0 roblox"]
+published_at = "2025-10-31T23:57:18.873302829Z"
+description = "Cross runtime and typed maid implementation"
+license = "MIT"
+authors = ["EwDev (https://ewdev.net/)"]
+repository = "https://github.com/ewd3v/luau_maid"
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "src/maid.luau"
+build_files = ["src"]
