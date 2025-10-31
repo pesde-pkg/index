@@ -9,3 +9,15 @@ repository = "https://github.com/TuneScotty/datum-serde"
 environment = "roblox"
 lib = "src/datum/init.luau"
 build_files = ["src", "src/datum", "src/datum/codec"]
+
+["0.1.3 roblox"]
+published_at = "2025-10-31T14:02:57.622402384Z"
+description = "Type-safe data serialization, migration, and versioning for Roblox"
+license = "MIT"
+authors = ["TuneScotty"]
+repository = "https://github.com/TuneScotty/datum-serde"
+
+["0.1.3 roblox".target]
+environment = "roblox"
+lib = "src/datum/init.luau"
+build_files = ["src", "src/datum", "src/datum/codec"]
