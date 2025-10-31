@@ -1,0 +1,11 @@
+["0.1.2 roblox"]
+published_at = "2025-10-31T12:51:42.665946836Z"
+description = "Type-safe data serialization, migration, and versioning for Roblox"
+license = "MIT"
+authors = ["TuneScotty"]
+repository = "https://github.com/TuneScotty/datum-serde"
+
+["0.1.2 roblox".target]
+environment = "roblox"
+lib = "src/datum/init.luau"
+build_files = ["src", "src/datum", "src/datum/codec"]
