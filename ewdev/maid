@@ -10,6 +10,21 @@ environment = "roblox"
 lib = "src/maid.luau"
 build_files = ["src"]
 
+["0.1.0 lune"]
+published_at = "2025-10-31T23:57:29.146014371Z"
+description = "Cross runtime and typed maid implementation"
+license = "MIT"
+authors = ["EwDev (https://ewdev.net/)"]
+repository = "https://github.com/ewd3v/luau_maid"
+
+["0.1.0 lune".target]
+environment = "lune"
+lib = "src/maid.luau"
+
+["0.1.0 lune".engines]
+pesde = "^0.7.1"
+lune = "^0.10.4"
+
 ["0.1.0 luau"]
 published_at = "2025-10-31T23:57:23.729087751Z"
 description = "Cross runtime and typed maid implementation"
