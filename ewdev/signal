@@ -12,3 +12,18 @@ lib = "src/signal.luau"
 ["0.1.0 lune".engines]
 pesde = "^0.7.1"
 lune = "^0.10.4"
+
+["0.1.0 luau"]
+published_at = "2025-11-01T06:30:02.85768336Z"
+description = "Cross runtime and typed signal implementation"
+license = "MIT"
+authors = ["EwDev (https://ewdev.net/)"]
+repository = "https://github.com/ewd3v/luau_signal"
+
+["0.1.0 luau".target]
+environment = "luau"
+lib = "src/signal.luau"
+
+["0.1.0 luau".engines]
+pesde = "^0.7.1"
+lune = "^0.10.4"
