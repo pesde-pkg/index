@@ -72,3 +72,18 @@ build_files = ["src"]
 
 ["0.2.2 roblox".dependencies]
 rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["0.2.3 roblox"]
+published_at = "2025-11-01T00:54:57.929792063Z"
+description = "Roblox Tower Defense utilities"
+license = "MIT"
+authors = ["0jewell"]
+repository = "https://github.com/0jewell/td-kit"
+
+["0.2.3 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.2.3 roblox".dependencies]
+rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
