@@ -1,0 +1,14 @@
+["0.1.0 lune"]
+published_at = "2025-11-01T06:30:00.30523935Z"
+description = "Cross runtime and typed signal implementation"
+license = "MIT"
+authors = ["EwDev (https://ewdev.net/)"]
+repository = "https://github.com/ewd3v/luau_signal"
+
+["0.1.0 lune".target]
+environment = "lune"
+lib = "src/signal.luau"
+
+["0.1.0 lune".engines]
+pesde = "^0.7.1"
+lune = "^0.10.4"
