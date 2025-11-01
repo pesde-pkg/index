@@ -1,0 +1,19 @@
+["1.0.0 lune"]
+published_at = "2025-11-01T14:27:10.630943874Z"
+license = "MIT"
+authors = ["word30210"]
+repository = "https://github.com/Word30210/hangul-luau"
+
+["1.0.0 lune".target]
+environment = "lune"
+lib = "src/init.luau"
+
+["1.0.0 lune".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
+["1.0.0 lune".dependencies]
+better_table = [{ name = "word30210/better_table", version = "^1.0.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+frktest = [{ name = "itsfrank/frktest", version = "^0.0.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
+rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
