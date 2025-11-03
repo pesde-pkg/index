@@ -83,3 +83,25 @@ rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/p
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 selene = [{ name = "pesde/selene", version = "^0.29.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 stylua = [{ name = "pesde/stylua", version = "^2.3.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["0.0.4-rc.1 lune"]
+published_at = "2025-11-03T07:56:29.791724292Z"
+description = "sync studio output to cli and also allow studio code execution from cli"
+license = "MIT"
+authors = ["rvy"]
+
+["0.0.4-rc.1 lune".target]
+environment = "lune"
+bin = "src/init.luau"
+
+["0.0.4-rc.1 lune".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
+["0.0.4-rc.1 lune".dependencies]
+argparse = [{ name = "caveful_games/argparse", version = "^0.1.2", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+pathfs = [{ name = "jiwonz/pathfs", version = "^0.6.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+selene = [{ name = "pesde/selene", version = "^0.29.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+stylua = [{ name = "pesde/stylua", version = "^2.3.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
