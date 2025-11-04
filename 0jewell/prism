@@ -33,6 +33,21 @@ lune = "^0.8.9"
 rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 
+["0.3.0 luau"]
+published_at = "2025-11-04T01:03:03.931691195Z"
+description = "A ECS library based on reactive systems"
+license = "MIT"
+authors = ["0jewell"]
+repository = "https://github.com/0jewell/prism"
+
+["0.3.0 luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
+["0.3.0 luau".dependencies]
+rojo = [{ name = "pesde/rojo", version = "^7.6.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
 ["1.0.0 roblox"]
 published_at = "2025-02-22T13:23:56.451726037Z"
 description = "Library based on Celesta"
