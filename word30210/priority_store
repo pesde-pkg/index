@@ -1,0 +1,15 @@
+["0.1.0 lune"]
+published_at = "2025-11-04T10:35:36.217557511Z"
+description = "A library that manages the priority of values."
+license = "MIT"
+authors = ["word30210"]
+repository = "https://github.com/Word30210/PriorityStore"
+
+["0.1.0 lune".target]
+environment = "lune"
+lib = "src/lib.luau"
+
+["0.1.0 lune".dependencies]
+frktest = [{ name = "itsfrank/frktest", version = "^0.0.2", index = "https://github.com/pesde-pkg/index" }, "dev"]
+multitarget = [{ name = "jiwonz/multitarget", version = "^0.4.0-rc.30", index = "https://github.com/pesde-pkg/index" }, "dev"]
+pathfs = [{ name = "jiwonz/pathfs", version = "=0.6.0-rc.8", index = "https://github.com/pesde-pkg/index" }, "dev"]
