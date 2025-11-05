@@ -30,3 +30,18 @@ repository = "https://github.com/Word30210/super-table"
 environment = "roblox"
 lib = "src/init.luau"
 build_files = ["src"]
+
+["0.1.1 lune"]
+published_at = "2025-11-05T13:07:36.459069154Z"
+description = "A library that implements the APIs provided by JS' Object class."
+license = "MIT"
+authors = ["word30210"]
+repository = "https://github.com/Word30210/super-table"
+
+["0.1.1 lune".target]
+environment = "lune"
+lib = "src/init.luau"
+
+["0.1.1 lune".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
