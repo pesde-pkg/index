@@ -45,3 +45,18 @@ lib = "src/init.luau"
 ["0.1.1 lune".engines]
 pesde = "^0.7.0"
 lune = "^0.10.2"
+
+["0.1.1 luau"]
+published_at = "2025-11-05T13:10:37.699438216Z"
+description = "A library that implements the APIs provided by JS' Object class."
+license = "MIT"
+authors = ["word30210"]
+repository = "https://github.com/Word30210/super-table"
+
+["0.1.1 luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
+["0.1.1 luau".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
