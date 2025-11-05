@@ -1,0 +1,20 @@
+["0.1.0 luau"]
+published_at = "2025-11-05T09:36:05.126505089Z"
+license = "MIT"
+authors = ["word30210"]
+repository = "https://github.com/Word30210/super-table"
+
+["0.1.0 luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
+["0.1.0 luau".target.scripts]
+build = "scripts/build.luau"
+
+["0.1.0 luau".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
+["0.1.0 luau".dependencies]
+frktest = [{ name = "itsfrank/frktest", version = "^0.0.2", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+multitarget = [{ name = "ewdev/multitarget", version = "^0.4.2-rc.7", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
