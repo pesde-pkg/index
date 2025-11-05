@@ -1,0 +1,17 @@
+["0.1.0 lune"]
+published_at = "2025-11-05T13:18:31.925616418Z"
+description = "A luau library for handling Hangul characters."
+license = "MIT"
+authors = ["word30210"]
+repository = "https://github.com/Word30210/luau-hangul"
+
+["0.1.0 lune".target]
+environment = "lune"
+lib = "src/init.luau"
+
+["0.1.0 lune".engines]
+pesde = "^0.7.1"
+lune = "^0.10.4"
+
+["0.1.0 lune".dependencies]
+super_table = [{ name = "word30210/super_table", version = "^0.1.1", index = "https://github.com/pesde-pkg/index" }, "standard"]
