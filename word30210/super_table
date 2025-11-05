@@ -18,3 +18,15 @@ lune = "^0.10.2"
 ["0.1.0 luau".dependencies]
 frktest = [{ name = "itsfrank/frktest", version = "^0.0.2", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 multitarget = [{ name = "ewdev/multitarget", version = "^0.4.2-rc.7", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["0.1.1 roblox"]
+published_at = "2025-11-05T13:07:32.788000931Z"
+description = "A library that implements the APIs provided by JS' Object class."
+license = "MIT"
+authors = ["word30210"]
+repository = "https://github.com/Word30210/super-table"
+
+["0.1.1 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
