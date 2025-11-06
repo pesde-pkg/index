@@ -9,3 +9,14 @@ yanked = true
 ["1.0.0 luau".target]
 environment = "luau"
 bin = "bin/PNGuin.luau"
+
+["1.0.1 luau"]
+published_at = "2025-11-06T20:55:33.559487932Z"
+description = "A relatively fast, pure Luau PNG library"
+license = "MIT"
+authors = ["LiterallyWize"]
+repository = "https://github.com/LiterallyWize/PNGuin"
+
+["1.0.1 luau".target]
+environment = "luau"
+lib = "bin/PNGuin.luau"
