@@ -24,3 +24,18 @@ lib = "src/init.luau"
 ["0.1.0 luau".engines]
 pesde = "^0.7.1"
 lune = "^0.10.4"
+
+["0.1.1 luau"]
+published_at = "2025-11-06T14:52:23.948548414Z"
+description = "Hot reloading for Luau"
+license = "MIT"
+authors = ["EwDev (https://ewdev.net/)"]
+repository = "https://github.com/ewd3v/luau_graft"
+
+["0.1.1 luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
+["0.1.1 luau".engines]
+pesde = "^0.7.1"
+lune = "^0.10.4"
