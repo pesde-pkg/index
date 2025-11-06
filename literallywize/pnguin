@@ -4,6 +4,7 @@ description = "A relatively fast PNG library for Luau"
 license = "MIT"
 authors = ["LiterallyWize"]
 repository = "https://github.com/LiterallyWize/PNGuin"
+yanked = true
 
 ["1.0.0 luau".target]
 environment = "luau"
