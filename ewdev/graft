@@ -1,0 +1,11 @@
+["0.1.0 roblox"]
+published_at = "2025-11-06T12:13:20.873710541Z"
+description = "Hot reloading for Luau"
+license = "MIT"
+authors = ["EwDev (https://ewdev.net/)"]
+repository = "https://github.com/ewd3v/luau_graft"
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
