@@ -1,0 +1,10 @@
+["1.0.0 luau"]
+published_at = "2025-11-06T19:58:58.106157638Z"
+description = "A relatively fast PNG library for Luau"
+license = "MIT"
+authors = ["LiterallyWize"]
+repository = "https://github.com/LiterallyWize/PNGuin"
+
+["1.0.0 luau".target]
+environment = "luau"
+bin = "bin/PNGuin.luau"
