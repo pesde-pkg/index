@@ -49,6 +49,21 @@ lune = "^0.10.4"
 ["0.1.0 luau".dependencies]
 super_table = [{ name = "word30210/super_table", version = "^0.1.1", index = "https://github.com/pesde-pkg/index" }, "standard"]
 
+["0.1.1 roblox"]
+published_at = "2025-11-07T14:06:35.735129571Z"
+description = "A luau library for handling Hangul characters."
+license = "MIT"
+authors = ["word30210"]
+repository = "https://github.com/Word30210/luau-hangul"
+
+["0.1.1 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.1.1 roblox".dependencies]
+super_table = [{ name = "word30210/super_table", version = "^0.1.1", index = "https://github.com/pesde-pkg/index" }, "standard"]
+
 ["0.1.1 lune"]
 published_at = "2025-11-07T14:06:31.148081354Z"
 description = "A luau library for handling Hangul characters."
