@@ -639,6 +639,25 @@ pesde = "^0.7.1"
 darklua = [{ name = "pesde/darklua", version = "^0.17.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 multitarget = [{ name = "jiwonz/multitarget", version = "^0.4.0-rc.30", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 
+["0.3.7 roblox"]
+published_at = "2025-11-07T10:08:48.831710323Z"
+description = "try outputting in ascii"
+license = "MIT"
+authors = ["kimpure (sunwoo)"]
+repository = "https://github.com/kimpure/asciitable-luau"
+
+["0.3.7 roblox".target]
+environment = "roblox"
+lib = "src/lib.luau"
+build_files = ["src"]
+
+["0.3.7 roblox".engines]
+pesde = "^0.7.1"
+
+["0.3.7 roblox".dependencies]
+darklua = [{ name = "pesde/darklua", version = "^0.17.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+multitarget = [{ name = "jiwonz/multitarget", version = "^0.4.0-rc.30", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
 ["0.3.7 luau"]
 published_at = "2025-11-07T10:08:29.48937556Z"
 description = "try outputting in ascii"
