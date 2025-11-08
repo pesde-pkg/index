@@ -7,3 +7,13 @@ authors = ["Primiti_ve"]
 ["0.1.0 lune".target]
 environment = "lune"
 lib = "src/init.luau"
+
+["0.1.0 luau"]
+published_at = "2025-11-08T12:59:47.853418445Z"
+description = "a small, runtime agnostic cli builder"
+license = "MIT"
+authors = ["Primiti_ve"]
+
+["0.1.0 luau".target]
+environment = "luau"
+lib = "src/init.luau"
