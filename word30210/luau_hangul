@@ -99,3 +99,21 @@ lune = "^0.10.4"
 
 ["0.1.1 luau".dependencies]
 super_table = [{ name = "word30210/super_table", version = "^0.1.1", index = "https://github.com/pesde-pkg/index" }, "standard"]
+
+["0.2.0 luau"]
+published_at = "2025-11-10T12:14:32.897906733Z"
+description = "A luau library for handling Hangul characters."
+license = "MIT"
+authors = ["word30210"]
+repository = "https://github.com/Word30210/luau-hangul"
+
+["0.2.0 luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
+["0.2.0 luau".engines]
+pesde = "^0.7.1"
+lune = "^0.10.4"
+
+["0.2.0 luau".dependencies]
+super_table = [{ name = "word30210/super_table", version = "^0.1.1", index = "https://github.com/pesde-pkg/index" }, "standard"]
