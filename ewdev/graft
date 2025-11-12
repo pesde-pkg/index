@@ -63,3 +63,18 @@ repository = "https://github.com/ewd3v/luau_graft"
 environment = "roblox"
 lib = "src/init.luau"
 build_files = ["fiu/Source.lua", "src"]
+
+["0.1.2 luau"]
+published_at = "2025-11-12T16:00:06.05152588Z"
+description = "Hot reloading for Luau"
+license = "MIT"
+authors = ["EwDev (https://ewdev.net/)"]
+repository = "https://github.com/ewd3v/luau_graft"
+
+["0.1.2 luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
+["0.1.2 luau".engines]
+pesde = "^0.7.1"
+lune = "^0.10.4"
