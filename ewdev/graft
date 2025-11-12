@@ -51,3 +51,15 @@ lib = "src/init.luau"
 ["0.1.1 luau".engines]
 pesde = "^0.7.1"
 lune = "^0.10.4"
+
+["0.1.2 roblox"]
+published_at = "2025-11-12T16:00:03.779938235Z"
+description = "Hot reloading for Luau"
+license = "MIT"
+authors = ["EwDev (https://ewdev.net/)"]
+repository = "https://github.com/ewd3v/luau_graft"
+
+["0.1.2 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["fiu/Source.lua", "src"]
