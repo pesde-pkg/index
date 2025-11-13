@@ -96,6 +96,25 @@ lune = "^0.10.2"
 rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 
+["0.1.2 lune"]
+published_at = "2025-11-13T20:56:02.623883925Z"
+description = "A library which can generate class like RBXScriptSignal but custom event and more methods"
+license = "MIT"
+authors = ["tabthedev"]
+repository = "https://github.com/tabthedev/Signally"
+
+["0.1.2 lune".target]
+environment = "lune"
+lib = "src/init.luau"
+
+["0.1.2 lune".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
+["0.1.2 lune".dependencies]
+rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
 ["0.1.2 luau"]
 published_at = "2025-11-13T20:55:13.227708457Z"
 description = "A library which can generate class like RBXScriptSignal but custom event and more methods"
