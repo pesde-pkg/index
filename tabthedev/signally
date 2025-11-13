@@ -153,3 +153,24 @@ lune = "^0.10.2"
 ["0.1.3 roblox".dependencies]
 rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["0.1.4 luau"]
+published_at = "2025-11-13T21:40:47.645925737Z"
+description = "A library which can generate class like RBXScriptSignal but custom event and more methods"
+license = "MIT"
+authors = ["tabthedev"]
+repository = "https://github.com/tabthedev/Signally"
+
+["0.1.4 luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
+["0.1.4 luau".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
+["0.1.4 luau".dependencies]
+darklua = [{ name = "pesde/darklua", version = "^0.17.2", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+multitarget = [{ name = "jiwonz/multitarget", version = "^0.4.0-rc.30", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
