@@ -861,3 +861,30 @@ replecs = [{ wally = "wally#pepeeltoro41/replecs", version = "^0.2.2", index = "
 rewire = [{ wally = "wally#sayhisam1/rewire", version = "^0.3.0", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
 rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["0.8.8 roblox"]
+published_at = "2025-11-13T23:36:59.960822751Z"
+description = "Experimental bundle of ECS tooling"
+license = "MIT"
+authors = ["Fizzyhex"]
+repository = "https://github.com/Fizzyhex/rbx-revy"
+
+["0.8.8 roblox".target]
+environment = "roblox"
+lib = "dist/init.luau"
+build_files = ["dist"]
+
+["0.8.8 roblox".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
+["0.8.8 roblox".dependencies]
+jabby = [{ wally = "wally#alicesaidhi/jabby", version = "^0.4.0", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
+jecs = [{ wally = "wally#ukendio/jecs", version = "^0.9.0", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
+planck = [{ wally = "wally#yetanotherclown/planck", version = "^0.2.0", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
+planck_jabby = [{ wally = "wally#yetanotherclown/planck-jabby", version = "^0.2.0", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
+planck_runservice = [{ wally = "wally#yetanotherclown/planck-runservice", version = "^0.2.0", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
+replecs = [{ wally = "wally#pepeeltoro41/replecs", version = "^0.2.2", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
+rewire = [{ wally = "wally#sayhisam1/rewire", version = "^0.3.0", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
+rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
