@@ -28,3 +28,13 @@ repository = "https://github.com/jsdotluau/polyfill"
 ["1.33.0-rc.2 luau".target]
 environment = "luau"
 lib = "polyfill.luau"
+
+["1.33.0-rc.3 lune"]
+published_at = "2025-11-17T17:29:04.313305704Z"
+description = "Polyfills for TypeScriptToLua"
+license = "MIT"
+repository = "https://github.com/jsdotluau/tstl_polyfill"
+
+["1.33.0-rc.3 lune".target]
+environment = "lune"
+lib = "polyfill.luau"
