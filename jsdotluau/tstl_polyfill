@@ -1,0 +1,9 @@
+["1.33.0-rc.1 luau"]
+published_at = "2025-11-17T09:47:10.07073882Z"
+description = "Polyfills from TypeScriptToLua"
+license = "MIT"
+repository = "https://github.com/jsdotluau/polyfill"
+
+["1.33.0-rc.1 luau".target]
+environment = "luau"
+lib = "polyfill.luau"
