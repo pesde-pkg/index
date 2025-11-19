@@ -1,3 +1,15 @@
+["0.0.0-20251119T180508Z roblox"]
+published_at = "2025-11-19T18:05:17.218155334Z"
+description = "A minimal, portable testing library for Luau"
+license = "BSD-3-Clause"
+authors = ["Daniel P H Fox (https://phfox.net/)", "EwDev (https://ewdev.net/)"]
+repository = "https://github.com/ewd3v/tiniest_pesde"
+
+["0.0.0-20251119T180508Z roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
 ["0.0.0-20251119T180508Z lune"]
 published_at = "2025-11-19T18:05:12.900158801Z"
 description = "A minimal, portable testing library for Luau"
