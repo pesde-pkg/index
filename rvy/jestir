@@ -57,3 +57,23 @@ rir3 = [{ name = "rvy/rir3", version = "^0.1.2-rc.2", index = "https://github.co
 rojo = [{ name = "pesde/rojo", version = "^7.6.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "standard"]
 selene = [{ name = "pesde/selene", version = "^0.29.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 stylua = [{ name = "pesde/stylua", version = "^2.3.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["0.0.4-rc.2 lune"]
+published_at = "2025-11-19T02:33:16.444507554Z"
+
+["0.0.4-rc.2 lune".target]
+environment = "lune"
+bin = "src/init.luau"
+
+["0.0.4-rc.2 lune".engines]
+pesde = "^0.7.1"
+lune = "^0.10.4"
+
+["0.0.4-rc.2 lune".dependencies]
+argparse = [{ name = "caveful_games/argparse", version = "^0.1.2", index = "https://github.com/pesde-pkg/index", target = "lune" }, "standard"]
+luau_lsp = [{ name = "pesde/luau_lsp", version = "^1.55.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+pathfs = [{ name = "jiwonz/pathfs", version = "^0.6.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+rir3 = [{ name = "rvy/rir3", version = "^0.1.2-rc.3", index = "https://github.com/pesde-pkg/index", target = "lune" }, "standard"]
+rojo = [{ name = "pesde/rojo", version = "^7.6.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "standard"]
+selene = [{ name = "pesde/selene", version = "^0.29.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+stylua = [{ name = "pesde/stylua", version = "^2.3.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
