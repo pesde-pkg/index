@@ -40,6 +40,18 @@ lib = "src/init.luau"
 pesde = "^0.7.1"
 lune = "^0.10.4"
 
+["0.0.0-20251119T184415Z roblox"]
+published_at = "2025-11-19T18:44:23.811404321Z"
+description = "A minimal, portable testing library for Luau"
+license = "BSD-3-Clause"
+authors = ["Daniel P H Fox (https://phfox.net/)", "EwDev (https://ewdev.net/)"]
+repository = "https://github.com/ewd3v/tiniest_pesde"
+
+["0.0.0-20251119T184415Z roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
 ["0.0.0-20251119T184415Z lune"]
 published_at = "2025-11-19T18:44:19.469235277Z"
 description = "A minimal, portable testing library for Luau"
