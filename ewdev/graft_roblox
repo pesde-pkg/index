@@ -1,0 +1,25 @@
+["0.1.0 roblox"]
+published_at = "2025-11-20T17:48:53.17448867Z"
+description = "Hot reloading for Roblox"
+license = "MIT"
+authors = ["EwDev (https://ewdev.net/)"]
+repository = "https://github.com/ewd3v/roblox_graft"
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["pesde.toml", "src"]
+
+["0.1.0 roblox".engines]
+pesde = "^0.7.1"
+lune = "^0.10.4"
+
+["0.1.0 roblox".dependencies]
+darklua = [{ name = "pesde/darklua", version = "^0.17.2", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+darklua_build = [{ name = "ewdev/darklua_build", version = "^0.2.2", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+graft = [{ name = "ewdev/graft", version = "=0.1.3", index = "https://github.com/pesde-pkg/index" }, "standard"]
+luau-lsp = [{ name = "pesde/luau_lsp", version = "^1.55.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+rojo = [{ name = "pesde/rojo", version = "^7.6.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts_rojo = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+selene = [{ name = "pesde/selene", version = "^0.29.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+stylua = [{ name = "pesde/stylua", version = "^2.3.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
