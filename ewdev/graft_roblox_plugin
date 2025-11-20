@@ -1,0 +1,20 @@
+["0.1.0 lune"]
+published_at = "2025-11-20T17:52:35.222359705Z"
+description = "CLI to manage the Roblox Graft plugin"
+license = "MIT"
+authors = ["EwDev (https://ewdev.net/)"]
+repository = "https://github.com/ewd3v/roblox_graft/blob/main/plugin/bin"
+
+["0.1.0 lune".target]
+environment = "lune"
+bin = "src/init.luau"
+
+["0.1.0 lune".engines]
+pesde = "^0.7.1"
+lune = "^0.10.4"
+
+["0.1.0 lune".dependencies]
+argparse = [{ name = "caveful_games/argparse", version = "^0.1.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
+chalk = [{ name = "kimpure/chalk_luau", version = "^0.1.8", index = "https://github.com/pesde-pkg/index" }, "standard"]
+dirs = [{ name = "jiwonz/dirs", version = "^0.6.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+pathfs = [{ name = "jiwonz/pathfs", version = "^0.6.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
