@@ -122,6 +122,17 @@ authors = ["Primiti_ve"]
 environment = "luau"
 lib = "src/init.luau"
 
+["0.1.5 roblox"]
+published_at = "2025-11-23T22:05:10.660704754Z"
+description = "a small, runtime agnostic cli builder"
+license = "MIT"
+authors = ["Primiti_ve"]
+
+["0.1.5 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
 ["0.1.5 lune"]
 published_at = "2025-11-23T22:05:07.744011357Z"
 description = "a small, runtime agnostic cli builder"
