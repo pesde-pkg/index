@@ -77,3 +77,23 @@ lune = "^0.10.4"
 luau_lsp = [{ name = "pesde/luau_lsp", version = "^1.55.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 selene = [{ name = "pesde/selene", version = "^0.29.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 stylua = [{ name = "pesde/stylua", version = "^2.3.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["0.0.3 lune"]
+published_at = "2025-11-23T09:04:17.250369901Z"
+description = "Terminal spinners with dynamic text updates and CI support."
+license = "MIT"
+authors = ["rvy"]
+repository = "https://github.com/revvy02/spin"
+
+["0.0.3 lune".target]
+environment = "lune"
+lib = "src/init.luau"
+
+["0.0.3 lune".engines]
+pesde = "^0.7.1"
+lune = "^0.10.4"
+
+["0.0.3 lune".dependencies]
+luau_lsp = [{ name = "pesde/luau_lsp", version = "^1.55.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+selene = [{ name = "pesde/selene", version = "^0.29.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+stylua = [{ name = "pesde/stylua", version = "^2.3.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
