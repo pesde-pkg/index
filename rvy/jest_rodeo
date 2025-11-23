@@ -1,0 +1,16 @@
+["0.0.1 lune"]
+published_at = "2025-11-23T10:02:08.281758493Z"
+
+["0.0.1 lune".target]
+environment = "lune"
+bin = "src/init.luau"
+
+["0.0.1 lune".engines]
+pesde = "^0.7.1"
+lune = "^0.10.4"
+
+["0.0.1 lune".dependencies]
+argparse = [{ name = "caveful_games/argparse", version = "^0.1.2", index = "https://github.com/pesde-pkg/index", target = "lune" }, "standard"]
+chalk = [{ name = "kimpure/chalk_luau", version = "^0.1.8", index = "https://github.com/pesde-pkg/index", target = "lune" }, "standard"]
+pathfs = [{ name = "jiwonz/pathfs", version = "^0.6.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "standard"]
+spin = [{ name = "rvy/spin", version = "^0.0.5", index = "https://github.com/pesde-pkg/index", target = "lune" }, "standard"]
