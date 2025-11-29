@@ -125,3 +125,18 @@ lune = "^0.10.4"
 ["0.2.2 roblox".dependencies]
 rojo = [{ name = "pesde/rojo", version = "^7.6.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["0.2.2 lune"]
+published_at = "2025-11-29T04:37:42.084861455Z"
+description = "An open-source library for making type-safe requests in Luau."
+license = "MIT"
+authors = ["femphilic <femphilic.com@gmail.com> (https://femphilic.com)"]
+repository = "https://github.com/femphilic/requestly"
+
+["0.2.2 lune".target]
+environment = "lune"
+lib = "src/lune/init.luau"
+
+["0.2.2 lune".engines]
+pesde = "^0.7.0"
+lune = "^0.10.4"
