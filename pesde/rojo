@@ -107,3 +107,22 @@ lune = "^0.10.2"
 option = [{ name = "lukadev_0/option", version = "^1.2.1", index = "https://github.com/pesde-pkg/index" }, "standard"]
 result = [{ name = "lukadev_0/result", version = "^1.2.1", index = "https://github.com/pesde-pkg/index" }, "standard"]
 toolchainlib = [{ name = "pesde/toolchainlib", version = "^0.2.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "standard"]
+
+["7.7.0-rc.1 lune"]
+published_at = "2025-11-30T13:50:19.747484356Z"
+description = "Rojo enables Roblox developers to use professional-grade software engineering tools"
+authors = ["CompeyDev <hi@devcomp.xyz>", "Lucien Greathouse <me@lpghatguy.com>"]
+repository = "https://github.com/pesde-pkg/tooling/tree/main/bins/rojo"
+
+["7.7.0-rc.1 lune".target]
+environment = "lune"
+bin = "init.luau"
+
+["7.7.0-rc.1 lune".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
+["7.7.0-rc.1 lune".dependencies]
+option = [{ name = "lukadev_0/option", version = "^1.2.1", index = "https://github.com/pesde-pkg/index" }, "standard"]
+result = [{ name = "lukadev_0/result", version = "^1.2.1", index = "https://github.com/pesde-pkg/index" }, "standard"]
+toolchainlib = [{ name = "pesde/toolchainlib", version = "^0.2.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "standard"]
