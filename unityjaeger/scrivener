@@ -1,0 +1,10 @@
+["0.0.1 roblox"]
+published_at = "2025-11-30T00:01:42.379548722Z"
+license = "MIT"
+authors = ["unityjaeger"]
+repository = "https://github.com/unityjaeger/Scrivener"
+
+["0.0.1 roblox".target]
+environment = "roblox"
+lib = "main.luau"
+build_files = ["main.luau"]
