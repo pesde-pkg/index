@@ -1,0 +1,15 @@
+["1.1.0 roblox"]
+published_at = "2025-12-03T07:34:52.203160619Z"
+description = "fast signal implementation"
+license = "CC0-1.0"
+authors = ["DissatisfiedP", "TheNoob (pretender)"]
+repository = "https://codeberg.org/DissatisfiedP/DissatisfiedProSignal"
+
+["1.1.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["1.1.0 roblox".dependencies]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
