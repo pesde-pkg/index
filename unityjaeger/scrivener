@@ -30,3 +30,14 @@ repository = "https://github.com/unityjaeger/Scrivener"
 environment = "roblox"
 lib = "main.luau"
 build_files = ["main.luau"]
+
+["0.1.0 roblox"]
+published_at = "2025-12-03T12:23:26.183511932Z"
+license = "MIT"
+authors = ["unityjaeger"]
+repository = "https://github.com/unityjaeger/Scrivener"
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "main.luau"
+build_files = ["main.luau"]
