@@ -321,3 +321,24 @@ option = [{ name = "lukadev_0/option", version = "^1.2.1", index = "https://gith
 pathfs = [{ name = "jiwonz/pathfs", version = "^0.6.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
 result = [{ name = "lukadev_0/result", version = "^1.2.1", index = "https://github.com/pesde-pkg/index" }, "peer"]
 unzip = [{ name = "0x5eal/unzip", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+
+["0.2.2 lune"]
+published_at = "2025-12-07T00:21:53.375835686Z"
+description = "A Luau library for implementing toolchain management"
+license = "MIT"
+repository = "https://github.com/pesde-pkg/tooling/tree/main/toolchainlib"
+
+["0.2.2 lune".target]
+environment = "lune"
+lib = "src/init.luau"
+
+["0.2.2 lune".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
+["0.2.2 lune".dependencies]
+dirs = [{ name = "jiwonz/dirs", version = "^0.6.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+option = [{ name = "lukadev_0/option", version = "^1.2.1", index = "https://github.com/pesde-pkg/index" }, "peer"]
+pathfs = [{ name = "jiwonz/pathfs", version = "^0.6.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+result = [{ name = "lukadev_0/result", version = "^1.2.1", index = "https://github.com/pesde-pkg/index" }, "peer"]
+unzip = [{ name = "0x5eal/unzip", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
