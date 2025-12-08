@@ -1,0 +1,21 @@
+["0.10.1 roblox"]
+published_at = "2025-12-08T04:13:57.72335081Z"
+description = "Schematized Luau buffer serialization library."
+license = "MIT"
+authors = ["isoopod"]
+repository = "https://github.com/isoopod/Pack"
+
+["0.10.1 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.10.1 roblox".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
+["0.10.1 roblox".dependencies]
+Jest = [{ wally = "wally#jsdotlua/jest", version = "^3.10.0", index = "https://github.com/UpliftGames/wally-index" }, "dev"]
+JestGlobals = [{ wally = "wally#jsdotlua/jest-globals", version = "^3.10.0", index = "https://github.com/UpliftGames/wally-index" }, "dev"]
+rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
