@@ -265,3 +265,14 @@ build_files = ["src"]
 
 ["0.4.0-rc.4 roblox".dependencies]
 language = [{ name = "alicesaidhi/conch_language", version = "^0.4.0-rc.4", index = "https://github.com/daimond113/pesde-index", target = "roblox" }, "standard"]
+
+["0.4.0-rc.5 roblox"]
+published_at = "2025-12-09T22:29:40.634633885Z"
+
+["0.4.0-rc.5 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.4.0-rc.5 roblox".dependencies]
+language = [{ name = "alicesaidhi/conch_language", version = "^0.4.0-rc.5", index = "https://github.com/daimond113/pesde-index", target = "roblox" }, "standard"]
