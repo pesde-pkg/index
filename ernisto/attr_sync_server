@@ -11,3 +11,21 @@ lib = "server.luau"
 
 ["0.0.1-alpha.1 luau".engines]
 pesde = "^0.7.1"
+
+["0.0.1-alpha.3 luau"]
+published_at = "2025-12-10T02:40:50.641201232Z"
+description = "server for attr-sync"
+license = "MIT"
+authors = ["ernisto <joaovitordesouza707@gmail.com>"]
+repository = "https://github.com/ernisto/attr"
+
+["0.0.1-alpha.3 luau".target]
+environment = "luau"
+lib = "server.luau"
+
+["0.0.1-alpha.3 luau".engines]
+pesde = "^0.7.1"
+
+["0.0.1-alpha.3 luau".dependencies]
+attr = [{ name = "ernisto/attr", version = "^0.0.1-alpha.2", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+attr_sync = [{ name = "ernisto/attr_sync", version = "^0.0.1-alpha.3", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
