@@ -77,3 +77,22 @@ lune = "^0.10.4"
 argparse = [{ name = "caveful_games/argparse", version = "^0.1.2", index = "https://github.com/pesde-pkg/index", target = "lune" }, "standard"]
 chalk = [{ name = "kimpure/chalk_luau", version = "^0.1.8", index = "https://github.com/pesde-pkg/index" }, "standard"]
 pathfs = [{ name = "jiwonz/pathfs", version = "^0.6.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+
+["0.1.0-rc.4 lune"]
+published_at = "2025-12-12T00:09:51.58830294Z"
+description = "provides roblox studio's luau runtime via cli"
+license = "MIT"
+authors = ["rvy"]
+
+["0.1.0-rc.4 lune".target]
+environment = "lune"
+bin = "build/release_bundle/init.luau"
+
+["0.1.0-rc.4 lune".engines]
+pesde = "^0.7.1"
+lune = "^0.10.4"
+
+["0.1.0-rc.4 lune".dependencies]
+argparse = [{ name = "caveful_games/argparse", version = "^0.1.2", index = "https://github.com/pesde-pkg/index", target = "lune" }, "standard"]
+chalk = [{ name = "kimpure/chalk_luau", version = "^0.1.8", index = "https://github.com/pesde-pkg/index" }, "standard"]
+pathfs = [{ name = "jiwonz/pathfs", version = "^0.6.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
