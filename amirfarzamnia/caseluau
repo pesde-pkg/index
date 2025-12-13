@@ -1,0 +1,10 @@
+["0.1.0 luau"]
+published_at = "2025-12-13T22:12:38.635000898Z"
+description = "A simple and lightweight Luau library for converting strings between different cases."
+license = "MIT"
+authors = ["Amir Farzamnia <amirfarzamnia@proton.me> (https://github.com/amirfarzamnia)"]
+repository = "https://github.com/amirfarzamnia/caseluau.git"
+
+["0.1.0 luau".target]
+environment = "luau"
+lib = "dist/init.luau"
