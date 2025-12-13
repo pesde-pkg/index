@@ -8,3 +8,14 @@ repository = "https://github.com/amirfarzamnia/caseluau.git"
 ["0.1.0 luau".target]
 environment = "luau"
 lib = "dist/init.luau"
+
+["0.1.5 luau"]
+published_at = "2025-12-13T22:31:03.72815208Z"
+description = "A simple and lightweight Luau library for converting strings between different cases."
+license = "MIT"
+authors = ["Amir Farzamnia <amirfarzamnia@proton.me> (https://github.com/amirfarzamnia)"]
+repository = "https://github.com/amirfarzamnia/caseluau"
+
+["0.1.5 luau".target]
+environment = "luau"
+lib = "dist/main.luau"
