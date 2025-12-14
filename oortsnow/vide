@@ -1,0 +1,11 @@
+["0.4.0 roblox"]
+published_at = "2025-12-14T05:49:43.767410481Z"
+description = "A reactive Luau library for creating UI."
+license = "MIT"
+authors = ["centau"]
+repository = "https://github.com/centau/vide"
+
+["0.4.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
