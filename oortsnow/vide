@@ -45,3 +45,15 @@ repository = "https://github.com/centau/vide"
 environment = "roblox"
 lib = "src/init.luau"
 build_files = ["src"]
+
+["0.4.4 roblox"]
+published_at = "2025-12-21T17:24:53.018027841Z"
+description = "A reactive Luau library for creating UI."
+license = "MIT"
+authors = ["centau"]
+repository = "https://github.com/centau/vide"
+
+["0.4.4 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
