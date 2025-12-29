@@ -36,3 +36,22 @@ lune = "^0.10.2"
 ["1.1.0 roblox".dependencies]
 rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["1.2.0 roblox"]
+published_at = "2025-12-29T13:45:56.0339789Z"
+license = "MIT"
+authors = ["Molyi"]
+repository = "https://github.com/MolyiDev/Butler"
+
+["1.2.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["1.2.0 roblox".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
+["1.2.0 roblox".dependencies]
+rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
