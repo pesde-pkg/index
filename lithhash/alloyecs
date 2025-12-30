@@ -1,0 +1,10 @@
+["0.1.0 luau"]
+published_at = "2025-12-30T03:57:29.671168961Z"
+description = "A fast, feature-rich Entity Component System for Roblox."
+license = "MIT"
+authors = ["LithHash"]
+repository = "https://github.com/LithHash/AlloyECS"
+
+["0.1.0 luau".target]
+environment = "luau"
+lib = "src/init.luau"
