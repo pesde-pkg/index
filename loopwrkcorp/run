@@ -10,6 +10,18 @@ environment = "roblox"
 lib = "src/init.luau"
 build_files = ["src"]
 
+["1.0.0 roblox"]
+published_at = "2025-12-30T16:20:13.843952025Z"
+description = "runtime module"
+license = "MIT"
+authors = ["pythonpluh", "hafpcuh"]
+repository = "https://github.com/loopwrkcorp/run"
+
+["1.0.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
 ["1.0.0 luau"]
 published_at = "2025-12-30T16:10:54.151664215Z"
 description = "runtime module"
