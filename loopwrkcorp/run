@@ -44,3 +44,15 @@ repository = "https://github.com/loopwrkcorp/run"
 environment = "roblox"
 lib = "run.luau"
 build_files = ["run.luau"]
+
+["1.0.2 roblox"]
+published_at = "2025-12-30T16:25:55.688880809Z"
+description = "runtime module"
+license = "MIT"
+authors = ["pythonpluh", "hafpcuh"]
+repository = "https://github.com/loopwrkcorp/run"
+
+["1.0.2 roblox".target]
+environment = "roblox"
+lib = "init.luau"
+build_files = ["init.luau"]
