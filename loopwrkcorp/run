@@ -1,0 +1,10 @@
+["1.0.0 luau"]
+published_at = "2025-12-30T16:10:54.151664215Z"
+description = "runtime module"
+license = "MIT"
+authors = ["pythonpluh", "hafpcuh"]
+repository = "https://github.com/loopwrkcorp/run"
+
+["1.0.0 luau".target]
+environment = "luau"
+lib = "src/init.luau"
