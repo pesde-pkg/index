@@ -1,0 +1,11 @@
+["0.1.0 roblox"]
+published_at = "2025-12-30T04:01:14.788420845Z"
+description = "Packet, a pragmatic roblox networking library. "
+license = "MIT"
+authors = ["LithHash"]
+repository = "https://github.com/LithHash/Packet"
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
