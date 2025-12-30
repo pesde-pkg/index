@@ -1,0 +1,11 @@
+["0.1.0 roblox"]
+published_at = "2025-12-30T04:03:27.161278435Z"
+description = "A robust, feature-rich data persistence library for Roblox."
+license = "MIT"
+authors = ["LithHash"]
+repository = "https://github.com/LithHash/Coppermind"
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
