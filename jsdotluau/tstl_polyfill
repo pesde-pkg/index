@@ -71,6 +71,16 @@ environment = "roblox"
 lib = "polyfill.luau"
 build_files = ["polyfill.luau"]
 
+["1.33.2-rc.3 lune"]
+published_at = "2025-12-31T02:24:21.113275336Z"
+description = "Polyfills for TypeScriptToLua"
+license = "MIT"
+repository = "https://github.com/jsdotluau/tstl_polyfill"
+
+["1.33.2-rc.3 lune".target]
+environment = "lune"
+lib = "polyfill.luau"
+
 ["1.33.2-rc.3 luau"]
 published_at = "2025-12-31T02:24:16.208434283Z"
 description = "Polyfills for TypeScriptToLua"
