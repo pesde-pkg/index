@@ -17,3 +17,23 @@ lune = "^0.10.2"
 ["1.0.0 roblox".dependencies]
 rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["1.0.1 roblox"]
+published_at = "2026-01-01T23:59:20.282236674Z"
+description = "Signal library."
+license = "MIT"
+authors = ["Molyi"]
+repository = "https://github.com/MolyiDev/Signal"
+
+["1.0.1 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["1.0.1 roblox".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
+["1.0.1 roblox".dependencies]
+rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
