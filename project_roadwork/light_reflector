@@ -18,6 +18,26 @@ lune = "^0.10.2"
 rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 
+["1.0.0-alpha.2 roblox"]
+published_at = "2026-01-02T07:34:37.794477019Z"
+description = "A vehicle-based light reflector that reflects decals and basepart reflectors at long distances on a road."
+license = "MPL-2.0"
+authors = ["Illinois_Roadbuff [Rogue Jr]"]
+repository = "https://codeberg.org/project-roadwork/light-reflector.git"
+
+["1.0.0-alpha.2 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["1.0.0-alpha.2 roblox".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
+["1.0.0-alpha.2 roblox".dependencies]
+rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
 ["1.0.0-infdev.1 roblox"]
 published_at = "2025-12-26T12:19:49.717127161Z"
 description = "A vehicle-based light reflector that reflects decals and basepart reflectors at long distances on a road."
