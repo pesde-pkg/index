@@ -81,3 +81,17 @@ build_files = ["src"]
 
 ["0.1.5 roblox".dependencies]
 log = [{ wally = "wally#sleitnick/log", version = "^0.1.2", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
+
+["0.1.6 roblox"]
+published_at = "2026-01-04T19:24:37.058601616Z"
+description = "Type definitions for sleitnick/log"
+license = "MIT"
+authors = ["Arseniy"]
+
+["0.1.6 roblox".target]
+environment = "roblox"
+lib = "lib/init.luau"
+build_files = ["lib"]
+
+["0.1.6 roblox".dependencies]
+log = [{ wally = "wally#sleitnick/log", version = "^0.1.2", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
