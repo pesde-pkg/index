@@ -1,0 +1,13 @@
+["0.1.0 roblox"]
+published_at = "2026-01-04T18:55:08.809487272Z"
+description = "Type definitions for sleitnick/log"
+license = "MIT"
+authors = ["Arseniy"]
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "init.luau"
+build_files = ["init.luau"]
+
+["0.1.0 roblox".dependencies]
+log = [{ wally = "wally#sleitnick/log", version = "^0.1.2", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
