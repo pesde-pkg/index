@@ -1,0 +1,16 @@
+["1.0.0 roblox"]
+published_at = "2026-01-07T19:15:32.272621657Z"
+license = "MIT"
+authors = ["Xan007"]
+repository = "https://github.com/Xan007/composer"
+
+["1.0.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["1.0.0 roblox".dependencies]
+observers = [{ wally = "wally#sleitnick/observers", version = "^0.4.0", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+signal = [{ wally = "wally#sleitnick/signal", version = "^2.0.3", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
