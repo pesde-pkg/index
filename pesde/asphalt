@@ -479,3 +479,22 @@ lune = "^0.10.2"
 option = [{ name = "lukadev_0/option", version = "^1.2.1", index = "https://github.com/pesde-pkg/index" }, "standard"]
 result = [{ name = "lukadev_0/result", version = "^1.2.1", index = "https://github.com/pesde-pkg/index" }, "standard"]
 toolchainlib = [{ name = "pesde/toolchainlib", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "standard"]
+
+["2.0.0-rc.1 lune"]
+published_at = "2026-01-07T19:50:04.180981331Z"
+description = "An assets-as-files tool for Roblox"
+authors = ["CompeyDev <hi@devcomp.xyz>", "Jack T <jack@jackt.space>"]
+repository = "https://github.com/pesde-pkg/tooling/tree/main/bins/asphalt"
+
+["2.0.0-rc.1 lune".target]
+environment = "lune"
+bin = "init.luau"
+
+["2.0.0-rc.1 lune".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
+["2.0.0-rc.1 lune".dependencies]
+option = [{ name = "lukadev_0/option", version = "^1.2.1", index = "https://github.com/pesde-pkg/index" }, "standard"]
+result = [{ name = "lukadev_0/result", version = "^1.2.1", index = "https://github.com/pesde-pkg/index" }, "standard"]
+toolchainlib = [{ name = "pesde/toolchainlib", version = "^0.2.2", index = "https://github.com/pesde-pkg/index", target = "lune" }, "standard"]
