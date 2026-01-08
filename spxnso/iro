@@ -7,3 +7,14 @@ authors = ["spxnso"]
 ["0.1.0 luau".target]
 environment = "luau"
 lib = "src/init.luau"
+
+["1.0.0 luau"]
+published_at = "2026-01-08T17:31:07.608855818Z"
+description = "Lightweight library for rich, terminal-style colored text output"
+license = "MIT"
+authors = ["spxnso"]
+repository = "https://github.com/spxnso/iro"
+
+["1.0.0 luau".target]
+environment = "luau"
+lib = "src/init.luau"
