@@ -1,0 +1,9 @@
+["0.1.0 luau"]
+published_at = "2026-01-08T17:29:33.357202455Z"
+description = "Lightweight library for rich, terminal-style colored text output"
+license = "MIT"
+authors = ["spxnso"]
+
+["0.1.0 luau".target]
+environment = "luau"
+lib = "src/init.luau"
