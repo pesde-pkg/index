@@ -88,3 +88,15 @@ repository = "https://github.com/wrello/Animations"
 environment = "roblox"
 lib = "init.lua"
 build_files = ["Deps", "Package", "init.lua"]
+
+["2.6.0 roblox"]
+published_at = "2026-01-09T18:31:14.913696754Z"
+description = "An easy to use module for playing & pre-loading animations in Roblox."
+license = "MIT"
+authors = ["wrello"]
+repository = "https://github.com/wrello/Animations"
+
+["2.6.0 roblox".target]
+environment = "roblox"
+lib = "init.lua"
+build_files = ["Deps", "Package", "init.lua"]
