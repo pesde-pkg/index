@@ -1,0 +1,13 @@
+["0.1.0-alpha.0 luau"]
+published_at = "2026-01-10T17:05:16.23544249Z"
+description = "A dependency management solution for Quill"
+license = "MIT"
+authors = ["Featherfall"]
+repository = "https://github.com/featherfall-org/quill"
+
+["0.1.0-alpha.0 luau".target]
+environment = "luau"
+lib = "lib/init.luau"
+
+["0.1.0-alpha.0 luau".dependencies]
+core = [{ name = "featherfall/quill_core", version = "^0.1.0-alpha.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
