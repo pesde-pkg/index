@@ -20,3 +20,14 @@ repository = "https://github.com/featherfall-org/quill"
 ["0.1.0-alpha.0 luau".target]
 environment = "luau"
 lib = "lib/init.luau"
+
+["0.1.0-alpha.1 luau"]
+published_at = "2026-01-10T23:50:48.418007709Z"
+description = "A featherweight framework for Luau"
+license = "MIT"
+authors = ["Featherfall"]
+repository = "https://github.com/featherfall-org/quill"
+
+["0.1.0-alpha.1 luau".target]
+environment = "luau"
+lib = "lib/init.luau"
