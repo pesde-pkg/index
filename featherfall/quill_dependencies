@@ -27,6 +27,21 @@ lib = "lib/init.luau"
 ["0.1.0-alpha.0 luau".dependencies]
 core = [{ name = "featherfall/quill_core", version = "^0.1.0-alpha.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
 
+["0.1.0-alpha.1 roblox"]
+published_at = "2026-01-11T01:06:14.905043326Z"
+description = "A dependency management solution for Quill"
+license = "MIT"
+authors = ["Featherfall"]
+repository = "https://github.com/featherfall-org/quill"
+
+["0.1.0-alpha.1 roblox".target]
+environment = "roblox"
+lib = "lib/init.luau"
+build_files = ["lib"]
+
+["0.1.0-alpha.1 roblox".dependencies]
+core = [{ name = "featherfall/quill_core", version = "^0.1.0-alpha.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
+
 ["0.1.0-alpha.1 luau"]
 published_at = "2026-01-11T01:06:01.007005709Z"
 description = "A dependency management solution for Quill"
