@@ -21,6 +21,18 @@ repository = "https://github.com/featherfall-org/quill"
 environment = "luau"
 lib = "lib/init.luau"
 
+["0.1.0-alpha.1 roblox"]
+published_at = "2026-01-11T01:06:11.341202372Z"
+description = "A tiny, context aware logger for Quill"
+license = "MIT"
+authors = ["Featherfall"]
+repository = "https://github.com/featherfall-org/quill"
+
+["0.1.0-alpha.1 roblox".target]
+environment = "roblox"
+lib = "lib/init.luau"
+build_files = ["lib"]
+
 ["0.1.0-alpha.1 luau"]
 published_at = "2026-01-11T01:05:58.001840953Z"
 description = "A tiny, context aware logger for Quill"
