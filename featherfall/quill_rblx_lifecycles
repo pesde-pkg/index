@@ -12,3 +12,18 @@ build_files = ["lib", "lib/"]
 
 ["0.1.0-alpha.0 roblox".dependencies]
 core = [{ name = "featherfall/quill_core", version = "^0.1.0-alpha.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+
+["0.1.0-alpha.1 roblox"]
+published_at = "2026-01-11T01:06:18.533601504Z"
+description = "A collection of Quill lifecycles for Roblox"
+license = "MIT"
+authors = ["Featherfall"]
+repository = "https://github.com/featherfall-org/quill"
+
+["0.1.0-alpha.1 roblox".target]
+environment = "roblox"
+lib = "lib/init.luau"
+build_files = ["lib"]
+
+["0.1.0-alpha.1 roblox".dependencies]
+core = [{ name = "featherfall/quill_core", version = "^0.1.0-alpha.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
