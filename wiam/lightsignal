@@ -20,3 +20,14 @@ repository = "https://codeberg.org/wiam/lib"
 ["0.1.3 lune".target]
 environment = "lune"
 lib = "src/init.luau"
+
+["0.2.0 lune"]
+published_at = "2026-01-18T01:11:41.435882996Z"
+description = "Lightweight signal implementation"
+license = "GPL-3.0-or-later"
+authors = ["wiam"]
+repository = "https://codeberg.org/wiam/lightsignal"
+
+["0.2.0 lune".target]
+environment = "lune"
+lib = "src/init.luau"
