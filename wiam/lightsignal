@@ -21,6 +21,18 @@ repository = "https://codeberg.org/wiam/lib"
 environment = "lune"
 lib = "src/init.luau"
 
+["0.2.0 roblox"]
+published_at = "2026-01-18T01:16:43.212224723Z"
+description = "Lightweight signal implementation"
+license = "GPL-3.0-or-later"
+authors = ["wiam"]
+repository = "https://codeberg.org/wiam/lightsignal"
+
+["0.2.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
 ["0.2.0 lune"]
 published_at = "2026-01-18T01:11:41.435882996Z"
 description = "Lightweight signal implementation"
