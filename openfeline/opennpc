@@ -1,0 +1,20 @@
+["0.1.0 roblox_server"]
+published_at = "2026-01-18T21:12:22.483069729Z"
+description = "A feline orientated custom NPC controller library."
+license = "MIT"
+authors = ["OpenFeline Organization"]
+
+["0.1.0 roblox_server".target]
+environment = "roblox_server"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.1.0 roblox_server".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
+["0.1.0 roblox_server".dependencies]
+crunchyroll = [{ wally = "wally#ffrostfall/crunchyroll", version = "^0.2.0", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
+rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+signal = [{ name = "jiwonz/signal", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
