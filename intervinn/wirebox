@@ -31,6 +31,22 @@ lib = "lib/init.luau"
 pesde = "^0.7.0"
 lune = "^0.10.2"
 
+["0.1.2 roblox"]
+published_at = "2026-01-21T10:28:17.468809278Z"
+description = "Constructor-based Dependency Injection"
+license = "MIT"
+authors = ["intervinn"]
+repository = "https://github.com/intervinn/wirebox"
+
+["0.1.2 roblox".target]
+environment = "roblox"
+lib = "lib/init.luau"
+build_files = ["lib"]
+
+["0.1.2 roblox".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
 ["0.1.2 luau"]
 published_at = "2026-01-10T12:17:01.334657918Z"
 description = "Constructor-based Dependency Injection"
