@@ -125,3 +125,24 @@ hash = "674ed937507a5473c8677520310363558789df18ddcc08186b958055f2f79535"
 label = "concepts"
 name = "intro"
 hash = "d4f17acacefd31b557718fe2a60dd1064a9d99e81ccafb2c93050ddc8612f1bb"
+
+["0.1.2 lune"]
+published_at = "2026-01-21T16:24:53.830478194Z"
+description = "Simple state management library."
+license = "GPL-3.0-or-later"
+authors = ["wiam"]
+repository = "https://codeberg.org/wiam/swan"
+
+["0.1.2 lune".target]
+environment = "lune"
+lib = "src/init.luau"
+
+[["0.1.2 lune".docs]]
+label = "api reference"
+name = "api_ref"
+hash = "674ed937507a5473c8677520310363558789df18ddcc08186b958055f2f79535"
+
+[["0.1.2 lune".docs]]
+label = "concepts"
+name = "intro"
+hash = "d4f17acacefd31b557718fe2a60dd1064a9d99e81ccafb2c93050ddc8612f1bb"
