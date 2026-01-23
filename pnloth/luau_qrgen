@@ -43,3 +43,26 @@ scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://g
 selene = [{ name = "pesde/selene", version = "^0.29.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 stylua = [{ name = "pesde/stylua", version = "^2.0.2", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 ui_labs = [{ name = "pepeeltoro41/ui_labs", version = "^2.4.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
+
+["0.1.2 roblox"]
+published_at = "2026-01-23T04:39:38.320692453Z"
+description = "QR code generation for Lune and Roblox with strict typing and Roblox Frame renderer"
+license = "GPL-3.0"
+authors = ["pnloth"]
+repository = "https://github.com/pnlmon/luau-qrgen"
+
+["0.1.2 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.1.2 roblox".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
+["0.1.2 roblox".dependencies]
+rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+selene = [{ name = "pesde/selene", version = "^0.29.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+stylua = [{ name = "pesde/stylua", version = "^2.0.2", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+ui_labs = [{ name = "pepeeltoro41/ui_labs", version = "^2.4.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
