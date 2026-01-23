@@ -257,3 +257,16 @@ build_files = ["src"]
 conch = [{ name = "alicesaidhi/conch", version = "^0.4.0-rc.5", index = "https://github.com/daimond113/pesde-index", target = "roblox" }, "standard"]
 language = [{ name = "alicesaidhi/conch_language", version = "^0.4.0-rc.5", index = "https://github.com/daimond113/pesde-index", target = "roblox" }, "standard"]
 vide = [{ wally = "wally#centau/vide", version = "^0.3.1", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
+
+["0.4.0-rc.6 roblox"]
+published_at = "2026-01-23T18:15:45.432152907Z"
+
+["0.4.0-rc.6 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.4.0-rc.6 roblox".dependencies]
+conch = [{ name = "alicesaidhi/conch", version = "^0.4.0-rc.6", index = "https://github.com/daimond113/pesde-index", target = "roblox" }, "standard"]
+language = [{ name = "alicesaidhi/conch_language", version = "^0.4.0-rc.6", index = "https://github.com/daimond113/pesde-index", target = "roblox" }, "standard"]
+vide = [{ wally = "wally#centau/vide", version = "^0.3.1", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
