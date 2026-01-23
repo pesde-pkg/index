@@ -69,3 +69,11 @@ published_at = "2025-12-09T22:29:34.095324959Z"
 environment = "roblox"
 lib = "src/init.luau"
 build_files = ["src"]
+
+["0.4.0-rc.6 roblox"]
+published_at = "2026-01-23T18:15:42.352578742Z"
+
+["0.4.0-rc.6 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
