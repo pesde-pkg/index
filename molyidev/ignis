@@ -37,3 +37,23 @@ lune = "^0.10.2"
 ["0.1.1 roblox".dependencies]
 rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["0.1.2 roblox"]
+published_at = "2026-01-28T23:28:20.208832617Z"
+description = "Framework library."
+license = "MIT"
+authors = ["Molyi"]
+repository = "https://github.com/MolyiDev/Ignis"
+
+["0.1.2 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.1.2 roblox".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
+["0.1.2 roblox".dependencies]
+rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
