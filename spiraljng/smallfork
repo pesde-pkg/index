@@ -1,0 +1,14 @@
+["2.0.0 luau"]
+published_at = "2026-01-31T13:35:49.461046607Z"
+description = "A blazing fast LuaU seralizer, built off of the ancient Smallfolk Lua serializer. Designed for a less-bloated alternative to other LuaU serializers"
+license = "MIT"
+authors = ["gvx", "spiraljng"]
+repository = "https://github.com/spiraljng/Smallfork"
+
+["2.0.0 luau".target]
+environment = "luau"
+lib = "src/smallfork.luau"
+
+["2.0.0 luau".engines]
+pesde = "^0.7.1"
+lune = "^0.10.4"
