@@ -1,0 +1,10 @@
+["0.0.2 luau"]
+published_at = "2026-02-05T07:37:54.97686876Z"
+description = "Pepecs: an ecs"
+license = "MIT"
+authors = ["pepeeltoro41"]
+repository = "https://github.com/PepeElToro41/pepecs"
+
+["0.0.2 luau".target]
+environment = "luau"
+lib = "src/init.luau"
