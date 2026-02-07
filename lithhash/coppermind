@@ -24,3 +24,18 @@ build_files = ["src"]
 ["0.1.1 roblox".engines]
 pesde = "^0.7.0"
 lune = "^0.10.2"
+
+["0.1.10 roblox"]
+published_at = "2026-02-07T02:57:21.371620042Z"
+license = "MIT"
+authors = ["lithhash"]
+repository = "https://github.com/LithHash/Coppermind"
+
+["0.1.10 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.1.10 roblox".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
