@@ -1,0 +1,11 @@
+["1.1.0 roblox"]
+published_at = "2026-02-10T12:39:58.877643724Z"
+description = "A lightweight Unix-like kernel for Roblox OS emulation"
+license = "MIT"
+authors = ["gado7h"]
+repository = "https://github.com/gado7h/bedrock"
+
+["1.1.0 roblox".target]
+environment = "roblox"
+lib = "src/Kernel/init.luau"
+build_files = ["src"]
