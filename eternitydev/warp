@@ -4,6 +4,7 @@ description = "A very-fast & powerful networking library."
 license = "MIT"
 authors = ["eternitydev"]
 repository = "https://github.com/imezx/Warp"
+yanked = true
 
 ["1.1.0-pre1 luau".target]
 environment = "luau"
