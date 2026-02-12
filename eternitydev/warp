@@ -1,0 +1,92 @@
+["1.1.0-pre1 luau"]
+published_at = "2026-02-12T09:26:34.960395823Z"
+description = "A very-fast & powerful networking library."
+license = "MIT"
+authors = ["eternitydev"]
+repository = "https://github.com/imezx/Warp"
+
+["1.1.0-pre1 luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
+[["1.1.0-pre1 luau".docs]]
+label = "Api"
+
+[["1.1.0-pre1 luau".docs.items]]
+label = "1.0"
+
+[["1.1.0-pre1 luau".docs.items.items]]
+label = 'Client <Badge type="tip" text="event" />'
+name = "api/1.0/client"
+hash = "728d14c9397551ca9f9fb63557e2e2363844167823d192576ceed43e20fd6197"
+
+[["1.1.0-pre1 luau".docs.items.items]]
+label = 'Rate Limit <Badge type="tip" text="feature" />'
+name = "api/1.0/ratelimit"
+hash = "112bf8e9caa849dd2e522bbf9e1e3cbaf466654f8b0f28c2656b55bdb9542622"
+
+[["1.1.0-pre1 luau".docs.items.items]]
+label = 'Server <Badge type="tip" text="event" />'
+name = "api/1.0/server"
+hash = "c846978f9d30386737a32a48ea83e610fa31e21917f57db5b567cb8517e9a07f"
+
+[["1.1.0-pre1 luau".docs.items.items]]
+label = 'Signal <Badge type="tip" text="utilities" />'
+name = "api/1.0/signal"
+hash = "1f20e74a898350b9e4272f00e64b9dd5b29487b81ee5109bfa807ed5e045b368"
+
+[["1.1.0-pre1 luau".docs.items.items]]
+label = 'Warp <Badge type="tip" text="1.0" />'
+name = "api/1.0/warp"
+hash = "4d73180ddffdb7ce121faf1c5571e757d1fc6b76649d3f057421d690b318f5ae"
+
+[["1.1.0-pre1 luau".docs.items]]
+label = "1.1"
+
+[["1.1.0-pre1 luau".docs.items.items]]
+label = 'Buffer <Badge type="tip" text="module" />'
+name = "api/1.1/buffer"
+hash = "21336f53827fd768b903be3bd4cf30405ca5864da12e355f6fa364ae0f1f2c2b"
+
+[["1.1.0-pre1 luau".docs.items.items]]
+label = 'Client <Badge type="tip" text="1.1" />'
+name = "api/1.1/client"
+hash = "7e111230dda43aeba9d23c74669e594c926654f0ad8e2f99f0d17038dfc5fae1"
+
+[["1.1.0-pre1 luau".docs.items.items]]
+label = 'Server <Badge type="tip" text="1.1" />'
+name = "api/1.1/server"
+hash = "9cdac6839619c4b75b139b43a0bc9c29548b2b55b8b0e779397816051e9e9bf3"
+
+[["1.1.0-pre1 luau".docs.items.items]]
+label = 'Warp <Badge type="tip" text="1.1" />'
+name = "api/1.1/warp"
+hash = "874dcb5ed4a1b1d3e4fffe71924583df1bde1394e5ff7ade92d9aaa49adce3a3"
+
+[["1.1.0-pre1 luau".docs]]
+label = "Guide"
+
+[["1.1.0-pre1 luau".docs.items]]
+label = 'Example <Badge type="tip" text="1.0" />'
+name = "guide/example"
+hash = "4cff9a8fb5338b2cb51cc1302af7de2f0624126d143cdf17b6d8a496bba8e980"
+
+[["1.1.0-pre1 luau".docs.items]]
+label = 'Getting Started <Badge type="tip" text="1.0" />'
+name = "guide/getting-started"
+hash = "23baa3b31277cd6057110392c4cf608d243181930d9c3ec761f24cfaa018fb2e"
+
+[["1.1.0-pre1 luau".docs.items]]
+label = "Installation"
+name = "guide/installation"
+hash = "92940c30a2c8e517be3c62c4fb5d3b7c3df02cd263784faeab761153b3c210f5"
+
+[["1.1.0-pre1 luau".docs.items]]
+label = "Overview"
+name = "guide/index"
+hash = "213264fb99e92bdd329f31944129d88a38118af8a11eb20965c4f6d35c1214cf"
+
+[["1.1.0-pre1 luau".docs]]
+label = "Index"
+name = "index"
+hash = "1256a7ed00602da7c9b7ae47498ba828b36c14f087f0ac75a0979e6aa2296c83"
