@@ -84,3 +84,17 @@ lib = "lib/init.luau"
 
 ["0.1.0-alpha.2 luau".dependencies]
 core = [{ name = "featherfall/quill_core", version = "^0.1.0-alpha.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
+
+["0.1.0-alpha.3 luau"]
+published_at = "2026-02-13T19:57:31.543277763Z"
+description = "A dependency management solution for Quill"
+license = "MIT"
+authors = ["Featherfall"]
+repository = "https://github.com/featherfall-org/quill"
+
+["0.1.0-alpha.3 luau".target]
+environment = "luau"
+lib = "lib/init.luau"
+
+["0.1.0-alpha.3 luau".dependencies]
+core = [{ name = "featherfall/quill_core", version = "^0.1.0-alpha.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
