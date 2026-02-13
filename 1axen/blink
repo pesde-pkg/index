@@ -19,3 +19,14 @@ repository = "https://github.com/1axen/blink"
 ["0.18.6 lune".target]
 environment = "lune"
 bin = "release/blink_pesde.luau"
+
+["0.18.7 lune"]
+published_at = "2026-02-13T14:26:18.261357623Z"
+description = "An IDL compiler written in Luau for ROBLOX buffer networking"
+license = "MIT"
+authors = ["1axen"]
+repository = "https://github.com/1axen/blink"
+
+["0.18.7 lune".target]
+environment = "lune"
+bin = "release/blink_pesde.luau"
