@@ -91,3 +91,14 @@ hash = "213264fb99e92bdd329f31944129d88a38118af8a11eb20965c4f6d35c1214cf"
 label = "Index"
 name = "index"
 hash = "1256a7ed00602da7c9b7ae47498ba828b36c14f087f0ac75a0979e6aa2296c83"
+
+["1.1.0-pre2 luau"]
+published_at = "2026-02-13T10:54:58.962052221Z"
+description = "A rapidly-fast & powerful networking library."
+license = "MIT"
+authors = ["eternitydev"]
+repository = "https://github.com/imezx/Warp"
+
+["1.1.0-pre2 luau".target]
+environment = "luau"
+lib = "src/init.luau"
