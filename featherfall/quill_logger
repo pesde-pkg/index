@@ -43,3 +43,14 @@ repository = "https://github.com/featherfall-org/quill"
 ["0.1.0-alpha.1 luau".target]
 environment = "luau"
 lib = "lib/init.luau"
+
+["0.1.0-alpha.2 luau"]
+published_at = "2026-02-13T19:57:28.464112953Z"
+description = "A tiny, context aware logger for Quill"
+license = "MIT"
+authors = ["Featherfall"]
+repository = "https://github.com/featherfall-org/quill"
+
+["0.1.0-alpha.2 luau".target]
+environment = "luau"
+lib = "lib/init.luau"
