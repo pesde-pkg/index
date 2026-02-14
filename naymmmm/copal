@@ -8,3 +8,14 @@ repository = "https://github.com/Naymmmm/copal.git"
 ["0.1.0 lune".target]
 environment = "lune"
 bin = "src/main.luau"
+
+["0.1.2 lune"]
+published_at = "2026-02-14T01:06:56.608008714Z"
+description = "Copal is a powerful, modular AI Agent Swarm framework written in Luau"
+license = "Apache-2.0"
+authors = ["Naymmmm"]
+repository = "https://github.com/Naymmmm/copal.git"
+
+["0.1.2 lune".target]
+environment = "lune"
+bin = "src/main.luau"
