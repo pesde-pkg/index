@@ -1,0 +1,13 @@
+["0.1.0 lune"]
+published_at = "2026-02-15T05:49:35.215186691Z"
+description = "access sysfs from lune!"
+license = "GPL-2.0-or-later"
+authors = ["gahxke"]
+repository = "https://github.com/gahxke/sysfs.luau"
+
+["0.1.0 lune".target]
+environment = "lune"
+bin = "lib/main.luau"
+
+["0.1.0 lune".engines]
+lune = "^0.10.4"
