@@ -1,0 +1,19 @@
+["0.2.5 roblox"]
+published_at = "2026-02-16T11:15:59.97633913Z"
+description = "Generates a unicode progress-bar"
+license = "CC BY-SA 4.0"
+authors = ["thalisky"]
+repository = "https://github.com/thalisky/unicodeprogressbar"
+
+["0.2.5 roblox".target]
+environment = "roblox"
+lib = "unicodeprogressbar/init.lua"
+build_files = ["unicodeprogressbar"]
+
+["0.2.5 roblox".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
+["0.2.5 roblox".dependencies]
+rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
