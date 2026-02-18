@@ -1,0 +1,14 @@
+["1.0.0 roblox"]
+published_at = "2026-02-18T16:53:25.76542283Z"
+description = "Responsive UI scaling for Roblox. Set it up once and forget about it."
+license = "BloxLibs"
+authors = ["PcoiDev"]
+repository = "https://github.com/blox-libs/BetterScale"
+
+["1.0.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["1.0.0 roblox".engines]
+pesde = "^0.7.0"
