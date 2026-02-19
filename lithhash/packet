@@ -81,3 +81,15 @@ repository = "https://github.com/LithHash/Packet"
 environment = "roblox"
 lib = "src/init.luau"
 build_files = ["src"]
+
+["0.1.25 roblox"]
+published_at = "2026-02-19T13:56:44.253078103Z"
+description = "Packet, a pragmatic roblox networking library. "
+license = "MIT"
+authors = ["LithHash"]
+repository = "https://github.com/LithHash/Packet"
+
+["0.1.25 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
