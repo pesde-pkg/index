@@ -1,0 +1,20 @@
+["0.1.0 roblox"]
+published_at = "2026-02-20T06:26:12.130196023Z"
+description = "A powerful ffrostfall/crunchyroll wrapper."
+license = "MIT"
+authors = ["teakzc"]
+repository = "https://github.com/teakzc/crunchwrap"
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.1.0 roblox".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
+["0.1.0 roblox".dependencies]
+crunchyroll = [{ wally = "wally#ffrostfall/crunchyroll", version = "^0.2.0", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
+rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
