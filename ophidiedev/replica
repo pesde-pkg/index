@@ -13,3 +13,19 @@ build_files = ["src"]
 ["0.1.0 roblox".dependencies]
 rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["0.2.0 roblox"]
+published_at = "2026-02-24T01:04:41.500798426Z"
+description = "Roblox server to client state replication solution which lets the developer subscribe certain players to certain states. Originally made by loleris"
+license = "Apache-2.0"
+authors = ["Ophidie (https://github.com/OphidieDev)", "Loleris (https://github.com/LM-loleris)"]
+repository = "https://github.com/OphidieDev/replica"
+
+["0.2.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.2.0 roblox".dependencies]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
