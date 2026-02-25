@@ -1,3 +1,15 @@
+["0.1.0 roblox"]
+published_at = "2026-02-25T23:06:40.158634031Z"
+description = "Minimal, portable testing libraries for Luau."
+license = "BSD-3-Clause"
+authors = ["dphfox"]
+repository = "https://github.com/StoryBakery/tiniest"
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "src/tiniest_for_roblox.luau"
+build_files = ["src"]
+
 ["0.1.0 lune"]
 published_at = "2026-02-25T23:05:33.461322605Z"
 description = "Minimal, portable testing libraries for Luau."
