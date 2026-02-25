@@ -8,3 +8,14 @@ repository = "https://github.com/StoryBakery/tiniest"
 ["0.1.0 lune".target]
 environment = "lune"
 lib = "src/tiniest_for_lune.luau"
+
+["0.1.0 luau"]
+published_at = "2026-02-25T23:06:07.017999021Z"
+description = "Minimal, portable testing libraries for Luau."
+license = "BSD-3-Clause"
+authors = ["dphfox"]
+repository = "https://github.com/StoryBakery/tiniest"
+
+["0.1.0 luau".target]
+environment = "luau"
+lib = "src/tiniest.luau"
