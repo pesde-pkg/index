@@ -1,0 +1,14 @@
+["0.1.0 roblox"]
+published_at = "2026-02-26T22:52:11.058370172Z"
+description = "Pure Luau SDK for Starknet blockchain interaction from Roblox games"
+license = "MIT"
+authors = ["Brandon Roberts"]
+repository = "https://github.com/b-j-roberts/starknet-luau"
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.1.0 roblox".dependencies]
+Promise = [{ wally = "wally#evaera/promise", version = "^3.1.0", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
