@@ -1,0 +1,10 @@
+["0.1.0 lune"]
+published_at = "2026-02-28T16:15:16.800560117Z"
+description = "A hot-reloading development tool for Lune, inspired by Nodemon."
+license = "MIT"
+authors = ["BizWiz3"]
+repository = "https://github.com/BizWiz3/lunemon"
+
+["0.1.0 lune".target]
+environment = "lune"
+bin = "src/lunemon.luau"
