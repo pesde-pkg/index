@@ -1,0 +1,10 @@
+["0.1.0 luau"]
+published_at = "2026-03-01T05:49:06.290761112Z"
+description = "A compact Maid library with no locals whatsoever."
+license = "MIT"
+authors = ["Gas"]
+repository = "https://github.com/MabMabMabMabMab/llm"
+
+["0.1.0 luau".target]
+environment = "luau"
+lib = "src/init.luau"
