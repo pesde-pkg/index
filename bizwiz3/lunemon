@@ -8,3 +8,14 @@ repository = "https://github.com/BizWiz3/lunemon"
 ["0.1.0 lune".target]
 environment = "lune"
 bin = "src/lunemon.luau"
+
+["0.1.1 lune"]
+published_at = "2026-03-01T02:45:41.826221022Z"
+description = "A hot-reloading development tool for Lune, inspired by Nodemon."
+license = "MIT"
+authors = ["BizWiz3"]
+repository = "https://github.com/BizWiz3/lunemon"
+
+["0.1.1 lune".target]
+environment = "lune"
+bin = "src/lunemon.luau"
