@@ -4,6 +4,7 @@ description = "A hot-reloading development tool for Lune, inspired by Nodemon."
 license = "MIT"
 authors = ["BizWiz3"]
 repository = "https://github.com/BizWiz3/lunemon"
+yanked = true
 
 ["0.1.0 lune".target]
 environment = "lune"
