@@ -1,0 +1,10 @@
+["0.1.0 lune"]
+published_at = "2026-03-01T12:39:53.66495599Z"
+description = "The HTTP client for Lune. Aura is a lightweight wrapper around Lune's native net library for handling request. Inspired by Axios, it simplifies data fetching by handling JSON encoding/decoding, URL normalization, and standardized response objects automatically."
+license = "MIT"
+authors = ["BizWiz3"]
+repository = "https://github.com/BizWiz3/aura"
+
+["0.1.0 lune".target]
+environment = "lune"
+lib = "src/index.luau"
