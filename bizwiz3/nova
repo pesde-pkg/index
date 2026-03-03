@@ -44,6 +44,7 @@ description = "A high-performance, filesystem-based web framework built specific
 license = "MIT"
 authors = ["BizWiz3 (https://github.com/BizWiz3)", "Leoj030 (https://github.com/Leoj030)"]
 repository = "https://github.com/BizWiz3/nova"
+yanked = true
 
 ["0.1.1 lune".target]
 environment = "lune"
