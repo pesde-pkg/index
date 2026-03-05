@@ -1,0 +1,10 @@
+["0.3.0 lune"]
+published_at = "2026-03-05T03:54:07.531018215Z"
+description = "Luau port of the run-in-roblox Rojo tool."
+license = "MIT"
+authors = ["JaydonsFault"]
+repository = "https://github.com/codjo3/run-in-roblox-lua"
+
+["0.3.0 lune".target]
+environment = "lune"
+bin = "src/main.luau"
