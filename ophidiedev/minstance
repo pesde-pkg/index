@@ -1,0 +1,15 @@
+["0.1.0 roblox"]
+published_at = "2026-03-09T22:15:22.949677405Z"
+description = "A very fast Instance serializer for Roblox that can serialize 40,000 Instances and compress it into a 100K+ character string in only 0.4s"
+license = "MIT"
+authors = ["Ophidie (https://github.com/OphidieDev)", "kieldbg (https://github.com/kieldbg)"]
+repository = "https://github.com/OphidieDev/MInstance"
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.1.0 roblox".dependencies]
+rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
