@@ -1,3 +1,23 @@
+["0.0.0 roblox"]
+published_at = "2026-03-11T09:55:24.928038761Z"
+description = "A simple wrapper for Roblox inter-Plugin import/export semantics"
+license = "MIT"
+authors = ["athar-adv"]
+repository = "https://github.com/athar-adv/UniPlugin"
+
+["0.0.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.0.0 roblox".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
+["0.0.0 roblox".dependencies]
+rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
 ["0.1.0 roblox"]
 published_at = "2026-03-11T09:54:53.267945792Z"
 description = "A simple wrapper for Roblox inter-Plugin import/export semantics"
