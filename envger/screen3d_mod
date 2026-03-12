@@ -26,3 +26,17 @@ build_files = ["src"]
 
 ["0.1.1 roblox".engines]
 pesde = "^0.7.0"
+
+["0.1.2 roblox"]
+published_at = "2026-03-12T01:27:49.834709349Z"
+description = "vibecoded fixes for screen3d"
+license = "MIT"
+authors = ["envger"]
+
+["0.1.2 roblox".target]
+environment = "roblox"
+lib = "init.luau"
+build_files = ["Component3D.luau", "TypeDefinitions.luau", "init.luau"]
+
+["0.1.2 roblox".engines]
+pesde = "^0.7.0"
