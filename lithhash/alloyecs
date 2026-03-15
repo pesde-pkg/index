@@ -73,6 +73,18 @@ environment = "roblox"
 lib = "src/init.luau"
 build_files = ["src"]
 
+["0.1.5 roblox"]
+published_at = "2026-03-15T02:30:46.416353309Z"
+description = "A fast, feature-rich Entity Component System for Roblox."
+license = "MIT"
+authors = ["LithHash"]
+repository = "https://github.com/LithHash/AlloyECS"
+
+["0.1.5 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
 ["0.1.21 roblox"]
 published_at = "2026-02-06T01:49:52.908227146Z"
 description = "A fast, feature-rich Entity Component System for Roblox."
