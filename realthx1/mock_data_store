@@ -43,3 +43,26 @@ rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/p
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 selene = [{ name = "pesde/selene", version = "^0.30.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 stylua = [{ name = "pesde/stylua", version = "^2.3.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["0.1.2 roblox"]
+published_at = "2026-03-16T21:26:52.874356005Z"
+description = "Complete mock implementation of DataStoreService"
+license = "MIT"
+authors = ["realthx1"]
+repository = "https://github.com/realthx1/mock-data-store"
+
+["0.1.2 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.1.2 roblox".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
+["0.1.2 roblox".dependencies]
+luau_lsp = [{ name = "pesde/luau_lsp", version = "^1.63.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+selene = [{ name = "pesde/selene", version = "^0.30.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+stylua = [{ name = "pesde/stylua", version = "^2.3.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
