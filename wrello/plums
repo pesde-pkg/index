@@ -57,3 +57,15 @@ repository = "https://github.com/wrello/Plums"
 environment = "roblox"
 lib = "Plums_PESDE/init.luau"
 build_files = ["Plums_PESDE", "Plums_PESDE/init.luau"]
+
+["0.0.1773707580 roblox"]
+published_at = "2026-03-17T00:33:08.168157105Z"
+description = "Replicate table changes from server to client in Roblox"
+license = "MIT"
+authors = ["wrello"]
+repository = "https://github.com/wrello/Plums"
+
+["0.0.1773707580 roblox".target]
+environment = "roblox"
+lib = "PesdePackage/Plums/init.luau"
+build_files = ["PesdePackage", "PesdePackage/Plums"]
