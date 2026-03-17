@@ -1,3 +1,15 @@
+["0.0.1 roblox"]
+published_at = "2026-03-17T01:20:47.000742002Z"
+description = "Replicate table changes from server to client in Roblox"
+license = "MIT"
+authors = ["wrello"]
+repository = "https://github.com/wrello/Plums"
+
+["0.0.1 roblox".target]
+environment = "roblox"
+lib = "init.luau"
+build_files = ["init.luau"]
+
 ["0.0.1001 roblox"]
 published_at = "2026-03-17T00:58:58.714016929Z"
 description = "Replicate table changes from server to client in Roblox"
