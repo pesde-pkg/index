@@ -81,3 +81,15 @@ repository = "https://github.com/wrello/Plums"
 environment = "roblox"
 lib = "init.luau"
 build_files = ["init.luau"]
+
+["0.0.1773708631 roblox"]
+published_at = "2026-03-17T00:50:39.568884817Z"
+description = "Replicate table changes from server to client in Roblox"
+license = "MIT"
+authors = ["wrello"]
+repository = "https://github.com/wrello/Plums"
+
+["0.0.1773708631 roblox".target]
+environment = "roblox"
+lib = "init.luau"
+build_files = ["init.luau"]
