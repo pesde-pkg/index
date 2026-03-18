@@ -19,3 +19,25 @@ Jest = [{ wally = "wally#jsdotlua/jest", version = "^3.10.0", index = "https://g
 JestGlobals = [{ wally = "wally#jsdotlua/jest-globals", version = "^3.10.0", index = "https://github.com/UpliftGames/wally-index" }, "dev"]
 rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["0.11.0 roblox"]
+published_at = "2026-03-18T12:23:07.430465367Z"
+description = "Schematized Luau buffer serialization library."
+license = "MIT"
+authors = ["isoopod"]
+repository = "https://github.com/isoopod/Pack"
+
+["0.11.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.11.0 roblox".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
+["0.11.0 roblox".dependencies]
+Jest = [{ wally = "wally#jsdotlua/jest", version = "^3.10.0", index = "https://github.com/UpliftGames/wally-index" }, "dev"]
+JestGlobals = [{ wally = "wally#jsdotlua/jest-globals", version = "^3.10.0", index = "https://github.com/UpliftGames/wally-index" }, "dev"]
+rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
