@@ -1,0 +1,20 @@
+["0.1.0 roblox"]
+published_at = "2026-03-21T22:57:35.740459518Z"
+description = "A framework for plugins"
+license = "MIT"
+authors = ["vermale713"]
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.1.0 roblox".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
+["0.1.0 roblox".dependencies]
+argon = [{ name = "pesde/argon", version = "^2.0.28", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+Promise = [{ wally = "wally#howmanysmall/typed-promise", version = "^4.0.6", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
+scripts = [{ name = "pesde/scripts_argon", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+Signal = [{ wally = "wally#data-oriented-house/lemonsignal", version = "^1.11.0", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
