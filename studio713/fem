@@ -59,3 +59,23 @@ lune = "^0.10.2"
 ["0.2.0 roblox".dependencies]
 argon = [{ name = "pesde/argon", version = "^2.0.28", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_argon", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["0.2.1 roblox"]
+published_at = "2026-03-22T18:33:09.289737508Z"
+description = "A framework for plugins"
+license = "MIT"
+authors = ["vermale713"]
+repository = "https://github.com/Studio713/Fem"
+
+["0.2.1 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.2.1 roblox".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
+["0.2.1 roblox".dependencies]
+argon = [{ name = "pesde/argon", version = "^2.0.28", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_argon", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
