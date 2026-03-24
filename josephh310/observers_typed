@@ -16,3 +16,22 @@ lune = "^0.10.2"
 ["0.4.0 roblox".dependencies]
 rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
+
+["1.0.0 roblox"]
+published_at = "2026-03-24T23:35:57.078378537Z"
+description = "Utility observer functions, with updated types"
+license = "MIT"
+authors = ["josephh310"]
+
+["1.0.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["1.0.0 roblox".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
+["1.0.0 roblox".dependencies]
+rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
