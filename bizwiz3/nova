@@ -362,3 +362,39 @@ hash = "854fca791796828d1bf889d5cb98b5c04b914b8d2fc36379460e55ef612967af"
 label = "Routing Guide"
 name = "routing"
 hash = "dcf9b0339e4eeb5b7b9210f3c74ef2511274a45a3f3a2474165083a2372a0292"
+
+["0.3.4 lune"]
+published_at = "2026-03-25T05:04:46.852608209Z"
+description = "A high-performance, filesystem-based web framework built specifically for the Lune runtime."
+license = "MIT"
+authors = ["BizWiz3 (https://github.com/BizWiz3)", "Leoj030 (https://github.com/Leoj030)"]
+repository = "https://github.com/BizWiz3/nova"
+
+["0.3.4 lune".target]
+environment = "lune"
+lib = "src/index.luau"
+
+[["0.3.4 lune".docs]]
+label = "Getting Started"
+name = "getting-started"
+hash = "3c00b06b1634157742cc571d7a7de57985e9f307f1d027ebe24b78254a213ba7"
+
+[["0.3.4 lune".docs]]
+label = "Introduction"
+name = "intro"
+hash = "4b63197959c55ea29214678dbd437321cd477f3766ece9f4c5e11315ccc31df9"
+
+[["0.3.4 lune".docs]]
+label = "Middleware Guide"
+name = "middleware"
+hash = "9744aeb4d7d5e2852977bff577f67e06bfbab286101208741aa6a1387ff6ca76"
+
+[["0.3.4 lune".docs]]
+label = "Requests & Responses"
+name = "request-response"
+hash = "854fca791796828d1bf889d5cb98b5c04b914b8d2fc36379460e55ef612967af"
+
+[["0.3.4 lune".docs]]
+label = "Routing Guide"
+name = "routing"
+hash = "dcf9b0339e4eeb5b7b9210f3c74ef2511274a45a3f3a2474165083a2372a0292"
