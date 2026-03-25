@@ -19,3 +19,14 @@ authors = ["centau"]
 environment = "roblox"
 lib = "src/init.luau"
 build_files = ["src"]
+
+["0.4.2 roblox"]
+published_at = "2026-03-25T20:33:35.937927917Z"
+description = "Vide with types, fixed for the new luau version"
+license = "MIT"
+authors = ["centau"]
+
+["0.4.2 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
