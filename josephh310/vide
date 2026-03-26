@@ -1,3 +1,6 @@
+[meta]
+deprecated = "Replaced with josephh310/vide_typed"
+
 ["0.4.0 roblox"]
 published_at = "2026-03-22T16:05:22.653321399Z"
 description = "Vide with types, fixed for the new luau version"
