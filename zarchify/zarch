@@ -1,0 +1,20 @@
+["0.1.0 roblox"]
+published_at = "2026-03-28T20:44:10.195330423Z"
+description = "A strictly typed heirarchical state machine library for roblox."
+license = "MIT"
+authors = ["zarch"]
+repository = "https://github.com/zarchify/zarch"
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.1.0 roblox".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
+["0.1.0 roblox".dependencies]
+rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+testez = [{ wally = "wally#roblox/testez", version = "^0.4.1", index = "https://github.com/UpliftGames/wally-index" }, "dev"]
