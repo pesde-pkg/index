@@ -4,6 +4,7 @@ description = "Simple stack package for luau"
 license = "MIT"
 authors = ["PED"]
 repository = "https://github.com/rewledp/Stack-Package"
+yanked = true
 
 ["0.1.0 lune".target]
 environment = "lune"
