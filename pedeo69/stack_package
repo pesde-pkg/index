@@ -1,0 +1,10 @@
+["0.1.0 lune"]
+published_at = "2026-03-31T10:35:47.458151728Z"
+description = "Simple stack package for luau"
+license = "MIT"
+authors = ["PED"]
+repository = "https://github.com/rewledp/Stack-Package"
+
+["0.1.0 lune".target]
+environment = "lune"
+lib = "src/Stack.luau"
