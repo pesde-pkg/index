@@ -8,3 +8,14 @@ repository = "https://github.com/rewledp/Stack-Package"
 ["0.1.0 lune".target]
 environment = "lune"
 lib = "src/Stack.luau"
+
+["0.1.1 lune"]
+published_at = "2026-04-01T12:20:30.9987346Z"
+description = "Simple stack package for lune/luau/roblox"
+license = "MIT"
+authors = ["PED"]
+repository = "https://github.com/rewledp/Stack-Package"
+
+["0.1.1 lune".target]
+environment = "lune"
+lib = "src/Stack.luau"
