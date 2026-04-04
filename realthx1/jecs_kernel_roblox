@@ -1,0 +1,24 @@
+["0.1.0 roblox"]
+published_at = "2026-04-04T14:11:40.906296983Z"
+description = "Collection of schedules and plugins for the jecs_kernel package and Roblox."
+license = "MIT"
+authors = ["realthx1"]
+repository = "https://github.com/realthx1/jecs_kernel_roblox"
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.1.0 roblox".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
+["0.1.0 roblox".dependencies]
+jecs = [{ wally = "wally#ukendio/jecs", version = "^0.11.0", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
+jecs_kernel = [{ name = "realthx1/jecs_kernel", version = "^0.1.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+luau_lsp = [{ name = "pesde/luau_lsp", version = "^1.63.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+selene = [{ name = "pesde/selene", version = "^0.30.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+stylua = [{ name = "pesde/stylua", version = "^2.3.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
