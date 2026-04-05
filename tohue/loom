@@ -44,3 +44,27 @@ scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://g
 sift = [{ wally = "wally#csqrl/sift", version = "^0.0.11", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
 typed-promise = [{ wally = "wally#lukadev-0/typed-promise", version = "^4.0.2", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
 typed_logger = [{ name = "patamigo0/typed_logger", version = "^0.1.6", index = "https://github.com/pesde-pkg/index" }, "standard"]
+
+["0.2.0 roblox"]
+published_at = "2026-04-05T14:39:44.838888637Z"
+description = "custom framework which is using modern luau types and ByteNet for the insane traffic speed"
+license = "MIT"
+authors = ["PatAmigos_0"]
+repository = "https://github.com/PatAmigo0/LoomFramework"
+
+["0.2.0 roblox".target]
+environment = "roblox"
+lib = "init.luau"
+build_files = ["Core", "Enums", "Middleware", "Types", "Vendors", "init.luau"]
+
+["0.2.0 roblox".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
+["0.2.0 roblox".dependencies]
+bytenet = [{ wally = "wally#ffrostflame/bytenet", version = "^0.4.6", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
+rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+sift = [{ wally = "wally#csqrl/sift", version = "^0.0.11", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
+typed-promise = [{ wally = "wally#lukadev-0/typed-promise", version = "^4.0.2", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
+typed_logger = [{ name = "patamigo0/typed_logger", version = "^0.1.6", index = "https://github.com/pesde-pkg/index" }, "standard"]
