@@ -57,3 +57,18 @@ build_files = ["src"]
 
 ["0.7.1 roblox".dependencies]
 frktest = [{ name = "itsfrank/frktest", version = "^0.0.4", index = "https://github.com/pesde-pkg/index", target = "luau" }, "dev"]
+
+["0.8.0 roblox"]
+published_at = "2026-04-05T15:40:31.588809893Z"
+description = "A lightweight and professional framework for Roblox."
+license = "MIT"
+authors = ["TheReplicatedFirst"]
+repository = "https://github.com/riptide-project/framework"
+
+["0.8.0 roblox".target]
+environment = "roblox"
+lib = "src/init.lua"
+build_files = ["src"]
+
+["0.8.0 roblox".dependencies]
+frktest = [{ name = "itsfrank/frktest", version = "^0.0.4", index = "https://github.com/pesde-pkg/index", target = "luau" }, "dev"]
