@@ -1,0 +1,19 @@
+["0.1.1 roblox"]
+published_at = "2026-04-07T23:44:45.703737481Z"
+description = "A Roblox Networking Module."
+license = "MIT"
+authors = ["DivineNot"]
+repository = "https://github.com/DivineNot/Sequena"
+
+["0.1.1 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.1.1 roblox".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
+["0.1.1 roblox".dependencies]
+rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
