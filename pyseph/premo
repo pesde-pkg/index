@@ -12,3 +12,18 @@ build_files = ["src"]
 
 ["0.1.0 roblox".dependencies]
 vide = [{ name = "centau/vide", version = "^0.4.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+
+["0.1.1 roblox"]
+published_at = "2026-04-07T19:18:07.154420933Z"
+description = "A Vide-based UI component library for Roblox Studio plugins"
+license = "MIT"
+authors = ["Pyseph"]
+repository = "https://github.com/Pyseph/Premo"
+
+["0.1.1 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.1.1 roblox".dependencies]
+vide = [{ name = "centau/vide", version = "^0.4.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
