@@ -37,3 +37,23 @@ lune = "^0.10.2"
 ["0.10.0-beta.1 roblox".dependencies]
 rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["0.10.0-beta.2 roblox"]
+published_at = "2026-04-12T13:27:45.683527385Z"
+description = "A synchronous, job-based parallelism library for Roblox built on Actors and callbacks."
+license = "MIT"
+authors = ["artzified"]
+repository = "https://github.com/artzified/weave"
+
+["0.10.0-beta.2 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.10.0-beta.2 roblox".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
+["0.10.0-beta.2 roblox".dependencies]
+rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
