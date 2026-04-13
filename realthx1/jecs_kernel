@@ -75,3 +75,29 @@ hash = "4b28e22c972c58df4e6db213946339127bbfa2e03bb4abf8730189e3531f59ff"
 ["0.2.0 roblox".dependencies]
 jecs = [{ wally = "wally#ukendio/jecs", version = "~0.11.0", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["0.2.1 roblox"]
+published_at = "2026-04-13T16:32:24.994661802Z"
+description = "Modular runtime-agnostic ECS system orchestration framework for jecs."
+license = "MIT"
+authors = ["realthx1"]
+repository = "https://github.com/realthx1/jecs_kernel"
+
+["0.2.1 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.2.1 roblox".engines]
+pesde = "^0.7.0"
+lune = "^0.10.4"
+
+[["0.2.1 roblox".docs]]
+label = "Todo"
+name = "TODO"
+hash = "4b28e22c972c58df4e6db213946339127bbfa2e03bb4abf8730189e3531f59ff"
+
+["0.2.1 roblox".dependencies]
+jecs = [{ wally = "wally#ukendio/jecs", version = "~0.11.0", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
+rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
