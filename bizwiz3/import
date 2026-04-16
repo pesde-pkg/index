@@ -1,0 +1,10 @@
+["0.1.0 luau"]
+published_at = "2026-04-16T08:08:16.862755558Z"
+description = "A lightweight alternative to Luau's native require for cases where path traversal becomes a maintainability problem."
+license = "MIT"
+authors = ["BizWiz3 (https://github.com/BizWiz3)"]
+repository = "https://github.com/BizWiz3/import"
+
+["0.1.0 luau".target]
+environment = "luau"
+lib = "src/init.luau"
