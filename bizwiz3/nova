@@ -470,3 +470,14 @@ hash = "854fca791796828d1bf889d5cb98b5c04b914b8d2fc36379460e55ef612967af"
 label = "Routing Guide"
 name = "routing"
 hash = "dcf9b0339e4eeb5b7b9210f3c74ef2511274a45a3f3a2474165083a2372a0292"
+
+["0.5.0 lune"]
+published_at = "2026-04-18T16:11:44.290843566Z"
+description = "A filesystem-based web framework for Luau runtimes, with out-of-the-box support for Lune and Zune."
+license = "MIT"
+authors = ["BizWiz3 (https://github.com/BizWiz3)", "Leoj030 (https://github.com/Leoj030)"]
+repository = "https://github.com/BizWiz3/nova"
+
+["0.5.0 lune".target]
+environment = "lune"
+lib = "src/index.luau"
