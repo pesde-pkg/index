@@ -1,0 +1,10 @@
+["0.1.0 lune"]
+published_at = "2026-04-20T13:38:31.620304368Z"
+description = "A project scaffolding CLI for the Nova web framework. Run a single command and get a fully structured Nova project."
+license = "MIT"
+authors = ["Nova Guild (https://github.com/nova-guild)"]
+repository = "https://github.com/nova-guild/create"
+
+["0.1.0 lune".target]
+environment = "lune"
+bin = "src/index.luau"
