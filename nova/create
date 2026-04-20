@@ -19,3 +19,14 @@ repository = "https://github.com/nova-guild/create"
 ["0.1.1 lune".target]
 environment = "lune"
 bin = "src/index.luau"
+
+["0.1.2 lune"]
+published_at = "2026-04-20T14:33:22.182334588Z"
+description = "A project scaffolding CLI for the Nova web framework. Run a single command and get a fully structured Nova project."
+license = "MIT"
+authors = ["Nova Guild (https://github.com/nova-guild)"]
+repository = "https://github.com/nova-guild/create"
+
+["0.1.2 lune".target]
+environment = "lune"
+bin = "src/index.luau"
