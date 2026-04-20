@@ -481,3 +481,14 @@ repository = "https://github.com/BizWiz3/nova"
 ["0.5.0 lune".target]
 environment = "lune"
 lib = "src/index.luau"
+
+["0.5.1 lune"]
+published_at = "2026-04-20T04:11:39.244163216Z"
+description = "A filesystem-based web framework for Luau runtimes, with out-of-the-box support for Lute, Lune and Zune."
+license = "MIT"
+authors = ["BizWiz3 (https://github.com/BizWiz3)", "Leoj030 (https://github.com/Leoj030)"]
+repository = "https://github.com/nova-guild/core"
+
+["0.5.1 lune".target]
+environment = "lune"
+lib = "src/index.luau"
