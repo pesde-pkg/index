@@ -1,0 +1,12 @@
+["0.1.0-dev.1 luau"]
+published_at = "2026-04-20T23:38:57.514990921Z"
+description = "A TUI renderer for Luau"
+license = "MIT"
+authors = ["Async Matrix <hi@asyncmatrix.dev>"]
+
+["0.1.0-dev.1 luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
+["0.1.0-dev.1 luau".dependencies]
+frktest = [{ name = "itsfrank/frktest", version = "^0.0.2", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
