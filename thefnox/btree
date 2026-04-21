@@ -92,3 +92,22 @@ lune = "^0.10.2"
 ["0.1.4 roblox".dependencies]
 rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["0.1.5 roblox"]
+published_at = "2026-04-21T20:38:20.025808568Z"
+description = "A behavior tree library"
+license = "MIT"
+authors = ["fnox"]
+
+["0.1.5 roblox".target]
+environment = "roblox"
+lib = "lib/behaviorTree/init.lua"
+build_files = ["lib"]
+
+["0.1.5 roblox".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
+["0.1.5 roblox".dependencies]
+rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
