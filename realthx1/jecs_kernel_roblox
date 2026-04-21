@@ -134,3 +134,27 @@ jecs_kernel = [{ name = "realthx1/jecs_kernel", version = "~0.4.0", index = "htt
 luau_time = [{ name = "realthx1/luau_time", version = "~0.2.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
 rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["0.5.0 roblox"]
+published_at = "2026-04-21T20:20:56.986957039Z"
+description = "A collection of utilities for the jecs_kernel package and Roblox."
+license = "MIT"
+authors = ["realthx1"]
+repository = "https://github.com/realthx1/jecs_kernel_roblox"
+
+["0.5.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.5.0 roblox".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
+["0.5.0 roblox".dependencies]
+channels = [{ name = "realthx1/channels", version = "~0.1.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+jecs = [{ wally = "wally#ukendio/jecs", version = "~0.11.0", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
+jecs_kernel = [{ name = "realthx1/jecs_kernel", version = "~0.5.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+luau_time = [{ name = "realthx1/luau_time", version = "~0.2.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
