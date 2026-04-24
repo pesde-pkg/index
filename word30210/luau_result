@@ -10,6 +10,21 @@ environment = "roblox"
 lib = "src/lib.luau"
 build_files = ["src"]
 
+["0.1.0 lune"]
+published_at = "2026-04-24T04:54:26.99549893Z"
+description = "a simple Result<T, E> implemantaion"
+license = "MIT"
+authors = ["word30210"]
+repository = "https://github.com/Word30210/luau-result"
+
+["0.1.0 lune".target]
+environment = "lune"
+lib = "src/lib.luau"
+
+["0.1.0 lune".engines]
+pesde = "^0.7.1"
+lune = "^0.10.4"
+
 ["0.1.0 luau"]
 published_at = "2026-04-24T04:53:09.368176238Z"
 description = "a simple Result<T, E> implemantaion"
