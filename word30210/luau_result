@@ -1,0 +1,20 @@
+["0.1.0 luau"]
+published_at = "2026-04-24T04:53:09.368176238Z"
+description = "a simple Result<T, E> implemantaion"
+license = "MIT"
+authors = ["word30210"]
+repository = "https://github.com/Word30210/luau-result"
+
+["0.1.0 luau".target]
+environment = "luau"
+lib = "src/lib.luau"
+
+["0.1.0 luau".engines]
+pesde = "^0.7.1"
+lune = "^0.10.4"
+
+["0.1.0 luau".dependencies]
+darklua = [{ name = "pesde/darklua", version = "^0.18.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+frktest = [{ name = "itsfrank/frktest", version = "^0.0.2", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+multitarget = [{ name = "ewdev/multitarget", version = "^0.4.2-rc.7", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+rojo = [{ name = "pesde/rojo", version = "^7.7.0-rc.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
