@@ -1,3 +1,15 @@
+["0.1.0 roblox"]
+published_at = "2026-04-24T04:54:22.041073086Z"
+description = "a simple Result<T, E> implemantaion"
+license = "MIT"
+authors = ["word30210"]
+repository = "https://github.com/Word30210/luau-result"
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "src/lib.luau"
+build_files = ["src"]
+
 ["0.1.0 luau"]
 published_at = "2026-04-24T04:53:09.368176238Z"
 description = "a simple Result<T, E> implemantaion"
