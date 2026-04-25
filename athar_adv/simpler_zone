@@ -1,0 +1,11 @@
+["1.6.0 roblox"]
+published_at = "2026-04-25T05:55:21.682483238Z"
+description = "A simple and fast spatial zone module for Roblox"
+license = "MIT"
+authors = ["athar_adv"]
+repository = "https://github.com/athar-adv/SimplerZone"
+
+["1.6.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
