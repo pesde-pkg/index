@@ -10,3 +10,15 @@ yanked = true
 environment = "roblox"
 lib = "src/init.luau"
 build_files = ["src"]
+
+["1.6.1 roblox"]
+published_at = "2026-04-25T06:14:37.147179362Z"
+description = "A simple and fast spatial zone module for Roblox"
+license = "MIT"
+authors = ["athar_adv"]
+repository = "https://github.com/athar-adv/SimplerZone"
+
+["1.6.1 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
