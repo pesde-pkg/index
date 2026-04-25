@@ -1,0 +1,22 @@
+["1.0.0 roblox"]
+published_at = "2026-04-25T14:37:40.204909161Z"
+license = "MIT"
+authors = ["Sebastian S <gramps@itsabitrandom.com>"]
+repository = "https://github.com/Its-a-bit-random/Sapling"
+
+["1.0.0 roblox".target]
+environment = "roblox"
+lib = "source/init.luau"
+build_files = ["source"]
+
+["1.0.0 roblox".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
+[["1.0.0 roblox".docs]]
+label = "Introduction"
+name = "intro"
+hash = "57fc78900424d113670f18d91b1887c3cd6fcf1ad1575056331228ddce2ac90d"
+
+["1.0.0 roblox".dependencies]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
