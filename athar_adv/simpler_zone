@@ -4,6 +4,7 @@ description = "A simple and fast spatial zone module for Roblox"
 license = "MIT"
 authors = ["athar_adv"]
 repository = "https://github.com/athar-adv/SimplerZone"
+yanked = true
 
 ["1.6.0 roblox".target]
 environment = "roblox"
