@@ -1,0 +1,10 @@
+["3.0.4 roblox"]
+published_at = "2026-04-25T21:29:20.248794774Z"
+description = "Unofficial port of DeepDelta 3.0.4 to Pesde."
+authors = ["Sona"]
+repository = "https://github.com/metatablesnow/DeepDelta/tree/main"
+
+["3.0.4 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
