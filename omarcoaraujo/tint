@@ -8,3 +8,14 @@ repository = "https://github.com/omarcoaraujo/tint"
 ["0.1.0 luau".target]
 environment = "luau"
 lib = "lib/init.luau"
+
+["0.1.1 luau"]
+published_at = "2026-04-25T07:19:05.086468703Z"
+description = "Terminal string styling library for Luau"
+license = "MIT"
+authors = ["omarcoaraujo <omarcoaraujo@outlook.com>"]
+repository = "https://github.com/omarcoaraujo/tint"
+
+["0.1.1 luau".target]
+environment = "luau"
+lib = "lib/init.luau"
