@@ -1,0 +1,10 @@
+["0.1.0 luau"]
+published_at = "2026-04-25T07:17:00.782817764Z"
+description = "Terminal string styling library for Luau"
+license = "MIT"
+authors = ["omarcoaraujo <omarcoaraujo@outlook.com>"]
+repository = "https://github.com/omarcoaraujo/tint"
+
+["0.1.0 luau".target]
+environment = "luau"
+lib = "lib/init.luau"
