@@ -9,3 +9,15 @@ repository = "https://github.com/Elentium/VoidSentry2"
 environment = "roblox"
 lib = "src/init.luau"
 build_files = ["src"]
+
+["0.1.2 roblox"]
+published_at = "2026-04-26T16:38:14.929668401Z"
+description = "SerDes library for Roblox"
+license = "APACHE-2.0"
+authors = ["IAMNOTULTRA3 ( <Elite> (https://github.com/Elentium) )"]
+repository = "https://github.com/Elentium/VoidSentry2"
+
+["0.1.2 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
