@@ -1,0 +1,11 @@
+["0.1.1 roblox"]
+published_at = "2026-04-26T16:57:18.726152434Z"
+description = "SerDes library for Roblox"
+license = "APACHE-2.0"
+authors = ["IAMNOTULTRA3 ( <Elite> (https://github.com/Elentium) )"]
+repository = "https://github.com/Elentium/VoidSentry2"
+
+["0.1.1 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
