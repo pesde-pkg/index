@@ -1,0 +1,10 @@
+["6.1.0 roblox"]
+published_at = "2026-04-28T03:09:23.474127756Z"
+license = "MIT"
+authors = ["Paradoxum Games"]
+repository = "https://github.com/paradoxum-games/lyra"
+
+["6.1.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
