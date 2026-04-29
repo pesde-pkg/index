@@ -1,0 +1,10 @@
+["0.1.0 luau"]
+published_at = "2026-04-29T12:54:19.937331209Z"
+description = "All-in-One Networking for Roblox"
+license = "MIT"
+authors = ["maneetoo"]
+repository = "https://github.com/maneetoo/wisp"
+
+["0.1.0 luau".target]
+environment = "luau"
+lib = "src/init.luau"
