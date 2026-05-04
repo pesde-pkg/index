@@ -190,6 +190,29 @@ label = "concepts"
 name = "intro"
 hash = "d4f17acacefd31b557718fe2a60dd1064a9d99e81ccafb2c93050ddc8612f1bb"
 
+["1.0.0 lune"]
+published_at = "2026-05-04T18:15:42.027092297Z"
+description = "Simple state management library."
+license = "GPL-3.0-or-later"
+authors = ["wiam"]
+repository = "https://codeberg.org/wiam/swan"
+
+["1.0.0 lune".target]
+environment = "lune"
+lib = "src/init.luau"
+
+[["1.0.0 lune".docs]]
+label = "Installation"
+position = 1
+name = "intro"
+hash = "46c70ad5bd054b56e9f8767b2eb45a4fe05f3a5d6509dc1eb82d5993e7b5d6a4"
+
+[["1.0.0 lune".docs]]
+label = "Concepts"
+position = 2
+name = "concepts"
+hash = "911efab299e659ecc2dceb7bf99cfd61a807dd98bc14745bd6dc57bdddf12f77"
+
 ["1.0.0 luau"]
 published_at = "2026-05-04T18:15:38.653596972Z"
 description = "Simple state management library."
