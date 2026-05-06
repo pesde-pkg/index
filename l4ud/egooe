@@ -1,0 +1,14 @@
+["0.1.0 roblox"]
+published_at = "2026-05-06T00:58:36.043778996Z"
+description = "EgooE - A modular UI widget library for Roblox"
+license = "MIT"
+authors = ["CapedBojji"]
+repository = "https://github.com/CapedBojji/EgooE"
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "src/init.lua"
+build_files = ["src"]
+
+["0.1.0 roblox".engines]
+pesde = "^0.7.0"
