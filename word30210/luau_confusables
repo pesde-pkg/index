@@ -1,3 +1,18 @@
+["0.1.0 lune"]
+published_at = "2026-05-07T01:52:56.532982005Z"
+description = "a confusable character checker"
+license = "MIT"
+authors = ["word30210"]
+repository = "https://github.com/Word30210/luau-confusables"
+
+["0.1.0 lune".target]
+environment = "lune"
+lib = "src/lib.luau"
+
+["0.1.0 lune".engines]
+pesde = "^0.7.1"
+lune = "^0.10.2"
+
 ["0.1.0 luau"]
 published_at = "2026-05-07T01:52:43.487351401Z"
 description = "a confusable character checker"
