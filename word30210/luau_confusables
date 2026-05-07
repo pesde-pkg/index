@@ -1,3 +1,15 @@
+["0.1.0 roblox"]
+published_at = "2026-05-07T01:53:00.649170959Z"
+description = "a confusable character checker"
+license = "MIT"
+authors = ["word30210"]
+repository = "https://github.com/Word30210/luau-confusables"
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "src/lib.luau"
+build_files = ["src"]
+
 ["0.1.0 lune"]
 published_at = "2026-05-07T01:52:56.532982005Z"
 description = "a confusable character checker"
