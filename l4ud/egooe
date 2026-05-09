@@ -57,3 +57,18 @@ build_files = ["src"]
 
 ["0.1.3 roblox".engines]
 pesde = "^0.7.0"
+
+["0.1.4 roblox"]
+published_at = "2026-05-09T18:35:41.381015403Z"
+description = "EgooE - A modular UI widget library for Roblox"
+license = "MIT"
+authors = ["CapedBojji"]
+repository = "https://github.com/CapedBojji/EgooE"
+
+["0.1.4 roblox".target]
+environment = "roblox"
+lib = "src/init.lua"
+build_files = ["src"]
+
+["0.1.4 roblox".engines]
+pesde = "^0.7.0"
