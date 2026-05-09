@@ -1,0 +1,10 @@
+["0.1.0 luau"]
+published_at = "2026-05-09T14:21:01.044495665Z"
+description = "Collection of various algorithms for Luau"
+license = "MIT"
+authors = ["daily3014"]
+repository = "https://github.com/daily3014/rbx-algorithms"
+
+["0.1.0 luau".target]
+environment = "luau"
+lib = "src/init.luau"
