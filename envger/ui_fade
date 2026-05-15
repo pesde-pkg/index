@@ -1,0 +1,10 @@
+["0.1.0 luau"]
+published_at = "2026-05-15T07:07:37.746357413Z"
+description = "lightweight, tween-based utility for fading UI elements easily."
+license = "MIT"
+authors = ["envger"]
+repository = "https://github.com/envgerz/uifade"
+
+["0.1.0 luau".target]
+environment = "luau"
+lib = "src/init.luau"
