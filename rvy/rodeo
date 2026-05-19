@@ -209,3 +209,17 @@ lib = "src/init.luau"
 ["1.0.0-rc.4 lune".engines]
 pesde = "^0.7.2"
 lune = "^0.10.4"
+
+["1.0.0-rc.5 lune"]
+published_at = "2026-05-19T07:24:17.675786931Z"
+description = "Lune client for rodeo — execute Luau in Roblox Studio over the rodeo gRPC API"
+license = "MIT"
+authors = ["rvy"]
+
+["1.0.0-rc.5 lune".target]
+environment = "lune"
+lib = "src/init.luau"
+
+["1.0.0-rc.5 lune".engines]
+pesde = "^0.7.2"
+lune = "^0.10.4"
