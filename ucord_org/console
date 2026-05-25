@@ -7,3 +7,14 @@ authors = ["ucord-org"]
 ["0.1.0 luau".target]
 environment = "luau"
 bin = "src/init.luau"
+
+["0.1.1 luau"]
+published_at = "2026-05-25T01:35:09.188085549Z"
+description = "Console logger library"
+license = "Apache License 2.0"
+authors = ["ucord-org"]
+repository = "https://github.com/ucord-org/console"
+
+["0.1.1 luau".target]
+environment = "luau"
+bin = "src/init.luau"
