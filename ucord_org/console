@@ -1,0 +1,9 @@
+["0.1.0 luau"]
+published_at = "2026-05-25T01:31:20.552822959Z"
+description = "Console logger library"
+license = "Apache License 2.0"
+authors = ["ucord-org"]
+
+["0.1.0 luau".target]
+environment = "luau"
+bin = "src/init.luau"
