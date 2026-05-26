@@ -1,0 +1,11 @@
+["0.1.0 roblox"]
+published_at = "2026-05-26T08:47:48.710618107Z"
+description = "Reusable advanced utility primitives for Roblox projects."
+license = "MIT"
+authors = ["Edward"]
+repository = "https://github.com/emdomanus/advancedUtils"
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
