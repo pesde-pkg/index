@@ -1,0 +1,11 @@
+["0.1.0 roblox"]
+published_at = "2026-05-26T19:15:35.495068611Z"
+description = "Small lifecycle bootstrap helpers for Roblox projects."
+license = "MIT"
+authors = ["emdomanus"]
+repository = "https://github.com/emdomanus/bootstrap"
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
