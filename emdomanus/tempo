@@ -1,0 +1,14 @@
+["0.1.0 roblox"]
+published_at = "2026-05-26T08:49:16.477660785Z"
+description = "A low-overhead phase-aware scheduler for Roblox."
+license = "MIT"
+authors = ["emdomanus"]
+repository = "https://github.com/emdomanus/tempo"
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.1.0 roblox".dependencies]
+advancedUtils = [{ name = "emdomanus/advanced_utils", version = "^0.1.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
