@@ -1,0 +1,11 @@
+["0.1.0 roblox"]
+published_at = "2026-05-26T16:14:39.934814778Z"
+description = "A small library for saving and loading maps"
+license = "MIT"
+authors = ["gigahd"]
+repository = "https://github.com/gigahd/Smapshot"
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
