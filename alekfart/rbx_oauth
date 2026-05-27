@@ -1,0 +1,13 @@
+["0.1.1 lune"]
+published_at = "2026-05-27T01:42:26.969256229Z"
+description = "Roblox OAuth library"
+license = "MIT"
+authors = ["alekfart"]
+repository = "https://codeberg.org/alekfart/rbx-oauth"
+
+["0.1.1 lune".target]
+environment = "lune"
+lib = "src/main.luau"
+
+["0.1.1 lune".engines]
+lune = "=0.10.4"
