@@ -19,3 +19,14 @@ repository = "https://github.com/paradoxum-games/lyra"
 environment = "roblox"
 lib = "src/init.luau"
 build_files = ["src"]
+
+["6.1.2 roblox"]
+published_at = "2026-05-28T11:31:19.847929276Z"
+license = "MIT"
+authors = ["Paradoxum Games"]
+repository = "https://github.com/paradoxum-games/lyra"
+
+["6.1.2 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
