@@ -15,3 +15,21 @@ advancedUtils = [{ name = "emdomanus/advanced_utils", version = "^0.1.0", index 
 tempo = [{ name = "emdomanus/tempo", version = "^0.1.1", index = "https://github.com/pesde-pkg/index" }, "standard"]
 uiLabs = [{ wally = "wally#pepeeltoro41/ui-labs", version = "^2.4.2", index = "https://github.com/UpliftGames/wally-index" }, "dev"]
 vide = [{ name = "centau/vide", version = "^0.4.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+
+["0.1.5 roblox"]
+published_at = "2026-05-28T07:30:29.580504966Z"
+description = "Reactive Roblox UI primitives, modifiers, and components."
+license = "MIT"
+authors = ["emdomanus"]
+repository = "https://github.com/emdomanus/plinth"
+
+["0.1.5 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.1.5 roblox".dependencies]
+advancedUtils = [{ name = "emdomanus/advanced_utils", version = "^0.1.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+tempo = [{ name = "emdomanus/tempo", version = "^0.1.1", index = "https://github.com/pesde-pkg/index" }, "standard"]
+uiLabs = [{ wally = "wally#pepeeltoro41/ui-labs", version = "^2.4.2", index = "https://github.com/UpliftGames/wally-index" }, "dev"]
+vide = [{ name = "centau/vide", version = "^0.4.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
