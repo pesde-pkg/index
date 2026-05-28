@@ -33,3 +33,15 @@ repository = "https://github.com/gigahd/Smapshot"
 environment = "roblox"
 lib = "src/init.luau"
 build_files = ["src"]
+
+["0.3.0 roblox"]
+published_at = "2026-05-28T16:33:11.303569061Z"
+description = "A small library for saving and loading maps"
+license = "MIT"
+authors = ["gigahd"]
+repository = "https://github.com/gigahd/Smapshot"
+
+["0.3.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
