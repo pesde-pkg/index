@@ -1,0 +1,16 @@
+["0.0.1 luau"]
+published_at = "2026-05-29T15:02:42.892646593Z"
+description = "Discord-Luau Builders - Builders used to generate payloads that the discord API can parse."
+license = "MIT"
+authors = ["Async Matrix <hi@asyncmatrix.dev>"]
+repository = "https://github.com/DiscordLuau/discord-luau/tree/main/packages/builder"
+
+["0.0.1 luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
+["0.0.1 luau".dependencies]
+api_types = [{ name = "discord_luau/api_types", version = "^0.0.1", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+bit = [{ name = "discord_luau/bit", version = "^0.0.1", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+std_polyfills = [{ name = "discord_luau/std_polyfills", version = "^0.0.1", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+util = [{ name = "discord_luau/util", version = "^0.0.1", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
