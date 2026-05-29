@@ -1,0 +1,23 @@
+["0.0.1 luau"]
+published_at = "2026-05-29T15:02:35.036501007Z"
+description = "Discord Luau Voice - Implementation of the voice protocol for discord."
+license = "MIT"
+authors = ["Async Matrix <hi@asyncmatrix.dev>"]
+repository = "https://github.com/DiscordLuau/discord-luau/tree/main/packages/voice"
+
+["0.0.1 luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
+["0.0.1 luau".dependencies]
+api_types = [{ name = "discord_luau/api_types", version = "^0.0.1", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+dave = [{ name = "discord_luau/dave", version = "^0.0.1", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+emitter = [{ name = "discord_luau/emitter", version = "^0.0.1", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+future = [{ name = "yetanotherclown/luau_futures", version = "^2.0.0-beta.3", index = "https://github.com/pesde-pkg/index" }, "standard"]
+logger = [{ name = "discord_luau/logger", version = "^0.0.1", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+opus = [{ name = "discord_luau/opus", version = "^0.0.1", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+secret = [{ name = "discord_luau/secret", version = "^0.0.1", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+sodium = [{ name = "discord_luau/sodium", version = "^0.0.1", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+std_polyfills = [{ name = "discord_luau/std_polyfills", version = "^0.0.1", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+util = [{ name = "discord_luau/util", version = "^0.0.1", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+websocket = [{ name = "discord_luau/websocket", version = "^0.0.1", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
