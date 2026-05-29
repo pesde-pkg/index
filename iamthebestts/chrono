@@ -17,3 +17,23 @@ lune = "^0.10.2"
 ["0.1.0 roblox".dependencies]
 rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["0.1.1 roblox"]
+published_at = "2026-05-29T23:15:13.292422736Z"
+description = "Unified time scheduler for Luau — tasks, intervals, scopes, profiling"
+license = "MIT"
+authors = ["iamthebestts"]
+repository = "https://github.com/iamthebestts/chrono"
+
+["0.1.1 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.1.1 roblox".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
+["0.1.1 roblox".dependencies]
+rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
