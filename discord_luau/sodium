@@ -4,6 +4,7 @@ description = "Discord Luau Sodium - FFI bindings for libsodium, providing AES-2
 license = "MIT"
 authors = ["Async Matrix <hi@asyncmatrix.dev>"]
 repository = "https://github.com/DiscordLuau/discord-luau/tree/main/packages/sodium"
+yanked = true
 
 ["0.0.1 luau".target]
 environment = "luau"
