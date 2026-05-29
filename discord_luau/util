@@ -1,0 +1,10 @@
+["0.0.1 luau"]
+published_at = "2026-05-29T15:04:17.791576363Z"
+description = "Discord Luau Util - a variety of util functions"
+license = "MIT"
+authors = ["Async Matrix <hi@asyncmatrix.dev>"]
+repository = "https://github.com/DiscordLuau/discord-luau/tree/main/packages/utilities"
+
+["0.0.1 luau".target]
+environment = "luau"
+lib = "src/init.luau"
