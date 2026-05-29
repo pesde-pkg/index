@@ -1,0 +1,10 @@
+["0.0.1 luau"]
+published_at = "2026-05-29T14:57:24.201541023Z"
+description = "Discord-Luau Stream - stream implementation used to navigate through strings."
+license = "MIT"
+authors = ["Async Matrix <hi@asyncmatrix.dev>"]
+repository = "https://github.com/DiscordLuau/discord-luau/tree/main/packages/stream"
+
+["0.0.1 luau".target]
+environment = "luau"
+lib = "src/init.luau"
