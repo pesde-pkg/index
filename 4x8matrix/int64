@@ -1,0 +1,10 @@
+["1.0.1 luau"]
+published_at = "2026-06-01T17:10:00.76677803Z"
+description = " Unsigned 64-bit integer support in pure Luau using vectors "
+license = "MIT"
+authors = ["Dekkonot <webmaster@dekkonot.com>", "Async Matrix <hi@asyncmatrix.dev>"]
+repository = "https://github.com/Dekkonot/int64-luau"
+
+["1.0.1 luau".target]
+environment = "luau"
+lib = "init.luau"
