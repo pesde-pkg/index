@@ -1,0 +1,20 @@
+["0.0.1 luau"]
+published_at = "2026-06-01T12:30:42.321551369Z"
+description = "Discord-Luau State - contains the state for a discord bot."
+license = "MIT"
+authors = ["Async Matrix <hi@asyncmatrix.dev>"]
+repository = "https://github.com/DiscordLuau/discord-luau/tree/main/packages/state"
+
+["0.0.1 luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
+["0.0.1 luau".dependencies]
+api_types = [{ name = "discord_luau/api_types", version = "^0.0.1", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+formdata = [{ name = "discord_luau/formdata", version = "^0.0.1", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+logger = [{ name = "discord_luau/logger", version = "^0.0.1", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+rest = [{ name = "discord_luau/rest", version = "^0.0.1", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+secret = [{ name = "discord_luau/secret", version = "^0.0.1", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+std_polyfills = [{ name = "discord_luau/std_polyfills", version = "^0.0.1", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+utils = [{ name = "discord_luau/util", version = "^0.0.1", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+websocket = [{ name = "discord_luau/websocket", version = "^0.0.1", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
