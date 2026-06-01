@@ -1,0 +1,15 @@
+["0.0.1 luau"]
+published_at = "2026-06-01T11:21:11.437705497Z"
+description = "Discord Luau Dave - Implementation of the End to End encryption DAVE protocol for discord."
+license = "MIT"
+authors = ["Async Matrix <hi@asyncmatrix.dev>"]
+repository = "https://github.com/DiscordLuau/discord-luau/tree/main/packages/voice"
+
+["0.0.1 luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
+["0.0.1 luau".dependencies]
+binary = [{ name = "discord_luau/binary", version = "^0.0.1", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+logger = [{ name = "discord_luau/logger", version = "^0.0.1", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+std_polyfills = [{ name = "discord_luau/std_polyfills", version = "^0.0.1", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
