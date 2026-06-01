@@ -21,3 +21,15 @@ repository = "https://github.com/emdomanus/advancedUtils"
 environment = "roblox"
 lib = "src/init.luau"
 build_files = ["src"]
+
+["0.1.2 roblox"]
+published_at = "2026-06-01T23:38:19.057451409Z"
+description = "Reusable advanced utility primitives for Roblox projects."
+license = "MIT"
+authors = ["Edward"]
+repository = "https://github.com/emdomanus/advancedUtils"
+
+["0.1.2 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
