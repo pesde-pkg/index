@@ -27,3 +27,18 @@ build_files = ["src"]
 
 ["0.1.1 roblox".dependencies]
 advancedUtils = [{ name = "emdomanus/advanced_utils", version = "^0.1.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+
+["0.1.2 roblox"]
+published_at = "2026-06-02T03:29:51.360050524Z"
+description = "A low-overhead phase-aware scheduler for Roblox."
+license = "MIT"
+authors = ["emdomanus"]
+repository = "https://github.com/emdomanus/tempo"
+
+["0.1.2 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.1.2 roblox".dependencies]
+hook = [{ name = "emdomanus/hook", version = "^0.1.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
