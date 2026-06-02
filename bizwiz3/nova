@@ -543,6 +543,7 @@ description = "A filesystem-based web framework for Luau runtimes, with out-of-t
 license = "MIT"
 authors = ["BizWiz3 (https://github.com/BizWiz3)", "Leoj030 (https://github.com/Leoj030)"]
 repository = "https://github.com/BizWiz3/nova"
+yanked = true
 
 ["0.5.7 lune".target]
 environment = "lune"
