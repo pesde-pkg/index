@@ -19,6 +19,17 @@ repository = "https://github.com/ucord-org/console"
 environment = "luau"
 bin = "src/init.luau"
 
+["0.1.2 lune"]
+published_at = "2026-06-02T01:36:32.32350846Z"
+description = "Console logger library"
+license = "Apache-2.0"
+authors = ["ucord-org"]
+repository = "https://github.com/ucord-org/console"
+
+["0.1.2 lune".target]
+environment = "lune"
+bin = "src/init.luau"
+
 ["0.1.2 luau"]
 published_at = "2026-05-25T01:37:23.453216133Z"
 description = "Console logger library"
