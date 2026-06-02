@@ -20,3 +20,26 @@ Promise = [{ wally = "wally#howmanysmall/typed-promise", version = "^4.0.6", ind
 rojo = [{ name = "pesde/rojo", version = "^7.6.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 Signal = [{ wally = "wally#data-oriented-house/lemonsignal", version = "^1.11.0", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
+
+["0.1.1 roblox"]
+published_at = "2026-06-02T09:58:34.209816796Z"
+description = "A Binary Storage Engine Reimagining Datastore Efficiency"
+license = "MIT"
+authors = ["isoopod"]
+repository = "https://github.com/isoopod/Abserde"
+
+["0.1.1 roblox".target]
+environment = "roblox"
+lib = "abserde/init.luau"
+build_files = ["abserde"]
+
+["0.1.1 roblox".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
+["0.1.1 roblox".dependencies]
+Pack = [{ name = "isoopod/pack", version = "^0.11.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+Promise = [{ wally = "wally#howmanysmall/typed-promise", version = "^4.0.6", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
+rojo = [{ name = "pesde/rojo", version = "^7.6.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+Signal = [{ wally = "wally#data-oriented-house/lemonsignal", version = "^1.11.0", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
