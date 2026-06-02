@@ -1,3 +1,12 @@
+["0.1.0 luau"]
+published_at = "2026-06-02T15:48:48.427067047Z"
+description = "Shared utilities for the Nova ecosystem."
+license = "MIT"
+
+["0.1.0 luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
 ["0.1.1 luau"]
 published_at = "2026-06-02T15:47:24.925305648Z"
 description = "Shared utilities for the Nova ecosystem."
