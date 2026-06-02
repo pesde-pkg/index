@@ -9,3 +9,15 @@ repository = "https://github.com/emdomanus/hook"
 environment = "roblox"
 lib = "src/init.luau"
 build_files = ["src"]
+
+["0.1.1 roblox"]
+published_at = "2026-06-02T03:16:53.972817257Z"
+description = "A tiny low-overhead id-based subscriber list for Roblox."
+license = "MIT"
+authors = ["emdomanus"]
+repository = "https://github.com/emdomanus/hook"
+
+["0.1.1 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
