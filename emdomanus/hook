@@ -1,0 +1,11 @@
+["0.1.0 roblox"]
+published_at = "2026-06-02T03:05:26.05753902Z"
+description = "A tiny low-overhead id-based subscriber list for Roblox."
+license = "MIT"
+authors = ["emdomanus"]
+repository = "https://github.com/emdomanus/hook"
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
