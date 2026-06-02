@@ -1,0 +1,14 @@
+["0.1.0 roblox"]
+published_at = "2026-06-02T07:10:14.528109113Z"
+description = "Renderable anatomy, socket, surface, and mounting primitives for Roblox."
+license = "MIT"
+authors = ["emdomanus"]
+repository = "https://github.com/emdomanus/anatomy"
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.1.0 roblox".dependencies]
+hook = [{ name = "emdomanus/hook", version = "^0.1.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
