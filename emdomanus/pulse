@@ -29,3 +29,18 @@ build_files = ["src"]
 ["0.1.1 roblox".dependencies]
 hook = [{ name = "emdomanus/hook", version = "^0.1.1", index = "https://github.com/pesde-pkg/index" }, "standard"]
 tempo = [{ name = "emdomanus/tempo", version = "^0.1.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
+
+["0.3.0 roblox"]
+published_at = "2026-06-03T21:42:13.937115548Z"
+description = "A small generic sequence playback runtime for Roblox."
+license = "MIT"
+authors = ["emdomanus"]
+repository = "https://github.com/emdomanus/pulse"
+
+["0.3.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.3.0 roblox".dependencies]
+tempo = [{ name = "emdomanus/tempo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
