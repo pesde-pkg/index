@@ -1,0 +1,13 @@
+["0.6.0 luau"]
+published_at = "2026-06-03T06:49:07.537916729Z"
+description = "A filesystem-based web framework for Luau runtimes, with out-of-the-box support for Lute, Lune and Zune."
+license = "MIT"
+authors = ["Hypernova Lab (https://github.com/hypernova-lab)"]
+repository = "https://github.com/hypernova-lab/nova"
+
+["0.6.0 luau".target]
+environment = "luau"
+lib = "src/index.luau"
+
+["0.6.0 luau".dependencies]
+nova_common = [{ name = "nova/nova_common", version = "^0.1.3", index = "https://github.com/pesde-pkg/index" }, "standard"]
