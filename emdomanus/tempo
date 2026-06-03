@@ -54,3 +54,15 @@ repository = "https://github.com/emdomanus/tempo"
 environment = "roblox"
 lib = "src/init.luau"
 build_files = ["src"]
+
+["0.3.0 roblox"]
+published_at = "2026-06-03T21:54:34.487055748Z"
+description = "A low-overhead phase-aware scheduler for Roblox."
+license = "MIT"
+authors = ["emdomanus"]
+repository = "https://github.com/emdomanus/tempo"
+
+["0.3.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
