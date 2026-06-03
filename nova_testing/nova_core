@@ -15,6 +15,7 @@ description = "A filesystem-based web framework for Luau runtimes, with out-of-t
 license = "MIT"
 authors = ["Hypernova Lab (https://github.com/hypernova-lab)"]
 repository = "https://github.com/hypernova-lab/nova"
+yanked = true
 
 ["0.6.1 luau".target]
 environment = "luau"
