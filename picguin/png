@@ -63,3 +63,17 @@ lune = "^0.10.2"
 ["0.1.1 roblox".dependencies]
 rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["0.1.1 lune"]
+published_at = "2026-06-03T22:08:41.259916322Z"
+license = "MIT"
+authors = ["wizeväxel"]
+repository = "https://github.com/wizevaxel/picguin"
+
+["0.1.1 lune".target]
+environment = "lune"
+lib = "src/init.luau"
+
+["0.1.1 lune".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
