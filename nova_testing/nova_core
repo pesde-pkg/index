@@ -1,0 +1,10 @@
+["0.6.0 luau"]
+published_at = "2026-06-03T09:49:50.552534275Z"
+description = "A filesystem-based web framework for Luau runtimes, with out-of-the-box support for Lute, Lune and Zune."
+license = "MIT"
+authors = ["Hypernova Lab (https://github.com/hypernova-lab)"]
+repository = "https://github.com/hypernova-lab/nova"
+
+["0.6.0 luau".target]
+environment = "luau"
+lib = "src/index.luau"
