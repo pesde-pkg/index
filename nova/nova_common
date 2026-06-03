@@ -2,6 +2,7 @@
 published_at = "2026-06-02T15:48:48.427067047Z"
 description = "Shared utilities for the Nova ecosystem."
 license = "MIT"
+yanked = true
 
 ["0.1.0 luau".target]
 environment = "luau"
