@@ -30,6 +30,7 @@ lib = "src/init.luau"
 published_at = "2026-06-03T06:36:55.265978828Z"
 description = "Shared utilities for the Nova ecosystem."
 license = "MIT"
+yanked = true
 
 ["0.1.3 luau".target]
 environment = "luau"
