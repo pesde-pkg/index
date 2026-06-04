@@ -25,3 +25,17 @@ lib = "src/init.luau"
 
 ["0.0.2 luau".dependencies]
 stream = [{ name = "discord_luau/stream", version = "^0.0.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
+
+["0.0.3 luau"]
+published_at = "2026-06-04T01:14:26.722147064Z"
+description = "Discord-Luau FormData - FormData implementation for luau."
+license = "MIT"
+authors = ["Async Matrix <hi@asyncmatrix.dev>"]
+repository = "https://github.com/DiscordLuau/discord-luau/tree/main/packages/formdata"
+
+["0.0.3 luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
+["0.0.3 luau".dependencies]
+stream = [{ name = "discord_luau/stream", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
