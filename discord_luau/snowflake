@@ -11,3 +11,17 @@ lib = "src/init.luau"
 
 ["0.0.1 luau".dependencies]
 std_polyfills = [{ name = "discord_luau/std_polyfills", version = "^0.0.1", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+
+["0.0.2 luau"]
+published_at = "2026-06-04T00:48:19.879340721Z"
+description = "Discord-Luau Snowflake - library enabling developers to query information on snowflake ids"
+license = "MIT"
+authors = ["Async Matrix <hi@asyncmatrix.dev>"]
+repository = "https://github.com/DiscordLuau/discord-luau/tree/main/packages/snowflake"
+
+["0.0.2 luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
+["0.0.2 luau".dependencies]
+std_polyfills = [{ name = "discord_luau/std_polyfills", version = "^0.0.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
