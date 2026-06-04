@@ -6,6 +6,7 @@ published_at = "2026-05-24T01:43:34.783413088Z"
 description = "JSON decoder and encoder for Luau"
 license = "MIT"
 authors = ["onefiverdev"]
+yanked = true
 
 ["0.1.0 lune".target]
 environment = "lune"
