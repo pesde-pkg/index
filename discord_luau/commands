@@ -16,3 +16,22 @@ classes = [{ name = "discord_luau/classes", version = "^0.0.1", index = "https:/
 future = [{ name = "yetanotherclown/luau_futures", version = "^2.0.0-beta.3", index = "https://github.com/pesde-pkg/index" }, "standard"]
 logger = [{ name = "discord_luau/logger", version = "^0.0.1", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
 std_polyfills = [{ name = "discord_luau/std_polyfills", version = "^0.0.1", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+
+["0.0.2 luau"]
+published_at = "2026-06-04T00:27:13.113762064Z"
+description = "Discord-Luau Commands - A commands framework for discord-luau."
+license = "MIT"
+authors = ["Async Matrix <hi@asyncmatrix.dev>"]
+repository = "https://github.com/DiscordLuau/discord-luau/tree/main/packages/commands"
+
+["0.0.2 luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
+["0.0.2 luau".dependencies]
+api_types = [{ name = "discord_luau/api_types", version = "^0.0.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
+builders = [{ name = "discord_luau/builders", version = "^0.0.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
+classes = [{ name = "discord_luau/classes", version = "^0.0.3", index = "https://github.com/pesde-pkg/index" }, "standard"]
+future = [{ name = "yetanotherclown/luau_futures", version = "^2.0.0-beta.3", index = "https://github.com/pesde-pkg/index" }, "standard"]
+logger = [{ name = "discord_luau/logger", version = "^0.0.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
+std_polyfills = [{ name = "discord_luau/std_polyfills", version = "^0.0.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
