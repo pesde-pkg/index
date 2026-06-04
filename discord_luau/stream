@@ -8,3 +8,14 @@ repository = "https://github.com/DiscordLuau/discord-luau/tree/main/packages/str
 ["0.0.1 luau".target]
 environment = "luau"
 lib = "src/init.luau"
+
+["0.0.2 luau"]
+published_at = "2026-06-04T00:26:45.91178159Z"
+description = "Discord-Luau Stream - stream implementation used to navigate through strings."
+license = "MIT"
+authors = ["Async Matrix <hi@asyncmatrix.dev>"]
+repository = "https://github.com/DiscordLuau/discord-luau/tree/main/packages/stream"
+
+["0.0.2 luau".target]
+environment = "luau"
+lib = "src/init.luau"
