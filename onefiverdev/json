@@ -10,3 +10,14 @@ authors = ["onefiverdev"]
 ["0.1.0 lune".target]
 environment = "lune"
 bin = "src/init.luau"
+
+["1.0.0 luau"]
+published_at = "2026-06-04T03:46:53.299304709Z"
+description = "JSON encoder and decoder"
+license = "Apache-2.0"
+authors = ["onefiverdev"]
+repository = "https://github.com/onefiverdev/json"
+
+["1.0.0 luau".target]
+environment = "luau"
+lib = "lib.luau"
