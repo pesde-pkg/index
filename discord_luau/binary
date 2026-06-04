@@ -42,3 +42,18 @@ lib = "src/init.luau"
 ["0.0.3 luau".dependencies]
 sha256 = [{ name = "kimpure/sha256", version = "^0.1.1", index = "https://github.com/pesde-pkg/index" }, "standard"]
 std_polyfills = [{ name = "discord_luau/std_polyfills", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+
+["0.0.4 luau"]
+published_at = "2026-06-04T01:24:07.577907723Z"
+description = "Platform binary acquisition layer for FFI packages - resolves, caches, and downloads native shared libraries"
+license = "MIT"
+authors = ["Async Matrix <hi@asyncmatrix.dev>"]
+repository = "https://github.com/DiscordLuau/discord-luau/tree/main/packages/binary"
+
+["0.0.4 luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
+["0.0.4 luau".dependencies]
+sha256 = [{ name = "kimpure/sha256", version = "^0.1.1", index = "https://github.com/pesde-pkg/index" }, "standard"]
+std_polyfills = [{ name = "discord_luau/std_polyfills", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
