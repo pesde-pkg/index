@@ -1,3 +1,14 @@
+["1.0.0 lune"]
+published_at = "2026-06-04T03:54:09.261893588Z"
+description = "JSON encoder and decoder"
+license = "Apache-2.0"
+authors = ["onefiverdev"]
+repository = "https://github.com/onefiverdev/ujson"
+
+["1.0.0 lune".target]
+environment = "lune"
+lib = "lib.luau"
+
 ["1.0.0 luau"]
 published_at = "2026-06-04T03:53:19.466099478Z"
 description = "JSON encoder and decoder"
