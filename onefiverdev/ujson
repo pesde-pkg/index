@@ -20,6 +20,17 @@ repository = "https://github.com/onefiverdev/ujson"
 environment = "luau"
 lib = "lib.luau"
 
+["1.0.1 lune"]
+published_at = "2026-06-04T04:01:18.583808428Z"
+description = "JSON encoder and decoder"
+license = "Apache-2.0"
+authors = ["onefiverdev"]
+repository = "https://github.com/onefiverdev/ujson"
+
+["1.0.1 lune".target]
+environment = "lune"
+lib = "lib.luau"
+
 ["1.0.1 luau"]
 published_at = "2026-06-04T04:00:43.611274193Z"
 description = "JSON encoder and decoder"
