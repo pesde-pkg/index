@@ -12,3 +12,18 @@ lib = "bundled.luau"
 ["0.0.1 luau".dependencies]
 bit = [{ name = "discord_luau/bit", version = "^0.0.1", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
 util = [{ name = "discord_luau/util", version = "^0.0.1", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+
+["0.0.2 luau"]
+published_at = "2026-06-04T00:47:20.158651458Z"
+description = "Discord-Luau Types - API Types for the Discord API."
+license = "MIT"
+authors = ["Async Matrix <hi@asyncmatrix.dev>"]
+repository = "https://github.com/DiscordLuau/discord-luau/tree/main/packages/api_types"
+
+["0.0.2 luau".target]
+environment = "luau"
+lib = "bundled.luau"
+
+["0.0.2 luau".dependencies]
+bit = [{ name = "discord_luau/bit", version = "^0.0.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
+util = [{ name = "discord_luau/util", version = "^0.0.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
