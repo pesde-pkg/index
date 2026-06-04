@@ -1,3 +1,6 @@
+[meta]
+deprecated = "removed from ucord-org"
+
 ["0.1.0 luau"]
 published_at = "2026-05-25T01:31:20.552822959Z"
 description = "Console logger library"
