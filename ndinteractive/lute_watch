@@ -1,0 +1,13 @@
+["0.1.0 luau"]
+published_at = "2026-06-04T09:37:20.362895566Z"
+description = "A path watcher for Lute"
+license = "MIT"
+authors = ["9e4ches"]
+repository = "https://github.com/nd-interactive/lute-watch"
+
+["0.1.0 luau".target]
+environment = "luau"
+lib = "src/lib.luau"
+
+["0.1.0 luau".engines]
+pesde = "^0.7.1"
