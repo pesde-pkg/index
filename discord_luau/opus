@@ -27,3 +27,18 @@ lib = "src/init.luau"
 ["0.0.2 luau".dependencies]
 binary = [{ name = "discord_luau/binary", version = "^0.0.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
 std_polyfills = [{ name = "discord_luau/std_polyfills", version = "^0.0.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
+
+["0.0.3 luau"]
+published_at = "2026-06-04T01:06:28.18421327Z"
+description = "Discord Luau Opus - FFI bindings for libopus, providing Opus audio encoding and decoding."
+license = "MIT"
+authors = ["Async Matrix <hi@asyncmatrix.dev>"]
+repository = "https://github.com/DiscordLuau/discord-luau/tree/main/packages/opus"
+
+["0.0.3 luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
+["0.0.3 luau".dependencies]
+binary = [{ name = "discord_luau/binary", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+std_polyfills = [{ name = "discord_luau/std_polyfills", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
