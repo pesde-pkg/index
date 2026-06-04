@@ -31,3 +31,20 @@ api_types = [{ name = "discord_luau/api_types", version = "^0.0.2", index = "htt
 formdata = [{ name = "discord_luau/formdata", version = "^0.0.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
 future = [{ name = "yetanotherclown/luau_futures", version = "^2.0.0-beta.3", index = "https://github.com/pesde-pkg/index" }, "standard"]
 std_polyfills = [{ name = "discord_luau/std_polyfills", version = "^0.0.2", index = "https://github.com/pesde-pkg/index" }, "standard"]
+
+["0.0.3 luau"]
+published_at = "2026-06-04T01:10:26.813744875Z"
+description = "Discord-Luau Rest - providing calls to the discord HTTP Rest API"
+license = "MIT"
+authors = ["Async Matrix <hi@asyncmatrix.dev>"]
+repository = "https://github.com/DiscordLuau/discord-luau/tree/main/packages/rest"
+
+["0.0.3 luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
+["0.0.3 luau".dependencies]
+api_types = [{ name = "discord_luau/api_types", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+formdata = [{ name = "discord_luau/formdata", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+future = [{ name = "yetanotherclown/luau_futures", version = "^2.0.0-beta.3", index = "https://github.com/pesde-pkg/index" }, "standard"]
+std_polyfills = [{ name = "discord_luau/std_polyfills", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
