@@ -1,0 +1,10 @@
+["1.0.0 luau"]
+published_at = "2026-06-04T12:24:22.091838209Z"
+description = "Colorful logging library for Luau, designed for terminal output with enhanced formatting, debug information, and customizable log levels."
+license = "Apache-2.0"
+authors = ["onefiverdev"]
+repository = "https://github.com/onefiverdev/prettylog"
+
+["1.0.0 luau".target]
+environment = "luau"
+lib = "src/init.luau"
