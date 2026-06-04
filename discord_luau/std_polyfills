@@ -8,3 +8,14 @@ repository = "https://github.com/DiscordLuau/discord-luau/tree/main/packages/std
 ["0.0.1 luau".target]
 environment = "luau"
 lib = "src/init.luau"
+
+["0.0.2 luau"]
+published_at = "2026-06-04T00:52:19.820930449Z"
+description = "Discord-Luau Polyfills - polyfills for stdlib functions."
+license = "MIT"
+authors = ["Async Matrix <hi@asyncmatrix.dev>"]
+repository = "https://github.com/DiscordLuau/discord-luau/tree/main/packages/std_polyfills"
+
+["0.0.2 luau".target]
+environment = "luau"
+lib = "src/init.luau"
