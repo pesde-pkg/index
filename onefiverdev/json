@@ -1,3 +1,6 @@
+[meta]
+deprecated = "not correctly setted up"
+
 ["0.1.0 lune"]
 published_at = "2026-05-24T01:43:34.783413088Z"
 description = "JSON decoder and encoder for Luau"
