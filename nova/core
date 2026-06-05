@@ -9,3 +9,14 @@ yanked = true
 ["0.5.1 lune".target]
 environment = "lune"
 lib = "src/index.luau"
+
+["0.6.0 luau"]
+published_at = "2026-06-05T12:21:26.634169438Z"
+description = "A convention-driven, runtime-agnostic web framework for the Luau ecosystem."
+license = "MIT"
+authors = ["Hypernova Lab (https://github.com/hypernova-lab)"]
+repository = "https://github.com/hypernova-lab/nova"
+
+["0.6.0 luau".target]
+environment = "luau"
+lib = "src/index.luau"
