@@ -1,0 +1,14 @@
+["0.0.1 luau"]
+published_at = "2026-06-07T20:39:21.268640281Z"
+description = "Discord-Luau Debuggify - Collect and display diagnostic information to help troubleshoot Discord-Luau issues."
+license = "MIT"
+authors = ["Async Matrix <hi@asyncmatrix.dev>"]
+repository = "https://github.com/DiscordLuau/discord-luau/tree/main/packages/debuggify"
+
+["0.0.1 luau".target]
+environment = "luau"
+bin = "bin.luau"
+
+["0.0.1 luau".dependencies]
+cli_builder = [{ name = "4x8matrix/cli_builder", version = "^0.1.0-dev.1", index = "https://github.com/pesde-pkg/index" }, "standard"]
+std_polyfills = [{ name = "discord_luau/std_polyfills", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
