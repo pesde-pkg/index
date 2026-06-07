@@ -1,0 +1,10 @@
+["1.8.0 roblox"]
+published_at = "2026-06-07T12:22:02.634580519Z"
+description = "A port of Trove to pesde."
+license = "MIT"
+authors = ["sleitnick"]
+
+["1.8.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
