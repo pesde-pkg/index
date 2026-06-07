@@ -48,3 +48,20 @@ api_types = [{ name = "discord_luau/api_types", version = ">=0.0.0", index = "ht
 bit = [{ name = "discord_luau/bit", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
 std_polyfills = [{ name = "discord_luau/std_polyfills", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
 util = [{ name = "discord_luau/util", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+
+["0.0.4 luau"]
+published_at = "2026-06-07T20:29:31.421414066Z"
+description = "Discord-Luau Builders - Builders used to generate payloads that the discord API can parse."
+license = "MIT"
+authors = ["Async Matrix <hi@asyncmatrix.dev>"]
+repository = "https://github.com/DiscordLuau/discord-luau/tree/main/packages/builder"
+
+["0.0.4 luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
+["0.0.4 luau".dependencies]
+api_types = [{ name = "discord_luau/api_types", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+bit = [{ name = "discord_luau/bit", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+std_polyfills = [{ name = "discord_luau/std_polyfills", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+util = [{ name = "discord_luau/util", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
