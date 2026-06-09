@@ -36,3 +36,15 @@ repository = "https://github.com/emdomanus/anatomy"
 environment = "roblox"
 lib = "src/init.luau"
 build_files = ["src"]
+
+["0.2.0 roblox"]
+published_at = "2026-06-09T23:37:11.942285816Z"
+description = "Renderable anatomy, socket, tag, and mounting primitives for Roblox."
+license = "MIT"
+authors = ["emdomanus"]
+repository = "https://github.com/emdomanus/anatomy"
+
+["0.2.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
