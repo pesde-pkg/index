@@ -33,3 +33,15 @@ repository = "https://github.com/0hirume/tojson"
 environment = "lune"
 lib = "src/init.luau"
 bin = "bin/tojson.luau"
+
+["0.2.1 lune"]
+published_at = "2026-06-10T19:25:52.545892424Z"
+description = "Convert rbxm/rbxmx files to Argon model.json format"
+license = "MIT"
+authors = ["ohirume"]
+repository = "https://github.com/0hirume/tojson"
+
+["0.2.1 lune".target]
+environment = "lune"
+lib = "src/init.luau"
+bin = "bin/tojson.luau"
