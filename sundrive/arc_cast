@@ -81,3 +81,24 @@ bolt = [{ wally = "wally#unityjaeger/bolt", version = "^0.6.0", index = "https:/
 rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 squash = [{ wally = "wally#data-oriented-house/squash", version = "^5.0.0", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
+
+["0.1.4 roblox"]
+published_at = "2026-06-11T00:00:04.450201208Z"
+description = "SecureCast fork with slight optimizations "
+license = "MIT"
+authors = ["Synthlax", "Axen"]
+
+["0.1.4 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.1.4 roblox".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
+["0.1.4 roblox".dependencies]
+bolt = [{ wally = "wally#unityjaeger/bolt", version = "^0.6.0", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
+rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+squash = [{ wally = "wally#data-oriented-house/squash", version = "^5.0.0", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
