@@ -102,3 +102,18 @@ build_files = ["src"]
 
 ["0.8.2 roblox".dependencies]
 frktest = [{ name = "itsfrank/frktest", version = "^0.0.4", index = "https://github.com/pesde-pkg/index", target = "luau" }, "dev"]
+
+["0.9.0-maelstrom.1 roblox"]
+published_at = "2026-06-12T00:46:33.789202851Z"
+description = "A lightweight and professional framework for Roblox."
+license = "MIT"
+authors = ["Riptide Development Group"]
+repository = "https://github.com/riptide-project/framework"
+
+["0.9.0-maelstrom.1 roblox".target]
+environment = "roblox"
+lib = "src/init.lua"
+build_files = ["src"]
+
+["0.9.0-maelstrom.1 roblox".dependencies]
+frktest = [{ name = "itsfrank/frktest", version = "^0.0.4", index = "https://github.com/pesde-pkg/index", target = "luau" }, "dev"]
