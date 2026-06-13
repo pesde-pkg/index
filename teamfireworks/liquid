@@ -20,3 +20,26 @@ Fluid = [{ wally = "wally#ffrostfall/fluid", version = "^0.6.4", index = "https:
 Ripple = [{ wally = "wally#littensy/ripple", version = "^0.10.2", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
 rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["0.1.1 roblox"]
+published_at = "2026-06-13T04:03:23.390926106Z"
+description = "An assortment of useful hooks and utilites for Fluid, a Roblox UI library."
+license = "MIT"
+authors = ["Team Fireworks <teamfireworks.org>"]
+repository = "https://github.com/teamfireworks/liquid"
+
+["0.1.1 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.1.1 roblox".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
+["0.1.1 roblox".dependencies]
+Charm = [{ wally = "wally#littensy/charm", version = "^0.11.0-rc.6", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
+Fluid = [{ wally = "wally#ffrostfall/fluid", version = "^0.6.4", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
+Ripple = [{ wally = "wally#littensy/ripple", version = "^0.10.2", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
+rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
