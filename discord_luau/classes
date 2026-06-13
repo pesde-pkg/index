@@ -89,3 +89,26 @@ state = [{ name = "discord_luau/state", version = ">=0.0.0", index = "https://gi
 std_polyfills = [{ name = "discord_luau/std_polyfills", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
 util = [{ name = "discord_luau/util", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
 voice = [{ name = "discord_luau/voice", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+
+["0.0.6 luau"]
+published_at = "2026-06-13T13:14:02.961283035Z"
+description = "Discord-Luau Classes - Objects that wrap around various discord API structures."
+license = "MIT"
+authors = ["Async Matrix <hi@asyncmatrix.dev>"]
+repository = "https://github.com/DiscordLuau/discord-luau/tree/main/packages/classes"
+
+["0.0.6 luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
+["0.0.6 luau".dependencies]
+api_types = [{ name = "discord_luau/api_types", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+bit = [{ name = "discord_luau/bit", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+builders = [{ name = "discord_luau/builders", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+emitter = [{ name = "discord_luau/emitter", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+future = [{ name = "yetanotherclown/luau_futures", version = "^2.0.0-beta.3", index = "https://github.com/pesde-pkg/index" }, "standard"]
+rest = [{ name = "discord_luau/rest", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+state = [{ name = "discord_luau/state", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+std_polyfills = [{ name = "discord_luau/std_polyfills", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+util = [{ name = "discord_luau/util", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+voice = [{ name = "discord_luau/voice", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
