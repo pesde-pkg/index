@@ -42,3 +42,18 @@ build_files = ["src"]
 
 ["2.0.1 roblox".engines]
 pesde = "^0.7.0"
+
+["2.1.0 roblox"]
+published_at = "2026-06-14T01:36:38.465988878Z"
+description = "A UI scaling solution for Roblox, without the headache."
+license = "BloxLibs"
+authors = ["PcoiDev"]
+repository = "https://github.com/bloxlibs/BetterScale"
+
+["2.1.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["2.1.0 roblox".engines]
+pesde = "^0.7.0"
