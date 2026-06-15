@@ -19,3 +19,14 @@ repository = "https://github.com/DiscordLuau/discord-luau/tree/main/packages/std
 ["0.0.2 luau".target]
 environment = "luau"
 lib = "src/init.luau"
+
+["0.0.3-dev.0 luau"]
+published_at = "2026-06-15T03:37:27.229931039Z"
+description = "Discord-Luau Polyfills - polyfills for stdlib functions."
+license = "MIT"
+authors = ["Async Matrix <hi@asyncmatrix.dev>"]
+repository = "https://github.com/DiscordLuau/discord-luau/tree/main/packages/std_polyfills"
+
+["0.0.3-dev.0 luau".target]
+environment = "luau"
+lib = "src/init.luau"
