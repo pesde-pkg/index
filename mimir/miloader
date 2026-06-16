@@ -1,0 +1,10 @@
+["0.1.0 roblox"]
+published_at = "2026-06-16T00:14:33.462462181Z"
+description = "load ur modules"
+license = "MIT"
+authors = ["mimir"]
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
