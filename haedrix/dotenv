@@ -8,3 +8,13 @@ repository = "https://github.com/haedrix/dotenv-lua"
 ["0.1.0-alpha.1 lune".target]
 environment = "lune"
 bin = "src/init.luau"
+
+["0.1.0-alpha.2 luau"]
+published_at = "2026-06-19T19:50:59.358691687Z"
+description = "Easily load your environment variables for Lune."
+license = "MIT"
+authors = ["haedrix"]
+
+["0.1.0-alpha.2 luau".target]
+environment = "luau"
+lib = "src/init.luau"
