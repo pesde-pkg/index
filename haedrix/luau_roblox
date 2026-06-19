@@ -1,0 +1,10 @@
+["0.1.0-alpha.1 luau"]
+published_at = "2026-06-19T22:41:14.610221831Z"
+description = "A luau library to manipulate Roblox instances from place/model files."
+license = "MIT"
+authors = ["Scythe Technology"]
+repository = "https://github.com/Scythe-Technology/luau-roblox/tree/master"
+
+["0.1.0-alpha.1 luau".target]
+environment = "luau"
+lib = "src/init.luau"
