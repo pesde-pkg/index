@@ -1,0 +1,10 @@
+["0.1.0-alpha.1 lune"]
+published_at = "2026-06-19T19:43:29.154526123Z"
+description = "Easily load your environment variables for Lune."
+license = "MIT"
+authors = ["haedrix"]
+repository = "https://github.com/haedrix/dotenv-lua"
+
+["0.1.0-alpha.1 lune".target]
+environment = "lune"
+bin = "src/init.luau"
