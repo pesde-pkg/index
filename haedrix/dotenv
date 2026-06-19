@@ -28,3 +28,13 @@ authors = ["haedrix"]
 ["0.1.0-alpha.3 luau".target]
 environment = "luau"
 lib = "src/init.luau"
+
+["0.1.0-alpha.4 luau"]
+published_at = "2026-06-19T19:55:41.783342704Z"
+description = "Easily load your environment variables for Lune."
+license = "MIT"
+authors = ["haedrix"]
+
+["0.1.0-alpha.4 luau".target]
+environment = "luau"
+lib = "src/init.luau"
