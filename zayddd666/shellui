@@ -1,0 +1,19 @@
+["0.1.0 roblox"]
+published_at = "2026-06-21T10:09:58.004109135Z"
+description = "shellui is a modular and simple ui framework."
+license = "MIT"
+authors = ["zayddd666"]
+repository = "https://github.com/zayddd666/ShellUI"
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "init.luau"
+build_files = ["init.luau", "shellui.rbxm"]
+
+["0.1.0 roblox".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
+["0.1.0 roblox".dependencies]
+rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
