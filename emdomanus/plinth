@@ -136,3 +136,28 @@ hash = "5164534a7e3ca2456a753523de9376a05bfbe514b28303329a2831f5a17e4f83"
 tempo = [{ name = "emdomanus/tempo", version = "^0.3.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
 uiLabs = [{ wally = "wally#pepeeltoro41/ui-labs", version = "^2.4.2", index = "https://github.com/UpliftGames/wally-index" }, "dev"]
 vide = [{ name = "centau/vide", version = "^0.4.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+
+["0.2.1 roblox"]
+published_at = "2026-06-23T08:19:07.141698994Z"
+description = "Reactive Roblox UI primitives, modifiers, and components."
+license = "MIT"
+authors = ["emdomanus"]
+repository = "https://github.com/emdomanus/plinth"
+
+["0.2.1 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+[["0.2.1 roblox".docs]]
+label = "Important"
+
+[["0.2.1 roblox".docs.items]]
+label = "UI Labs Promise Loader Note"
+name = "important/ui-labs-promise-loader"
+hash = "5164534a7e3ca2456a753523de9376a05bfbe514b28303329a2831f5a17e4f83"
+
+["0.2.1 roblox".dependencies]
+tempo = [{ name = "emdomanus/tempo", version = "^0.3.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+uiLabs = [{ wally = "wally#pepeeltoro41/ui-labs", version = "^2.4.2", index = "https://github.com/UpliftGames/wally-index" }, "dev"]
+vide = [{ name = "centau/vide", version = "^0.4.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
