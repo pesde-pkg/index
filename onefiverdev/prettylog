@@ -1,3 +1,6 @@
+[meta]
+deprecated = "Repository removed and not maintained anymore"
+
 ["1.0.0 lune"]
 published_at = "2026-06-04T12:24:56.442328285Z"
 description = "Colorful logging library for Luau, designed for terminal output with enhanced formatting, debug information, and customizable log levels."
