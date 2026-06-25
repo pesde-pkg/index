@@ -1,0 +1,14 @@
+["1.0.0 luau"]
+published_at = "2026-06-25T11:07:46.188859862Z"
+description = "numluau (numerical luau), a scientific computing library for luau. Handle N-Dimensional arrays and compute linear algebra easily."
+license = "MIT"
+authors = ["chocolate_bar2410 <https://github.com/chocolate-bar2410>"]
+repository = "https://github.com/chocolate-bar2410/numluau"
+
+["1.0.0 luau".target]
+environment = "luau"
+lib = "numluau/numluau.luau"
+
+["1.0.0 luau".engines]
+pesde = "^0.7.1"
+lune = "^0.10.4"
