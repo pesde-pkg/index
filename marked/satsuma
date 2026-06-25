@@ -9,3 +9,15 @@ repository = "https://github.com/mark-marks/satsuma"
 environment = "roblox"
 lib = "lib/init.luau"
 build_files = ["lib"]
+
+["0.1.0-alpha.1 roblox"]
+published_at = "2026-06-25T12:29:05.352990546Z"
+description = "My summer networking library"
+license = "MIT"
+authors = ["marked"]
+repository = "https://github.com/mark-marks/satsuma"
+
+["0.1.0-alpha.1 roblox".target]
+environment = "roblox"
+lib = "lib/init.luau"
+build_files = ["lib"]
