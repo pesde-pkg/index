@@ -1,0 +1,8 @@
+["0.1.0 roblox"]
+published_at = "2026-06-28T00:28:02.542491914Z"
+description = "A camera shake module"
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
