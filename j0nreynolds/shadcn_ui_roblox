@@ -1,0 +1,17 @@
+["0.8.17 roblox"]
+published_at = "2026-06-29T05:27:51.821087644Z"
+description = "shadcn/ui component library port for Roblox (React-Lua)"
+license = "MIT"
+authors = ["J0Nreynolds"]
+repository = "https://github.com/J0Nreynolds/shadcn-ui-roblox"
+
+["0.8.17 roblox".target]
+environment = "roblox"
+lib = "dist/src/init.luau"
+build_files = ["dist", "dist/src"]
+
+["0.8.17 roblox".engines]
+pesde = ">=0.7.0"
+
+["0.8.17 roblox".dependencies]
+Cryo = [{ wally = "wally#morgann1/cryo", version = "^1.1.1", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
