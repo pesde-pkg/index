@@ -4,6 +4,7 @@ description = "Silk - Luau in Luau"
 license = "MIT"
 authors = ["Async Matrix <hi@asyncmatrix.dev>"]
 repository = "https://github.com/4x8Matrix/silk"
+yanked = true
 
 ["0.0.1 luau".target]
 environment = "luau"
