@@ -33,3 +33,15 @@ repository = "https://github.com/Elentium/BlazeSentry"
 environment = "roblox"
 lib = "src/init.luau"
 build_files = ["src"]
+
+["0.1.6 roblox"]
+published_at = "2026-07-02T01:27:05.694485065Z"
+description = "BlazeSentry Fork Oriented for Pure Performance"
+license = "APACHE-2.0"
+authors = ["IAMNOTULTRA3"]
+repository = "https://github.com/Elentium/BlazeSentry"
+
+["0.1.6 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
