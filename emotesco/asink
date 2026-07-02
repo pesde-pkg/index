@@ -57,3 +57,23 @@ lune = "^0.10.2"
 ["0.1.2 roblox".dependencies]
 rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["0.1.3 roblox"]
+published_at = "2026-07-02T15:08:31.765852307Z"
+description = "Lightweight bootstrapper for Roblox"
+license = "MIT"
+authors = ["Emotes CO."]
+repository = "https://github.com/Emotes-CO/Asink"
+
+["0.1.3 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.1.3 roblox".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
+["0.1.3 roblox".dependencies]
+rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
