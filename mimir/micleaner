@@ -13,6 +13,7 @@ build_files = ["src"]
 published_at = "2026-06-29T19:47:56.670366289Z"
 license = "MIT"
 authors = ["mimir"]
+yanked = true
 
 ["0.1.1 roblox".target]
 environment = "roblox"
