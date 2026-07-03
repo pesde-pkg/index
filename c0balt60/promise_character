@@ -57,3 +57,18 @@ build_files = ["src"]
 ["0.1.4 roblox".dependencies]
 Promise = [{ wally = "wally#lukadev-0/typed-promise", version = "^4.0.2", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
 validate_tree = [{ name = "c0balt60/validate_tree", version = "*", index = "https://github.com/pesde-pkg/index" }, "standard"]
+
+["0.1.5 roblox"]
+published_at = "2026-07-03T18:05:02.40938956Z"
+description = "Promises a character tree"
+license = "MIT"
+authors = ["c0balt60", "Validark"]
+
+["0.1.5 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.1.5 roblox".dependencies]
+Promise = [{ wally = "wally#lukadev-0/typed-promise", version = "^4.0.2", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
+validate_tree = [{ name = "c0balt60/validate_tree", version = "*", index = "https://github.com/pesde-pkg/index" }, "standard"]
