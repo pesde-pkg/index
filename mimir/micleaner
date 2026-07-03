@@ -2,6 +2,7 @@
 published_at = "2026-06-04T22:32:31.348926591Z"
 license = "MIT"
 authors = ["mimir"]
+yanked = true
 
 ["0.1.0 roblox".target]
 environment = "roblox"
