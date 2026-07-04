@@ -21,3 +21,15 @@ repository = "https://github.com/Elentium/OmniSentry"
 environment = "roblox"
 lib = "src/init.luau"
 build_files = ["src"]
+
+["0.1.5 roblox"]
+published_at = "2026-07-04T08:50:18.648100372Z"
+description = "SerDes library for Roblox"
+license = "APACHE-2.0"
+authors = ["IAMNOTULTRA3"]
+repository = "https://github.com/Elentium/OmniSentry"
+
+["0.1.5 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
