@@ -117,3 +117,18 @@ build_files = ["src"]
 
 ["0.9.0-maelstrom.1 roblox".dependencies]
 frktest = [{ name = "itsfrank/frktest", version = "^0.0.4", index = "https://github.com/pesde-pkg/index", target = "luau" }, "dev"]
+
+["0.9.0-maelstrom.2 roblox"]
+published_at = "2026-07-04T01:43:20.517273825Z"
+description = "A strict Luau framework for Roblox with side-specific APIs, typed networking/state, module lifecycle orchestration, and sandboxed plugins."
+license = "MIT"
+authors = ["Riptide Development Group (https://github.com/riptide-project)"]
+repository = "https://github.com/riptide-project/framework"
+
+["0.9.0-maelstrom.2 roblox".target]
+environment = "roblox"
+lib = "src/init.lua"
+build_files = ["src"]
+
+["0.9.0-maelstrom.2 roblox".dependencies]
+frktest = [{ name = "itsfrank/frktest", version = "^0.0.4", index = "https://github.com/pesde-pkg/index", target = "luau" }, "dev"]
