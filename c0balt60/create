@@ -1,0 +1,10 @@
+["0.1.0 roblox"]
+published_at = "2026-07-05T14:36:39.912524404Z"
+description = "Library providing sugar for declaring instances"
+license = "MIT"
+authors = ["c0balt60"]
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
