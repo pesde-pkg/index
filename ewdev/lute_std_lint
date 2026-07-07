@@ -1,0 +1,10 @@
+["0.1.0 luau"]
+published_at = "2026-07-07T11:21:45.175983853Z"
+description = "A Lute lint rule to check for disallowed standard library references"
+license = "MIT"
+authors = ["EwDev (https://ewdev.net/)"]
+repository = "https://github.com/ewd3v/lute_std_lint"
+
+["0.1.0 luau".target]
+environment = "luau"
+lib = "src/init.luau"
