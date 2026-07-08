@@ -1,0 +1,14 @@
+["0.1.0-canary.1 roblox"]
+published_at = "2026-07-08T03:33:14.684393097Z"
+description = "The Lifecycles extension for Chief: binds events to module methods."
+license = "MIT"
+authors = ["ryancundiff"]
+repository = "https://github.com/ryancundiff/chief"
+
+["0.1.0-canary.1 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.1.0-canary.1 roblox".dependencies]
+core = [{ name = "chief/core", version = "^0.1.0-canary.1", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
