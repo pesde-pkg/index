@@ -12,3 +12,18 @@ build_files = ["src"]
 
 ["0.1.0-canary.1 roblox".dependencies]
 core = [{ name = "chief/core", version = "^0.1.0-canary.1", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
+
+["0.1.0-canary.2 roblox"]
+published_at = "2026-07-08T07:41:28.089379775Z"
+description = "The Traits extension for Chief: binds behavior to Roblox instances through CollectionService tags."
+license = "MIT"
+authors = ["ryancundiff"]
+repository = "https://github.com/ryancundiff/chief"
+
+["0.1.0-canary.2 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.1.0-canary.2 roblox".dependencies]
+core = [{ name = "chief/core", version = "^0.1.0-canary.1", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
