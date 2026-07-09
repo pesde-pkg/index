@@ -8,3 +8,15 @@ authors = ["mimir"]
 environment = "roblox"
 lib = "src/init.luau"
 build_files = ["src"]
+
+["0.1.1-rc.1 roblox"]
+published_at = "2026-07-09T18:25:01.299402405Z"
+description = "A lightweight Luau utility for automatically loading ModuleScripts and calling their initialization methods."
+license = "MIT"
+authors = ["mimir"]
+repository = "https://github.com/mounirMimir/MiLoader"
+
+["0.1.1-rc.1 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
