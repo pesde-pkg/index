@@ -26,6 +26,7 @@ description = "A simple Luau resource cleanup utility inspired by Trove"
 license = "MIT"
 authors = ["mimir"]
 repository = "https://github.com/mounirMimir/MiCleaner"
+yanked = true
 
 ["0.1.2 roblox".target]
 environment = "roblox"
