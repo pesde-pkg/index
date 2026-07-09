@@ -49,3 +49,18 @@ build_files = ["src"]
 
 ["0.1.3-rc.1 roblox".dependencies]
 go = [{ name = "jiwonz/go", version = "^0.2.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+
+["0.1.3-rc.2 roblox"]
+published_at = "2026-07-09T15:17:39.964657833Z"
+description = "A simple Luau resource cleanup utility inspired by Trove"
+license = "MIT"
+authors = ["mimir"]
+repository = "https://github.com/mounirMimir/MiCleaner"
+
+["0.1.3-rc.2 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.1.3-rc.2 roblox".dependencies]
+go = [{ name = "jiwonz/go", version = "^0.2.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
