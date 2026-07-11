@@ -74,3 +74,41 @@ hash = "841a33b6a7fbaf2c97481f78c01c59354919650e7eeeef6ccb164fb54553f861"
 
 ["0.1.0 luau".dependencies]
 lute_std_lint = [{ name = "ewdev/lute_std_lint", version = "^0.1.0", index = "https://github.com/pesde-pkg/index" }, "dev"]
+
+["0.1.1 luau"]
+published_at = "2026-07-11T13:03:24.457195959Z"
+description = "A hierarchical, dependency-sorted scheduler for Luau"
+license = "MIT"
+authors = ["EwDev (https://ewdev.net/)"]
+repository = "https://github.com/ewd3v/luau_scheduler"
+
+["0.1.1 luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
+[["0.1.1 luau".docs]]
+label = "Introduction"
+position = 1
+name = "intro"
+hash = "30d0678ab3c1cebe0da0e3dd871d816f38785ac01f8e8291e7c0b07c4da4ec43"
+
+[["0.1.1 luau".docs]]
+label = "Installation"
+position = 2
+name = "installation"
+hash = "305747b4a1e106f1aad6f9d87f45f94f3e2319ee1b922177db559952de84410f"
+
+[["0.1.1 luau".docs]]
+label = "Hierarchy"
+position = 3
+name = "hierarchy"
+hash = "9102bfeaf91a6e3e68bdbdb50bbc65862a234bc92e1e5d1f0f4d3651d7e86ada"
+
+[["0.1.1 luau".docs]]
+label = "Ordering"
+position = 4
+name = "ordering"
+hash = "841a33b6a7fbaf2c97481f78c01c59354919650e7eeeef6ccb164fb54553f861"
+
+["0.1.1 luau".dependencies]
+lute_std_lint = [{ name = "ewdev/lute_std_lint", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "dev"]
