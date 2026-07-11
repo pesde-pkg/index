@@ -1,0 +1,11 @@
+["0.1.0-canary.1 roblox"]
+published_at = "2026-07-11T06:40:45.587688166Z"
+description = "A small, strictly typed cleanup container for Roblox: connections, instances, threads, and functions, emptied in reverse insertion order."
+license = "MIT"
+authors = ["ryancundiff"]
+repository = "https://github.com/ryancundiff/chief"
+
+["0.1.0-canary.1 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
