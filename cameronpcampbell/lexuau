@@ -1,0 +1,14 @@
+["0.1.0 roblox"]
+published_at = "2026-07-18T02:58:56.840396554Z"
+description = "A lexer generation library for Luau."
+license = "MIT"
+authors = ["Cameron P Campbell"]
+repository = "https://github.com/cameronpcampbell/lexuau"
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.1.0 roblox".engines]
+pesde = "^0.7.3"
