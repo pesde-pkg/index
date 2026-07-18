@@ -12,3 +12,17 @@ build_files = ["src"]
 
 ["0.1.0 roblox".engines]
 pesde = "^0.7.3"
+
+["0.1.0 luau"]
+published_at = "2026-07-18T02:58:59.251731801Z"
+description = "A lexer generation library for Luau."
+license = "MIT"
+authors = ["Cameron P Campbell"]
+repository = "https://github.com/cameronpcampbell/lexuau"
+
+["0.1.0 luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
+["0.1.0 luau".engines]
+pesde = "^0.7.3"
