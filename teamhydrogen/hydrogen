@@ -911,3 +911,22 @@ lune = "^0.8.9"
 
 ["0.3.4 roblox".dependencies]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
+
+["0.3.5 roblox"]
+published_at = "2026-07-20T01:45:52.264384352Z"
+description = "Game framework for Roblox with all the essentials needed!"
+license = "MIT"
+authors = ["Sophie B"]
+repository = "https://github.com/teamhydrogen/hydrogen"
+
+["0.3.5 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.3.5 roblox".engines]
+pesde = "^0.6.0"
+lune = "^0.8.9"
+
+["0.3.5 roblox".dependencies]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
