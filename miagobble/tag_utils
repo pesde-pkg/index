@@ -1,0 +1,11 @@
+["1.0.1 roblox"]
+published_at = "2026-07-21T16:45:47.108692784Z"
+description = "Wrapper for collection service to make it easier to work with tags."
+license = "MIT"
+authors = ["Mia Gobble (https://praxis.igottic.com/)"]
+repository = "https://github.com/MiaGobble/Praxis"
+
+["1.0.1 roblox".target]
+environment = "roblox"
+lib = "init.luau"
+build_files = ["init.luau"]
