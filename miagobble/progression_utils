@@ -1,0 +1,17 @@
+["1.0.4 roblox"]
+published_at = "2026-07-21T16:45:41.906422027Z"
+description = "Utilities for managing quest data and progress."
+license = "MIT"
+authors = ["Mia Gobble (https://praxis.igottic.com/)"]
+repository = "https://github.com/MiaGobble/Praxis"
+
+["1.0.4 roblox".target]
+environment = "roblox"
+lib = "init.luau"
+build_files = ["Boosters.luau", "Inventory.luau", "Quests.luau", "Scores.luau", "Types.luau", "init.luau"]
+
+["1.0.4 roblox".dependencies]
+Bucket = [{ name = "miagobble/bucket", version = "^1.0.5", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
+Signal = [{ name = "miagobble/signal", version = "^1.0.1", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
+Symbol = [{ name = "miagobble/symbol", version = "^1.0.2", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
+Typer = [{ name = "miagobble/typer", version = "^0.1.1", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
