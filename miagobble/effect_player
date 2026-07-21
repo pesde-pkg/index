@@ -1,0 +1,14 @@
+["1.0.0 roblox"]
+published_at = "2026-07-21T16:46:03.725094305Z"
+description = "Play visual effects created by standard visual effect plugins."
+license = "MIT"
+authors = ["Mia Gobble (https://praxis.igottic.com/)"]
+repository = "https://github.com/MiaGobble/Praxis"
+
+["1.0.0 roblox".target]
+environment = "roblox"
+lib = "init.luau"
+build_files = ["init.luau"]
+
+["1.0.0 roblox".dependencies]
+Bezier = [{ name = "miagobble/bezier", version = "^1.1.0", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
