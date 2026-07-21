@@ -1,0 +1,15 @@
+["1.0.1 roblox"]
+published_at = "2026-07-21T16:46:17.442670468Z"
+description = "Utilities for checking and awarding Roblox badges with save-table support."
+license = "MIT"
+authors = ["Mia Gobble (https://praxis.igottic.com/)"]
+repository = "https://github.com/MiaGobble/Praxis"
+
+["1.0.1 roblox".target]
+environment = "roblox"
+lib = "init.luau"
+build_files = ["init.luau"]
+
+["1.0.1 roblox".dependencies]
+DataStore = [{ name = "miagobble/data_store", version = "^1.0.1", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
+Signal = [{ name = "miagobble/signal", version = "^1.0.1", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
