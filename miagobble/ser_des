@@ -1,0 +1,14 @@
+["1.0.0 roblox"]
+published_at = "2026-07-21T16:46:13.797772913Z"
+description = "Serialization and deserialization utilities using ValuePacker with buffer support."
+license = "MIT"
+authors = ["Mia Gobble (https://praxis.igottic.com/)"]
+repository = "https://github.com/MiaGobble/Praxis"
+
+["1.0.0 roblox".target]
+environment = "roblox"
+lib = "init.luau"
+build_files = ["init.luau"]
+
+["1.0.0 roblox".dependencies]
+ValuePacker = [{ name = "miagobble/value_packer", version = "^1.0.0", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
