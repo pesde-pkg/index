@@ -34,3 +34,41 @@ Time = [{ name = "miagobble/time", version = "^1.0.0", index = "https://github.c
 TracebackUtils = [{ name = "miagobble/traceback_utils", version = "^1.0.1", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
 Typer = [{ name = "miagobble/typer", version = "^0.1.1", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
 ValuePacker = [{ name = "miagobble/value_packer", version = "^1.0.0", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
+
+["1.1.0 roblox"]
+published_at = "2026-07-21T17:06:17.543056648Z"
+description = "Library with utilities and more for general usage in any project."
+license = "MIT"
+authors = ["Mia Gobble (https://praxis.igottic.com/)"]
+repository = "https://github.com/MiaGobble/Praxis"
+
+["1.1.0 roblox".target]
+environment = "roblox"
+lib = "init.luau"
+build_files = ["init.luau"]
+
+["1.1.0 roblox".dependencies]
+Badges = [{ name = "miagobble/badges", version = "^1.0.1", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
+Bezier = [{ name = "miagobble/bezier", version = "^1.1.0", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
+Binder = [{ name = "miagobble/binder", version = "^1.0.0", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
+Bucket = [{ name = "miagobble/bucket", version = "^1.0.5", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
+Child = [{ name = "miagobble/child", version = "^1.0.0", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
+DataStore = [{ name = "miagobble/data_store", version = "^1.0.1", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
+DialogueTree = [{ name = "miagobble/dialogue_tree", version = "^1.0.0", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
+EffectPlayer = [{ name = "miagobble/effect_player", version = "^1.0.0", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
+Initializer = [{ name = "miagobble/initializer", version = "^1.0.0", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
+Input = [{ name = "miagobble/input", version = "^1.0.2", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
+Oklab = [{ name = "miagobble/oklab", version = "^1.0.0", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
+Optional = [{ name = "miagobble/optional", version = "^1.0.0", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
+ProgressionUtils = [{ name = "miagobble/progression_utils", version = "^1.0.4", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
+RateLimiter = [{ name = "miagobble/rate_limiter", version = "^1.0.0", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
+SeamStoryUtils = [{ name = "miagobble/seam_story_utils", version = "^0.1.3", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
+Select = [{ name = "miagobble/select", version = "^1.0.0", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
+SerDes = [{ name = "miagobble/ser_des", version = "^1.0.0", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
+Signal = [{ name = "miagobble/signal", version = "^1.0.1", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
+Symbol = [{ name = "miagobble/symbol", version = "^1.0.2", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
+TagUtils = [{ name = "miagobble/tag_utils", version = "^1.0.1", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
+Time = [{ name = "miagobble/time", version = "^1.0.0", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
+TracebackUtils = [{ name = "miagobble/traceback_utils", version = "^1.0.1", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
+Typer = [{ name = "miagobble/typer", version = "^0.1.1", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
+ValuePacker = [{ name = "miagobble/value_packer", version = "^1.0.0", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
