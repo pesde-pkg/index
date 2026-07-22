@@ -4,6 +4,7 @@ description = "Fork of 'Squash' with more features, optimizations, and design ch
 license = "MIT"
 authors = ["anexpia"]
 repository = "https://github.com/anexpia/Squish"
+yanked = true
 
 ["6.0.0 luau".target]
 environment = "luau"
