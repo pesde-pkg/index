@@ -57,3 +57,18 @@ lib = "numluau/init.luau"
 ["1.0.3 luau".engines]
 pesde = "^0.7.1"
 lune = "^0.10.4"
+
+["1.1.0 luau"]
+published_at = "2026-07-23T12:35:01.882180242Z"
+description = "Numerical luau for all your scientific urges. Bring scientific computing in a way easy to understand and predict."
+license = "MIT"
+authors = ["chocolate_bar2410"]
+repository = "https://github.com/chocolate-bar2410/numluau"
+
+["1.1.0 luau".target]
+environment = "luau"
+lib = "numluau/init.luau"
+
+["1.1.0 luau".engines]
+pesde = "^0.7.1"
+lune = "^0.10.4"
