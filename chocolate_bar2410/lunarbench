@@ -1,0 +1,13 @@
+["1.0.0 luau"]
+published_at = "2026-07-24T13:03:09.009321267Z"
+description = "a benching marking library based off deno bench"
+license = "MIT"
+authors = ["chocolate_bar2410"]
+repository = "https://github.com/chocolate-bar2410/lunarbench"
+
+["1.0.0 luau".target]
+environment = "luau"
+lib = "lunarbench/init.luau"
+
+["1.0.0 luau".engines]
+pesde = "^0.7.3"
