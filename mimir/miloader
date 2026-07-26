@@ -20,3 +20,15 @@ repository = "https://github.com/mounirMimir/MiLoader"
 environment = "roblox"
 lib = "src/init.luau"
 build_files = ["src"]
+
+["0.1.2-rc.1 roblox"]
+published_at = "2026-07-26T15:15:55.330489952Z"
+description = "A lightweight Luau utility for automatically loading ModuleScripts and calling their initialization methods."
+license = "MIT"
+authors = ["mimir"]
+repository = "https://github.com/mounirMimir/MiLoader"
+
+["0.1.2-rc.1 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
