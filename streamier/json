@@ -1,0 +1,10 @@
+["0.1.0 luau"]
+published_at = "2026-07-26T10:03:05.50665803Z"
+description = "A lightweight, pure Luau JSON encoder and decoder module adhering strictly to the RFC 8259 specification."
+license = "MIT"
+authors = ["Amir Farzamnia <amirfarzamnia@proton.me> (https://github.com/amirfarzamnia)"]
+repository = "https://github.com/streamier-labs/json-luau"
+
+["0.1.0 luau".target]
+environment = "luau"
+lib = "dist/main.luau"
