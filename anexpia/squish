@@ -94,6 +94,7 @@ description = "Fork of 'Squash' with more features, optimizations, and design ch
 license = "MIT"
 authors = ["anexpia"]
 repository = "https://github.com/anexpia/Squish"
+yanked = true
 
 ["6.1.0 roblox".target]
 environment = "roblox"
@@ -110,6 +111,7 @@ description = "Fork of 'Squash' with more features, optimizations, and design ch
 license = "MIT"
 authors = ["anexpia"]
 repository = "https://github.com/anexpia/Squish"
+yanked = true
 
 ["6.1.0 luau".target]
 environment = "luau"
