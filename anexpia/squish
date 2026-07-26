@@ -87,3 +87,18 @@ lib = "src/init.luau"
 ["6.0.2 luau".engines]
 pesde = "^0.7.0"
 lune = "^0.10.2"
+
+["6.1.0 luau"]
+published_at = "2026-07-26T17:21:21.204083203Z"
+description = "Fork of 'Squash' with more features, optimizations, and design changes."
+license = "MIT"
+authors = ["anexpia"]
+repository = "https://github.com/anexpia/Squish"
+
+["6.1.0 luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
+["6.1.0 luau".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
