@@ -46,6 +46,7 @@ description = "A data replication library for easy & flexible server to client r
 license = "MIT"
 authors = ["anexpia"]
 repository = "https://github.com/anexpia/syncee"
+yanked = true
 
 ["1.1.0 roblox".target]
 environment = "roblox"
