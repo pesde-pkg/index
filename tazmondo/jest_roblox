@@ -1,0 +1,11 @@
+["3.19.0 roblox"]
+published_at = "2026-07-28T22:33:26.099709388Z"
+description = "A packaged distribution of Roblox's Jest implementation. May not be entirely accurate."
+license = "MIT"
+authors = ["Roblox", "paralov", "Tazmondo"]
+repository = "https://github.com/Tazmondo/jest"
+
+["3.19.0 roblox".target]
+environment = "roblox"
+lib = "Packages/init.luau"
+build_files = ["Packages"]
