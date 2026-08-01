@@ -1006,3 +1006,22 @@ lune = "^0.8.9"
 
 ["0.4.2 roblox".dependencies]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
+
+["0.5.0 roblox"]
+published_at = "2026-08-01T00:18:10.015611333Z"
+description = "Game framework for Roblox with all the essentials needed!"
+license = "MIT"
+authors = ["Sophie B"]
+repository = "https://github.com/teamhydrogen/hydrogen"
+
+["0.5.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.5.0 roblox".engines]
+pesde = "^0.6.0"
+lune = "^0.8.9"
+
+["0.5.0 roblox".dependencies]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/daimond113/pesde-index", target = "lune" }, "dev"]
