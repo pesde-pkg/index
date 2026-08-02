@@ -9,3 +9,15 @@ repository = "https://github.com/Tazmondo/jest"
 environment = "roblox"
 lib = "Packages/init.luau"
 build_files = ["Packages"]
+
+["3.19.1 roblox"]
+published_at = "2026-08-02T12:22:56.664544157Z"
+description = "A packaged distribution of Roblox's Jest implementation. May not be entirely accurate."
+license = "MIT"
+authors = ["Roblox", "paralov", "Tazmondo"]
+repository = "https://github.com/Tazmondo/jest"
+
+["3.19.1 roblox".target]
+environment = "roblox"
+lib = "Packages/init.luau"
+build_files = ["Packages"]
