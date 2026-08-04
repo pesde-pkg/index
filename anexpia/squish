@@ -152,6 +152,22 @@ lib = "src/init.luau"
 pesde = "^0.7.0"
 lune = "^0.10.2"
 
+["6.1.2 roblox"]
+published_at = "2026-08-04T23:09:51.379583727Z"
+description = "Fork of 'Squash' with more features, optimizations, and design changes."
+license = "MIT"
+authors = ["anexpia"]
+repository = "https://github.com/anexpia/Squish"
+
+["6.1.2 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["6.1.2 roblox".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
 ["6.1.2 luau"]
 published_at = "2026-08-04T23:09:24.577588055Z"
 description = "Fork of 'Squash' with more features, optimizations, and design changes."
