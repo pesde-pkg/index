@@ -233,3 +233,18 @@ build_files = ["src"]
 ["6.1.4 roblox".engines]
 pesde = "^0.7.0"
 lune = "^0.10.2"
+
+["6.1.4 luau"]
+published_at = "2026-08-05T14:16:37.492556696Z"
+description = "Fork of 'Squash' with more features, optimizations, and design changes."
+license = "MIT"
+authors = ["anexpia"]
+repository = "https://github.com/anexpia/Squish"
+
+["6.1.4 luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
+["6.1.4 luau".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
