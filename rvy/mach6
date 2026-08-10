@@ -1,0 +1,12 @@
+["0.1.0 luau"]
+published_at = "2026-08-10T09:51:54.352960978Z"
+description = "Hierarchical profiler with zero-sum memory accounting"
+license = "MIT"
+repository = "https://github.com/revvy02/mach6"
+
+["0.1.0 luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
+["0.1.0 luau".dependencies]
+retained_scope = [{ name = "rvy/retained_scope", version = "^0.1.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
