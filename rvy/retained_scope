@@ -1,0 +1,9 @@
+["0.1.0 luau"]
+published_at = "2026-08-10T09:09:56.27164065Z"
+description = "Immediate-mode traversal over a retained node tree — push/pop/peek/prune with reconciliation hooks"
+license = "MIT"
+repository = "https://github.com/revvy02/retained-scope"
+
+["0.1.0 luau".target]
+environment = "luau"
+lib = "src/init.luau"
