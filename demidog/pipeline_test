@@ -39,6 +39,7 @@ published_at = "2026-08-12T01:06:29.272594862Z"
 description = "Throwaway release-pipeline rehearsal stub; not for consumption"
 license = "MIT"
 repository = "https://github.com/demi-dog/pipeline-test"
+yanked = true
 
 ["0.1.2 roblox".target]
 environment = "roblox"
