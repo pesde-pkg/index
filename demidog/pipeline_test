@@ -1,0 +1,16 @@
+["0.1.0 roblox"]
+published_at = "2026-08-12T00:25:58.770879599Z"
+description = "Throwaway release-pipeline rehearsal stub; not for consumption"
+license = "MIT"
+repository = "https://github.com/demi-dog/pipeline-test"
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.1.0 roblox".engines]
+pesde = "^0.7.3"
+
+["0.1.0 roblox".dependencies]
+jecs = [{ wally = "wally#ukendio/jecs", version = "^0.11.0", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
