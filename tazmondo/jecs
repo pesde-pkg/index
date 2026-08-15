@@ -1,0 +1,11 @@
+["0.11.0 roblox"]
+published_at = "2026-08-15T17:38:27.591274733Z"
+description = "Jecs fork"
+license = "MIT"
+authors = ["jecs authors"]
+repository = "https://github.com/ukendio/jecs"
+
+["0.11.0 roblox".target]
+environment = "roblox"
+lib = "src/jecs.luau"
+build_files = ["src"]
