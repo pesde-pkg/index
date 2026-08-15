@@ -9,3 +9,15 @@ repository = "https://github.com/ukendio/jecs"
 environment = "roblox"
 lib = "src/jecs.luau"
 build_files = ["src"]
+
+["0.11.0+1 roblox"]
+published_at = "2026-08-15T17:51:48.98001792Z"
+description = "Jecs fork"
+license = "MIT"
+authors = ["jecs authors"]
+repository = "https://github.com/ukendio/jecs"
+
+["0.11.0+1 roblox".target]
+environment = "roblox"
+lib = "src/jecs.luau"
+build_files = ["src"]
