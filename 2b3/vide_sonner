@@ -135,3 +135,26 @@ Reflex = [{ wally = "wally#littensy/reflex", version = "^4.3.1", index = "https:
 Ripple = [{ wally = "wally#littensy/vide-ripple", version = "^0.10.2", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 Vide = [{ wally = "wally#centau/vide", version = "^0.4.1", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
+
+["0.2.1 roblox"]
+published_at = "2026-08-15T21:33:19.980853056Z"
+description = "An opinionated toast component for Vide."
+license = "MIT"
+authors = ["2b3"]
+repository = "https://github.com/2b3/vide-sonner"
+
+["0.2.1 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.2.1 roblox".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
+["0.2.1 roblox".dependencies]
+Promise = [{ wally = "wally#maximumadhd/promise-typed", version = "^1.0.0", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
+Reflex = [{ wally = "wally#littensy/reflex", version = "^4.3.1", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
+Ripple = [{ wally = "wally#littensy/vide-ripple", version = "^0.10.2", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+Vide = [{ wally = "wally#centau/vide", version = "^0.4.1", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
