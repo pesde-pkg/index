@@ -207,3 +207,22 @@ lune = "^0.10.2"
 ["0.6.1 luau".dependencies]
 rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["0.6.2 luau"]
+published_at = "2026-08-16T20:06:56.967659089Z"
+description = "luau runtime type validation library"
+license = "MIT"
+authors = ["metamethods"]
+repository = "https://github.com/metamethods/typed"
+
+["0.6.2 luau".target]
+environment = "luau"
+lib = "lib/init.luau"
+
+["0.6.2 luau".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
+["0.6.2 luau".dependencies]
+rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
