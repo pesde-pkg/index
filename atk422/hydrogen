@@ -59,3 +59,24 @@ frktest = [{ name = "itsfrank/frktest", version = "^0.0.4", index = "https://git
 gt = [{ name = "corecii/greentea", version = "^0.4.11", index = "https://github.com/pesde-pkg/index" }, "standard"]
 rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["0.2.2 roblox"]
+published_at = "2026-08-17T22:09:48.696541089Z"
+description = "A mildy opinionated luau framework/bootstrapper"
+license = "MIT"
+authors = ["atk422"]
+
+["0.2.2 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.2.2 roblox".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
+["0.2.2 roblox".dependencies]
+frktest = [{ name = "itsfrank/frktest", version = "^0.0.4", index = "https://github.com/pesde-pkg/index", target = "luau" }, "dev"]
+gt = [{ name = "corecii/greentea", version = "^0.4.11", index = "https://github.com/pesde-pkg/index" }, "standard"]
+rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
