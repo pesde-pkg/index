@@ -1,0 +1,14 @@
+["1.0.0 roblox"]
+published_at = "2026-08-20T19:54:01.462206052Z"
+description = "A reactive state and animation library for Roblox"
+license = "MIT"
+authors = ["Mia Gobble"]
+repository = "https://github.com/MiaGobble/Seam"
+
+["1.0.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["1.0.0 roblox".engines]
+pesde = "^0.7.0"
