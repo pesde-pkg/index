@@ -1,0 +1,10 @@
+["1.0.0 luau"]
+published_at = "2026-08-21T12:11:51.206115543Z"
+description = "Schema-driven, validation-free binary serializer for pure Luau (no Roblox types)"
+license = "Apache-2.0"
+authors = ["IAMNOTULTRA3"]
+repository = "https://github.com/Elentium/VoidSentryUltimate"
+
+["1.0.0 luau".target]
+environment = "luau"
+lib = "LuauVS.luau"
