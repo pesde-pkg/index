@@ -1,0 +1,10 @@
+["1.0.0 roblox"]
+published_at = "2026-09-01T04:25:06.674693785Z"
+description = "Extremely optimized schemaless SerDes library"
+license = "Apache-2.0"
+authors = ["Elentium"]
+
+["1.0.0 roblox".target]
+environment = "roblox"
+lib = "src/Dynamo.luau"
+build_files = ["src"]
