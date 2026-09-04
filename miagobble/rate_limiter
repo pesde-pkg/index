@@ -1,0 +1,11 @@
+["1.0.0 roblox"]
+published_at = "2026-09-04T20:37:49.852264805Z"
+description = "A simple OOP class for rate limiting."
+license = "MIT"
+authors = ["Mia Gobble (https://praxis.igottic.com/)"]
+repository = "https://github.com/MiaGobble/Praxis"
+
+["1.0.0 roblox".target]
+environment = "roblox"
+lib = "init.luau"
+build_files = ["init.luau"]
