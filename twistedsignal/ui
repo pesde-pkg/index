@@ -1,0 +1,38 @@
+["0.5.0 roblox"]
+published_at = "2026-09-04T05:14:51.218631311Z"
+description = "Reactive state, animation, and bindings for existing Roblox UI"
+license = "MIT"
+authors = ["ivadsiuls <ivadsiuls@proton.me>"]
+repository = "https://github.com/twistedsignal/ui"
+
+["0.5.0 roblox".target]
+environment = "roblox"
+lib = "src/ui/init.luau"
+build_files = ["src"]
+
+[["0.5.0 roblox".docs]]
+label = "Getting started"
+position = 1
+name = "intro"
+hash = "a20bf4bea1e995bd8a9a65bf6cf5b64382ca05765b6f53e7b25e3f8348edaa09"
+
+[["0.5.0 roblox".docs]]
+label = "Reactive state"
+position = 2
+name = "reactive-state"
+hash = "a8e883cbf05bc5ac21868fc35870fdbb2d741a70b00f0d9067713c280d75dac9"
+
+[["0.5.0 roblox".docs]]
+label = "Bindings"
+position = 3
+name = "bindings"
+hash = "b5a87b76685b02d8d9ec6bbc47c6e021a21af731eb0f671be09f986bbe948706"
+
+[["0.5.0 roblox".docs]]
+label = "Motion"
+position = 4
+name = "motion-and-animation"
+hash = "b63f0970d7fc05885f1ee6876a08b19509bd72b380bd545d1397590397108c4c"
+
+["0.5.0 roblox".dependencies]
+Rx = [{ wally = "wally#nightcycle/rx", version = "^3.7.3", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
