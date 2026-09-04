@@ -1,0 +1,31 @@
+["0.1.0 roblox"]
+published_at = "2026-09-04T05:34:50.539724249Z"
+description = "Persistent, replicated, reactive player data for Roblox"
+license = "MIT"
+authors = ["Twisted Signal", "Leif Stout <leifstout@gmail.com>"]
+repository = "https://github.com/twistedsignal/data"
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+[["0.1.0 roblox".docs]]
+label = "data"
+position = 1
+name = "intro"
+hash = "b1a053f60de4985cadb13255e394436e0e1f4167891d0e0d91d3a325ba747314"
+
+[["0.1.0 roblox".docs]]
+label = "Service Functions"
+position = 2
+name = "service-functions"
+hash = "548ec811dd7dca9e22954062a9bdcb3e73be2b158591ee94e62cc313dc32724e"
+
+["0.1.0 roblox".dependencies]
+Networker = [{ wally = "wally#leifstout/networker", version = "^0.3.1", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
+ProfileStore = [{ wally = "wally#lm-loleris/profilestore", version = "^1.0.3", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
+rojo = [{ name = "pesde/rojo", version = "^7.6.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+Signal = [{ wally = "wally#sleitnick/signal", version = "^2.0.0", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
+UI = [{ name = "twistedsignal/ui", version = "^0.5.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
