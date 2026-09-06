@@ -19,3 +19,14 @@ authors = ["Elentium"]
 environment = "roblox"
 lib = "src/Dynamo.luau"
 build_files = ["src"]
+
+["1.1.2 roblox"]
+published_at = "2026-09-06T02:27:20.196134064Z"
+description = "Extremely optimized schemaless SerDes library"
+license = "Apache-2.0"
+authors = ["Elentium"]
+
+["1.1.2 roblox".target]
+environment = "roblox"
+lib = "src/Dynamo.luau"
+build_files = ["src"]
