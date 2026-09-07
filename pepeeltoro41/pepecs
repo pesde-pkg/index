@@ -63,3 +63,14 @@ repository = "https://github.com/PepeElToro41/pepecs"
 ["0.0.9 luau".target]
 environment = "luau"
 lib = "src/init.luau"
+
+["0.0.10 luau"]
+published_at = "2026-09-07T04:20:14.776543045Z"
+description = "Pepecs: an ecs"
+license = "MIT"
+authors = ["pepeeltoro41"]
+repository = "https://github.com/PepeElToro41/pepecs"
+
+["0.0.10 luau".target]
+environment = "luau"
+lib = "src/init.luau"
