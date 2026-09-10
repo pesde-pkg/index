@@ -1,0 +1,10 @@
+["3.0.0 luau"]
+published_at = "2026-09-10T07:21:16.088801801Z"
+description = "Compile-time version pattern matching for string literal types: glob (*) and caret (N^) patterns with SemVer prerelease/build tails (engine-agnostic, not quad-specific)"
+license = "MIT"
+authors = ["qwreey <me@qwreey.moe>"]
+repository = "https://github.com/qwreey/quad"
+
+["3.0.0 luau".target]
+environment = "luau"
+lib = "src/init.luau"
