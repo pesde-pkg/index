@@ -1,0 +1,16 @@
+["3.0.0 roblox"]
+published_at = "2026-09-10T07:21:44.601202021Z"
+description = "quad — Roblox backend: installs the Roblox provider (D, Tween, Animate, OnChange) into quad-base"
+license = "MIT"
+authors = ["qwreey <me@qwreey.moe>"]
+repository = "https://github.com/qwreey/quad"
+
+["3.0.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["3.0.0 roblox".dependencies]
+quad_base = [{ name = "qwreey/quad_base", version = "^3.0.0", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "dev"]
+quad_types = [{ name = "qwreey/quad_types", version = "^3.0.0", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
+type_version_check = [{ name = "qwreey/type_version_check", version = "^3.0.0", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
