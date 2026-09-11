@@ -29,6 +29,22 @@ lib = "src/init.luau"
 quad_error = [{ name = "qwreey/quad_error", version = "^3.0.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
 quad_types = [{ name = "qwreey/quad_types", version = "^3.0.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
 
+["3.1.0 roblox"]
+published_at = "2026-09-11T08:45:51.96653052Z"
+description = "quad — engine-agnostic core of the DOMless UI renderer: Store/State/Source reactivity and a pluggable dispatch engine"
+license = "MIT"
+authors = ["qwreey <me@qwreey.moe>"]
+repository = "https://github.com/qwreey/quad"
+
+["3.1.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["3.1.0 roblox".dependencies]
+quad_error = [{ name = "qwreey/quad_error", version = "^3.1.0", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
+quad_types = [{ name = "qwreey/quad_types", version = "^3.1.0", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
+
 ["3.1.0 luau"]
 published_at = "2026-09-11T08:45:34.369434811Z"
 description = "quad — engine-agnostic core of the DOMless UI renderer: Store/State/Source reactivity and a pluggable dispatch engine"
