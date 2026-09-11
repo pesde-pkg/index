@@ -29,6 +29,22 @@ lib = "src/init.luau"
 quad_error = [{ name = "qwreey/quad_error", version = "^3.0.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
 type_version_check = [{ name = "qwreey/type_version_check", version = "^3.0.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
 
+["3.1.0 roblox"]
+published_at = "2026-09-11T08:45:47.29595792Z"
+description = "quad — public type contract (no implementation) plus the version-compatibility type function; backends and plugins depend on this instead of quad-base"
+license = "MIT"
+authors = ["qwreey <me@qwreey.moe>"]
+repository = "https://github.com/qwreey/quad"
+
+["3.1.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["3.1.0 roblox".dependencies]
+quad_error = [{ name = "qwreey/quad_error", version = "^3.1.0", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
+type_version_check = [{ name = "qwreey/type_version_check", version = "^3.1.0", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
+
 ["3.1.0 luau"]
 published_at = "2026-09-11T08:45:30.154571261Z"
 description = "quad — public type contract (no implementation) plus the version-compatibility type function; backends and plugins depend on this instead of quad-base"
