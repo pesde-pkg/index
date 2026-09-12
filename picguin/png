@@ -124,3 +124,17 @@ lib = "src/init.luau"
 ["0.2.0 lune".engines]
 pesde = "^0.7.0"
 lune = "^0.10.2"
+
+["0.2.0 luau"]
+published_at = "2026-09-12T18:55:19.218164231Z"
+license = "MIT"
+authors = ["wizeväxel"]
+repository = "https://github.com/wizevaxel/picguin"
+
+["0.2.0 luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
+["0.2.0 luau".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
