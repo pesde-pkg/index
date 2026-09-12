@@ -1,0 +1,51 @@
+["0.1.0 roblox"]
+published_at = "2026-09-12T02:37:42.628844375Z"
+description = "A reusable HFSM util for Roblox games."
+license = "MIT"
+authors = ["HeriLFIU"]
+repository = "https://github.com/HeriLFIU/luau-hfsm"
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+[["0.1.0 roblox".docs]]
+label = "A Complete Worked Example"
+name = "07-complete-example"
+hash = "0fb0728063d4211c09c016e5736298e4d165b5f70e7a29d527e953e439099809"
+
+[["0.1.0 roblox".docs]]
+label = "API Reference"
+name = "05-api-reference"
+hash = "a454caa9ec3697a5a2a1911a6e3e9785c76a4b7a016e0f7c880b7ff458639d6d"
+
+[["0.1.0 roblox".docs]]
+label = "Architecture & Invariants"
+name = "02-architecture"
+hash = "6b6df800b9abd0b4af307266b6b3498eaf026fea26a3f56d75a68885ee866bad"
+
+[["0.1.0 roblox".docs]]
+label = "Concepts & Mental Model"
+name = "01-concepts"
+hash = "6b91446f61dc858d07e329da740046d760c63d2a51ab1115ccebcc6319b3f7ad"
+
+[["0.1.0 roblox".docs]]
+label = "Lifecycle & Resource Management"
+name = "03-lifecycle"
+hash = "09be2e3dc118e039fbd5f8f8880a15c097bf61bf58f924e22f5c2a814969681f"
+
+[["0.1.0 roblox".docs]]
+label = "Recipes & Common Patterns"
+name = "06-recipes"
+hash = "22f73185e7f1232cf711eeec68641849487e3d5a759d1d242935fd6c209ef919"
+
+[["0.1.0 roblox".docs]]
+label = "Usage Guide"
+name = "04-guide"
+hash = "a46fe008515d7249bbc6e1cd0f21ee37a2139a0091dfa1938798a22195e63f20"
+
+[["0.1.0 roblox".docs]]
+label = "`luau-hfsm` Documentation"
+name = "README"
+hash = "8416c64a3410fe3ec6571ebcea83ffdd4de990c40ec47bb48f32cfd96382e120"
