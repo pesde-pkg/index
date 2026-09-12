@@ -1,0 +1,46 @@
+["0.1.0 roblox"]
+published_at = "2026-09-12T03:59:10.944240331Z"
+description = "A reusable object pool util made for Roblox games."
+license = "MIT"
+authors = ["HeriLFIU"]
+repository = "https://github.com/HeriLFIU/luau-object-pool"
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+[["0.1.0 roblox".docs]]
+label = "API Reference"
+name = "05-api-reference"
+hash = "826333240ac62f9efbda9830764dd89c9bb27b682e60f3efe25e1c87100c94a9"
+
+[["0.1.0 roblox".docs]]
+label = "Architecture & Invariants"
+name = "02-architecture"
+hash = "95d712bef5a835433c1bf812ad2b5524b21db3aab716c6e622acabfdb9d99a98"
+
+[["0.1.0 roblox".docs]]
+label = "Concepts & Mental Model"
+name = "01-concepts"
+hash = "17a3bbfc145834ac44d2654f01d1e8da5b5cda3ae156fe98968f2792d6174eb8"
+
+[["0.1.0 roblox".docs]]
+label = "Lifecycle & Resource Management"
+name = "03-lifecycle"
+hash = "87da976fc3ca84b7bae80a32c4fbfbf534c0145df822dd1ef5631f896fdf9c72"
+
+[["0.1.0 roblox".docs]]
+label = "Recipes & Common Patterns"
+name = "06-recipes"
+hash = "06375fff0d24b3f354187af147375b27f226bc6d4bf2a953c2de420261a86e88"
+
+[["0.1.0 roblox".docs]]
+label = "Usage Guide"
+name = "04-guide"
+hash = "1e08c117240cc91c233c9da1cd0bf16b15c5a121f260047a2afc421f6707f314"
+
+[["0.1.0 roblox".docs]]
+label = "`luau-object-pool` Documentation"
+name = "README"
+hash = "156792d6b230fb3551be2f4354ba7b794a2fc0b0b8ad5d9e0118f483803aa678"
