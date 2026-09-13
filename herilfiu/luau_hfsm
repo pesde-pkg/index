@@ -49,3 +49,65 @@ hash = "a46fe008515d7249bbc6e1cd0f21ee37a2139a0091dfa1938798a22195e63f20"
 label = "`luau-hfsm` Documentation"
 name = "README"
 hash = "8416c64a3410fe3ec6571ebcea83ffdd4de990c40ec47bb48f32cfd96382e120"
+
+["0.2.0 roblox"]
+published_at = "2026-09-13T00:15:00.604355536Z"
+description = "A reusable HFSM util for Roblox games."
+license = "MIT"
+authors = ["HeriLFIU"]
+repository = "https://github.com/HeriLFIU/luau-hfsm"
+
+["0.2.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+[["0.2.0 roblox".docs]]
+label = "A Complete Worked Example"
+name = "07-complete-example"
+hash = "ed8d17483ba9d4b00a9027c08aea0fcb9a68a944388d5265b8e46be8961dc88a"
+
+[["0.2.0 roblox".docs]]
+label = "API Reference"
+name = "05-api-reference"
+hash = "a8e2033ca6cfd587764d18830e0999796b09a51c78c6cdbb3390c493fba41c22"
+
+[["0.2.0 roblox".docs]]
+label = "Architecture & Invariants"
+name = "02-architecture"
+hash = "ee0bcc113f78a54167b2a3fa445dfb0c3e85af5271fb7653ff06dc5e3225dc9d"
+
+[["0.2.0 roblox".docs]]
+label = "Composing Machines"
+name = "08-composition"
+hash = "c0dfae1f2ab84fd551615b6cc3bb01cdf554c686086fb3427629c810a27b1522"
+
+[["0.2.0 roblox".docs]]
+label = "Concepts & Mental Model"
+name = "01-concepts"
+hash = "0f5112b4c6e48157ab6de810e6058abc3d4570a5be491ff3d12c6ac4575ed8c0"
+
+[["0.2.0 roblox".docs]]
+label = "Data & State"
+name = "09-data"
+hash = "30c7e7c0a2783a4457eb687d432a4a6f3dad069ec42d2115487c2547c276e2aa"
+
+[["0.2.0 roblox".docs]]
+label = "Lifecycle & Resource Management"
+name = "03-lifecycle"
+hash = "731c26af53a9b4b86d81491356747b07cb5a2411df62ae271bd792849ea76400"
+
+[["0.2.0 roblox".docs]]
+label = "Recipes & Common Patterns"
+name = "06-recipes"
+hash = "22f73185e7f1232cf711eeec68641849487e3d5a759d1d242935fd6c209ef919"
+
+[["0.2.0 roblox".docs]]
+label = "Usage Guide"
+name = "04-guide"
+hash = "d9c62da025a48a4a2abe2c5e423ca31758b6665d6e25779184f084f8dbc570f0"
+
+[["0.2.0 roblox".docs]]
+label = "`luau-hfsm` Documentation"
+name = "README"
+hash = "290f2969f552a2ac48a25b0dde65454103e946bdc477f82358a869482ff7fbfc"
