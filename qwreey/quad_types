@@ -59,3 +59,18 @@ lib = "src/init.luau"
 ["3.1.0 luau".dependencies]
 quad_error = [{ name = "qwreey/quad_error", version = "^3.1.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
 type_version_check = [{ name = "qwreey/type_version_check", version = "^3.1.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+
+["3.2.0 luau"]
+published_at = "2026-09-14T06:11:48.99747904Z"
+description = "quad — public type contract (no implementation) plus the version-compatibility type function; backends and plugins depend on this instead of quad-base"
+license = "MIT"
+authors = ["qwreey <me@qwreey.moe>"]
+repository = "https://github.com/qwreey/quad"
+
+["3.2.0 luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
+["3.2.0 luau".dependencies]
+quad_error = [{ name = "qwreey/quad_error", version = "^3.2.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+type_version_check = [{ name = "qwreey/type_version_check", version = "^3.2.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
