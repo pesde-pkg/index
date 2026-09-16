@@ -1,0 +1,16 @@
+["0.1.0 roblox"]
+published_at = "2026-09-16T13:22:30.740607359Z"
+description = "The RoGrid core library"
+license = "MIT"
+authors = ["JustSammyyy"]
+repository = "https://github.com/RoGrid-HQ/rogrid"
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+[["0.1.0 roblox".docs]]
+label = "Status"
+name = "status"
+hash = "7aa85814e3c64edc026acecfd35459470aadc231457690d02cd9c00009c6b267"
