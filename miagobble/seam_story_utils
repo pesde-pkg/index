@@ -21,3 +21,15 @@ repository = "https://github.com/MiaGobble/Praxis"
 environment = "roblox"
 lib = "init.luau"
 build_files = ["init.luau"]
+
+["0.1.5 roblox"]
+published_at = "2026-09-17T20:45:32.47961837Z"
+description = "Utilities for hooking up Seam to UI Labs for UI stories."
+license = "MIT"
+authors = ["Mia Gobble (https://praxis.igottic.com/)"]
+repository = "https://github.com/MiaGobble/Praxis"
+
+["0.1.5 roblox".target]
+environment = "roblox"
+lib = "init.luau"
+build_files = ["init.luau"]
