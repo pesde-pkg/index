@@ -12,3 +12,18 @@ build_files = ["init.luau"]
 
 ["1.0.5 roblox".dependencies]
 Typer = [{ name = "miagobble/typer", version = "^0.1.1", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
+
+["1.0.7 roblox"]
+published_at = "2026-09-17T20:41:12.831036107Z"
+description = "Used for cleanup of various data types and instances."
+license = "MIT"
+authors = ["Mia Gobble (https://praxis.igottic.com/)"]
+repository = "https://github.com/MiaGobble/Praxis"
+
+["1.0.7 roblox".target]
+environment = "roblox"
+lib = "init.luau"
+build_files = ["init.luau"]
+
+["1.0.7 roblox".dependencies]
+Typer = [{ name = "miagobble/typer", version = "^0.1.3", index = "https://github.com/pesde-pkg/index", target = "roblox" }, "standard"]
