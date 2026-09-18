@@ -14,3 +14,25 @@ build_files = ["src"]
 label = "Status"
 name = "status"
 hash = "7aa85814e3c64edc026acecfd35459470aadc231457690d02cd9c00009c6b267"
+
+["0.2.0 roblox"]
+published_at = "2026-09-18T14:58:41.468618615Z"
+description = "The RoGrid core library"
+license = "MIT"
+authors = ["JustSammyyy"]
+repository = "https://github.com/RoGrid-HQ/rogrid"
+
+["0.2.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+[["0.2.0 roblox".docs]]
+label = "Events"
+name = "events"
+hash = "64f80f395bf673e3786f517ddfaed1e112bb85ce3bfc1a8c15e455da1ca9b096"
+
+[["0.2.0 roblox".docs]]
+label = "Status"
+name = "status"
+hash = "0fb42562317690183788737e59bd4faede7bc8d03ed9d18d593141609b2d3d66"
