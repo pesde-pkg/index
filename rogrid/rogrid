@@ -36,3 +36,63 @@ hash = "64f80f395bf673e3786f517ddfaed1e112bb85ce3bfc1a8c15e455da1ca9b096"
 label = "Status"
 name = "status"
 hash = "0fb42562317690183788737e59bd4faede7bc8d03ed9d18d593141609b2d3d66"
+
+["0.2.1 roblox"]
+published_at = "2026-09-19T00:09:41.264655439Z"
+description = "The RoGrid core library"
+license = "MIT"
+authors = ["JustSammyyy"]
+repository = "https://github.com/RoGrid-HQ/rogrid"
+
+["0.2.1 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+[["0.2.1 roblox".docs]]
+label = "Getting started"
+position = 1
+name = "getting-started"
+hash = "e01a134ed9b23ad42fab2d4439144ddb20b8e33f148b1311a8b73f2d6972e691"
+
+[["0.2.1 roblox".docs]]
+label = "Events"
+position = 2
+name = "events"
+hash = "db1af7a1f50f712a0a631a4d1cdda95d93638ea3c40e80b9a53c0d7bed1fee4d"
+
+[["0.2.1 roblox".docs]]
+label = "Configuration"
+position = 3
+name = "configuration"
+hash = "57936ab1c2bd74b3e153fa23b8a31a38c9d71e5ab22874c7305ff338ae5c7e10"
+
+[["0.2.1 roblox".docs]]
+label = "Package managers"
+position = 4
+name = "package-managers"
+hash = "e1139667300414fc529aecb11d12e4f577e503860d56556ddba5fa65fba60560"
+
+[["0.2.1 roblox".docs]]
+label = "CLI reference"
+position = 5
+name = "cli"
+hash = "e711241df4c0ce892945abd6ea9bea31b9507a36fc8d19f184162b46c99d58b5"
+
+[["0.2.1 roblox".docs]]
+label = "API reference"
+position = 6
+name = "api"
+hash = "7958868f0d0ff956fab1203483bc82c88fd18ef81fdd6b4a4f6a9fd1321d81c1"
+
+[["0.2.1 roblox".docs]]
+label = "Troubleshooting"
+position = 7
+name = "troubleshooting"
+hash = "3696cd832f7fe2af2a02cc835a3269496b66b957c99cb58ed2b30e8d00506aff"
+
+[["0.2.1 roblox".docs]]
+label = "Project status"
+position = 8
+name = "status"
+hash = "f1de24fdce69b19f1c2837d2483ba26c9211cb5acf29a208a3843691dca7c797"
