@@ -23,3 +23,17 @@ lib = "src/init.luau"
 
 ["0.1.0-dev.1 luau".dependencies]
 frktest = [{ name = "itsfrank/frktest", version = "^0.0.2", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["0.2.0 luau"]
+published_at = "2026-09-19T18:15:46.387147273Z"
+description = "A CLI Builder for Luau"
+license = "MIT"
+authors = ["Async Matrix <hi@asyncmatrix.dev>"]
+repository = "https://github.com/4x8Matrix/cli-parser"
+
+["0.2.0 luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
+["0.2.0 luau".dependencies]
+frktest = [{ name = "itsfrank/frktest", version = "^0.0.4", index = "https://github.com/pesde-pkg/index" }, "dev"]
