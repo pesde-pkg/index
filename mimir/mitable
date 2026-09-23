@@ -1,0 +1,11 @@
+["0.1.0 roblox"]
+published_at = "2026-09-23T19:23:00.68976125Z"
+description = "table utilities"
+license = "MIT"
+authors = ["mimir"]
+repository = "https://github.com/mounirMimir/MiTable"
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
