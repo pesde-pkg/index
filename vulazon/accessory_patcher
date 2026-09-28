@@ -1,0 +1,10 @@
+["1.0.0 roblox"]
+published_at = "2026-09-28T19:49:59.009347326Z"
+description = "Allows for higher quality accessories and dynamic heads."
+license = "MIT"
+authors = ["Vula"]
+
+["1.0.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
