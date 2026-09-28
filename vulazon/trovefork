@@ -6,3 +6,14 @@ license = "MIT"
 environment = "roblox"
 lib = "src/init.luau"
 build_files = ["src"]
+
+["1.8.5 roblox"]
+published_at = "2026-09-28T19:47:58.297235203Z"
+description = "A port of Trove to pesde."
+license = "MIT"
+authors = ["sleitnick"]
+
+["1.8.5 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
