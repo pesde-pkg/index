@@ -1,0 +1,10 @@
+["3.8.4 roblox"]
+published_at = "2026-09-28T19:54:02.661108766Z"
+description = "A fork and a port of NewSignal"
+license = "MIT"
+authors = ["Jerryx0709"]
+
+["3.8.4 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
