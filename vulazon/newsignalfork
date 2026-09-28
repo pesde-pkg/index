@@ -8,3 +8,14 @@ authors = ["Jerryx0709"]
 environment = "roblox"
 lib = "src/init.luau"
 build_files = ["src"]
+
+["3.8.5 roblox"]
+published_at = "2026-09-28T19:58:33.660454405Z"
+description = "A fork and a port of NewSignal"
+license = "MIT"
+authors = ["Jerryx0709"]
+
+["3.8.5 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
