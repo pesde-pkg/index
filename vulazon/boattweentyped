@@ -1,0 +1,9 @@
+["1.1.0 roblox"]
+published_at = "2026-09-29T18:28:28.67420483Z"
+license = "MIT"
+authors = ["boatbeaker"]
+
+["1.1.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
