@@ -129,3 +129,14 @@ repository = "https://github.com/XopoIII/BlinkBlox"
 ["0.41.2 lune".target]
 environment = "lune"
 bin = "release/blinkblox_pesde.luau"
+
+["0.42.0 lune"]
+published_at = "2026-09-29T00:25:54.778488294Z"
+description = "An IDL compiler written in Luau for ROBLOX buffer networking, with hardened inbound handling"
+license = "MIT"
+authors = ["XopoIII", "1axen"]
+repository = "https://github.com/XopoIII/BlinkBlox"
+
+["0.42.0 lune".target]
+environment = "lune"
+bin = "release/blinkblox_pesde.luau"
