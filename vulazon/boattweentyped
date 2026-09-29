@@ -7,3 +7,14 @@ authors = ["boatbeaker"]
 environment = "roblox"
 lib = "src/init.luau"
 build_files = ["src"]
+
+["1.1.1 roblox"]
+published_at = "2026-09-29T18:34:15.431997043Z"
+license = "MIT"
+authors = ["boatbeaker"]
+repository = "https://github.com/vulazon/BoatTween-Typed"
+
+["1.1.1 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
