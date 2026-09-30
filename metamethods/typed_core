@@ -1,0 +1,10 @@
+["0.1.0 luau"]
+published_at = "2026-09-30T22:17:21.202172882Z"
+description = "core library for all typed packages"
+license = "MIT"
+authors = ["metamethods"]
+repository = "https://github.com/metamethods/typed"
+
+["0.1.0 luau".target]
+environment = "luau"
+lib = "lib/init.luau"
