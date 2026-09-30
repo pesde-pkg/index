@@ -69,3 +69,15 @@ repository = "https://github.com/XopoIII/KeepBlox"
 environment = "roblox_server"
 lib = "src/init.luau"
 build_files = ["src"]
+
+["0.5.0 roblox_server"]
+published_at = "2026-09-30T07:35:50.276062186Z"
+description = "Player data for Roblox that loses nothing, fails loudly, and never stutters a frame"
+license = "MIT"
+authors = ["XopoIII"]
+repository = "https://github.com/XopoIII/KeepBlox"
+
+["0.5.0 roblox_server".target]
+environment = "roblox_server"
+lib = "src/init.luau"
+build_files = ["src"]
