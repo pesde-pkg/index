@@ -335,3 +335,17 @@ lib = "lib/init.luau"
 
 ["0.8.4 luau".dependencies]
 typed_core = [{ name = "metamethods/typed_core", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+
+["0.9.0 luau"]
+published_at = "2026-10-01T07:41:47.431543401Z"
+description = "luau runtime type validation library"
+license = "MIT"
+authors = ["metamethods"]
+repository = "https://github.com/metamethods/typed"
+
+["0.9.0 luau".target]
+environment = "luau"
+lib = "lib/init.luau"
+
+["0.9.0 luau".dependencies]
+typed_core = [{ name = "metamethods/typed_core", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "peer"]
