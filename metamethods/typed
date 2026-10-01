@@ -342,6 +342,7 @@ description = "luau runtime type validation library"
 license = "MIT"
 authors = ["metamethods"]
 repository = "https://github.com/metamethods/typed"
+yanked = true
 
 ["0.9.0 luau".target]
 environment = "luau"
