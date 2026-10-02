@@ -92,3 +92,103 @@ hash = "494fe324f1de8e22bb767e82cdca8b3339514f3be9b482101e68dded02b949c6"
 
 ["1.0.0 roblox".dependencies]
 jecs = [{ wally = "wally#ukendio/jecs", version = "^0.11.0", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
+
+["2.0.0 roblox"]
+published_at = "2026-10-02T07:58:07.039558768Z"
+description = "Generalized per-world replication for jecs"
+license = "MIT"
+repository = "https://github.com/demi-dog/duplecs"
+
+["2.0.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["2.0.0 roblox".engines]
+pesde = "^0.7.3"
+
+[["2.0.0 roblox".docs]]
+label = "Guides"
+
+[["2.0.0 roblox".docs.items]]
+label = "Bandwidth"
+name = "guides/013-bandwidth"
+hash = "1e55a908b260552a1fd9e967fd320eb1c61e881f957b8473d7bd98ba212aae19"
+
+[["2.0.0 roblox".docs.items]]
+label = "Client Lifecycle"
+name = "guides/011-client-lifecycle"
+hash = "fcb6cadd5c3e8b13aea5b84bc58a6df4bd51b52af1b6f11be7d159ae1e32a8f7"
+
+[["2.0.0 roblox".docs.items]]
+label = "Entities Across the Network"
+name = "guides/004-entity-mapping"
+hash = "6088db5215ced0867977954e3604018a20549a1960024c2b43f712cd8f721693"
+
+[["2.0.0 roblox".docs.items]]
+label = "Getting Started"
+name = "guides/001-getting-started"
+hash = "5e93a7b907ac63a066c2bc82564a8dcd29bcc35512007f935597af511d5fb1c1"
+
+[["2.0.0 roblox".docs.items]]
+label = "Performance"
+name = "guides/012-performance"
+hash = "e0109a9dac0234ad172b6d89cefd3d3c0ce96aac09c41afd088a5b2cf257aa5f"
+
+[["2.0.0 roblox".docs.items]]
+label = "Reconciliation Overrides"
+name = "guides/010-overrides"
+hash = "18fc5d55a8459cd92afd822203b69c9f7a0bfdb89857618fba7e0eaabdac8570"
+
+[["2.0.0 roblox".docs.items]]
+label = "Replicating Relationships"
+name = "guides/003-pairs"
+hash = "2dc94ece91521a882c4a174040ba0a9a66bde01a7e6a569fc24564e10defbc06"
+
+[["2.0.0 roblox".docs.items]]
+label = "Replication Basics"
+name = "guides/002-replication"
+hash = "f450b3090337d615e44e2b93f505ecf7023dee0ba9cbc00e43f7e897400aed02"
+
+[["2.0.0 roblox".docs.items]]
+label = "Serdes: Packing Values into the Buffer"
+name = "guides/008-serdes"
+hash = "d185e279644f1d030ee8d6a6b121131a0df704e9b67f8cf57c73c14f306e76e3"
+
+[["2.0.0 roblox".docs.items]]
+label = "Unreliable Values"
+name = "guides/009-unreliable"
+hash = "5329d19b915dc88110de4d99547166b479b8eed45368ffcbd44026019719389f"
+
+[["2.0.0 roblox".docs.items]]
+label = "Visibility Filters"
+name = "guides/005-visibility-filters"
+hash = "19b45cd1e38614923bb0524e845b442673c536a5a54e8981ea0151326327855e"
+
+[["2.0.0 roblox".docs.items]]
+label = "Visibility Inheritance"
+name = "guides/006-visibility-inheritance"
+hash = "93706d58e2e8bcf13deeec8346d2a3ba70c2073b9d5be3a5044f966fc5dda0c8"
+
+[["2.0.0 roblox".docs.items]]
+label = "Visibility Queries"
+name = "guides/007-visibility-queries"
+hash = "9abe225d0d231ec365df6382a93ef20a74e5fa5471111184b691f433e7ed935e"
+
+[["2.0.0 roblox".docs.items]]
+label = "duplecs Guides"
+name = "guides/README"
+hash = "e4cb2638176f372e0cdb8a45148bbfc77cba094e28ec0699e8afad30eb1982d0"
+
+[["2.0.0 roblox".docs]]
+label = "duplecs API Documentation"
+name = "api"
+hash = "64880c831f6493132433c5b31b5bb280fb4b09867909a729e8f39239c9fc3bc2"
+
+[["2.0.0 roblox".docs]]
+label = "duplecs Specification"
+name = "spec"
+hash = "3846c3d9e9b89ef3096799f956471f76480c5673393bb27808ec406ee96a9300"
+
+["2.0.0 roblox".dependencies]
+jecs = [{ wally = "wally#ukendio/jecs", version = "^0.11.0", index = "https://github.com/UpliftGames/wally-index" }, "standard"]
