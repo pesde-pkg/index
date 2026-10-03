@@ -1,3 +1,6 @@
+[meta]
+deprecated = "No support"
+
 ["1.0.0 lune"]
 published_at = "2026-06-04T03:54:09.261893588Z"
 description = "JSON encoder and decoder"
