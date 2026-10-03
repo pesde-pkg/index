@@ -57,3 +57,15 @@ repository = "https://github.com/Elentium/VoidSentryUltimate"
 environment = "roblox"
 lib = "VoidSentryUltimate.luau"
 build_files = ["VoidSentryUltimate.luau"]
+
+["1.1.2 roblox"]
+published_at = "2026-10-03T03:41:16.927931866Z"
+description = "Schema-driven, validation-free binary serializer for Roblox Luau"
+license = "Apache-2.0"
+authors = ["IAMNOTULTRA3"]
+repository = "https://github.com/Elentium/VoidSentryUltimate"
+
+["1.1.2 roblox".target]
+environment = "roblox"
+lib = "VoidSentryUltimate.luau"
+build_files = ["VoidSentryUltimate.luau"]
