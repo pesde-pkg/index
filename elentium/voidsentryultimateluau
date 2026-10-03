@@ -52,3 +52,14 @@ repository = "https://github.com/Elentium/VoidSentryUltimate"
 ["1.1.1 luau".target]
 environment = "luau"
 lib = "LuauVS.luau"
+
+["1.1.2 luau"]
+published_at = "2026-10-03T03:46:28.92487169Z"
+description = "Schema-driven, validation-free binary serializer for pure Luau (no Roblox types)"
+license = "Apache-2.0"
+authors = ["IAMNOTULTRA3"]
+repository = "https://github.com/Elentium/VoidSentryUltimate"
+
+["1.1.2 luau".target]
+environment = "luau"
+lib = "LuauVS.luau"
