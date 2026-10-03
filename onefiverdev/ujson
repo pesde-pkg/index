@@ -7,6 +7,7 @@ description = "JSON encoder and decoder"
 license = "Apache-2.0"
 authors = ["onefiverdev"]
 repository = "https://github.com/onefiverdev/ujson"
+yanked = true
 
 ["1.0.0 lune".target]
 environment = "lune"
@@ -18,6 +19,7 @@ description = "JSON encoder and decoder"
 license = "Apache-2.0"
 authors = ["onefiverdev"]
 repository = "https://github.com/onefiverdev/ujson"
+yanked = true
 
 ["1.0.0 luau".target]
 environment = "luau"
