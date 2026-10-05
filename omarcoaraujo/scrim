@@ -9,3 +9,15 @@ repository = "https://github.com/omarcoaraujo/scrim"
 environment = "roblox"
 lib = "src/init.luau"
 build_files = ["src"]
+
+["0.1.1 roblox"]
+published_at = "2026-10-05T06:19:00.496203831Z"
+description = "Integration testing for Roblox games, driven by bots"
+license = "MIT"
+authors = ["omarcoaraujo <omarcoaraujo@outlook.com>"]
+repository = "https://github.com/omarcoaraujo/scrim"
+
+["0.1.1 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
