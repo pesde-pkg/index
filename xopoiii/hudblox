@@ -1,0 +1,11 @@
+["0.1.0 roblox"]
+published_at = "2026-10-05T08:47:38.516584374Z"
+description = "HUD capsules and round buttons that look like Roblox's own top bar, placed by the device's real safe zones"
+license = "MIT"
+authors = ["XopoIII"]
+repository = "https://github.com/XopoIII/HudBlox"
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
