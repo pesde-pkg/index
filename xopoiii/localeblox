@@ -9,3 +9,15 @@ repository = "https://github.com/XopoIII/LocaleBlox"
 environment = "roblox"
 lib = "src/init.luau"
 build_files = ["src"]
+
+["0.1.1 roblox"]
+published_at = "2026-10-06T05:59:06.064977996Z"
+description = "A Roblox game's words in twenty-five languages: Luau tables looked up by key, plural forms, and the lint that keeps the tables whole"
+license = "MIT"
+authors = ["XopoIII"]
+repository = "https://github.com/XopoIII/LocaleBlox"
+
+["0.1.1 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
