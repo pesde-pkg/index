@@ -1,0 +1,11 @@
+["0.1.0 roblox"]
+published_at = "2026-10-06T05:46:52.860956244Z"
+description = "A Roblox game's words in twenty-five languages: Luau tables looked up by key, plural forms, and the lint that keeps the tables whole"
+license = "MIT"
+authors = ["XopoIII"]
+repository = "https://github.com/XopoIII/LocaleBlox"
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
