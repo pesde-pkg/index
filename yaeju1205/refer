@@ -1,0 +1,10 @@
+["0.1.0 luau"]
+published_at = "2026-10-09T07:02:49.178929218Z"
+description = "A tiny Luau library for sharing a mutable value by refer"
+license = "MIT"
+authors = ["yaeju1205"]
+repository = "https://github.com/yaeju1205/refer.luau"
+
+["0.1.0 luau".target]
+environment = "luau"
+lib = "src/init.luau"
