@@ -124,3 +124,14 @@ repository = "https://github.com/imezx/Warp"
 ["1.1.0-pre4 luau".target]
 environment = "luau"
 lib = "src/init.luau"
+
+["1.1.0-pre8 luau"]
+published_at = "2026-10-09T18:02:07.900932627Z"
+description = "A rapidly-fast & powerful networking library."
+license = "MIT"
+authors = ["eternitydev"]
+repository = "https://github.com/imezx/Warp"
+
+["1.1.0-pre8 luau".target]
+environment = "luau"
+lib = "src/init.luau"
