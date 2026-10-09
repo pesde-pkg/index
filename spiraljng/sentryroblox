@@ -57,3 +57,23 @@ lune = "^0.10.4"
 ["2.1.3 roblox".dependencies]
 tiniest = [{ name = "ewdev/tiniest", version = "^0.0.0-20251120T191744Z", index = "https://github.com/pesde-pkg/index" }, "dev"]
 tiniest_lune = [{ name = "ewdev/tiniest", version = "^0.0.0-20251120T191744Z", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["2.2.0 roblox"]
+published_at = "2026-10-09T01:35:11.847657864Z"
+description = "An unofficial Sentry SDK for Roblox"
+license = "BSD-2-Clause"
+authors = ["spiraljng"]
+repository = "https://github.com/spiraljng/sentryroblox"
+
+["2.2.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["2.2.0 roblox".engines]
+pesde = "^0.7.3"
+lune = "^0.10.4"
+
+["2.2.0 roblox".dependencies]
+tiniest = [{ name = "ewdev/tiniest", version = "^0.0.0-20251120T191744Z", index = "https://github.com/pesde-pkg/index" }, "dev"]
+tiniest_lune = [{ name = "ewdev/tiniest", version = "^0.0.0-20251120T191744Z", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
