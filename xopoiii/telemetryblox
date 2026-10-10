@@ -45,3 +45,15 @@ repository = "https://github.com/XopoIII/TelemetryBlox"
 environment = "roblox_server"
 lib = "src/init.luau"
 build_files = ["src"]
+
+["0.4.1 roblox_server"]
+published_at = "2026-10-10T09:18:22.3866636Z"
+description = "A game server's telemetry pipe: rows in a bounded ring, sent in batches to the game's own ingest, with no player id leaving the server"
+license = "MIT"
+authors = ["XopoIII"]
+repository = "https://github.com/XopoIII/TelemetryBlox"
+
+["0.4.1 roblox_server".target]
+environment = "roblox_server"
+lib = "src/init.luau"
+build_files = ["src"]
