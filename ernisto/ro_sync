@@ -29,3 +29,19 @@ lune = "^0.10.4"
 
 ["0.1.0-alpha.2 lune".dependencies]
 ro_cloud = [{ name = "ernisto/ro_cloud", version = "=0.1.0-alpha.13", index = "https://github.com/pesde-pkg/index" }, "standard"]
+
+["0.1.0-alpha.3 lune"]
+published_at = "2026-10-11T16:28:23.176412342Z"
+license = "MIT"
+
+["0.1.0-alpha.3 lune".target]
+environment = "lune"
+lib = "lib/init.luau"
+bin = "cli/init.luau"
+
+["0.1.0-alpha.3 lune".engines]
+pesde = "^0.7.4"
+lune = "^0.11.0"
+
+["0.1.0-alpha.3 lune".dependencies]
+ro_cloud = [{ name = "ernisto/ro_cloud", version = "=0.1.0-beta.2", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
