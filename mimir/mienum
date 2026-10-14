@@ -68,3 +68,13 @@ authors = ["mimir"]
 environment = "roblox"
 lib = "src/init.luau"
 build_files = ["src"]
+
+["0.1.4-rc.3 roblox"]
+published_at = "2026-10-14T12:50:42.29807456Z"
+license = "MIT"
+authors = ["mimir"]
+
+["0.1.4-rc.3 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
