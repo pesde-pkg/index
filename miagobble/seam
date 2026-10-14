@@ -42,3 +42,18 @@ build_files = ["src"]
 
 ["1.0.2 roblox".engines]
 pesde = "^0.7.0"
+
+["1.1.0 roblox"]
+published_at = "2026-10-14T15:02:26.699454964Z"
+description = "A reactive state and animation library for Roblox"
+license = "MIT"
+authors = ["Mia Gobble"]
+repository = "https://github.com/MiaGobble/Seam"
+
+["1.1.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["1.1.0 roblox".engines]
+pesde = "^0.7.0"
