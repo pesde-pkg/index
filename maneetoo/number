@@ -8,3 +8,14 @@ repository = "https://github.com/maneetoo/lib-js"
 ["1.0.0 luau".target]
 environment = "luau"
 lib = "src/init.luau"
+
+["1.0.1 luau"]
+published_at = "2026-10-18T15:02:50.076515499Z"
+description = "Number constructor, constants, and static methods following ECMAScript numeric rules."
+license = "MIT"
+authors = ["maneetoo"]
+repository = "https://github.com/maneetoo/lib-js"
+
+["1.0.1 luau".target]
+environment = "luau"
+lib = "src/init.luau"
