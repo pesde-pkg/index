@@ -1,0 +1,14 @@
+["1.0.0 luau"]
+published_at = "2026-10-18T14:48:01.027043491Z"
+description = "Timer functions: setTimeout, setInterval, setImmediate, and their clear counterparts."
+license = "MIT"
+authors = ["maneetoo"]
+repository = "https://github.com/maneetoo/lib-js"
+
+["1.0.0 luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
+["1.0.0 luau".dependencies]
+Error = [{ name = "maneetoo/error", version = "^1.0.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+Number = [{ name = "maneetoo/number", version = "^1.0.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
