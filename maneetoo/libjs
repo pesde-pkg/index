@@ -1,0 +1,32 @@
+["1.0.0 luau"]
+published_at = "2026-10-18T14:47:46.542887333Z"
+description = "Everything what you need to write code in Luau with JS built-in objects"
+license = "MIT"
+authors = ["maneetoo"]
+repository = "https://github.com/maneetoo/lib-js"
+
+["1.0.0 luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
+["1.0.0 luau".dependencies]
+Array = [{ name = "maneetoo/array", version = "^1.0.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+Boolean = [{ name = "maneetoo/boolean", version = "^1.0.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+Error = [{ name = "maneetoo/error", version = "^1.0.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+ES17-Types = [{ name = "maneetoo/es17types", version = "^1.0.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+globalThis = [{ name = "maneetoo/globalthis", version = "^1.0.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+instanceof = [{ name = "maneetoo/instanceof", version = "^1.0.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+iterate = [{ name = "maneetoo/iterate", version = "^1.0.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+JSON = [{ name = "maneetoo/json", version = "^1.0.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+Map = [{ name = "maneetoo/map", version = "^1.0.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+Math = [{ name = "maneetoo/math", version = "^1.0.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+Number = [{ name = "maneetoo/number", version = "^1.0.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+Object = [{ name = "maneetoo/object", version = "^1.0.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+Promise = [{ name = "maneetoo/promise", version = "^1.0.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+Set = [{ name = "maneetoo/set", version = "^1.0.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+String = [{ name = "maneetoo/string", version = "^1.0.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+Symbol = [{ name = "maneetoo/symbol", version = "^1.0.1", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+Timers = [{ name = "maneetoo/timers", version = "^1.0.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+WeakMap = [{ name = "maneetoo/weakmap", version = "^1.0.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+WeakRef = [{ name = "maneetoo/weakref", version = "^1.0.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+WeakSet = [{ name = "maneetoo/weakset", version = "^1.0.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
