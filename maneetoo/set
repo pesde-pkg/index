@@ -1,0 +1,16 @@
+["1.0.0 luau"]
+published_at = "2026-10-18T14:47:57.834165607Z"
+description = "Ordered collection of unique values with insertion-order iteration."
+license = "MIT"
+authors = ["maneetoo"]
+repository = "https://github.com/maneetoo/lib-js"
+
+["1.0.0 luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
+["1.0.0 luau".dependencies]
+Error = [{ name = "maneetoo/error", version = "^1.0.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+ES17-Types = [{ name = "maneetoo/es17types", version = "^1.0.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+iterate = [{ name = "maneetoo/iterate", version = "^1.0.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+Symbol = [{ name = "maneetoo/symbol", version = "^1.0.1", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
