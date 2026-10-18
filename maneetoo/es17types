@@ -1,0 +1,10 @@
+["1.0.0 luau"]
+published_at = "2026-10-18T14:47:17.660385162Z"
+description = "Types-only module of JavaScript-style structural aliases such as Array, Table, Thenable, and Iterator."
+license = "MIT"
+authors = ["maneetoo"]
+repository = "https://github.com/maneetoo/lib-js"
+
+["1.0.0 luau".target]
+environment = "luau"
+lib = "src/init.luau"
