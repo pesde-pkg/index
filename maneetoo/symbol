@@ -8,3 +8,14 @@ repository = "https://github.com/maneetoo/lib-js"
 ["1.0.1 luau".target]
 environment = "luau"
 lib = "src/init.luau"
+
+["1.0.2 luau"]
+published_at = "2026-10-18T15:09:18.17611764Z"
+description = "Symbol constructor, well-known symbols, and symbol registry functions."
+license = "MIT"
+authors = ["maneetoo"]
+repository = "https://github.com/maneetoo/lib-js"
+
+["1.0.2 luau".target]
+environment = "luau"
+lib = "src/init.luau"
