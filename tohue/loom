@@ -160,6 +160,7 @@ description = "custom framework which is using modern luau types and ByteNet for
 license = "MIT"
 authors = ["PatAmigos_0"]
 repository = "https://github.com/PatAmigo0/LoomFramework"
+yanked = true
 
 ["0.5.2 roblox".target]
 environment = "roblox"
