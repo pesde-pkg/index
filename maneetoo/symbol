@@ -1,0 +1,10 @@
+["1.0.1 luau"]
+published_at = "2026-10-18T14:55:04.314830099Z"
+description = "Symbol constructor, well-known symbols, and symbol registry functions."
+license = "MIT"
+authors = ["maneetoo"]
+repository = "https://github.com/maneetoo/lib-js"
+
+["1.0.1 luau".target]
+environment = "luau"
+lib = "src/init.luau"
