@@ -3,6 +3,7 @@ published_at = "2026-04-05T14:23:48.616876244Z"
 description = "custom framework which is using modern luau types and ByteNet for the insane traffic speed"
 license = "MIT"
 authors = ["PatAmigos_0"]
+yanked = true
 
 ["0.1.5 roblox".target]
 environment = "roblox"
