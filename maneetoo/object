@@ -12,3 +12,18 @@ lib = "src/init.luau"
 ["1.0.0 luau".dependencies]
 ES17-Types = [{ name = "maneetoo/es17types", version = "^1.0.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
 Number = [{ name = "maneetoo/number", version = "^1.0.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+
+["1.0.1 luau"]
+published_at = "2026-10-18T15:02:18.403539875Z"
+description = "Object constructor and static utilities for property inspection and manipulation."
+license = "MIT"
+authors = ["maneetoo"]
+repository = "https://github.com/maneetoo/lib-js"
+
+["1.0.1 luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
+["1.0.1 luau".dependencies]
+ES17-Types = [{ name = "maneetoo/es17types", version = "^1.0.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+Number = [{ name = "maneetoo/number", version = "^1.0.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
