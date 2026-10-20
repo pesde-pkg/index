@@ -90,6 +90,18 @@ repository = "https://github.com/qwreey/quad"
 environment = "luau"
 lib = "src/init.luau"
 
+["3.4.0 roblox"]
+published_at = "2026-10-20T09:07:09.547016638Z"
+description = "Level-tagged error utility: tag functions with setFuncLevel and let errorAt/errorBefore blame the right caller frame (engine-agnostic, not quad-specific)"
+license = "MIT"
+authors = ["qwreey <me@qwreey.moe>"]
+repository = "https://github.com/qwreey/quad"
+
+["3.4.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
 ["3.4.0 luau"]
 published_at = "2026-10-20T09:06:52.559928665Z"
 description = "Level-tagged error utility: tag functions with setFuncLevel and let errorAt/errorBefore blame the right caller frame (engine-agnostic, not quad-specific)"
