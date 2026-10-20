@@ -90,6 +90,18 @@ repository = "https://github.com/qwreey/quad"
 environment = "luau"
 lib = "src/init.luau"
 
+["3.4.0 roblox"]
+published_at = "2026-10-20T09:07:13.846880809Z"
+description = "Version pattern matching for string literal types at compile time (CheckVersion type function) and at runtime (matchesPattern): `|` alternatives, glob (*) and lexicographic-floor (N^) patterns with SemVer prerelease/build tails (engine-agnostic, not quad-specific)"
+license = "MIT"
+authors = ["qwreey <me@qwreey.moe>"]
+repository = "https://github.com/qwreey/quad"
+
+["3.4.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
 ["3.4.0 luau"]
 published_at = "2026-10-20T09:06:56.816133335Z"
 description = "Version pattern matching for string literal types at compile time (CheckVersion type function) and at runtime (matchesPattern): `|` alternatives, glob (*) and lexicographic-floor (N^) patterns with SemVer prerelease/build tails (engine-agnostic, not quad-specific)"
