@@ -57,3 +57,18 @@ lib = "src/init.luau"
 ["0.0.4 luau".dependencies]
 binary = [{ name = "discord_luau/binary", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
 std_polyfills = [{ name = "discord_luau/std_polyfills", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+
+["0.0.5 luau"]
+published_at = "2026-10-21T13:09:23.962431924Z"
+description = "Discord Luau Sodium - FFI bindings for libsodium, providing AES-256-GCM authenticated encryption."
+license = "MIT"
+authors = ["Async Matrix <hi@asyncmatrix.dev>"]
+repository = "https://github.com/DiscordLuau/discord-luau/tree/main/packages/sodium"
+
+["0.0.5 luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
+["0.0.5 luau".dependencies]
+binary = [{ name = "discord_luau/binary", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+std_polyfills = [{ name = "discord_luau/std_polyfills", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
