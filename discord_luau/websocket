@@ -60,3 +60,25 @@ logger = [{ name = "discord_luau/logger", version = ">=0.0.0", index = "https://
 secret = [{ name = "discord_luau/secret", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
 std_polyfills = [{ name = "discord_luau/std_polyfills", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
 util = [{ name = "discord_luau/util", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+
+["0.0.4 luau"]
+published_at = "2026-10-21T13:09:30.554487905Z"
+description = "Discord Luau Websocket - Implementation of the websocket for discord."
+license = "MIT"
+authors = ["Async Matrix <hi@asyncmatrix.dev>"]
+repository = "https://github.com/DiscordLuau/discord-luau/tree/main/packages/websocket"
+
+["0.0.4 luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
+["0.0.4 luau".dependencies]
+accumulator = [{ name = "discord_luau/accumulator", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+api_types = [{ name = "discord_luau/api_types", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+discord_stub = [{ name = "discord_luau/discord_stub", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "dev"]
+emitter = [{ name = "discord_luau/emitter", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+future = [{ name = "yetanotherclown/luau_futures", version = "^2.0.0-beta.3", index = "https://github.com/pesde-pkg/index" }, "standard"]
+logger = [{ name = "discord_luau/logger", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+secret = [{ name = "discord_luau/secret", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+std_polyfills = [{ name = "discord_luau/std_polyfills", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+util = [{ name = "discord_luau/util", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
