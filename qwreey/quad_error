@@ -112,3 +112,14 @@ repository = "https://github.com/qwreey/quad"
 ["3.4.0 luau".target]
 environment = "luau"
 lib = "src/init.luau"
+
+["3.5.0 luau"]
+published_at = "2026-10-22T03:20:27.613651369Z"
+description = "Level-tagged error utility: tag functions with setFuncLevel and let errorAt/errorBefore blame the right caller frame (engine-agnostic, not quad-specific)"
+license = "MIT"
+authors = ["qwreey <me@qwreey.moe>"]
+repository = "https://github.com/qwreey/quad"
+
+["3.5.0 luau".target]
+environment = "luau"
+lib = "src/init.luau"
