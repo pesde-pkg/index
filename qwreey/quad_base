@@ -152,3 +152,19 @@ lib = "src/init.luau"
 ["3.4.0 luau".dependencies]
 quad_error = [{ name = "qwreey/quad_error", version = "^3.4.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
 quad_types = [{ name = "qwreey/quad_types", version = "^3.4.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+
+["3.5.0 luau"]
+published_at = "2026-10-22T03:20:40.157408552Z"
+description = "quad — engine-agnostic core of the DOMless UI renderer: Store/State/Source reactivity and a pluggable dispatch engine"
+license = "MIT"
+authors = ["qwreey <me@qwreey.moe>"]
+repository = "https://github.com/qwreey/quad"
+
+["3.5.0 luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
+["3.5.0 luau".dependencies]
+quad_error = [{ name = "qwreey/quad_error", version = "^3.5.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+quad_types = [{ name = "qwreey/quad_types", version = "^3.5.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+type_version_check = [{ name = "qwreey/type_version_check", version = "^3.5.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
