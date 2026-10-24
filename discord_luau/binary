@@ -86,3 +86,17 @@ lib = "src/init.luau"
 
 ["0.0.6 luau".dependencies]
 std_polyfills = [{ name = "discord_luau/std_polyfills", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+
+["0.0.7 luau"]
+published_at = "2026-10-24T23:07:51.529448881Z"
+description = "Platform binary acquisition layer for FFI packages - resolves, caches, and downloads native shared libraries"
+license = "MIT"
+authors = ["Async Matrix <hi@asyncmatrix.dev>"]
+repository = "https://github.com/DiscordLuau/discord-luau/tree/main/packages/binary"
+
+["0.0.7 luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
+["0.0.7 luau".dependencies]
+std_polyfills = [{ name = "discord_luau/std_polyfills", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
