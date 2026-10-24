@@ -1,0 +1,15 @@
+["0.0.2 luau"]
+published_at = "2026-10-24T23:09:28.834949285Z"
+description = "Discord Luau Symphonia - FFI bindings for libsymphonia, decoding audio files to 48 kHz stereo PCM and passing Opus through."
+license = "MIT"
+authors = ["Async Matrix <hi@asyncmatrix.dev>"]
+repository = "https://github.com/DiscordLuau/discord-luau/tree/main/packages/symphonia"
+
+["0.0.2 luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
+["0.0.2 luau".dependencies]
+binary = [{ name = "discord_luau/binary", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+logger = [{ name = "discord_luau/logger", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+std_polyfills = [{ name = "discord_luau/std_polyfills", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
