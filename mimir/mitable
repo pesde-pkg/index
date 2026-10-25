@@ -45,3 +45,15 @@ repository = "https://github.com/mounirMimir/MiTable"
 environment = "roblox"
 lib = "src/init.luau"
 build_files = ["src"]
+
+["0.1.1-rc.4 roblox"]
+published_at = "2026-10-25T23:01:37.021971622Z"
+description = "table utilities"
+license = "MIT"
+authors = ["mimir"]
+repository = "https://github.com/mounirMimir/MiTable"
+
+["0.1.1-rc.4 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
