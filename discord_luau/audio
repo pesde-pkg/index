@@ -20,3 +20,26 @@ std_polyfills = [{ name = "discord_luau/std_polyfills", version = ">=0.0.0", ind
 symphonia = [{ name = "discord_luau/symphonia", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
 voice = [{ name = "discord_luau/voice", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
 websocket = [{ name = "discord_luau/websocket", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index" }, "dev"]
+
+["0.0.3 luau"]
+published_at = "2026-10-25T04:26:59.668665245Z"
+description = "Discord Luau Audio - A paced audio player and audio sources for discord-luau voice connections."
+license = "MIT"
+authors = ["Async Matrix <hi@asyncmatrix.dev>"]
+repository = "https://github.com/DiscordLuau/discord-luau/tree/main/packages/audio"
+
+["0.0.3 luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
+["0.0.3 luau".dependencies]
+discord_stub = [{ name = "discord_luau/discord_stub", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "dev"]
+emitter = [{ name = "discord_luau/emitter", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+future = [{ name = "yetanotherclown/luau_futures", version = "^2.0.0-beta.3", index = "https://github.com/pesde-pkg/index" }, "standard"]
+logger = [{ name = "discord_luau/logger", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index" }, "standard"]
+opus = [{ name = "discord_luau/opus", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+secret = [{ name = "discord_luau/secret", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index" }, "dev"]
+std_polyfills = [{ name = "discord_luau/std_polyfills", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+symphonia = [{ name = "discord_luau/symphonia", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+voice = [{ name = "discord_luau/voice", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
+websocket = [{ name = "discord_luau/websocket", version = ">=0.0.0", index = "https://github.com/pesde-pkg/index" }, "dev"]
