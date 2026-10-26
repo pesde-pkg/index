@@ -1,0 +1,13 @@
+["0.1.0 luau"]
+published_at = "2026-10-26T02:26:47.707296498Z"
+description = "Property-testing core for Luau: a symbolic-program differential fuzzer, a delta-debugging shrinker, a mutator and an oracle-necessity grader."
+license = "MIT"
+authors = ["prms-magnet"]
+repository = "https://github.com/PRMS-magnet/testkit"
+
+["0.1.0 luau".target]
+environment = "luau"
+lib = "src/init.luau"
+
+["0.1.0 luau".engines]
+pesde = "^0.7.0"
