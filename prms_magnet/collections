@@ -1,0 +1,17 @@
+["0.1.0 roblox"]
+published_at = "2026-10-26T02:43:35.46057257Z"
+description = "Optimized data structures for Luau"
+license = "MIT"
+authors = ["prms-magnet"]
+repository = "https://github.com/PRMS-magnet/collections"
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.1.0 roblox".engines]
+pesde = "^0.7.0"
+
+["0.1.0 roblox".dependencies]
+TestKit = [{ name = "prms_magnet/testkit", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "dev"]
