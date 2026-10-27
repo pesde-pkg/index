@@ -183,3 +183,80 @@ hash = "fd364bf19c720ffbfbaa404ac7b2161f5b235b3a2a52a1008457ebf6cfa242ea"
 label = "`luau-hfsm` Documentation"
 name = "README"
 hash = "23966fb0533a18c12549c7a62d01be7436520481beb422889c7c20e544f8704d"
+
+["0.4.0 roblox"]
+published_at = "2026-10-27T02:10:40.948488422Z"
+description = "A reusable HFSM util for Roblox games."
+license = "MIT"
+authors = ["HeriLFIU"]
+repository = "https://github.com/HeriLFIU/luau-hfsm"
+
+["0.4.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+[["0.4.0 roblox".docs]]
+label = "A Complete Worked Example"
+name = "07-complete-example"
+hash = "98ca527f280127190d0d7f272c5dfd46cfec521fcff354ff3a4f00027208548e"
+
+[["0.4.0 roblox".docs]]
+label = "A Zombie, End to End"
+name = "11-zombie"
+hash = "325789f8a7ddc92ddb3a138dfca2fdc8ec5fd72eed69e11ae258e1919d86c095"
+
+[["0.4.0 roblox".docs]]
+label = "API Reference"
+name = "05-api-reference"
+hash = "53d6aa9d3609164e379a70f1598190e9bb34d5e44dcd1a3c85339f987136e70c"
+
+[["0.4.0 roblox".docs]]
+label = "Architecture & Invariants"
+name = "02-architecture"
+hash = "719ea11e282bc1f4328e32f01c043dcf5e4eb6fc059c4bdde90b4f5a5db434dd"
+
+[["0.4.0 roblox".docs]]
+label = "Composing Machines"
+name = "08-composition"
+hash = "dc82e5d5edae473070aa7b3b008fc06be6335271954e7479bee68e8d1c3c604c"
+
+[["0.4.0 roblox".docs]]
+label = "Concepts & Mental Model"
+name = "01-concepts"
+hash = "5d73c323c56a2b676d8db65b82b1c41810f963699eab869d1a07acbf214b9f2a"
+
+[["0.4.0 roblox".docs]]
+label = "Data & State"
+name = "09-data"
+hash = "58d9886f44b9e0986f09937b99405155c7e98eea93b9836df13878f8096ae0f7"
+
+[["0.4.0 roblox".docs]]
+label = "Lifecycle & Resource Management"
+name = "03-lifecycle"
+hash = "773c2b05f65184f377c7e21edd40489737f75c1a19e244ba0dbbb9fdb4504924"
+
+[["0.4.0 roblox".docs]]
+label = "Recipes & Common Patterns"
+name = "06-recipes"
+hash = "25d8067c09e944ec3ef69ccba2a11cebf5ced16674a5548c4ca04d4934acc780"
+
+[["0.4.0 roblox".docs]]
+label = "Reuse and Components"
+name = "12-reuse-and-components"
+hash = "23ed0f2a02d4da59530cce648a18939940ce53e1040f2079252dfbda950e77c9"
+
+[["0.4.0 roblox".docs]]
+label = "Structuring a Roblox Project"
+name = "10-roblox-projects"
+hash = "871f14c86c395f8a873d113f539c2358ce0714d66120336e05cb4d2984ac244f"
+
+[["0.4.0 roblox".docs]]
+label = "Usage Guide"
+name = "04-guide"
+hash = "fd364bf19c720ffbfbaa404ac7b2161f5b235b3a2a52a1008457ebf6cfa242ea"
+
+[["0.4.0 roblox".docs]]
+label = "`luau-hfsm` Documentation"
+name = "README"
+hash = "d92643fae689afc4be85f60f6da4eeb84643f86f9f404e9e4d675435ca7028eb"
