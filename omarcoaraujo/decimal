@@ -1,0 +1,13 @@
+["0.1.0 luau"]
+published_at = "2026-10-28T03:46:56.801863166Z"
+description = "Exact money arithmetic in integer cents for Luau"
+license = "MIT"
+authors = ["omarcoaraujo <omarcoaraujo@outlook.com>"]
+repository = "https://github.com/omarcoaraujo/decimal"
+
+["0.1.0 luau".target]
+environment = "luau"
+lib = "lib/init.luau"
+
+["0.1.0 luau".dependencies]
+tint = [{ name = "omarcoaraujo/tint", version = "^0.2.1", index = "https://github.com/pesde-pkg/index" }, "dev"]
