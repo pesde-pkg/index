@@ -27,3 +27,18 @@ build_files = ["src"]
 ["0.1.1 roblox".engines]
 pesde = "^0.7.0"
 lune = "^0.10.2"
+
+["0.1.2 roblox"]
+published_at = "2026-10-30T22:59:19.934213451Z"
+license = "MIT"
+authors = ["Vula"]
+repository = "https://github.com/vulazon/maid2"
+
+["0.1.2 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.1.2 roblox".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
