@@ -1,0 +1,13 @@
+["0.1.0 lune"]
+published_at = "2026-11-04T16:59:00.11546309Z"
+description = "Check a Hydrogen game's network before you playtest: pesde x atk422/hydrogen_lint"
+license = "MIT"
+authors = ["atk422"]
+repository = "https://github.com/ATK422/Hydrogen"
+
+["0.1.0 lune".target]
+environment = "lune"
+bin = "src/main.luau"
+
+["0.1.0 lune".engines]
+lune = "^0.10.2"
