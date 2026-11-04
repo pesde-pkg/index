@@ -124,3 +124,148 @@ frktest = [{ name = "itsfrank/frktest", version = "^0.0.4", index = "https://git
 gt = [{ name = "corecii/greentea", version = "^0.4.11", index = "https://github.com/pesde-pkg/index" }, "standard"]
 rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+
+["0.5.0 roblox"]
+published_at = "2026-11-04T16:58:40.107689926Z"
+description = "A mildly opinionated luau framework/bootstrapper"
+license = "MIT"
+authors = ["atk422"]
+repository = "https://github.com/ATK422/Hydrogen"
+
+["0.5.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.5.0 roblox".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
+[["0.5.0 roblox".docs]]
+label = "Ai"
+
+[["0.5.0 roblox".docs.items]]
+label = "Character hooks (`characterAdded` / `characterRemoving`)"
+name = "ai/character"
+hash = "5e15c063ca1bd620075360524608e68c6d7e393274fc7cef3a702c22f6862463"
+
+[["0.5.0 roblox".docs.items]]
+label = "Hydrogen network (`clientEvent`, `serverEvent`, `clientFunction`, `serverFunction`)"
+name = "ai/network"
+hash = "092b2bded22be012475cd82bfcbb3904a687ba669ae4e72d34a18b0286e93428"
+
+[["0.5.0 roblox".docs.items]]
+label = "Hydrogen network middleware (`Use`, `useMiddleware`, `logger`, `rateLimit`, `DROP`)"
+name = "ai/middleware"
+hash = "c72cec615c493ff56949c192dbec4ad579f199c762be8fc0c9f6c623352e1d62"
+
+[["0.5.0 roblox".docs.items]]
+label = "Hydrogen network performance (`:Unreliable()`, batching, `:Encode()`)"
+name = "ai/network-performance"
+hash = "103640eea204cabd59138fc87e051fe350df8a1d97f443c6595504fb33a05f49"
+
+[["0.5.0 roblox".docs.items]]
+label = "Hydrogen systems (`Hydrogen.define`)"
+name = "ai/systems"
+hash = "57a45d51a730272fb19826a715dce0c9abd1bed8c748b2bb0de28d27c0295903"
+
+[["0.5.0 roblox".docs.items]]
+label = "Hydrogen testing primitives (`app:replace`, `Hydrogen.loopback`)"
+name = "ai/loopback"
+hash = "d60975deb9fd1b1bf31cbde0b9810248e9730d3a78f347b02cd9c017fb1e481a"
+
+[["0.5.0 roblox".docs.items]]
+label = "Hydrogen.App"
+name = "ai/app"
+hash = "85221f9c6a6079533f89ac5cfa02cae52dc711d6b69a7adde07e2be5a28f8317"
+
+[["0.5.0 roblox".docs.items]]
+label = "Hydrogen.Clock"
+name = "ai/clock"
+hash = "65559df1660bf327f84108553a28ae330f2f8384ad913a7d932c335a7d9ef419"
+
+[["0.5.0 roblox".docs.items]]
+label = "Hydrogen.Commands"
+name = "ai/commands"
+hash = "278313bef53fc94d7e1cd2331ac8e2c26f3bb61fd5a6650a5a3c770757a8a9b9"
+
+[["0.5.0 roblox".docs.items]]
+label = "Hydrogen.Component"
+name = "ai/component"
+hash = "fffeb77bec389fee2fb58f12d877ff173386b172e15f67e125664273c78a71d6"
+
+[["0.5.0 roblox".docs.items]]
+label = "Hydrogen.Config"
+name = "ai/config"
+hash = "ccf59a87d9aa9063e87319782b6760707488b7e136ee78e6c86fed47a47017c8"
+
+[["0.5.0 roblox".docs.items]]
+label = "Hydrogen.Data"
+name = "ai/data"
+hash = "4c86d492c0054e30bf619c8fe7236130017bc08b8c332aa4bcd33c955f136e03"
+
+[["0.5.0 roblox".docs.items]]
+label = "Hydrogen.Debug"
+name = "ai/debug"
+hash = "60d50d3986adcdc21539d65a31374d8aecc00e86d5dde5d1462578d46b5dc130"
+
+[["0.5.0 roblox".docs.items]]
+label = "Hydrogen.Guards (cooldowns, roles, permissions, range checks, predicates)"
+name = "ai/guards"
+hash = "d526f70571df1db082a070d6fd693030c91015f6eccaecbbdbe0c672942f3354"
+
+[["0.5.0 roblox".docs.items]]
+label = "Hydrogen.Input"
+name = "ai/input"
+hash = "88cbe1d7da1bcb18cd4296c053571658a8bb7fd821ce01f9084a532c370ee9ab"
+
+[["0.5.0 roblox".docs.items]]
+label = "Hydrogen.Log"
+name = "ai/log"
+hash = "00fdda66bf93fd330c3659ac3643e62ab054bd0483023071cf328ca8bca303bc"
+
+[["0.5.0 roblox".docs.items]]
+label = "Hydrogen.PlayerState"
+name = "ai/player-state"
+hash = "1ad53f8254c8b8cbfd37a4446546e731cb07b2cf98df29f41334e66e0f345d01"
+
+[["0.5.0 roblox".docs.items]]
+label = "Hydrogen.Receipts"
+name = "ai/receipts"
+hash = "a96a083ebb76231d203f392d8dbaf2472069fc48761c14e6b47671e3c7c2db08"
+
+[["0.5.0 roblox".docs.items]]
+label = "Hydrogen.Scheduler"
+name = "ai/scheduler"
+hash = "236883ba63a3d1afdeca9b1e431e0be728a1aeec4234461510cd79f9af1400e4"
+
+[["0.5.0 roblox".docs.items]]
+label = "Hydrogen.Scope"
+name = "ai/scope"
+hash = "c2bd32b44d86a946f4213784fe65d0aa3fd3ac27d64a066c32535bca00d59461"
+
+[["0.5.0 roblox".docs.items]]
+label = "Hydrogen.Signal"
+name = "ai/signal"
+hash = "6fbcafd7b965c593c709d3e8a21e7e6e139a776a92fb012d28943a84399e0c4f"
+
+[["0.5.0 roblox".docs.items]]
+label = "Hydrogen.State"
+name = "ai/state"
+hash = "46362c17f83921c58d0d33d554db2ec1731d249474a5cca5972d4f082b165491"
+
+[["0.5.0 roblox".docs.items]]
+label = "Hydrogen.test"
+name = "ai/testing"
+hash = "7db3830312c443e544bdfcc076d580fd09393b8d4ad56335a6f2f8a734af9970"
+
+[["0.5.0 roblox".docs.items]]
+label = "hydrogen-lint"
+name = "ai/lint"
+hash = "fd7b0831594c5480b070a091a05b7633cb592708783bff7be91ace9f194a372e"
+
+["0.5.0 roblox".dependencies]
+frktest = [{ name = "itsfrank/frktest", version = "^0.0.4", index = "https://github.com/pesde-pkg/index", target = "luau" }, "dev"]
+gt = [{ name = "corecii/greentea", version = "^0.4.11", index = "https://github.com/pesde-pkg/index" }, "standard"]
+rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
+scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
