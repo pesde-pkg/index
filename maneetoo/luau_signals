@@ -9,3 +9,15 @@ repository = "https://github.com/maneetoo/luau-signals"
 environment = "roblox"
 lib = "src/init.luau"
 build_files = ["src"]
+
+["0.1.1 roblox"]
+published_at = "2026-11-04T15:23:33.771126724Z"
+description = "Luau Port of alien-signals 👾 the lightest signal library"
+license = "MIT"
+authors = ["maneetoo"]
+repository = "https://github.com/maneetoo/luau-signals"
+
+["0.1.1 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
