@@ -103,6 +103,7 @@ description = "quad — engine-agnostic core of the DOMless UI renderer: Store/S
 license = "MIT"
 authors = ["qwreey <me@qwreey.moe>"]
 repository = "https://github.com/qwreey/quad"
+yanked = true
 
 ["3.3.0 roblox".target]
 environment = "roblox"
@@ -119,6 +120,7 @@ description = "quad — engine-agnostic core of the DOMless UI renderer: Store/S
 license = "MIT"
 authors = ["qwreey <me@qwreey.moe>"]
 repository = "https://github.com/qwreey/quad"
+yanked = true
 
 ["3.3.0 luau".target]
 environment = "luau"
