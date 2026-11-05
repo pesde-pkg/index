@@ -135,3 +135,14 @@ repository = "https://github.com/qwreey/quad"
 ["3.5.0 luau".target]
 environment = "luau"
 lib = "src/init.luau"
+
+["4.0.0 luau"]
+published_at = "2026-11-05T02:03:22.491569815Z"
+description = "Version pattern matching for string literal types at compile time (CheckVersion type function) and at runtime (matchesPattern): `|` alternatives, glob (*) and lexicographic-floor (N^) patterns with SemVer prerelease/build tails (engine-agnostic, not quad-specific)"
+license = "MIT"
+authors = ["qwreey <me@qwreey.moe>"]
+repository = "https://github.com/qwreey/quad"
+
+["4.0.0 luau".target]
+environment = "luau"
+lib = "src/init.luau"
