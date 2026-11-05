@@ -4,6 +4,7 @@ description = "Compile-time version pattern matching for string literal types: g
 license = "MIT"
 authors = ["qwreey <me@qwreey.moe>"]
 repository = "https://github.com/qwreey/quad"
+yanked = true
 
 ["3.0.0 roblox".target]
 environment = "roblox"
@@ -16,6 +17,7 @@ description = "Compile-time version pattern matching for string literal types: g
 license = "MIT"
 authors = ["qwreey <me@qwreey.moe>"]
 repository = "https://github.com/qwreey/quad"
+yanked = true
 
 ["3.0.0 luau".target]
 environment = "luau"
