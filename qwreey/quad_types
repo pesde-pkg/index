@@ -70,6 +70,7 @@ description = "quad — public type contract (no implementation) plus the versio
 license = "MIT"
 authors = ["qwreey <me@qwreey.moe>"]
 repository = "https://github.com/qwreey/quad"
+yanked = true
 
 ["3.2.0 roblox".target]
 environment = "roblox"
@@ -86,6 +87,7 @@ description = "quad — public type contract (no implementation) plus the versio
 license = "MIT"
 authors = ["qwreey <me@qwreey.moe>"]
 repository = "https://github.com/qwreey/quad"
+yanked = true
 
 ["3.2.0 luau".target]
 environment = "luau"
