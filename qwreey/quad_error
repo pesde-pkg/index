@@ -79,6 +79,7 @@ description = "Level-tagged error utility: tag functions with setFuncLevel and l
 license = "MIT"
 authors = ["qwreey <me@qwreey.moe>"]
 repository = "https://github.com/qwreey/quad"
+yanked = true
 
 ["3.3.0 roblox".target]
 environment = "roblox"
@@ -91,6 +92,7 @@ description = "Level-tagged error utility: tag functions with setFuncLevel and l
 license = "MIT"
 authors = ["qwreey <me@qwreey.moe>"]
 repository = "https://github.com/qwreey/quad"
+yanked = true
 
 ["3.3.0 luau".target]
 environment = "luau"
