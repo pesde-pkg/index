@@ -1,0 +1,11 @@
+["0.1.1 roblox"]
+published_at = "2026-11-07T12:03:46.255686349Z"
+description = "Make your Luau output messages 🎨 colorful with support for ANSI colors."
+license = "MIT"
+authors = ["maneetoo"]
+repository = "https://github.com/maneetoo/luaucolors"
+
+["0.1.1 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
