@@ -19,3 +19,14 @@ repository = "https://github.com/Zentiph/luautils"
 ["0.1.2 luau".target]
 environment = "luau"
 lib = "src/luautils/init.luau"
+
+["0.1.3 luau"]
+published_at = "2026-11-10T23:16:06.695230482Z"
+description = "A Luau utilities library; an extension of Luau's standard library"
+license = "MIT"
+authors = ["vuppyan"]
+repository = "https://github.com/Zentiph/luautils"
+
+["0.1.3 luau".target]
+environment = "luau"
+lib = "src/luautils/init.luau"
