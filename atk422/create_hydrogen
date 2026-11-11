@@ -63,3 +63,25 @@ label = "Ai"
 label = "create_hydrogen: scaffolding a Hydrogen game (for coding agents)"
 name = "ai/create"
 hash = "3c8b255a4db3d46cadce35ac1620b34af0df4467bd81a36edb61ab7e2bdaa24d"
+
+["0.1.3 lune"]
+published_at = "2026-11-11T18:59:34.660494061Z"
+description = "Create a new Roblox game with Hydrogen: pesde x atk422/create_hydrogen"
+license = "MIT"
+authors = ["atk422"]
+repository = "https://github.com/ATK422/Hydrogen"
+
+["0.1.3 lune".target]
+environment = "lune"
+bin = "src/main.luau"
+
+["0.1.3 lune".engines]
+lune = "^0.10.4"
+
+[["0.1.3 lune".docs]]
+label = "Ai"
+
+[["0.1.3 lune".docs.items]]
+label = "create_hydrogen: scaffolding a Hydrogen game (for coding agents)"
+name = "ai/create"
+hash = "3c8b255a4db3d46cadce35ac1620b34af0df4467bd81a36edb61ab7e2bdaa24d"
