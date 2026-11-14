@@ -1,0 +1,11 @@
+["0.3.0 roblox"]
+published_at = "2026-11-14T08:39:20.267625621Z"
+description = "A modular Luau toolkit for Roblox by Zense: app lifecycle, signals, cleanup, reactive state, secure networking, components, pools, zones, promises, player data and replication."
+license = "MIT"
+authors = ["Zense"]
+repository = "https://github.com/Layfate/Constella"
+
+["0.3.0 roblox".target]
+environment = "roblox"
+lib = "src/shared/Constella/init.luau"
+build_files = ["src"]
