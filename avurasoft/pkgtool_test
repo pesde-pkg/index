@@ -1,0 +1,9 @@
+["0.1.0 luau"]
+published_at = "2026-11-17T12:43:26.540648974Z"
+description = "Test package for pkgtool"
+license = "MIT"
+repository = "https://github.com/AvuraSoft/package-tool"
+
+["0.1.0 luau".target]
+environment = "luau"
+lib = "src/init.luau"
