@@ -69,3 +69,15 @@ repository = "https://github.com/Layfate/Constella"
 environment = "roblox"
 lib = "src/shared/Constella/init.luau"
 build_files = ["src"]
+
+["0.3.6 roblox"]
+published_at = "2026-11-17T04:24:02.717473431Z"
+description = "A modular Luau toolkit for Roblox: app lifecycle, signals, cleanup, reactive state, secure networking, components, pools, zones, promises, player data and replication."
+license = "MIT"
+authors = ["Zense"]
+repository = "https://github.com/Layfate/Constella"
+
+["0.3.6 roblox".target]
+environment = "roblox"
+lib = "src/shared/Constella/init.luau"
+build_files = ["src"]
