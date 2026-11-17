@@ -1,0 +1,10 @@
+["0.1.0 luau"]
+published_at = "2026-11-17T14:22:56.809331988Z"
+description = "A parser combinator library for Luau"
+license = "MIT"
+authors = ["yaeju1205"]
+repository = "https://github.com/yaeju1205/mrow"
+
+["0.1.0 luau".target]
+environment = "luau"
+lib = "src/init.luau"
