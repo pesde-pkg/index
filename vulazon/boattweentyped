@@ -18,3 +18,14 @@ repository = "https://github.com/vulazon/BoatTween-Typed"
 environment = "roblox"
 lib = "src/init.luau"
 build_files = ["src"]
+
+["1.1.2 roblox"]
+published_at = "2026-11-18T21:22:14.73320842Z"
+license = "MIT"
+authors = ["boatbomber"]
+repository = "https://github.com/vulazon/BoatTween-Typed"
+
+["1.1.2 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
