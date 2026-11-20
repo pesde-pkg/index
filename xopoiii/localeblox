@@ -124,6 +124,7 @@ description = "A Roblox game's words in twenty-five languages: Luau tables looke
 license = "MIT"
 authors = ["XopoIII"]
 repository = "https://github.com/XopoIII/LocaleBlox"
+yanked = true
 
 ["0.4.6 roblox".target]
 environment = "roblox"
