@@ -388,6 +388,7 @@ description = "Player data for Roblox that loses nothing, fails loudly, and neve
 license = "MIT"
 authors = ["XopoIII"]
 repository = "https://github.com/XopoIII/KeepBlox"
+yanked = true
 
 ["0.9.8 roblox_server".target]
 environment = "roblox_server"
