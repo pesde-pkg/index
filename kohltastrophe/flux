@@ -1,0 +1,11 @@
+["0.5.2 roblox"]
+published_at = "2026-11-21T02:24:45.612093552Z"
+description = "Reactive UI library for Luau."
+license = "MIT"
+authors = ["Kohl <hi@kohl.gg>"]
+repository = "https://github.com/kohltastrophe/flux"
+
+["0.5.2 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
