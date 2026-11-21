@@ -9,3 +9,14 @@ repository = "https://github.com/kohltastrophe/flux"
 environment = "roblox"
 lib = "src/init.luau"
 build_files = ["src"]
+
+["0.5.2 luau"]
+published_at = "2026-11-21T02:24:48.945636741Z"
+description = "Reactive UI library for Luau."
+license = "MIT"
+authors = ["Kohl <hi@kohl.gg>"]
+repository = "https://github.com/kohltastrophe/flux"
+
+["0.5.2 luau".target]
+environment = "luau"
+lib = "src/init.luau"
