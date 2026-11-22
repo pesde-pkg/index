@@ -465,3 +465,15 @@ repository = "https://github.com/XopoIII/HudBlox"
 environment = "roblox"
 lib = "src/init.luau"
 build_files = ["src"]
+
+["0.21.0 roblox"]
+published_at = "2026-11-22T23:15:54.027316243Z"
+description = "HUD capsules and round buttons that look like Roblox's own top bar, placed by the device's real safe zones"
+license = "MIT"
+authors = ["XopoIII"]
+repository = "https://github.com/XopoIII/HudBlox"
+
+["0.21.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
