@@ -1,0 +1,15 @@
+["0.1.0 roblox"]
+published_at = "2026-11-25T06:16:57.491331005Z"
+description = "Module loader for Roblox"
+license = "MIT"
+authors = ["Baydenator8"]
+repository = "https://github.com/Baydenator8/module-loader"
+
+["0.1.0 roblox".target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+["0.1.0 roblox".engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
